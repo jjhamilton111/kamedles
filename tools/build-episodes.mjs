@@ -13,10 +13,7 @@ const SHOWS = {
   korra:   { title: "The Legend of Korra", short: "Korra", label: "Book", groups: ["Book 1: Air", "Book 2: Spirits", "Book 3: Change", "Book 4: Balance"] },
   aot:     { title: "Attack on Titan", short: "AoT", label: "Season", groups: ["Season 1", "Season 2", "Season 3", "Final Season"] },
   jjk:     { title: "Jujutsu Kaisen", short: "JJK", label: "Season", groups: ["Season 1", "Season 2", "Season 3"] },
-  mha:     { title: "My Hero Academia", short: "MHA", label: "Season", groups: ["Season 1", "Season 2", "Season 3", "Season 4", "Season 5", "Season 6", "Season 7", "Final Season"] },
   hxh:     { title: "Hunter x Hunter (2011)", short: "HxH", label: "Arc", groups: null },
-  csm:     { title: "Chainsaw Man", short: "CSM", label: "Season", groups: ["Season 1"] },
-  frieren: { title: "Frieren: Beyond Journey's End", short: "Frieren", label: "Season", groups: ["Season 1", "Season 2"] },
 };
 
 const txt = fs.readFileSync(path.join(root, "sources/tvmaze-episodes.txt"), "utf8");

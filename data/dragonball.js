@@ -317,7 +317,7 @@ window.DLE.series["dragonball"] = {
         "Pu'ar",
         "Pual"
       ],
-      "gender": "Other",
+      "gender": "Male",
       "hair": "Blue",
       "affiliation": [
         "Z Fighters"
@@ -1351,7 +1351,7 @@ window.DLE.series["dragonball"] = {
       "power": [
         "God / Angel"
       ],
-      "debut": "Universe 6",
+      "debut": "Battle of Gods / Resurrection F",
       "quotes": [
         "When you're a big star like me, you have to make an entrance."
       ],
@@ -1496,7 +1496,7 @@ window.DLE.series["dragonball"] = {
         "Zeno-sama",
         "Grand Zeno"
       ],
-      "gender": "Other",
+      "gender": "Male",
       "hair": "Bald",
       "affiliation": [
         "Gods & Angels"
@@ -1554,7 +1554,7 @@ window.DLE.series["dragonball"] = {
         "Gamma One"
       ],
       "gender": "Male",
-      "hair": "Black",
+      "hair": "Other",
       "affiliation": [
         "Red Ribbon Army"
       ],
@@ -1900,7 +1900,7 @@ window.DLE.series["dragonball"] = {
       "power": [
         "God / Angel"
       ],
-      "debut": "Universe 6",
+      "debut": "Battle of Gods / Resurrection F",
       "quotes": [
         "Lord Champa hasn't behaved any better... just look at the shape he's in.",
         "I work so hard to give him nutritionally balanced meals..."
@@ -2153,7 +2153,7 @@ window.DLE.series["dragonball"] = {
         "Paragas"
       ],
       "gender": "Male",
-      "hair": "Black",
+      "hair": "Grey",
       "affiliation": [
         "Frieza Force"
       ],

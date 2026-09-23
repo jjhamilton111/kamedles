@@ -103,6 +103,13 @@ for (const file of process.argv.slice(2)) {
     const lower = JSON.stringify([c.hint, ...(c.quotes || [])]).toLowerCase();
     if (/\b(dead|dies|died|killed|deceased|alive)\b/.test(lower)) warns.push(`${tag}: hint/quote mentions death/alive status`);
   }
+  // Two characters with the same Classic tiles can't be told apart: a wrong guess lights up all green.
+  const tuples = new Map();
+  for (const c of s.characters) {
+    const k = JSON.stringify([c.gender, c.hair, [...(c.affiliation || [])].sort(), s.hideAge ? null : c.age, [...(c.power || [])].sort(), c.debut]);
+    if (tuples.has(k)) warns.push(`${c.id}: identical Classic attributes to ${tuples.get(k)} (a wrong guess would show all green)`);
+    else tuples.set(k, c.id);
+  }
   const n = s.characters.length;
   if (n < 30) errors.push(`only ${n} characters (need 36-48)`);
   if (n > 70) warns.push(`${n} characters (large cast)`);

@@ -191,7 +191,7 @@ window.DLE.series["naruto"] = {
       "power": [
         "Ninjutsu"
       ],
-      "debut": "Tenchi Bridge Reconnaissance",
+      "debut": "Kazekage Rescue Mission",
       "quotes": [
         "Well don't write me off yet. I like everyone, even you, ugly.",
         "The best way to defuse a troublesome situation is by smiling...",
@@ -344,7 +344,7 @@ window.DLE.series["naruto"] = {
       "affiliation": [
         "Hidden Leaf"
       ],
-      "age": 17,
+      "age": 16,
       "power": [
         "Kekkei Genkai",
         "Taijutsu"
@@ -469,7 +469,7 @@ window.DLE.series["naruto"] = {
       "affiliation": [
         "Hidden Leaf"
       ],
-      "age": 18,
+      "age": 17,
       "power": [
         "Taijutsu"
       ],
@@ -591,7 +591,7 @@ window.DLE.series["naruto"] = {
       "affiliation": [
         "Hidden Leaf"
       ],
-      "age": 26,
+      "age": 27,
       "power": [
         "Ninjutsu"
       ],
@@ -687,7 +687,7 @@ window.DLE.series["naruto"] = {
         "Akatsuki",
         "Hidden Sound"
       ],
-      "age": 55,
+      "age": 54,
       "power": [
         "Ninjutsu"
       ],
@@ -1034,7 +1034,7 @@ window.DLE.series["naruto"] = {
         "Tsuchikage"
       ],
       "gender": "Male",
-      "hair": "Grey",
+      "hair": "White",
       "affiliation": [
         "Hidden Stone"
       ],
@@ -1079,7 +1079,7 @@ window.DLE.series["naruto"] = {
         "Kekkei Genkai",
         "Ninjutsu"
       ],
-      "debut": "Kazekage Rescue Mission",
+      "debut": "Itachi Pursuit",
       "quotes": [
         "Yes, I've grown from a man... to a god.",
         "If there is justice in vengeance, then justice will only breed more vengeance.",
@@ -1110,7 +1110,7 @@ window.DLE.series["naruto"] = {
       "power": [
         "Ninjutsu"
       ],
-      "debut": "Kazekage Rescue Mission",
+      "debut": "Itachi Pursuit",
       "quotes": [
         "Once again the sky is weeping.",
         "He is the light. That's why we can all carry flowers of hope.",
@@ -1170,7 +1170,7 @@ window.DLE.series["naruto"] = {
         "Hidden Mist",
         "Akatsuki"
       ],
-      "age": 32,
+      "age": 33,
       "power": [
         "Kenjutsu / Weapons",
         "Ninjutsu"
@@ -1256,7 +1256,7 @@ window.DLE.series["naruto"] = {
       "name": "Hidan",
       "aliases": [],
       "gender": "Male",
-      "hair": "White",
+      "hair": "Grey",
       "affiliation": [
         "Akatsuki",
         "Rogue Ninja"
@@ -1385,7 +1385,7 @@ window.DLE.series["naruto"] = {
         "Ootsutsuki"
       ],
       "gender": "Female",
-      "hair": "White",
+      "hair": "Grey",
       "affiliation": [
         "Otsutsuki"
       ],
@@ -1517,7 +1517,7 @@ window.DLE.series["naruto"] = {
         "Hidden Leaf",
         "Root"
       ],
-      "age": 72,
+      "age": 73,
       "power": [
         "Kekkei Genkai",
         "Ninjutsu"
@@ -1744,7 +1744,7 @@ window.DLE.series["naruto"] = {
       ],
       "age": 19,
       "power": [
-        "Sage Mode",
+        "Kekkei Genkai",
         "Taijutsu"
       ],
       "debut": "Itachi Pursuit",
@@ -1900,7 +1900,7 @@ window.DLE.series["naruto"] = {
         "Hagoromo Ōtsutsuki"
       ],
       "gender": "Male",
-      "hair": "White",
+      "hair": "Brown",
       "affiliation": [
         "Otsutsuki"
       ],

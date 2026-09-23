@@ -57,6 +57,18 @@ function avatar(c, extra = "") {
   } else { box.classList.add("noimg"); box.append(initials(c.name)); }
   return box;
 }
+// Emoji clues use Apple's artwork (emoji-datasource-apple on jsDelivr) so every device sees the iPhone
+// set. Files are named by code points; try the exact sequence, then with the variation selector added
+// or dropped, and fall back to the device's own emoji if none exists.
+const EMOJI_CDN = "https://cdn.jsdelivr.net/npm/emoji-datasource-apple@16.0.0/img/apple/64/";
+function emojiArt(e) {
+  const cps = [...e].map(ch => ch.codePointAt(0).toString(16));
+  const tries = [...new Set([cps.join("-"), [...cps, "fe0f"].join("-"), cps.filter(c => c !== "fe0f").join("-")])];
+  const img = h("img", { class: "emoji-art", alt: e, draggable: "false", decoding: "async", src: EMOJI_CDN + tries[0] + ".png" });
+  let n = 0;
+  img.addEventListener("error", () => { if (++n < tries.length) img.src = EMOJI_CDN + tries[n] + ".png"; else img.replaceWith(document.createTextNode(e)); });
+  return img;
+}
 function cyrb53(str, seed = 0) {
   let h1 = 0xdeadbeef ^ seed, h2 = 0x41c6ce57 ^ seed;
   for (let i = 0; i < str.length; i++) { const ch = str.charCodeAt(i); h1 = Math.imul(h1 ^ ch, 2654435761); h2 = Math.imul(h2 ^ ch, 1597334677); }
@@ -244,8 +256,10 @@ function seriesCard(id, day) {
 /* ---------- play ---------- */
 function openSeries(id, opts = {}) {
   if (!D.series[id]) return renderHome();
-  view.seriesId = id;
+  // Coming into a series always starts on Classic; switching modes or daily/unlimited inside one keeps it.
   if (opts.mode) view.mode = opts.mode;
+  else if (id !== view.seriesId) view.mode = "classic";
+  view.seriesId = id;
   if (opts.unlimited != null) view.unlimited = opts.unlimited;
   S.prefs.mode = view.mode; S.prefs.lastSeries = id; saveState();
   setAccent(id); setHash(id);
@@ -319,7 +333,7 @@ function renderPrompt() {
     ui.prompt.dataset.shown = String(shown);
     ui.prompt.replaceChildren(
       h("div", { class: "prompt-emoji", "aria-label": "Emoji clues" }, a.emojis.map((e, i) => i < shown
-        ? h("div", { class: `emo${i >= prev && prev >= 0 ? " pop" : ""}`, title: `Clue ${i + 1}` }, e)
+        ? h("div", { class: `emo${i >= prev && prev >= 0 ? " pop" : ""}`, title: `Clue ${i + 1}` }, emojiArt(e))
         : h("div", { class: "emo slot", "aria-label": "Locked clue" }, "?"))),
       !over && h("p", { class: "prompt-note" }, shown < 5 ? "Each miss unlocks one more emoji." : "All five emojis are out. Hints unlock below."));
   }
@@ -396,7 +410,8 @@ function classicRow(c, animate) {
   return h("div", { class: "grow", role: "row" }, cols.map((col, i) => {
     const r = compare(col, c, game.answer, s);
     const cls = `tile ${r.state}${animate ? " anim" : ""}`;
-    if (col.type === "name") return h("div", { class: cls + " name", role: "cell", style: { "--i": i } }, avatar(c), h("span", null, c.name));
+    // The name tile says outright whether this guess was the answer, even if every attribute matched.
+    if (col.type === "name") return h("div", { class: `tile name ${c.id === game.answer.id ? "ok" : "bad"}${animate ? " anim" : ""}`, role: "cell", style: { "--i": i } }, avatar(c), h("span", null, c.name));
     let val = c[col.key];
     if (Array.isArray(val)) val = val.join(" · ");
     if (col.type === "number") val = val == null ? "?" : String(val);

@@ -183,7 +183,7 @@ window.DLE.series["hxh"] = {
         "Hunter Association",
         "Heavens Arena"
       ],
-      "age": 28,
+      "age": null,
       "power": [
         "Transmuter"
       ],
@@ -242,13 +242,13 @@ window.DLE.series["hxh"] = {
         "Silva"
       ],
       "gender": "Male",
-      "hair": "White",
+      "hair": "Blonde",
       "affiliation": [
         "Zoldyck Family"
       ],
       "age": 46,
       "power": [
-        "Transmuter"
+        "Emitter"
       ],
       "debut": "Zoldyck Family",
       "quotes": [
@@ -263,7 +263,7 @@ window.DLE.series["hxh"] = {
         "⚪",
         "🔮"
       ],
-      "hint": "The white-maned patriarch of an assassin family who once clashed with the Troupe's leader."
+      "hint": "The blond-maned patriarch of an assassin family who once clashed with the Troupe's leader."
     },
     {
       "id": "zeno-zoldyck",
@@ -278,9 +278,9 @@ window.DLE.series["hxh"] = {
       ],
       "age": 67,
       "power": [
-        "Transmuter"
+        "Emitter"
       ],
-      "debut": "Yorknew City",
+      "debut": "Zoldyck Family",
       "quotes": [
         "Do you believe that we kill for pleasure? We don't do this for fun.",
         "My job here is done. I know nothing beyond the mission I received.",
@@ -430,9 +430,10 @@ window.DLE.series["hxh"] = {
       "hair": "Black",
       "affiliation": [
         "Hunter Association",
-        "Zodiacs"
+        "Zodiacs",
+        "Greed Island"
       ],
-      "age": 32,
+      "age": 31,
       "power": [
         "Unknown"
       ],
@@ -516,7 +517,7 @@ window.DLE.series["hxh"] = {
       "name": "Zushi",
       "aliases": [],
       "gender": "Male",
-      "hair": "Black",
+      "hair": "Brown",
       "affiliation": [
         "Heavens Arena"
       ],
@@ -579,13 +580,13 @@ window.DLE.series["hxh"] = {
         "Knuckle"
       ],
       "gender": "Male",
-      "hair": "Black",
+      "hair": "Green",
       "affiliation": [
         "Hunter Association"
       ],
       "age": null,
       "power": [
-        "Emitter"
+        "Conjurer"
       ],
       "debut": "Chimera Ant",
       "quotes": [
@@ -609,7 +610,7 @@ window.DLE.series["hxh"] = {
         "Shoot"
       ],
       "gender": "Male",
-      "hair": "Black",
+      "hair": "Pink",
       "affiliation": [
         "Hunter Association"
       ],
@@ -668,13 +669,13 @@ window.DLE.series["hxh"] = {
       "name": "Knov",
       "aliases": [],
       "gender": "Male",
-      "hair": "Black",
+      "hair": "Bald",
       "affiliation": [
         "Hunter Association"
       ],
       "age": null,
       "power": [
-        "Conjurer"
+        "Emitter"
       ],
       "debut": "Chimera Ant",
       "quotes": [
@@ -735,7 +736,7 @@ window.DLE.series["hxh"] = {
       ],
       "age": null,
       "power": [
-        "Specialist"
+        "Emitter"
       ],
       "debut": "Chimera Ant",
       "quotes": [
@@ -822,13 +823,13 @@ window.DLE.series["hxh"] = {
         "Yupi"
       ],
       "gender": "Male",
-      "hair": "Other",
+      "hair": "Brown",
       "affiliation": [
         "Chimera Ants"
       ],
       "age": null,
       "power": [
-        "Enhancer"
+        "Transmuter"
       ],
       "debut": "Chimera Ant",
       "quotes": [
@@ -906,7 +907,7 @@ window.DLE.series["hxh"] = {
       "name": "Meleoron",
       "aliases": [],
       "gender": "Male",
-      "hair": "Other",
+      "hair": "Blonde",
       "affiliation": [
         "Chimera Ants"
       ],
@@ -938,7 +939,7 @@ window.DLE.series["hxh"] = {
         "Quwrof"
       ],
       "gender": "Male",
-      "hair": "Black",
+      "hair": "Purple",
       "affiliation": [
         "Phantom Troupe"
       ],
@@ -1120,7 +1121,7 @@ window.DLE.series["hxh"] = {
         "Ubogin"
       ],
       "gender": "Male",
-      "hair": "Black",
+      "hair": "Grey",
       "affiliation": [
         "Phantom Troupe"
       ],
@@ -1183,7 +1184,8 @@ window.DLE.series["hxh"] = {
       "gender": "Male",
       "hair": "Blonde",
       "affiliation": [
-        "Phantom Troupe"
+        "Phantom Troupe",
+        "Hunter Association"
       ],
       "age": 24,
       "power": [
@@ -1360,7 +1362,7 @@ window.DLE.series["hxh"] = {
       "name": "Razor",
       "aliases": [],
       "gender": "Male",
-      "hair": "Black",
+      "hair": "Purple",
       "affiliation": [
         "Greed Island"
       ],
@@ -1456,7 +1458,7 @@ window.DLE.series["hxh"] = {
       "affiliation": [
         "Zoldyck Family"
       ],
-      "age": 19,
+      "age": 17,
       "power": [
         "Unknown"
       ],
@@ -1510,7 +1512,7 @@ window.DLE.series["hxh"] = {
       "name": "Canary",
       "aliases": [],
       "gender": "Female",
-      "hair": "Black",
+      "hair": "Brown",
       "affiliation": [
         "Zoldyck Family"
       ],
@@ -1568,7 +1570,7 @@ window.DLE.series["hxh"] = {
         "Koruto"
       ],
       "gender": "Male",
-      "hair": "Other",
+      "hair": "Black",
       "affiliation": [
         "Chimera Ants"
       ],
@@ -1629,7 +1631,7 @@ window.DLE.series["hxh"] = {
         "Melody"
       ],
       "gender": "Female",
-      "hair": "Black",
+      "hair": "Grey",
       "affiliation": [
         "Nostrade Family",
         "Hunter Association"

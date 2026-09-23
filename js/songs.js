@@ -41,20 +41,23 @@ function jsonp(url, ms = 9000) {
   });
 }
 const cache = {};
+// Second line of defence behind tools/check-song-sources.mjs: a source whose track length is off from
+// Spotify's is a different recording (sped up, slowed, edit…), so skip it.
+const sameLength = (song, ms) => !song.d || !ms || Math.abs(ms - song.d) <= Math.max(4000, song.d * 0.02);
 async function lookup(song) {
   if (cache[song.id]) return cache[song.id];
   let info = null;
   if (song.dz) {
     try {
       const d = await jsonp(`https://api.deezer.com/track/${song.dz}`);
-      if (d && d.preview) info = { url: d.preview, art: (d.album && (d.album.cover_xl || d.album.cover_big)) || "", link: d.link, via: "Deezer" };
+      if (d && d.preview && sameLength(song, d.duration * 1000)) info = { url: d.preview, art: (d.album && (d.album.cover_xl || d.album.cover_big)) || "", link: d.link, via: "Deezer" };
     } catch (e) { /* fall through to iTunes */ }
   }
   if (!info && song.it) {
     try {
       const r = await fetch(`https://itunes.apple.com/lookup?id=${song.it}&country=US`);
       const j = await r.json(), t = j.results && j.results[0];
-      if (t && t.previewUrl) info = { url: t.previewUrl, art: (t.artworkUrl100 || "").replace("100x100bb", "600x600bb"), link: t.trackViewUrl, via: "Apple Music" };
+      if (t && t.previewUrl && sameLength(song, t.trackTimeMillis)) info = { url: t.previewUrl, art: (t.artworkUrl100 || "").replace("100x100bb", "600x600bb"), link: t.trackViewUrl, via: "Apple Music" };
     } catch (e) { /* no preview */ }
   }
   if (info) cache[song.id] = info;
@@ -64,8 +67,17 @@ async function lookup(song) {
 /* ---------- state ---------- */
 let game = null, ui = {}, audio = null, raf = 0, ticker = null;
 const prefs = () => X.S.prefs;
+// A saved daily keeps its song even if the pool changed since. Older saves didn't store it, but for a
+// solved one it's the last guess.
+function savedSong(saved) {
+  if (!saved) return null;
+  const last = saved.steps && saved.steps[saved.steps.length - 1];
+  const id = saved.answer || (saved.solved && last && last.id);
+  return (id && byId[id]) || null;
+}
 function start(opts = {}) {
   stopAudio();
+  audio = null;
   if (!POOL.length) {
     X.stopTicker(); stopTicker(); setHash("songs");
     app.replaceChildren(topBar({ tab: "songs", help: openHelp }), h("section", { class: "hero" }, h("h1", { class: "hero-title" }, "Songs"),
@@ -80,7 +92,7 @@ function start(opts = {}) {
     let pool = filt.length ? POOL.filter(s => s.p.some(i => filt.includes(i))) : POOL;
     if (!pool.length) pool = POOL;
     do { answer = pool[Math.floor(Math.random() * pool.length)]; } while (pool.length > 1 && opts.avoid === answer.id);
-  } else { answer = dailySong(day); saved = X.S.games[REC(day)]; }
+  } else { saved = X.S.games[REC(day)]; answer = savedSong(saved) || dailySong(day); }
   game = { unlimited, day, answer, steps: saved ? saved.steps.slice() : [], solved: !!(saved && saved.solved), gaveUp: !!(saved && saved.gaveUp), info: null, failed: false };
   setAccent(null); document.documentElement.style.setProperty("--accent", ACCENT);
   setHash("songs");
@@ -92,7 +104,7 @@ const clipLen = () => over() ? 30 : STEPS[Math.min(game.steps.length, STEPS.leng
 function persist(outcome) {
   if (game.unlimited) return;
   const S = X.S;
-  S.games[REC(game.day)] = { steps: game.steps, solved: game.solved, gaveUp: game.gaveUp };
+  S.games[REC(game.day)] = { answer: game.answer.id, steps: game.steps, solved: game.solved, gaveUp: game.gaveUp };
   if (outcome) {
     const st = S.stats.songs || (S.stats.songs = { played: 0, won: 0, streak: 0, max: 0, lastDay: null, dist: {} });
     st.played++;
@@ -104,26 +116,39 @@ function persist(outcome) {
 }
 
 /* ---------- audio ---------- */
-function stopAudio() { cancelAnimationFrame(raf); if (audio) { audio.pause(); } if (ui.playBtn) ui.playBtn.classList.remove("playing"); }
-async function play(limit) {
+let playing = false;
+const pad = n => String(Math.floor(n)).padStart(2, "0");
+function setPlaying(on) {
+  playing = on;
+  if (ui.playBtn) { ui.playBtn.classList.toggle("playing", on); ui.playBtn.setAttribute("aria-label", on ? "Pause" : `Play ${clipLen()} second${clipLen() === 1 ? "" : "s"}`); }
+}
+function stopAudio() { cancelAnimationFrame(raf); if (audio) audio.pause(); setPlaying(false); }
+const position = () => (audio && game.info && audio.dataset.src === game.info.url ? audio.currentTime : 0);
+function drawProgress(t) {
+  const lim = clipLen(), scale = over() ? 30 : MAX;
+  if (ui.fill) ui.fill.style.width = `${Math.min(100, (Math.min(t, lim) / scale) * 100)}%`;
+  if (ui.time) ui.time.textContent = `0:${pad(Math.min(t, lim))} / 0:${pad(lim)}`;
+}
+// Play picks up where a pause left off, and starts over once the unlocked clip has run out. The limit is
+// read every frame, so unlocking more (a skip or a wrong guess) mid-play just lets the song keep going.
+async function play(fromStart) {
   if (!game.info) return toast(game.failed ? "No preview for this one" : "Still loading the clip…");
   if (!audio || audio.dataset.src !== game.info.url) { if (audio) audio.pause(); audio = new Audio(game.info.url); audio.dataset.src = game.info.url; audio.preload = "auto"; }
   audio.volume = prefs().songVol != null ? prefs().songVol : 0.7;
-  stopAudio();
-  const lim = limit || clipLen();
-  try { audio.currentTime = 0; await audio.play(); } catch (e) { return toast("Tap play again — the browser blocked autoplay"); }
-  ui.playBtn.classList.add("playing");
+  cancelAnimationFrame(raf);
+  if (fromStart || audio.ended || audio.currentTime >= clipLen() - 0.05) audio.currentTime = 0;
+  try { await audio.play(); } catch (e) { setPlaying(false); return toast("Tap play again — the browser blocked autoplay"); }
+  setPlaying(true);
   const tick = () => {
-    if (!ui.player || !ui.player.isConnected) { audio.pause(); return; }
+    if (!ui.player || !ui.player.isConnected) { stopAudio(); return; }
     const t = audio.currentTime;
-    const scale = over() ? 30 : MAX;
-    ui.fill.style.width = `${Math.min(100, (t / scale) * 100)}%`;
-    ui.time.textContent = `0:${String(Math.floor(Math.min(t, lim))).padStart(2, "0")} / 0:${String(lim).padStart(2, "0")}`;
-    if (t >= lim || audio.ended) { audio.pause(); ui.playBtn.classList.remove("playing"); ui.fill.style.width = `${Math.min(100, (lim / scale) * 100)}%`; return; }
+    drawProgress(t);
+    if (t >= clipLen() || audio.ended) { audio.pause(); setPlaying(false); drawProgress(clipLen()); return; }
     raf = requestAnimationFrame(tick);
   };
   raf = requestAnimationFrame(tick);
 }
+function togglePlay() { if (playing) stopAudio(); else play(false); }
 
 /* ---------- render ---------- */
 function render() {
@@ -166,10 +191,12 @@ function renderPlayer() {
   if (!ui.player) return;
   const len = clipLen(), n = game.steps.length;
   ui.fill = h("div", { class: "bar-fill" });
-  ui.time = h("span", { class: "bar-time" }, `0:00 / 0:${String(len).padStart(2, "0")}`);
+  ui.time = h("span", { class: "bar-time" });
   const marks = over() ? [] : STEPS.map(s => h("i", { class: `bar-mark${s <= len ? " on" : ""}`, style: { left: `${(s / MAX) * 100}%` } }));
   const unlocked = h("div", { class: "bar-unlocked", style: { width: `${over() ? 100 : (len / MAX) * 100}%` } });
-  ui.playBtn = h("button", { class: "play-btn", "aria-label": `Play ${len} second${len === 1 ? "" : "s"}`, onclick: () => play(), disabled: !game.info }, h("span", { class: "tri" }));
+  ui.playBtn = h("button", { class: "play-btn", onclick: togglePlay, disabled: !game.info }, h("span", { class: "tri" }));
+  setPlaying(playing);
+  drawProgress(position());
   const next = STEPS[Math.min(n + 1, STEPS.length - 1)] - STEPS[Math.min(n, STEPS.length - 1)];
   const skip = !over() && h("button", { class: "btn small", onclick: skipStep, disabled: n >= STEPS.length - 1 && !game.unlimited && false }, n >= STEPS.length - 1 ? "Give up" : `Skip (+${next}s)`);
   const status = game.failed ? h("p", { class: "player-note" }, "Couldn't load a preview for this song. The claude.ai preview blocks outside audio — open the site from your folder. If you're already there, this track may be region-locked.")
@@ -199,7 +226,8 @@ function guess(s) {
   if (win) game.solved = true;
   else if (game.steps.length >= 6) game.gaveUp = true;
   persist(win ? "win" : game.gaveUp ? "loss" : null);
-  stopAudio(); renderPlayer(); renderAttempts();
+  if (over()) stopAudio(); // a wrong guess mid-play just unlocks more and keeps it going
+  renderPlayer(); renderAttempts();
   if (over()) showResult(true); else ui.form.input.focus({ preventScroll: true });
 }
 function skipStep() {
@@ -207,8 +235,10 @@ function skipStep() {
   game.steps.push({ k: "skip" });
   if (game.steps.length >= 6) game.gaveUp = true;
   persist(game.gaveUp ? "loss" : null);
-  stopAudio(); renderPlayer(); renderAttempts();
-  if (over()) showResult(true); else play();
+  if (over()) { stopAudio(); renderPlayer(); renderAttempts(); showResult(true); return; }
+  renderPlayer(); renderAttempts();
+  // Already playing: the longer limit lets it run on into the newly unlocked part. Otherwise play the new clip.
+  if (!playing) play(true);
 }
 function showResult(animate) {
   if (!ui.result) return;
@@ -275,14 +305,18 @@ function peopleFilter() {
 function partyPanel() {
   const P = prefs().party || (prefs().party = { players: PEOPLE.map(n => ({ n, s: 0 })), open: false });
   const body = h("div", { class: "party-body" });
+  // One fixed column per player, in the order they were added, so nobody jumps around when a point
+  // lands. The leader just gets highlighted.
   const draw = () => {
-    const rows = P.players.slice().map((p, i) => ({ p, i })).sort((a, b) => b.p.s - a.p.s);
+    const top = Math.max(0, ...P.players.map(p => p.s));
     body.replaceChildren(
-      h("div", { class: "party-grid" }, ...rows.map(({ p, i }) => h("div", { class: "party-row" },
-        h("span", { class: "party-name" }, p.n), h("b", { class: "party-score" }, p.s),
-        h("button", { class: "btn small", "aria-label": `Take a point from ${p.n}`, onclick: () => { p.s = Math.max(0, p.s - 1); X.saveState(); draw(); } }, "−"),
-        h("button", { class: "btn small primary", "aria-label": `Give ${p.n} a point`, onclick: () => { p.s++; X.saveState(); draw(); } }, "+1"),
-        h("button", { class: "link-btn", "aria-label": `Remove ${p.n}`, onclick: () => { P.players.splice(i, 1); X.saveState(); draw(); } }, "remove")))),
+      h("div", { class: "party-cols" }, ...P.players.map((p, i) => h("div", { class: `party-col${top > 0 && p.s === top ? " lead" : ""}` },
+        h("span", { class: "party-name", title: p.n }, p.n),
+        h("b", { class: "party-score" }, p.s),
+        h("div", { class: "party-btns" },
+          h("button", { class: "btn small", "aria-label": `Take a point from ${p.n}`, onclick: () => { p.s = Math.max(0, p.s - 1); X.saveState(); draw(); } }, "−"),
+          h("button", { class: "btn small primary", "aria-label": `Give ${p.n} a point`, onclick: () => { p.s++; X.saveState(); draw(); } }, "+1")),
+        h("button", { class: "link-btn party-remove", "aria-label": `Remove ${p.n}`, onclick: () => { P.players.splice(i, 1); X.saveState(); draw(); } }, "remove")))),
       h("form", { class: "party-add", onsubmit: e => { e.preventDefault(); const v = e.target.elements.pname.value.trim(); if (v) { P.players.push({ n: v, s: 0 }); e.target.reset(); X.saveState(); draw(); } } },
         h("input", { name: "pname", id: "party-name", placeholder: "Add a player", "aria-label": "Player name", autocomplete: "off" }),
         h("button", { class: "btn small", type: "submit" }, "Add"),

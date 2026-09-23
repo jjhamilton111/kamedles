@@ -87,7 +87,7 @@ window.DLE.series["jjk"] = {
         "Tokyo Jujutsu High",
         "Culling Game Player"
       ],
-      "age": 15,
+      "age": 16,
       "power": [
         "Inherited Technique",
         "Shikigami User"
@@ -146,7 +146,7 @@ window.DLE.series["jjk"] = {
         "Maki"
       ],
       "gender": "Female",
-      "hair": "Black",
+      "hair": "Green",
       "affiliation": [
         "Tokyo Jujutsu High",
         "Zenin Clan"
@@ -274,7 +274,7 @@ window.DLE.series["jjk"] = {
       "affiliation": [
         "Tokyo Jujutsu High"
       ],
-      "age": 18,
+      "age": null,
       "power": [
         "Cursed Technique"
       ],
@@ -363,7 +363,7 @@ window.DLE.series["jjk"] = {
         "Principal Yaga"
       ],
       "gender": "Male",
-      "hair": "Black",
+      "hair": "Brown",
       "affiliation": [
         "Tokyo Jujutsu High"
       ],
@@ -486,7 +486,7 @@ window.DLE.series["jjk"] = {
         "Kusakabe"
       ],
       "gender": "Male",
-      "hair": "Black",
+      "hair": "Brown",
       "affiliation": [
         "Tokyo Jujutsu High"
       ],
@@ -517,7 +517,7 @@ window.DLE.series["jjk"] = {
         "Meimei"
       ],
       "gender": "Female",
-      "hair": "White",
+      "hair": "Blue",
       "affiliation": [
         "Tokyo Jujutsu High",
         "Freelance Sorcerer"
@@ -581,7 +581,7 @@ window.DLE.series["jjk"] = {
         "Mai"
       ],
       "gender": "Female",
-      "hair": "Black",
+      "hair": "Green",
       "affiliation": [
         "Kyoto Jujutsu High",
         "Zenin Clan"
@@ -706,7 +706,7 @@ window.DLE.series["jjk"] = {
         "Kokichi"
       ],
       "gender": "Male",
-      "hair": "Other",
+      "hair": "Black",
       "affiliation": [
         "Kyoto Jujutsu High"
       ],
@@ -1140,7 +1140,7 @@ window.DLE.series["jjk"] = {
       "affiliation": [
         "Zenin Clan"
       ],
-      "age": null,
+      "age": 28,
       "power": [
         "Inherited Technique"
       ],
@@ -1167,7 +1167,7 @@ window.DLE.series["jjk"] = {
         "Naobito"
       ],
       "gender": "Male",
-      "hair": "Grey",
+      "hair": "White",
       "affiliation": [
         "Zenin Clan"
       ],
@@ -1230,7 +1230,7 @@ window.DLE.series["jjk"] = {
         "Star Plasma Vessel"
       ],
       "gender": "Female",
-      "hair": "Black",
+      "hair": "Blue",
       "affiliation": [
         "Civilian"
       ],
@@ -1359,7 +1359,7 @@ window.DLE.series["jjk"] = {
         "Culling Game Player",
         "Civilian"
       ],
-      "age": null,
+      "age": 35,
       "power": [
         "Cursed Technique"
       ],
@@ -1419,7 +1419,7 @@ window.DLE.series["jjk"] = {
       "affiliation": [
         "Culling Game Player"
       ],
-      "age": null,
+      "age": 1000,
       "power": [
         "Cursed Technique"
       ],
@@ -1445,11 +1445,11 @@ window.DLE.series["jjk"] = {
         "Kashimo"
       ],
       "gender": "Male",
-      "hair": "White",
+      "hair": "Green",
       "affiliation": [
         "Culling Game Player"
       ],
-      "age": null,
+      "age": 400,
       "power": [
         "Cursed Technique"
       ],
@@ -1478,11 +1478,11 @@ window.DLE.series["jjk"] = {
       "affiliation": [
         "Tokyo Jujutsu High"
       ],
-      "age": null,
+      "age": 21,
       "power": [
         "Cursed Technique"
       ],
-      "debut": "Shibuya Incident",
+      "debut": "Cursed Training / Vs. Mahito",
       "quotes": [
         "So whenever I'm at a loss, I think to myself, \"What would Nanami-san do?\"",
         "Nanami-san is counting on me!",
@@ -1504,7 +1504,7 @@ window.DLE.series["jjk"] = {
         "Uiui"
       ],
       "gender": "Male",
-      "hair": "White",
+      "hair": "Blue",
       "affiliation": [
         "Freelance Sorcerer"
       ],
@@ -1539,7 +1539,7 @@ window.DLE.series["jjk"] = {
       "affiliation": [
         "Tokyo Jujutsu High"
       ],
-      "age": null,
+      "age": 17,
       "power": [
         "Cursed Technique"
       ],
@@ -1622,11 +1622,11 @@ window.DLE.series["jjk"] = {
         "Nitta"
       ],
       "gender": "Male",
-      "hair": "Brown",
+      "hair": "Blonde",
       "affiliation": [
         "Kyoto Jujutsu High"
       ],
-      "age": null,
+      "age": 16,
       "power": [
         "Cursed Technique"
       ],
@@ -1710,7 +1710,7 @@ window.DLE.series["jjk"] = {
       "affiliation": [
         "Culling Game Player"
       ],
-      "age": null,
+      "age": 400,
       "power": [
         "Cursed Technique"
       ],

@@ -196,7 +196,7 @@ window.DLE.series["frieren"] = {
       "affiliation": [
         "Hero's Party"
       ],
-      "age": null,
+      "age": 100,
       "power": [
         "Warrior"
       ],
@@ -693,7 +693,7 @@ window.DLE.series["frieren"] = {
       "name": "Richter",
       "aliases": [],
       "gender": "Male",
-      "hair": "Brown",
+      "hair": "Black",
       "affiliation": [
         "First-Class Mage Exam"
       ],
@@ -727,7 +727,7 @@ window.DLE.series["frieren"] = {
         "First-Class Mage Exam",
         "Continental Magic Association"
       ],
-      "age": null,
+      "age": 33,
       "power": [
         "Mage"
       ],

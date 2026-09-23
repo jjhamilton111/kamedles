@@ -648,7 +648,7 @@ window.DLE.series["onepiece"] = {
         "Moriah"
       ],
       "gender": "Male",
-      "hair": "Red",
+      "hair": "Purple",
       "affiliation": [
         "Warlords"
       ],
@@ -679,7 +679,7 @@ window.DLE.series["onepiece"] = {
         "Shirohige"
       ],
       "gender": "Male",
-      "hair": "Blonde",
+      "hair": "White",
       "affiliation": [
         "Whitebeard Pirates"
       ],
@@ -687,7 +687,7 @@ window.DLE.series["onepiece"] = {
       "power": [
         "Paramecia"
       ],
-      "debut": "Skypiea",
+      "debut": "Alabasta",
       "quotes": [
         "The One Piece is real!",
         "Doesn't matter who you're born to... Everyone's still a child of the sea!",
@@ -863,7 +863,7 @@ window.DLE.series["onepiece"] = {
       "aliases": [
         "Kaido's son"
       ],
-      "gender": "Female",
+      "gender": "Male",
       "hair": "White",
       "affiliation": [
         "Beasts Pirates",
@@ -1036,7 +1036,7 @@ window.DLE.series["onepiece"] = {
       "power": [
         "None"
       ],
-      "debut": "Summit War",
+      "debut": "East Blue",
       "quotes": [
         "Haki is a power that lies dormant in all the world's creatures.",
         "Hey, Whitebeard's little apprentice! I know it's childish, but I don't like you!",
@@ -1219,7 +1219,7 @@ window.DLE.series["onepiece"] = {
         "Admiral Fujitora"
       ],
       "gender": "Male",
-      "hair": "Purple",
+      "hair": "Black",
       "affiliation": [
         "Marines"
       ],
@@ -1411,7 +1411,7 @@ window.DLE.series["onepiece"] = {
       "affiliation": [
         "Baroque Works"
       ],
-      "age": 30,
+      "age": 32,
       "power": [
         "Paramecia"
       ],
@@ -1443,7 +1443,7 @@ window.DLE.series["onepiece"] = {
         "Sun Pirates",
         "Other"
       ],
-      "age": 39,
+      "age": 41,
       "power": [
         "None"
       ],
@@ -1595,11 +1595,11 @@ window.DLE.series["onepiece"] = {
       "affiliation": [
         "World Government"
       ],
-      "age": 65,
+      "age": null,
       "power": [
         "Paramecia"
       ],
-      "debut": "Egghead",
+      "debut": "Punk Hazard",
       "quotes": [
         "Help! I re-quasar help!! I've failed again, blast it!!",
         "I have committed two sins.",
@@ -1626,7 +1626,7 @@ window.DLE.series["onepiece"] = {
       "affiliation": [
         "Other"
       ],
-      "age": null,
+      "age": 63,
       "power": [
         "Unknown"
       ],
@@ -1684,7 +1684,7 @@ window.DLE.series["onepiece"] = {
       "affiliation": [
         "Wano / Kozuki"
       ],
-      "age": 28,
+      "age": 8,
       "power": [
         "Mythical Zoan"
       ],
@@ -1772,7 +1772,7 @@ window.DLE.series["onepiece"] = {
         "Donquixote Pirates",
         "Big Mom Pirates"
       ],
-      "age": 40,
+      "age": 55,
       "power": [
         "Logia"
       ],
@@ -1981,7 +1981,7 @@ window.DLE.series["onepiece"] = {
       "power": [
         "Paramecia"
       ],
-      "debut": "Zou / Whole Cake Island",
+      "debut": "Fish-Man Island",
       "quotes": [
         "Quit dreaming, you fool! Me, marrying that little punk?! Never in a billion years!",
         "She especially loves how good I am at acting.",
@@ -2008,7 +2008,7 @@ window.DLE.series["onepiece"] = {
       "affiliation": [
         "World Government"
       ],
-      "age": 46,
+      "age": 47,
       "power": [
         "Paramecia"
       ],
@@ -2094,7 +2094,7 @@ window.DLE.series["onepiece"] = {
       "affiliation": [
         "Other"
       ],
-      "age": 33,
+      "age": 35,
       "power": [
         "None"
       ],
@@ -2213,7 +2213,7 @@ window.DLE.series["onepiece"] = {
         "Fleet Admiral Sengoku"
       ],
       "gender": "Male",
-      "hair": "Black",
+      "hair": "Grey",
       "affiliation": [
         "Marines"
       ],

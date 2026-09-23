@@ -138,6 +138,7 @@ a { color: var(--accent); }
 
 .prompt-emoji { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 6px 0 18px; }
 .emo { width: 66px; height: 66px; display: grid; place-items: center; font-size: 36px; line-height: 1; border-radius: 14px; background: var(--ink-2); border: 1px solid var(--line); }
+.emo .emoji-art { width: 42px; height: 42px; }
 .emo.slot { color: var(--muted); font-family: var(--font-display); font-weight: 800; font-size: 30px; border-style: dashed; border-color: var(--line-2); }
 .emo.pop { animation: pop .35s cubic-bezier(.2, .8, .3, 1.4) both; }
 .prompt-note { text-align: center; margin: -8px 0 14px; font-size: 12.5px; color: var(--muted); }
@@ -191,6 +192,8 @@ a { color: var(--accent); }
 .tile.unk { background: var(--unk); color: var(--text-2); }
 .tile.name .avatar { width: 54px; height: 54px; }
 .tile.name { flex-direction: row; justify-content: flex-start; gap: 10px; text-align: left; padding-left: 8px; background: var(--ink-2); border: 1px solid var(--line); color: var(--text); font-weight: 700; }
+.tile.name.ok { background: var(--ok); border-color: transparent; color: #fff; }
+.tile.name.bad { background: var(--bad); border-color: transparent; color: #fff; }
 .tile .val { font-variant-numeric: tabular-nums; }
 .tile .val.big { font-size: 18px; font-family: var(--font-display); font-weight: 800; letter-spacing: .02em; }
 .tile .arrow { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; opacity: .95; font-weight: 800; }
@@ -330,6 +333,21 @@ a { color: var(--accent); }
 .tile.ep-name { gap: 10px; }
 .tile.ep-name .ep-code { font-size: 14px; min-width: 58px; }
 
+.ep-picker { margin-bottom: 14px; padding: 12px; border: 1px solid var(--line); border-radius: 14px; background: var(--ink-2); }
+.ep-picker-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 10px; }
+.ep-groups { display: flex; flex-wrap: wrap; gap: 6px; }
+.ep-group { border: 1px solid var(--line-2); background: transparent; color: var(--text-2); border-radius: 999px; padding: 6px 12px; font: inherit; font-size: 13px; font-weight: 700; cursor: pointer; }
+.ep-group:hover { border-color: var(--accent); color: var(--text); }
+.ep-group[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.ep-search { flex: 1 1 180px; max-width: 260px; padding: 8px 10px; border-radius: 9px; border: 1px solid var(--line-2); background: var(--ink); color: var(--text); font: inherit; font-size: 14px; }
+.ep-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 6px; max-height: 340px; overflow-y: auto; }
+.ep-pick { display: flex; align-items: baseline; gap: 10px; min-width: 0; padding: 9px 10px; border-radius: 9px; border: 1px solid var(--line); background: var(--panel); color: var(--text); font: inherit; font-size: 14px; font-weight: 600; text-align: left; cursor: pointer; }
+.ep-pick:hover:not(:disabled) { border-color: var(--accent); }
+.ep-pick .ep-code { flex: 0 0 auto; min-width: 34px; font-family: var(--font-display); font-weight: 800; color: var(--accent); }
+.ep-pick .ep-title { flex: 1; min-width: 0; }
+.ep-pick.used { opacity: .4; cursor: default; text-decoration: line-through; }
+@media (max-width: 560px) { .ep-search { max-width: none; } .ep-list { grid-template-columns: 1fr; max-height: 300px; } }
+
 /* ---------- songs ---------- */
 .vol { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; color: var(--text-2); }
 .vol input { width: 120px; accent-color: var(--accent); }
@@ -378,10 +396,14 @@ button.chip:hover { border-color: var(--accent); }
 .party[open] summary::before { transform: rotate(90deg); }
 .party summary span { font-size: 12.5px; color: var(--muted); font-weight: 600; }
 .party-body { padding: 0 16px 16px; }
-.party-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 6px; }
-.party-row { display: grid; grid-template-columns: 1fr auto auto auto auto; align-items: center; gap: 6px; padding: 6px 8px; border-radius: 10px; background: var(--ink-2); }
-.party-name { font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.party-score { font-family: var(--font-display); font-size: 22px; font-weight: 900; color: var(--accent); min-width: 28px; text-align: right; font-variant-numeric: tabular-nums; }
+.party-cols { display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 8px; }
+.party-col { display: flex; flex-direction: column; align-items: center; gap: 6px; min-width: 0; padding: 12px 8px 8px; border-radius: 12px; border: 1px solid var(--line); background: var(--ink-2); }
+.party-col.lead { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.party-col.lead .party-name::before { content: "👑 "; }
+.party-name { max-width: 100%; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.party-score { font-family: var(--font-display); font-size: 40px; line-height: 1; font-weight: 900; color: var(--accent); font-variant-numeric: tabular-nums; }
+.party-btns { display: flex; gap: 6px; }
+.party-remove { font-size: 12px; }
 .party-add { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 10px; }
 .party-add input { flex: 1; min-width: 140px; padding: 8px 10px; border-radius: 9px; border: 1px solid var(--line-2); background: var(--ink-2); color: var(--text); font: inherit; }
 @media (max-width: 560px) {

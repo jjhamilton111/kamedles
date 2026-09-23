@@ -61,7 +61,9 @@ window.DLE.series["SLUG"] = {
    merge tiny groups into a broader category rather than adding one-off entries.
 4. **Hair vocab (exact strings, unless the series sets hairVocab):** Black, Brown, Blonde, White,
    Grey, Red, Orange, Pink, Purple, Blue, Green, Bald, Other. Silver -> White. Base/default form only (no transformations).
-   Use "Other" for characters with no hair color in the ordinary sense (masked, non-humanoid, etc.).
+   Use the color the SHOW gives them: when a wiki lists manga and anime colors separately, the anime
+   one wins (e.g. "Green (Manga) / Blond (Anime)" -> Blonde). Use "Other" only for characters with no
+   hair color in the ordinary sense (masked, non-humanoid, etc.), never as a stand-in for an unusual shade.
 5. **AGE RULE (v2 — latest age):** the character's age at the LATEST point the show depicts them,
    up to the cutoff. If the character dies in the show, use their age at death. Use the era's
    official/canon numbers (e.g. post-timeskip ages for One Piece, end-of-Shippuden ages for
@@ -95,6 +97,9 @@ window.DLE.series["SLUG"] = {
 13. Valid JS: double-quoted strings, escape internal quotes, trailing commas fine, no comments
     needed. Test-load it with `node -e "global.window={};require('<path>');console.log(Object.keys(window.DLE.series))"`
     before finishing.
+14. **Distinguishable in Classic.** No two characters may have identical Classic attributes (gender,
+    hair, affiliation, age, power, debut), or a wrong guess lights up all green. The validator warns
+    about these; fix wrong data first, and if two characters are genuinely identical in canon, say so.
 
 ## Process
 

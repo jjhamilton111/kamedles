@@ -59,11 +59,11 @@ window.DLE.series["blackclover"] = {
         "Bakasta"
       ],
       "gender": "Male",
-      "hair": "Blonde",
+      "hair": "Grey",
       "affiliation": [
         "Black Bulls"
       ],
-      "age": 17,
+      "age": 15,
       "power": [
         "Anti Magic"
       ],
@@ -93,7 +93,7 @@ window.DLE.series["blackclover"] = {
       "affiliation": [
         "Golden Dawn"
       ],
-      "age": 17,
+      "age": 15,
       "power": [
         "Wind"
       ],
@@ -123,7 +123,7 @@ window.DLE.series["blackclover"] = {
       "affiliation": [
         "Black Bulls"
       ],
-      "age": 17,
+      "age": 15,
       "power": [
         "Water"
       ],
@@ -153,7 +153,7 @@ window.DLE.series["blackclover"] = {
       "affiliation": [
         "Black Bulls"
       ],
-      "age": 29,
+      "age": 28,
       "power": [
         "Dark"
       ],
@@ -183,7 +183,7 @@ window.DLE.series["blackclover"] = {
       "affiliation": [
         "Black Bulls"
       ],
-      "age": 19,
+      "age": 18,
       "power": [
         "Fire"
       ],
@@ -213,7 +213,7 @@ window.DLE.series["blackclover"] = {
       "affiliation": [
         "Black Bulls"
       ],
-      "age": 19,
+      "age": 18,
       "power": [
         "Lightning"
       ],
@@ -244,7 +244,7 @@ window.DLE.series["blackclover"] = {
         "Black Bulls",
         "Witches' Forest"
       ],
-      "age": 25,
+      "age": 24,
       "power": [
         "Other"
       ],
@@ -275,7 +275,7 @@ window.DLE.series["blackclover"] = {
       "affiliation": [
         "Black Bulls"
       ],
-      "age": 22,
+      "age": 21,
       "power": [
         "Spatial"
       ],
@@ -301,11 +301,11 @@ window.DLE.series["blackclover"] = {
         "Gauche"
       ],
       "gender": "Male",
-      "hair": "Blue",
+      "hair": "Brown",
       "affiliation": [
         "Black Bulls"
       ],
-      "age": 20,
+      "age": 19,
       "power": [
         "Other"
       ],
@@ -336,7 +336,7 @@ window.DLE.series["blackclover"] = {
       "affiliation": [
         "Black Bulls"
       ],
-      "age": 20,
+      "age": 19,
       "power": [
         "Other"
       ],
@@ -394,7 +394,7 @@ window.DLE.series["blackclover"] = {
       "affiliation": [
         "Black Bulls"
       ],
-      "age": 25,
+      "age": 24,
       "power": [
         "Other"
       ],
@@ -420,7 +420,7 @@ window.DLE.series["blackclover"] = {
         "Henry"
       ],
       "gender": "Male",
-      "hair": "Blonde",
+      "hair": "White",
       "affiliation": [
         "Black Bulls"
       ],
@@ -428,7 +428,7 @@ window.DLE.series["blackclover"] = {
       "power": [
         "Other"
       ],
-      "debut": "Royal Knights Selection",
+      "debut": "Witches' Forest",
       "quotes": [
         "You probably didn't know about me, but... I knew about all of you.",
         "You probably didn't know I existed, but you are... my precious friends.",
@@ -487,7 +487,7 @@ window.DLE.series["blackclover"] = {
         "Black Bulls",
         "Wizard King / Royal Court"
       ],
-      "age": 18,
+      "age": 17,
       "power": [
         "Other"
       ],
@@ -521,7 +521,7 @@ window.DLE.series["blackclover"] = {
       "power": [
         "Dark"
       ],
-      "debut": "Spade Kingdom Raid",
+      "debut": "Heart Kingdom Joint Struggle",
       "quotes": [
         "Even if God and the devils forgive them, I never will.",
         "Because I hate the Black Bulls.",
@@ -663,7 +663,7 @@ window.DLE.series["blackclover"] = {
         "Jack"
       ],
       "gender": "Male",
-      "hair": "Green",
+      "hair": "Black",
       "affiliation": [
         "Green Mantis"
       ],
@@ -723,7 +723,7 @@ window.DLE.series["blackclover"] = {
         "Dorothy"
       ],
       "gender": "Female",
-      "hair": "Pink",
+      "hair": "Purple",
       "affiliation": [
         "Coral Peacock",
         "Witches' Forest"
@@ -754,11 +754,11 @@ window.DLE.series["blackclover"] = {
         "Vangeance"
       ],
       "gender": "Male",
-      "hair": "Blonde",
+      "hair": "White",
       "affiliation": [
         "Golden Dawn"
       ],
-      "age": 27,
+      "age": 26,
       "power": [
         "Plant"
       ],
@@ -814,7 +814,7 @@ window.DLE.series["blackclover"] = {
         "Mimosa"
       ],
       "gender": "Female",
-      "hair": "Orange",
+      "hair": "Red",
       "affiliation": [
         "Golden Dawn"
       ],
@@ -844,7 +844,7 @@ window.DLE.series["blackclover"] = {
         "Langris"
       ],
       "gender": "Male",
-      "hair": "Blonde",
+      "hair": "Brown",
       "affiliation": [
         "Golden Dawn"
       ],
@@ -852,7 +852,7 @@ window.DLE.series["blackclover"] = {
       "power": [
         "Spatial"
       ],
-      "debut": "Royal Knights Selection",
+      "debut": "Seabed Temple",
       "quotes": [
         "You're weaker than me in every way.",
         "How dare you try to stand on the same stage as me, a chosen one?",
@@ -883,7 +883,7 @@ window.DLE.series["blackclover"] = {
       "power": [
         "Other"
       ],
-      "debut": "Dungeon",
+      "debut": "Magic Knights Entrance Exam",
       "quotes": [
         "Gain merit. Continuously gaining merit is everything.",
         "People look to the Magic Knights for one thing... Peace in the Clover Kingdom.",
@@ -903,15 +903,15 @@ window.DLE.series["blackclover"] = {
       "name": "Licht",
       "aliases": [],
       "gender": "Male",
-      "hair": "Blonde",
+      "hair": "White",
       "affiliation": [
         "Elf"
       ],
-      "age": null,
+      "age": 25,
       "power": [
         "Other"
       ],
-      "debut": "Royal Capital Assault",
+      "debut": "Seabed Temple",
       "quotes": [
         "What are you talking about? We're friends, aren't we? I'll always save you.",
         "Although we're alike, we fear each other due to the lack of understanding.",
@@ -934,12 +934,12 @@ window.DLE.series["blackclover"] = {
         "Patri"
       ],
       "gender": "Male",
-      "hair": "Blonde",
+      "hair": "White",
       "affiliation": [
         "Eye of the Midnight Sun",
         "Elf"
       ],
-      "age": null,
+      "age": 25,
       "power": [
         "Light"
       ],
@@ -966,7 +966,7 @@ window.DLE.series["blackclover"] = {
         "Rhya the Disloyal"
       ],
       "gender": "Male",
-      "hair": "Blonde",
+      "hair": "Black",
       "affiliation": [
         "Eye of the Midnight Sun",
         "Elf"
@@ -996,7 +996,7 @@ window.DLE.series["blackclover"] = {
         "Vetto the Despair"
       ],
       "gender": "Male",
-      "hair": "Green",
+      "hair": "Blonde",
       "affiliation": [
         "Eye of the Midnight Sun",
         "Elf"
@@ -1027,16 +1027,16 @@ window.DLE.series["blackclover"] = {
         "Fana the Hateful"
       ],
       "gender": "Female",
-      "hair": "Red",
+      "hair": "Pink",
       "affiliation": [
         "Eye of the Midnight Sun",
         "Elf"
       ],
-      "age": null,
+      "age": 19,
       "power": [
         "Fire"
       ],
-      "debut": "Eye of the Midnight Sun",
+      "debut": "Dungeon",
       "quotes": [
         "When things get rough, remember the faces of those you love.",
         "This will make Master Licht very happy.",
@@ -1058,7 +1058,7 @@ window.DLE.series["blackclover"] = {
         "Rades"
       ],
       "gender": "Male",
-      "hair": "Orange",
+      "hair": "Purple",
       "affiliation": [
         "Eye of the Midnight Sun",
         "Purple Orca"
@@ -1087,7 +1087,7 @@ window.DLE.series["blackclover"] = {
       "name": "Sally",
       "aliases": [],
       "gender": "Female",
-      "hair": "Purple",
+      "hair": "Black",
       "affiliation": [
         "Eye of the Midnight Sun"
       ],
@@ -1095,7 +1095,7 @@ window.DLE.series["blackclover"] = {
       "power": [
         "Other"
       ],
-      "debut": "Eye of the Midnight Sun",
+      "debut": "Royal Capital Assault",
       "quotes": [
         "While I'm at it, maybe I'll dissect you all!",
         "I want to do experiments! I want to do dissections!",
@@ -1115,7 +1115,7 @@ window.DLE.series["blackclover"] = {
       "name": "Mars",
       "aliases": [],
       "gender": "Male",
-      "hair": "Blue",
+      "hair": "Purple",
       "affiliation": [
         "Diamond Kingdom"
       ],
@@ -1144,7 +1144,7 @@ window.DLE.series["blackclover"] = {
       "name": "Ladros",
       "aliases": [],
       "gender": "Male",
-      "hair": "Grey",
+      "hair": "Blonde",
       "affiliation": [
         "Diamond Kingdom"
       ],
@@ -1172,7 +1172,7 @@ window.DLE.series["blackclover"] = {
       "name": "Kahono",
       "aliases": [],
       "gender": "Female",
-      "hair": "Blue",
+      "hair": "Red",
       "affiliation": [
         "Civilian"
       ],
@@ -1202,7 +1202,7 @@ window.DLE.series["blackclover"] = {
         "Loropechka"
       ],
       "gender": "Female",
-      "hair": "Green",
+      "hair": "Black",
       "affiliation": [
         "Heart Kingdom"
       ],
@@ -1210,7 +1210,7 @@ window.DLE.series["blackclover"] = {
       "power": [
         "Water"
       ],
-      "debut": "Heart Kingdom Joint Struggle",
+      "debut": "Reincarnation (Elves)",
       "quotes": [
         "So I'm happy to have some friends I can be so honest with.",
         "I look forward to working with you, Nero.",
@@ -1241,7 +1241,7 @@ window.DLE.series["blackclover"] = {
         "Other",
         "Spatial"
       ],
-      "debut": "Heart Kingdom Joint Struggle",
+      "debut": "Reincarnation (Elves)",
       "quotes": [
         "To benefit the Spade Kingdom, I'll be taking you.",
         "It's not that you're weak. It's just that I'm far superior.",
@@ -1271,7 +1271,7 @@ window.DLE.series["blackclover"] = {
       "power": [
         "Other"
       ],
-      "debut": "Heart Kingdom Joint Struggle",
+      "debut": "Reincarnation (Elves)",
       "quotes": [
         "The true nature of humans is evil.",
         "When you unleash those feelings of malice, you are the most human.",
@@ -1293,7 +1293,7 @@ window.DLE.series["blackclover"] = {
         "Vanica"
       ],
       "gender": "Female",
-      "hair": "Red",
+      "hair": "Black",
       "affiliation": [
         "Spade Kingdom"
       ],
@@ -1314,7 +1314,7 @@ window.DLE.series["blackclover"] = {
         "💀",
         "😈"
       ],
-      "hint": "A red-haired devil host who cursed a princess and fights purely for fun."
+      "hint": "A black-haired devil host who cursed a princess and fights purely for fun."
     },
     {
       "id": "zagred",
@@ -1324,7 +1324,7 @@ window.DLE.series["blackclover"] = {
         "Kotodama Devil"
       ],
       "gender": "Male",
-      "hair": "Other",
+      "hair": "Black",
       "affiliation": [
         "Devil"
       ],
@@ -1354,7 +1354,7 @@ window.DLE.series["blackclover"] = {
         "Anti Magic Devil"
       ],
       "gender": "Male",
-      "hair": "Other",
+      "hair": "White",
       "affiliation": [
         "Devil"
       ],
@@ -1388,7 +1388,7 @@ window.DLE.series["blackclover"] = {
       "affiliation": [
         "Wizard King / Royal Court"
       ],
-      "age": null,
+      "age": 25,
       "power": [
         "Light"
       ],

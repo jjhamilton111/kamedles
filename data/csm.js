@@ -159,7 +159,7 @@ window.DLE.series["csm"] = {
         "Powy"
       ],
       "gender": "Female",
-      "hair": "Pink",
+      "hair": "Blonde",
       "affiliation": [
         "Public Safety Division 4"
       ],
@@ -217,7 +217,7 @@ window.DLE.series["csm"] = {
         "Kobeni"
       ],
       "gender": "Female",
-      "hair": "Black",
+      "hair": "Brown",
       "affiliation": [
         "Public Safety Division 4"
       ],
@@ -281,7 +281,7 @@ window.DLE.series["csm"] = {
       "affiliation": [
         "Public Safety Division 4"
       ],
-      "age": null,
+      "age": 50,
       "power": [
         "Human (Devil Contract)"
       ],
@@ -337,7 +337,7 @@ window.DLE.series["csm"] = {
         "Shark Fiend"
       ],
       "gender": "Male",
-      "hair": "Other",
+      "hair": "Black",
       "affiliation": [
         "Public Safety Division 4"
       ],
@@ -533,7 +533,7 @@ window.DLE.series["csm"] = {
       "name": "Leech Devil",
       "aliases": [],
       "gender": "Female",
-      "hair": "Other",
+      "hair": "Black",
       "affiliation": [
         "Devils (wild)"
       ],
@@ -591,7 +591,7 @@ window.DLE.series["csm"] = {
         "Ghost"
       ],
       "gender": "Other",
-      "hair": "Other",
+      "hair": "Black",
       "affiliation": [
         "Devils (contracted)",
         "Public Safety Division 4"
@@ -748,7 +748,7 @@ window.DLE.series["csm"] = {
       "id": "typhoon-devil",
       "name": "Typhoon Devil",
       "aliases": [],
-      "gender": "Male",
+      "gender": "Other",
       "hair": "Other",
       "affiliation": [
         "Devils (wild)"
@@ -849,7 +849,7 @@ window.DLE.series["csm"] = {
         "Tendo"
       ],
       "gender": "Female",
-      "hair": "Black",
+      "hair": "Brown",
       "affiliation": [
         "Public Safety (Kyoto)"
       ],

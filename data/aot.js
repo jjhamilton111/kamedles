@@ -154,7 +154,7 @@ window.DLE.series["aot"] = {
       "power": [
         "Ackerman"
       ],
-      "debut": "104th Cadet Corps",
+      "debut": "Battle of Trost",
       "quotes": [
         "Give up on your dream and die.",
         "It's just my personal opinion, but pain is the best tool for discipline.",
@@ -185,7 +185,7 @@ window.DLE.series["aot"] = {
       "power": [
         "Soldier"
       ],
-      "debut": "104th Cadet Corps",
+      "debut": "Battle of Trost",
       "quotes": [
         "My soldiers, rage! My soldiers, scream! My soldiers, fight!",
         "Is it all just inside my head? Nothing more than a childish delusion?",
@@ -218,7 +218,7 @@ window.DLE.series["aot"] = {
       "power": [
         "Soldier"
       ],
-      "debut": "104th Cadet Corps",
+      "debut": "Battle of Trost",
       "quotes": [
         "Nice to meet you, Sawney. You too, Bean. Let's try to get along.",
         "Check it out, Moblit! Eren's face! Hurry up and sketch it!",
@@ -242,7 +242,7 @@ window.DLE.series["aot"] = {
         "Horseface"
       ],
       "gender": "Male",
-      "hair": "Brown",
+      "hair": "Grey",
       "affiliation": [
         "Survey Corps"
       ],
@@ -503,7 +503,7 @@ window.DLE.series["aot"] = {
         "Marco"
       ],
       "gender": "Male",
-      "hair": "Black",
+      "hair": "Brown",
       "affiliation": [
         "Cadet Corps"
       ],
@@ -534,7 +534,7 @@ window.DLE.series["aot"] = {
         "Flocke"
       ],
       "gender": "Male",
-      "hair": "Brown",
+      "hair": "Blonde",
       "affiliation": [
         "Survey Corps",
         "Yeagerists"
@@ -638,7 +638,7 @@ window.DLE.series["aot"] = {
       "power": [
         "Soldier"
       ],
-      "debut": "104th Cadet Corps",
+      "debut": "Battle of Trost",
       "quotes": [
         "Not yet. Only when a person stops fighting do they lose.",
         "As long as we continue to fight, we are not beaten!"
@@ -790,7 +790,7 @@ window.DLE.series["aot"] = {
         "Hitch"
       ],
       "gender": "Female",
-      "hair": "Blonde",
+      "hair": "Brown",
       "affiliation": [
         "Military Police"
       ],
@@ -978,7 +978,7 @@ window.DLE.series["aot"] = {
         "Dr. Yeager"
       ],
       "gender": "Male",
-      "hair": "Brown",
+      "hair": "Black",
       "affiliation": [
         "Eldian Restorationists",
         "Civilian"
@@ -1262,7 +1262,7 @@ window.DLE.series["aot"] = {
         "Gabi"
       ],
       "gender": "Female",
-      "hair": "Brown",
+      "hair": "Black",
       "affiliation": [
         "Marleyan Warriors"
       ],
@@ -1355,7 +1355,7 @@ window.DLE.series["aot"] = {
         "General Magath"
       ],
       "gender": "Male",
-      "hair": "Brown",
+      "hair": "Black",
       "affiliation": [
         "Marley Military"
       ],
@@ -1512,7 +1512,7 @@ window.DLE.series["aot"] = {
         "Moblit"
       ],
       "gender": "Male",
-      "hair": "Brown",
+      "hair": "Blonde",
       "affiliation": [
         "Survey Corps"
       ],

@@ -59,6 +59,36 @@ function searchBox({ placeholder, items, exclude, render, onPick, empty }) {
 }
 X.searchBox = searchBox;
 
+/* ---------- episode picker: choose the season / book / arc, then the episode ---------- */
+// Every episode of the chosen group is listed, so nothing gets cut off; typing searches titles across
+// all groups instead. Starts on the group of the latest guess, never on anything that hints the answer.
+function episodePicker() {
+  const s = game.show;
+  const last = game.guesses.length ? game.list.find(ep => ep.i === game.guesses[game.guesses.length - 1]) : null;
+  let group = last ? last.g : 0, query = "";
+  const chips = h("div", { class: "ep-groups", role: "tablist", "aria-label": s.label });
+  const search = h("input", { class: "ep-search", type: "search", placeholder: "Search all titles…", "aria-label": "Search episode titles", autocomplete: "off", spellcheck: "false" });
+  const list = h("div", { class: "ep-list", "aria-label": "Episodes" });
+  const draw = () => {
+    chips.replaceChildren(...s.groups.map((name, i) => h("button", { type: "button", role: "tab", class: "ep-group", "aria-selected": String(!query && i === group),
+      onclick: () => { group = i; query = ""; search.value = ""; draw(); list.scrollTop = 0; } }, name)));
+    const q = norm(query);
+    const eps = q ? game.list.filter(ep => ep.terms[0].includes(q)) : game.list.filter(ep => ep.g === group);
+    list.replaceChildren(...(eps.length ? eps.map(ep => {
+      const used = game.guesses.includes(ep.i);
+      return h("button", { type: "button", class: `ep-pick${used ? " used" : ""}`, disabled: used, onclick: () => guess(ep) },
+        h("span", { class: "ep-code" }, q ? ep.code : s.label === "Arc" ? `#${ep.e}` : `E${ep.e}`),
+        h("span", { class: "ep-title" }, ep.title));
+    }) : [h("div", { class: "sug-empty" }, "No episode title matches that.")]));
+  };
+  search.addEventListener("input", () => { query = search.value; draw(); });
+  const box = h("div", { class: "ep-picker" }, h("div", { class: "ep-picker-top" }, chips, search), list);
+  box.redraw = draw;
+  box.input = search;
+  draw();
+  return box;
+}
+
 /* ---------- data helpers ---------- */
 const epsCache = {};
 function episodes(slug) {
@@ -154,7 +184,7 @@ function render() {
     h("div", null,
       h("button", { class: "crumb", onclick: renderHome }, "← All shows"),
       h("h1", { class: "series-title" }, s.title),
-      h("p", { class: "cutoff" }, `${game.list.length} episodes across ${s.groups.length} ${s.label.toLowerCase()}${s.groups.length === 1 ? "" : "s"}. Guess by title or code (like ${game.list[Math.min(4, game.list.length - 1)].code.replace(/ /g, "")}).`)),
+      h("p", { class: "cutoff" }, `${game.list.length} episodes across ${s.groups.length} ${s.label.toLowerCase()}${s.groups.length === 1 ? "" : "s"}. Pick the ${s.label.toLowerCase()}, then the episode — or search by title.`)),
     h("div", { class: "daybadge" }, game.unlimited ? "Unlimited · practice" : `Daily #${game.day + 1} · ${fmtDay(game.day)}`));
   const toggle = h("div", { class: "seg small", role: "tablist", "aria-label": "Daily or unlimited" },
     h("button", { role: "tab", "aria-selected": String(!game.unlimited), onclick: () => start(game.slug, { unlimited: false }) }, "Daily"),
@@ -164,14 +194,7 @@ function render() {
     onerror: () => { ui.frame.classList.add("broken"); ui.frame.append(h("div", { class: "ep-broken" }, "Couldn't load this still. The claude.ai preview blocks outside images — open the site from your folder instead.")); } });
   ui.zoom = h("div", { class: "zoom-note" });
   ui.frame = h("div", { class: "ep-frame" }, ui.img, ui.zoom);
-  ui.form = searchBox({
-    placeholder: "Type an episode title or code…",
-    items: () => game.list,
-    exclude: () => new Set(game.guesses),
-    render: ep => [h("span", { class: "ep-code" }, ep.code), h("span", { class: "sug-name" }, h("span", null, ep.title), h("span", { class: "alias" }, `${s.groups[ep.g]} · ${ep.date ? ep.date.slice(0, 4) : ""}`))],
-    onPick: ep => guess(ep),
-    empty: "No episode matches that. Try a word from the title, or a code like S2E5.",
-  });
+  ui.form = episodePicker();
   ui.result = h("div", { class: "result-host" });
   ui.rows = h("div", { class: "rows" });
   const grid = h("div", { class: "grid ep-grid", role: "table" },
@@ -187,7 +210,7 @@ function render() {
   for (const i of game.guesses.slice().reverse()) ui.rows.append(row(game.list.find(ep => ep.i === i), false));
   applyZoom(false);
   updateReveal();
-  if (over()) showResult(false); else setTimeout(() => ui.form.input.focus({ preventScroll: true }), 50);
+  if (over()) showResult(false);
   startTicker();
 }
 function applyZoom(animate) {
@@ -215,8 +238,8 @@ function guess(ep) {
   ui.rows.prepend(row(ep, true));
   applyZoom(true);
   updateReveal();
-  if (win) { ui.form.input.blur(); setTimeout(() => showResult(true), 3 * 110 + 450); }
-  else ui.form.input.focus({ preventScroll: true });
+  ui.form.redraw();
+  if (win) setTimeout(() => showResult(true), 3 * 110 + 450);
 }
 function updateReveal() {
   ui.reveal.replaceChildren();
@@ -280,7 +303,7 @@ function stopTicker() { if (ticker) clearInterval(ticker); ticker = null; }
 /* ---------- modals ---------- */
 function openHelp() {
   openModal("Episodes",
-    h("p", null, "You get one still from an episode, zoomed way in. Guess the episode by title or code (S2E5, B1E3, or just the number for Hunter x Hunter). Every miss zooms the picture out a step; after five misses you see the whole frame."),
+    h("p", null, "You get one still from an episode, zoomed way in. Pick the season (book, or arc for Hunter x Hunter) and then the episode, or search by title. Every miss zooms the picture out a step; after five misses you see the whole frame."),
     h("p", null, `Each guess tells you whether you picked the right ${"season / book / arc"} and whether the answer comes earlier or later. Yellow means you're within ${CLOSE} episodes.`),
     h("p", null, "One daily still per show, the same for everyone, resetting at midnight. Unlimited hands out random stills and doesn't touch your stats."),
     h("p", null, "Episode titles and stills come from TVmaze."));

@@ -3,7 +3,7 @@
 Daily guessing games for the group, in three tabs:
 
 - **Characters** — mangadle-style character guessing (Classic, Quote, Emoji) across 10 anime plus Avatar, Korra, SpongeBob, Power Rangers, Game of Thrones and a combined TeenNick pool (iCarly, Victorious, Drake & Josh, Zoey 101, Big Time Rush), with hand-picked casts.
-- **Episodes** — name the episode from a zoomed-in still that zooms out on every miss (Avatar, Korra, AoT, JJK, MHA, HxH, CSM, Frieren).
+- **Episodes** — name the episode from a zoomed-in still that zooms out on every miss (Avatar, Korra, AoT, JJK, HxH). You pick the season, book or arc, then the episode.
 - **Songs** — Heardle-style: name the song from a 1-second clip that grows to 16 seconds. The pool is every song that shows up in at least two people's exported playlists.
 
 ## Run it
@@ -32,6 +32,7 @@ Open `index.html` in a browser. No build step or server needed. Portraits, episo
 1. Everyone exports their main playlist or Liked Songs with [Exportify](https://exportify.net) and drops the CSV in `sources/playlists/` named `<Name> Songs.csv` (extra files for the same person: `<Name> Songs 2.csv`).
 2. Run `node tools/build-songs.mjs`. It keeps every song at least two different people have (same Spotify track, or same title + lead artist, so single and album versions match) and writes `data/songs.js`.
 3. New songs also need a preview source in `data/song-sources.js` (`"spotifyTrackId": [deezerId, itunesId, "alt title", "alt title"]`). Songs without one are left out of the game automatically.
+4. Run `node tools/check-song-sources.mjs --fix`. It checks every clip against the Spotify track (same length, artist and title; no sped-up, slowed, remix, live, cover or karaoke versions), swaps wrong ones for the original found on Deezer or Apple Music, finds sources for songs that have none, and drops songs whose original isn't on either service.
 
 ## Editing character casts
 
@@ -48,6 +49,7 @@ Adding or reordering characters/songs changes which one lands on which day, sinc
 - `node tools/validate.js data/*.js` — checks character files against the spec.
 - `node tools/build.js` — single-file build in `dist/`.
 - `node tools/build-songs.mjs` — rebuilds the song pool from `sources/playlists/`.
+- `node tools/check-song-sources.mjs [--fix]` — makes sure every song clip is the original recording (see above). `--only=<title>` checks a single song.
 - `node tools/build-episodes.mjs` — rebuilds `data/episodes.js` from `sources/tvmaze-episodes.txt` + `tools/hxh-titles.json`.
 - `node tools/download-images.mjs` — optional: copies every character portrait into `img/` so the site stops hotlinking.
 

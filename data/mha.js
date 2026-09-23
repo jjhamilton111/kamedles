@@ -406,7 +406,7 @@ window.DLE.series["mha"] = {
         "Shouji"
       ],
       "gender": "Male",
-      "hair": "White",
+      "hair": "Grey",
       "affiliation": [
         "U.A. Class 1-A"
       ],
@@ -443,7 +443,7 @@ window.DLE.series["mha"] = {
       ],
       "age": 16,
       "power": [
-        "Emitter"
+        "Mutant"
       ],
       "debut": "Entrance Exam / Battle Trial",
       "quotes": [
@@ -538,7 +538,7 @@ window.DLE.series["mha"] = {
       ],
       "age": 16,
       "power": [
-        "Transformation"
+        "Emitter"
       ],
       "debut": "Entrance Exam / Battle Trial",
       "quotes": [
@@ -569,7 +569,7 @@ window.DLE.series["mha"] = {
       ],
       "age": 16,
       "power": [
-        "Emitter"
+        "Mutant"
       ],
       "debut": "Entrance Exam / Battle Trial",
       "quotes": [
@@ -693,7 +693,7 @@ window.DLE.series["mha"] = {
         "Pro Hero",
         "U.A. Staff"
       ],
-      "age": 49,
+      "age": 55,
       "power": [
         "Emitter",
         "Quirkless"
@@ -820,7 +820,7 @@ window.DLE.series["mha"] = {
         "R-Rated Hero"
       ],
       "gender": "Female",
-      "hair": "Black",
+      "hair": "Purple",
       "affiliation": [
         "U.A. Staff",
         "Pro Hero"
@@ -856,7 +856,7 @@ window.DLE.series["mha"] = {
         "U.A. Staff",
         "Pro Hero"
       ],
-      "age": null,
+      "age": 29,
       "power": [
         "Emitter"
       ],
@@ -1010,13 +1010,13 @@ window.DLE.series["mha"] = {
         "Torino"
       ],
       "gender": "Male",
-      "hair": "White",
+      "hair": "Grey",
       "affiliation": [
         "Pro Hero"
       ],
       "age": null,
       "power": [
-        "Emitter"
+        "Mutant"
       ],
       "debut": "Hero Killer / Final Exams",
       "quotes": [
@@ -1110,7 +1110,7 @@ window.DLE.series["mha"] = {
       "affiliation": [
         "Pro Hero"
       ],
-      "age": null,
+      "age": 42,
       "power": [
         "Emitter"
       ],
@@ -1235,7 +1235,7 @@ window.DLE.series["mha"] = {
       ],
       "age": 7,
       "power": [
-        "Mutant"
+        "Emitter"
       ],
       "debut": "Shie Hassaikai",
       "quotes": [
@@ -1398,7 +1398,7 @@ window.DLE.series["mha"] = {
         "Emitter",
         "Multiple"
       ],
-      "debut": "Entrance Exam / Battle Trial",
+      "debut": "U.S.J.",
       "quotes": [
         "Man, it's game over this time. Let's go home.",
         "If you try following me, I'll get angry.",
@@ -1425,7 +1425,7 @@ window.DLE.series["mha"] = {
       "affiliation": [
         "League of Villains"
       ],
-      "age": null,
+      "age": 121,
       "power": [
         "Multiple"
       ],
@@ -1453,7 +1453,7 @@ window.DLE.series["mha"] = {
         "Blueflame"
       ],
       "gender": "Male",
-      "hair": "Black",
+      "hair": "White",
       "affiliation": [
         "League of Villains",
         "Paranormal Liberation Front"
@@ -1462,7 +1462,7 @@ window.DLE.series["mha"] = {
       "power": [
         "Emitter"
       ],
-      "debut": "Hero Killer / Final Exams",
+      "debut": "Sports Festival",
       "quotes": [
         "Those empty heroes will be pulled off their pedestals.",
         "If you're trash, at least burn and be kindling for me.",
@@ -1581,7 +1581,7 @@ window.DLE.series["mha"] = {
         "Compress"
       ],
       "gender": "Male",
-      "hair": "Other",
+      "hair": "Brown",
       "affiliation": [
         "League of Villains",
         "Paranormal Liberation Front"
@@ -1620,7 +1620,7 @@ window.DLE.series["mha"] = {
       "power": [
         "Emitter"
       ],
-      "debut": "Entrance Exam / Battle Trial",
+      "debut": "U.S.J.",
       "quotes": [
         "Nice to meet you. We are the League of Villains.",
         "I do not want blood and guts overflowing within me...",
@@ -1647,7 +1647,7 @@ window.DLE.series["mha"] = {
       "affiliation": [
         "League of Villains"
       ],
-      "age": 25,
+      "age": 26,
       "power": [
         "Transformation"
       ],
@@ -1705,7 +1705,7 @@ window.DLE.series["mha"] = {
         "Inasa"
       ],
       "gender": "Male",
-      "hair": "Black",
+      "hair": "Brown",
       "affiliation": [
         "Shiketsu High"
       ],
@@ -1737,10 +1737,10 @@ window.DLE.series["mha"] = {
         "Nagant"
       ],
       "gender": "Female",
-      "hair": "Black",
+      "hair": "Other",
       "affiliation": [
         "Pro Hero",
-        "Villain"
+        "Paranormal Liberation Front"
       ],
       "age": null,
       "power": [
@@ -1769,7 +1769,7 @@ window.DLE.series["mha"] = {
         "Danjuro Tobita"
       ],
       "gender": "Male",
-      "hair": "Blonde",
+      "hair": "White",
       "affiliation": [
         "Villain"
       ],
@@ -1804,7 +1804,7 @@ window.DLE.series["mha"] = {
       "affiliation": [
         "U.A. Support Course"
       ],
-      "age": 16,
+      "age": 17,
       "power": [
         "Mutant"
       ],
@@ -1835,7 +1835,7 @@ window.DLE.series["mha"] = {
       "affiliation": [
         "Pro Hero"
       ],
-      "age": null,
+      "age": 35,
       "power": [
         "Emitter"
       ],
@@ -1868,7 +1868,7 @@ window.DLE.series["mha"] = {
       ],
       "age": 29,
       "power": [
-        "Mutant"
+        "Transformation"
       ],
       "debut": "Shie Hassaikai",
       "quotes": [
@@ -1894,9 +1894,9 @@ window.DLE.series["mha"] = {
         "Machia"
       ],
       "gender": "Male",
-      "hair": "Black",
+      "hair": "Brown",
       "affiliation": [
-        "Villain",
+        "League of Villains",
         "Paranormal Liberation Front"
       ],
       "age": null,
@@ -1904,7 +1904,7 @@ window.DLE.series["mha"] = {
         "Multiple",
         "Mutant"
       ],
-      "debut": "Meta Liberation Army",
+      "debut": "Hero Killer / Final Exams",
       "quotes": [
         "Everything is for my master.",
         "This is unacceptable! Master! Why? He is so puny!",
@@ -1928,7 +1928,7 @@ window.DLE.series["mha"] = {
         "Redestro"
       ],
       "gender": "Male",
-      "hair": "Black",
+      "hair": "Orange",
       "affiliation": [
         "Villain",
         "Paranormal Liberation Front"
@@ -1961,7 +1961,7 @@ window.DLE.series["mha"] = {
         "Real Steel"
       ],
       "gender": "Male",
-      "hair": "Grey",
+      "hair": "White",
       "affiliation": [
         "U.A. Class 1-B"
       ],
@@ -1997,7 +1997,7 @@ window.DLE.series["mha"] = {
       "affiliation": [
         "Civilian"
       ],
-      "age": null,
+      "age": 41,
       "power": [
         "Emitter"
       ],
@@ -2024,16 +2024,16 @@ window.DLE.series["mha"] = {
         "Ken Ishiyama"
       ],
       "gender": "Male",
-      "hair": "Other",
+      "hair": "Grey",
       "affiliation": [
         "U.A. Staff",
         "Pro Hero"
       ],
-      "age": 30,
+      "age": 29,
       "power": [
         "Emitter"
       ],
-      "debut": "Sports Festival",
+      "debut": "Entrance Exam / Battle Trial",
       "quotes": [
         "You're both extremely weak in a war of attrition.",
         "I am a fan of yours, too.",
@@ -2056,11 +2056,11 @@ window.DLE.series["mha"] = {
         "Camie"
       ],
       "gender": "Female",
-      "hair": "Blonde",
+      "hair": "Brown",
       "affiliation": [
         "Shiketsu High"
       ],
-      "age": 16,
+      "age": 17,
       "power": [
         "Emitter"
       ],
