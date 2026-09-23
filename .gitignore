@@ -1,0 +1,7 @@
+# Friends' raw playlist exports stay private — only the derived data/songs.js ships
+sources/
+
+# Build output + test artifacts
+dist/
+test/shot-*.png
+node_modules/

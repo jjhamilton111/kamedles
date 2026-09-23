@@ -1,0 +1,78 @@
+#!/usr/bin/env node
+// Validates one or more Animedle series data files against DATA_SPEC.md
+const path = require("path");
+const HAIR = new Set(["Black","Brown","Blonde","White","Grey","Red","Orange","Pink","Purple","Blue","Green","Bald","Other"]);
+const GENDER = new Set(["Male","Female","Other"]);
+
+function countEmoji(s) {
+  // count grapheme clusters
+  const seg = new Intl.Segmenter("en", { granularity: "grapheme" });
+  return [...seg.segment(s)].length;
+}
+
+let totalErrors = 0;
+for (const file of process.argv.slice(2)) {
+  const errors = [], warns = [];
+  global.window = {};
+  try { require(path.resolve(file)); } catch (e) { console.log(`${file}: FAILED TO LOAD: ${e.message}`); totalErrors++; continue; }
+  const series = window.DLE && window.DLE.series ? Object.values(window.DLE.series) : [];
+  if (series.length !== 1) { console.log(`${file}: expected exactly 1 series, found ${series.length}`); totalErrors++; continue; }
+  const s = series[0];
+  const slug = path.basename(file).replace(/\.js$/, "");
+  if (s.id !== slug) errors.push(`id "${s.id}" != filename slug "${slug}"`);
+  for (const k of ["title","short","cutoff","affiliationLabel","powerLabel"]) if (typeof s[k] !== "string" || !s[k]) errors.push(`missing string field ${k}`);
+  for (const k of ["affiliations","powers","arcs","characters"]) if (!Array.isArray(s[k]) || !s[k].length) errors.push(`missing array field ${k}`);
+  if (errors.length) { console.log(`${file}:\n  - ` + errors.join("\n  - ")); totalErrors += errors.length; continue; }
+  const aff = new Set(s.affiliations), pow = new Set(s.powers), arcs = new Set(s.arcs);
+  const hairSet = Array.isArray(s.hairVocab) && s.hairVocab.length ? new Set(s.hairVocab) : HAIR;
+  const maxPower = Number.isInteger(s.maxPower) ? s.maxPower : 2;
+  const ids = new Set(), names = new Set();
+  const usedAff = new Set(), usedPow = new Set(), usedArc = new Set();
+  let quotes = 0, nullAges = 0;
+  for (const c of s.characters) {
+    const tag = c.id || c.name || "?";
+    if (!c.id || !/^[a-z0-9-]+$/.test(c.id)) errors.push(`${tag}: bad id`);
+    if (ids.has(c.id)) errors.push(`${tag}: duplicate id`); ids.add(c.id);
+    if (!c.name) errors.push(`${tag}: missing name`);
+    if (names.has((c.name||"").toLowerCase())) errors.push(`${tag}: duplicate name`); names.add((c.name||"").toLowerCase());
+    if (!Array.isArray(c.aliases)) errors.push(`${tag}: aliases must be array`);
+    if (!GENDER.has(c.gender)) errors.push(`${tag}: bad gender "${c.gender}"`);
+    if (!hairSet.has(c.hair)) errors.push(`${tag}: bad ${s.hairLabel || "hair"} "${c.hair}"`);
+    if (c.img != null && typeof c.img !== "string") errors.push(`${tag}: img must be a string URL/path or absent`);
+    if (c.wiki != null && typeof c.wiki !== "string") errors.push(`${tag}: wiki must be a string`);
+    if (!Array.isArray(c.affiliation) || c.affiliation.length < 1 || c.affiliation.length > 3) errors.push(`${tag}: affiliation must have 1-3 entries`);
+    else for (const a of c.affiliation) { if (!aff.has(a)) errors.push(`${tag}: affiliation "${a}" not in vocab`); usedAff.add(a); }
+    if (!(c.age === null || (Number.isInteger(c.age) && c.age >= 0))) errors.push(`${tag}: age must be integer or null`);
+    if (c.age === null) nullAges++;
+    if (!Array.isArray(c.power) || c.power.length < 1 || c.power.length > maxPower) errors.push(`${tag}: power must have 1-${maxPower} entries`);
+    else for (const p of c.power) { if (!pow.has(p)) errors.push(`${tag}: power "${p}" not in vocab`); usedPow.add(p); }
+    if (!arcs.has(c.debut)) errors.push(`${tag}: debut "${c.debut}" not in arcs`); usedArc.add(c.debut);
+    if (!(c.quote === null || (typeof c.quote === "string" && c.quote.trim()))) errors.push(`${tag}: quote must be string or null`);
+    if (typeof c.quote === "string") {
+      quotes++;
+      const words = c.quote.trim().split(/\s+/).length;
+      if (words > 15) errors.push(`${tag}: quote is ${words} words (max 15)`);
+      if (c.name && c.quote.toLowerCase().includes(c.name.split(" ")[0].toLowerCase()) && c.name.split(" ")[0].length > 3) warns.push(`${tag}: quote contains their own name`);
+    }
+    if (!Array.isArray(c.emojis) || c.emojis.length !== 5) errors.push(`${tag}: emojis must have exactly 5`);
+    else for (const e of c.emojis) {
+      if (typeof e !== "string" || countEmoji(e) !== 1) errors.push(`${tag}: emoji entry "${e}" is not a single emoji`);
+      if (/[A-Za-z0-9]/.test(e)) errors.push(`${tag}: emoji entry "${e}" contains letters/digits`);
+    }
+    if (typeof c.hint !== "string" || !c.hint.trim()) errors.push(`${tag}: missing hint`);
+    const lower = JSON.stringify([c.hint, c.quote]).toLowerCase();
+    if (/\b(dead|dies|died|killed|deceased|alive)\b/.test(lower)) warns.push(`${tag}: hint/quote mentions death/alive status`);
+  }
+  const n = s.characters.length;
+  if (n < 30) errors.push(`only ${n} characters (need 36-48)`);
+  if (n > 70) warns.push(`${n} characters (large cast)`);
+  for (const a of s.affiliations) if (!usedAff.has(a)) warns.push(`unused affiliation vocab "${a}"`);
+  for (const p of s.powers) if (!usedPow.has(p)) warns.push(`unused power vocab "${p}"`);
+  for (const a of s.arcs) if (!usedArc.has(a)) warns.push(`no character debuts in arc "${a}"`);
+  if (quotes / n < 0.6) warns.push(`quote coverage ${quotes}/${n} is low (aim >= 70%)`);
+  console.log(`${file}: ${n} characters, ${quotes} quotes, ${nullAges} null ages, ${errors.length} errors, ${warns.length} warnings`);
+  if (errors.length) console.log("  ERRORS:\n  - " + errors.join("\n  - "));
+  if (warns.length) console.log("  WARNINGS:\n  - " + warns.join("\n  - "));
+  totalErrors += errors.length;
+}
+process.exit(totalErrors ? 1 : 0);
