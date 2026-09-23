@@ -48,7 +48,11 @@ window.DLE.series["csm"] = {
         "Hybrid"
       ],
       "debut": "Intro Arc",
-      "quote": "I just want to touch some boobs!",
+      "quotes": [
+        "Wish they'd at least let me dream...",
+        "I wanna score with a girl before I die.",
+        "I've found it! Something to be serious about! My goal! It's... Boobs!"
+      ],
       "emojis": [
         "🍞",
         "🐕",
@@ -74,7 +78,11 @@ window.DLE.series["csm"] = {
         "Devil"
       ],
       "debut": "Intro Arc",
-      "quote": "I'll give you my heart. In exchange, show me your dreams.",
+      "quotes": [
+        "I always loved hearing you talk about your dreams, Denji.",
+        "I'll give you my heart... in exchange, I want you to show me your dream.",
+        "Do not open the door. No matter what."
+      ],
       "emojis": [
         "🐶",
         "🧡",
@@ -82,7 +90,7 @@ window.DLE.series["csm"] = {
         "❤️‍🔥",
         "🪚"
       ],
-      "hint": "A small orange dog-like devil with a chainsaw for a snout who becomes his owner's heart."
+      "hint": "A small orange dog-like devil with a saw blade for a snout who becomes his owner's heart."
     },
     {
       "id": "makima",
@@ -98,7 +106,11 @@ window.DLE.series["csm"] = {
         "Human (Devil Contract)"
       ],
       "debut": "Intro Arc",
-      "quote": "Die as a devil, or be kept by me as a human.",
+      "quotes": [
+        "I can kill you like a devil, or I can keep you as a human.",
+        "I expect \"yes\" or \"woof\" for answers. I don't need a dog that says \"no.\"",
+        "I only find one good movie for every ten movies I watch too."
+      ],
       "emojis": [
         "🍜",
         "🔗",
@@ -125,7 +137,11 @@ window.DLE.series["csm"] = {
         "Human (Devil Contract)"
       ],
       "debut": "Intro Arc",
-      "quote": "I have to kill the Gun Devil, no matter what.",
+      "quotes": [
+        "Everyone is serious about this except you.",
+        "Doesn't change what our job is. We keep killing devils, and eventually, we'll find him.",
+        "Makima... is not the kind of woman a punk like you should be chasing!"
+      ],
       "emojis": [
         "🚬",
         "🏠",
@@ -152,7 +168,11 @@ window.DLE.series["csm"] = {
         "Fiend"
       ],
       "debut": "Intro Arc",
-      "quote": "Give me the Nobel Prize!",
+      "quotes": [
+        "Devils do not lie! It is only humans who do!",
+        "Vegetables are revolting! Away!",
+        "Given there's nothing else to do, I've decided to win the Nobel Prize!"
+      ],
       "emojis": [
         "🐱",
         "🩸",
@@ -176,7 +196,11 @@ window.DLE.series["csm"] = {
         "Human (Devil Contract)"
       ],
       "debut": "Bat Devil Arc",
-      "quote": "Whoever kills the Eternity Devil gets a kiss from me, with tongue.",
+      "quotes": [
+        "Then, if you kill the devil, Denji... I'll give you a kiss... with tongue.",
+        "...devils love fear, okay? If you get scared, you're giving them what they want, sweetie.",
+        "That's because Aki learned all about the flavor of cigarettes from yours truly!"
+      ],
       "emojis": [
         "🚬",
         "🍺",
@@ -202,7 +226,11 @@ window.DLE.series["csm"] = {
         "Human (Devil Contract)"
       ],
       "debut": "Eternity Devil Arc",
-      "quote": "I don't want to die! I don't want to die!",
+      "quotes": [
+        "You're on the devil's side, Arai! You're a spy!",
+        "We're all gonna die here. We're gonna starve to death.",
+        "Nothing tastes better than drinks someone else paid for."
+      ],
       "emojis": [
         "😰",
         "🍙",
@@ -228,7 +256,11 @@ window.DLE.series["csm"] = {
         "Human (Devil Contract)"
       ],
       "debut": "Eternity Devil Arc",
-      "quote": "I'm 22, and I'm contracted with the Fox Devil.",
+      "quotes": [
+        "That's... You shouldn't do that! A young woman who's not married shouldn't be so... indecent!",
+        "Didn't you become a Devil Hunter to send your brother to college?!",
+        "You are not kissing Himeno! Asshole... I'm gonna kill you!"
+      ],
       "emojis": [
         "🙇",
         "🍶",
@@ -254,7 +286,11 @@ window.DLE.series["csm"] = {
         "Human (Devil Contract)"
       ],
       "debut": "Eternity Devil Arc",
-      "quote": "The strongest devil hunters all have a screw loose.",
+      "quotes": [
+        "The hunters that devils fear... are the ones with a couple of screws loose.",
+        "Beasts shouldn't trust anything a hunter says.",
+        "...I used to break my toys a lot, because I was too strong."
+      ],
       "emojis": [
         "🥃",
         "🧔",
@@ -280,7 +316,11 @@ window.DLE.series["csm"] = {
         "Devil"
       ],
       "debut": "Katana Man Arc",
-      "quote": "Fighting is such a hassle. I'd rather no one had to die.",
+      "quotes": [
+        "I believe that humans should suffer when they die.",
+        "Why? Why did you touch my hand? Do you want to die?",
+        "If you want to die, then die somewhere far away from me."
+      ],
       "emojis": [
         "😴",
         "🧥",
@@ -306,7 +346,11 @@ window.DLE.series["csm"] = {
         "Fiend"
       ],
       "debut": "Katana Man Arc",
-      "quote": "Chainsaw! Chainsaw!",
+      "quotes": [
+        "Lord Chainsaw! I'll do whatever you say! No matter what!",
+        "Lord Chainsaw! You're the best! You're the greatest!",
+        "Lord Chainsaw! I'll make sure you won't regret this!"
+      ],
       "emojis": [
         "🌊",
         "😁",
@@ -314,7 +358,7 @@ window.DLE.series["csm"] = {
         "🙌",
         "🪚"
       ],
-      "hint": "An energetic shark fiend who swims through walls and worships his chainsaw-wielding partner."
+      "hint": "An energetic shark-headed hunter who swims through walls and worships his chainsaw-wielding partner."
     },
     {
       "id": "violence-fiend",
@@ -332,7 +376,7 @@ window.DLE.series["csm"] = {
         "Fiend"
       ],
       "debut": "Katana Man Arc",
-      "quote": "I'm not that violent, so don't worry!",
+      "quotes": [],
       "emojis": [
         "🎭",
         "🍱",
@@ -358,7 +402,7 @@ window.DLE.series["csm"] = {
         "Devil"
       ],
       "debut": "Katana Man Arc",
-      "quote": null,
+      "quotes": [],
       "emojis": [
         "🌑",
         "🖤",
@@ -386,7 +430,9 @@ window.DLE.series["csm"] = {
         "Hybrid"
       ],
       "debut": "Katana Man Arc",
-      "quote": "My grandfather was a good person!",
+      "quotes": [
+        "My grandad was the sweetest guy in the world..."
+      ],
       "emojis": [
         "👴",
         "🧟",
@@ -412,7 +458,7 @@ window.DLE.series["csm"] = {
         "Human (Devil Contract)"
       ],
       "debut": "Katana Man Arc",
-      "quote": "Snake! Spit it out!",
+      "quotes": [],
       "emojis": [
         "🧥",
         "🥷",
@@ -440,7 +486,11 @@ window.DLE.series["csm"] = {
         "Hybrid"
       ],
       "debut": "Reze Arc (Movie)",
-      "quote": "Which are you, the country mouse or the city mouse?",
+      "quotes": [
+        "The country mouse or the city mouse. Which one would you rather be?",
+        "Why don't you quit your job and run away with me. I'll make you happy.",
+        "I'll teach you things you don't know. Things you don't know how to do."
+      ],
       "emojis": [
         "☕",
         "🌧️",
@@ -464,7 +514,11 @@ window.DLE.series["csm"] = {
         "Devil"
       ],
       "debut": "Bat Devil Arc",
-      "quote": "Ugh! Your blood tastes like garbage!",
+      "quotes": [
+        "Disgusting! I've been revived with awful-tasting blood!",
+        "If you want to save this cat, then bring me a human.",
+        "Why would you use that power to save a human?!"
+      ],
       "emojis": [
         "🌃",
         "🩸",
@@ -488,7 +542,11 @@ window.DLE.series["csm"] = {
         "Devil"
       ],
       "debut": "Bat Devil Arc",
-      "quote": "I'll make you pay for what you did to my darling!",
+      "quotes": [
+        "Y'know, he and I shared a dream: killing and eating all of humanity.",
+        "Even your howls are cute! But y'know what they say about little dogs barking!",
+        "Yap, yap, yap! Okay! I'll gobble you up, then!"
+      ],
       "emojis": [
         "💕",
         "👄",
@@ -512,7 +570,11 @@ window.DLE.series["csm"] = {
         "Devil"
       ],
       "debut": "Eternity Devil Arc",
-      "quote": "Give me Denji's heart! Then I'll set you free.",
+      "quotes": [
+        "Humans. Hear me, humans. You foolish humans. I offer you a contract...",
+        "Feed me the human known as Denji. Even his corpse will do.",
+        "I will grow as your fear grows... and with your terror, I will capture you!"
+      ],
       "emojis": [
         "🏨",
         "♾️",
@@ -539,7 +601,7 @@ window.DLE.series["csm"] = {
         "Devil"
       ],
       "debut": "Eternity Devil Arc",
-      "quote": null,
+      "quotes": [],
       "emojis": [
         "👻",
         "🤝",
@@ -564,7 +626,7 @@ window.DLE.series["csm"] = {
         "Devil"
       ],
       "debut": "Katana Man Arc",
-      "quote": null,
+      "quotes": [],
       "emojis": [
         "🔢",
         "🗡️",
@@ -591,7 +653,9 @@ window.DLE.series["csm"] = {
         "Devil"
       ],
       "debut": "Bat Devil Arc",
-      "quote": null,
+      "quotes": [
+        "Looks like she's the Leech Devil. May I swallow?"
+      ],
       "emojis": [
         "🤞",
         "🏔️",
@@ -616,7 +680,7 @@ window.DLE.series["csm"] = {
         "Devil"
       ],
       "debut": "Katana Man Arc",
-      "quote": null,
+      "quotes": [],
       "emojis": [
         "🔮",
         "🔒",
@@ -641,7 +705,11 @@ window.DLE.series["csm"] = {
         "Devil"
       ],
       "debut": "Intro Arc",
-      "quote": "Devil hunters... I hate devil hunters!",
+      "quotes": [
+        "Y'know, little devil hunter, these guys are dumb as hell. Total suckers!",
+        "I offer them a bit of demonic power, and they offer to become my slaves...",
+        "Gross! I seriously hate devil hunters."
+      ],
       "emojis": [
         "🧠",
         "💰",
@@ -666,7 +734,7 @@ window.DLE.series["csm"] = {
         "Devil"
       ],
       "debut": "Katana Man Arc",
-      "quote": null,
+      "quotes": [],
       "emojis": [
         "🌀",
         "👅",
@@ -690,7 +758,7 @@ window.DLE.series["csm"] = {
         "Devil"
       ],
       "debut": "Reze Arc (Movie)",
-      "quote": null,
+      "quotes": [],
       "emojis": [
         "🌧️",
         "🌊",
@@ -714,7 +782,7 @@ window.DLE.series["csm"] = {
         "Devil"
       ],
       "debut": "Intro Arc",
-      "quote": null,
+      "quotes": [],
       "emojis": [
         "🌱",
         "🏠",
@@ -738,7 +806,7 @@ window.DLE.series["csm"] = {
         "Devil"
       ],
       "debut": "Intro Arc",
-      "quote": null,
+      "quotes": [],
       "emojis": [
         "🌊",
         "🏙️",
@@ -764,7 +832,7 @@ window.DLE.series["csm"] = {
         "Human"
       ],
       "debut": "Katana Man Arc",
-      "quote": "Everyone in the Special Division is insane, so be careful.",
+      "quotes": [],
       "emojis": [
         "🚄",
         "👔",
@@ -790,7 +858,7 @@ window.DLE.series["csm"] = {
         "Human"
       ],
       "debut": "Katana Man Arc",
-      "quote": null,
+      "quotes": [],
       "emojis": [
         "⛩️",
         "👩‍💼",
@@ -814,7 +882,7 @@ window.DLE.series["csm"] = {
         "Human"
       ],
       "debut": "Eternity Devil Arc",
-      "quote": "I quit. This division is too dangerous for me.",
+      "quotes": [],
       "emojis": [
         "🚄",
         "😨",

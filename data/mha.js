@@ -66,7 +66,11 @@ window.DLE.series["mha"] = {
         "Quirkless"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": "It's your power! It's yours, not his!",
+      "quotes": [
+        "It's your power, isn't it?!",
+        "Can even someone without a Quirk be like you?",
+        "My legs moved on their own! I don't know why, though!"
+      ],
       "emojis": [
         "📓",
         "😭",
@@ -95,7 +99,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": "Shut up, you damn nerd!",
+      "quotes": [
+        "Don't look down on me! You damn nerd!",
+        "Here, I will become number one!",
+        "Shut up. I'll win. That's what it means to be a hero!"
+      ],
       "emojis": [
         "😡",
         "🧨",
@@ -122,7 +130,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": "Are you All Might's secret love child or something?",
+      "quotes": [
+        "Are you All Might's secret love child or something?",
+        "I will win and advance with just Mom's power.",
+        "For that one moment I forgot about you."
+      ],
       "emojis": [
         "😐",
         "🩹",
@@ -150,7 +162,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": "I want to be a hero so I can make money!",
+      "quotes": [
+        "I'll definitely become a hero and make money and let my parents take it easy.",
+        "But \"Deku\" sounds like the Japanese word for \"You can do it!\"...",
+        "But it'd be bad luck if you fell, right?"
+      ],
       "emojis": [
         "😊",
         "💴",
@@ -177,7 +193,11 @@ window.DLE.series["mha"] = {
         "Mutant"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": "Everyone! Everything is fine! There's nothing to panic about!",
+      "quotes": [
+        "Everyone, everything is fine! It is just the media! There is nothing to panic about!",
+        "Don't put your feet on the desk!",
+        "Then listen, criminal! I am the younger brother of a hero you attacked."
+      ],
       "emojis": [
         "📏",
         "👓",
@@ -205,7 +225,11 @@ window.DLE.series["mha"] = {
         "Mutant"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": "Call me Tsu.",
+      "quotes": [
+        "I say whatever comes to mind.",
+        "No one can beat me in water, ribbit.",
+        "I hardened my heart and said some painful things."
+      ],
       "emojis": [
         "😶",
         "🌧️",
@@ -232,7 +256,11 @@ window.DLE.series["mha"] = {
         "Transformation"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": "That's so manly!",
+      "quotes": [
+        "A surprise attack isn't manly at all!",
+        "If I don't do anything now, I won't be a hero or a man anymore!",
+        "I'm not even a man, let alone a hero."
+      ],
       "emojis": [
         "💪",
         "😁",
@@ -260,7 +288,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": "I can create anything, as long as I understand its structure!",
+      "quotes": [
+        "I have a plan! A special operation just to beat Mr. Aizawa!",
+        "...it is foolish to launch a large-scale attack indoors.",
+        "I hope I will not bring shame to this name."
+      ],
       "emojis": [
         "📚",
         "🍵",
@@ -288,7 +320,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": "Indiscriminate Shock, 1.3 million volts!",
+      "quotes": [
+        "Indiscriminate Shock, 1.3 million volts!",
+        "...it's amazing that everyone already knows his personality is crap steeped in sewage.",
+        "I see. In that case I can be really strong!"
+      ],
       "emojis": [
         "😎",
         "🤪",
@@ -316,7 +352,11 @@ window.DLE.series["mha"] = {
         "Mutant"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": "Heartbeat Distortion!",
+      "quotes": [
+        "Heartbeat Distortion!",
+        "You want to be a hero, don't you? If so, then let's pass this!",
+        "My problem is that you're the one... who made my pals cry!!"
+      ],
       "emojis": [
         "🎸",
         "🎤",
@@ -343,7 +383,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": "Revelry in the dark!",
+      "quotes": [
+        "Revelry in the dark!",
+        "Get away from me! You'll die!",
+        "Just as Hawks taught me, speed will outshine raw power!"
+      ],
       "emojis": [
         "🌑",
         "🖤",
@@ -371,7 +415,11 @@ window.DLE.series["mha"] = {
         "Mutant"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": null,
+      "quotes": [
+        "The act of saving people comes with risks. That's why heroes are called heroes.",
+        "I'm used to being feared by everyone.",
+        "But, this isn't a situation where we should act on our emotions."
+      ],
       "emojis": [
         "🧣",
         "😷",
@@ -398,7 +446,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": null,
+      "quotes": [
+        "Don't you think that's a bit much?",
+        "I got 84! Look, isn't it amazing?",
+        "Unlike some of you, my life wasn't full of wild highs and tragic lows."
+      ],
       "emojis": [
         "😁",
         "🕷️",
@@ -425,7 +477,11 @@ window.DLE.series["mha"] = {
         "Mutant"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": "I don't remember any of it. I'm withdrawing.",
+      "quotes": [
+        "I barely remember anything from the cavalry battle until almost the end.",
+        "I can't be up there with everyone without knowing what really happened.",
+        "That's not it. I'm talking about my pride here."
+      ],
       "emojis": [
         "🥋",
         "😐",
@@ -453,7 +509,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": "Acid Veil!",
+      "quotes": [
+        "Acid Veil!",
+        "Okay, boy, let's dance!",
+        "I know all about fear, cuz I'm weak!"
+      ],
       "emojis": [
         "💃",
         "🎉",
@@ -481,7 +541,10 @@ window.DLE.series["mha"] = {
         "Transformation"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": null,
+      "quotes": [
+        "I finished unpacking really early, so I baked a chiffon cake.",
+        "If not... I'm never lending you food dye for Eri's candy apples ever again!"
+      ],
       "emojis": [
         "💪",
         "👄",
@@ -509,7 +572,10 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": null,
+      "quotes": [
+        "That's right, I got into my dream school, U.A.!",
+        "Birds of the forest! Remove the evil beasts from this place!"
+      ],
       "emojis": [
         "🤫",
         "🪨",
@@ -536,7 +602,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": "I cannot stop twinkling!",
+      "quotes": [
+        "My Navel Laser is pro-level in both flashiness and strength.",
+        "Then, have some cheese.",
+        "You fear the light and hope that come with recovery."
+      ],
       "emojis": [
         "✨",
         "🧀",
@@ -564,7 +634,11 @@ window.DLE.series["mha"] = {
         "Mutant"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": null,
+      "quotes": [
+        "I'm going to get serious! I'll take off my gloves and boots, too!",
+        "Warp Refraction: Say Cheese!",
+        "I had to wonder why you haven't smiled once since Midoriya came back to us."
+      ],
       "emojis": [
         "👋",
         "🧤",
@@ -591,7 +665,11 @@ window.DLE.series["mha"] = {
         "Mutant"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": "I'm gonna be a hero and get popular with the ladies!",
+      "quotes": [
+        "I wanted to be popular with girls. That's why I wanted to be a hero.",
+        "It's not that they're cool because they're heroes. They're heroes because they're cool!",
+        "Stealing Dark Shadow for yourself... is only gonna turn you into a cringey edgelord!!"
+      ],
       "emojis": [
         "😈",
         "😢",
@@ -621,7 +699,11 @@ window.DLE.series["mha"] = {
         "Quirkless"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": "It's fine now. Why? Because I am here!",
+      "quotes": [
+        "It's fine now. Why? Because I am here!",
+        "Pros are always risking their lives!",
+        "Next, it's your turn."
+      ],
       "emojis": [
         "😁",
         "☀️",
@@ -629,7 +711,7 @@ window.DLE.series["mha"] = {
         "🩸",
         "💪"
       ],
-      "hint": "The grinning, muscle-bound Symbol of Peace who secretly shrinks into a gaunt, coughing man."
+      "hint": "The grinning, muscle-bound greatest hero of his era, who secretly shrinks into a gaunt, coughing man."
     },
     {
       "id": "shota-aizawa",
@@ -651,7 +733,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": "It was a logical ruse.",
+      "quotes": [
+        "It was a rational deception to draw out the upper limits of your Quirks.",
+        "Time is limited. You kids are not rational enough.",
+        "You can't be a hero with just one trick."
+      ],
       "emojis": [
         "😴",
         "🧣",
@@ -679,7 +765,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": "Everybody say hey!",
+      "quotes": [
+        "Everybody say \"hey\"!",
+        "Eraser Head, your class is amazing! What're you teaching them?!",
+        "The hero Napoleon Bonaparte once said: \"A true hero is someone who overcomes life's misfortunes.\""
+      ],
       "emojis": [
         "🎙️",
         "🕶️",
@@ -707,7 +797,11 @@ window.DLE.series["mha"] = {
         "Mutant"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": "Am I a mouse? A dog? A bear? Who cares, I'm the principal!",
+      "quotes": [
+        "The secret is keratin. Humans can't get this kind of color and luster.",
+        "Those calculations are as easy as making a cup of tea.",
+        "The single step... feels like an impossible journey."
+      ],
       "emojis": [
         "🎓",
         "🫖",
@@ -736,7 +830,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Sports Festival",
-      "quote": null,
+      "quotes": [
+        "Youthful talk like that is something I like!",
+        "Oh, youth! I'll allow it!",
+        "If someone runs away from me screaming, my sadistic side starts to throb..."
+      ],
       "emojis": [
         "🔞",
         "👓",
@@ -763,7 +861,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "U.S.J.",
-      "quote": null,
+      "quotes": [
+        "Before we begin, let me say one thing, or two, three, four, five, six, seven...",
+        "But it is a power that can kill easily.",
+        "You do not have powers so you can harm others."
+      ],
       "emojis": [
         "🚀",
         "👩‍🚀",
@@ -790,7 +892,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Sports Festival",
-      "quote": "Prominence Burn!",
+      "quotes": [
+        "Prominence Burn!",
+        "You're different from your siblings. You are the greatest masterpiece!",
+        "Follow me! I'll show you what it means to be a hero!"
+      ],
       "emojis": [
         "😠",
         "🥈",
@@ -818,7 +924,11 @@ window.DLE.series["mha"] = {
         "Mutant"
       ],
       "debut": "School Festival / Pro Hero",
-      "quote": "I want a world where heroes have too much free time.",
+      "quotes": [
+        "I want... a world where heroes have too much time on their hands.",
+        "I just want to take it easy. Really.",
+        "I want you to become a dependable leader now that you're number one."
+      ],
       "emojis": [
         "😏",
         "🍗",
@@ -845,7 +955,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Hero Killer / Final Exams",
-      "quote": null,
+      "quotes": [
+        "It is part of my work as a hero to correct people like you.",
+        "I'll show those glaring eyes of yours what makes someone a hero.",
+        "You've overreached and are now coming apart at the seams... like cheap, inferior denim!"
+      ],
       "emojis": [
         "😐",
         "🧵",
@@ -874,7 +988,11 @@ window.DLE.series["mha"] = {
         "Mutant"
       ],
       "debut": "School Festival / Pro Hero",
-      "quote": null,
+      "quotes": [
+        "I heard you formed a team? Weakling.",
+        "I cancelled out the impact with my legs!",
+        "Guys who suddenly attack from far away are always weak at close combat!"
+      ],
       "emojis": [
         "😤",
         "🦵",
@@ -901,7 +1019,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Hero Killer / Final Exams",
-      "quote": null,
+      "quotes": [
+        "All right, kid! We're gonna eat those frozen taiyaki I bought yesterday.",
+        "I can't stand watching how you're using your power, so I'll teach you.",
+        "You think about a lot of stuff normally, don't you, kid?"
+      ],
       "emojis": [
         "👴",
         "🐟",
@@ -929,7 +1051,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Shie Hassaikai",
-      "quote": "A society without humor and energy has no bright future.",
+      "quotes": [
+        "A society without cheer and humor will not have a bright future.",
+        "There is someone more worthy to inherit One For All. I cannot acknowledge you.",
+        "Because I don't feel like stamping it."
+      ],
       "emojis": [
         "👓",
         "🤣",
@@ -957,7 +1083,11 @@ window.DLE.series["mha"] = {
         "Transformation"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": "Canyon Cannon!",
+      "quotes": [
+        "Canyon Cannon!",
+        "A pleasure to make your ass-quaintance.",
+        "Prioritize the rescue! Go, stupid kids!"
+      ],
       "emojis": [
         "💜",
         "📸",
@@ -985,7 +1115,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Star and Stripe / U.A. Traitor",
-      "quote": "New Order!",
+      "quotes": [
+        "I'll never forget the sight of those two hair tufts!",
+        "If Tomura Shigaraki moves at all, his heart will stop.",
+        "Someone will inherit that will of heroism... they will strike you down."
+      ],
       "emojis": [
         "🗽",
         "✈️",
@@ -1012,7 +1146,12 @@ window.DLE.series["mha"] = {
         "Transformation"
       ],
       "debut": "Shie Hassaikai",
-      "quote": "Power!",
+      "quotes": [
+        "Power!",
+        "It's fine! I will become your hero!",
+        "Why don't you all fight me at once?",
+        "If I look gloomy, then Eri will probably also feel bad."
+      ],
       "emojis": [
         "😃",
         "🐯",
@@ -1039,7 +1178,11 @@ window.DLE.series["mha"] = {
         "Transformation"
       ],
       "debut": "Shie Hassaikai",
-      "quote": null,
+      "quotes": [
+        "I still can't see them as anything but human.",
+        "For the ones stalling for time, I'll be enough by myself.",
+        "They are vegetables. I want to go home."
+      ],
       "emojis": [
         "😰",
         "🧱",
@@ -1067,7 +1210,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Shie Hassaikai",
-      "quote": "Hey, hey! Why do you have a tail?",
+      "quotes": [
+        "Hey, hey, Ojiro, can you support your whole body with your tail?",
+        "Hey, hey, why are you wearing a mask? Are you sick?",
+        "Hey, hey, can I say it? Can I? It's Permeation!"
+      ],
       "emojis": [
         "😄",
         "❓",
@@ -1091,7 +1238,11 @@ window.DLE.series["mha"] = {
         "Mutant"
       ],
       "debut": "Shie Hassaikai",
-      "quote": null,
+      "quotes": [
+        "I thought about how I wanted to know more about everyone.",
+        "Is Deku not going to dance?",
+        "I know... that I can't help a lot... but let me fight too!"
+      ],
       "emojis": [
         "👧",
         "🍎",
@@ -1118,7 +1269,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Sports Festival",
-      "quote": "Class A, Class A, that's all anyone talks about!",
+      "quotes": [
+        "Two people! You had two people fail the provisional licensing exam!",
+        "Almost everyone here has their eyes on Class A. Why is that?",
+        "I don't possess the right stuff to be the main character."
+      ],
       "emojis": [
         "😏",
         "🤣",
@@ -1146,7 +1301,11 @@ window.DLE.series["mha"] = {
         "Transformation"
       ],
       "debut": "Sports Festival",
-      "quote": "Sorry about him, he's an idiot.",
+      "quotes": [
+        "Sorry, Class A. This guy's heart's just kinda, you know.",
+        "Yaoyorozu has the better Quirk and grades. But people are comparing me to her.",
+        "I wanted to experience something more hero-like, though."
+      ],
       "emojis": [
         "😅",
         "🥋",
@@ -1173,7 +1332,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Sports Festival",
-      "quote": "Consider this a declaration of war.",
+      "quotes": [
+        "I came with a declaration of war.",
+        "...if you get too carried away, I'll sweep your feet out from under you.",
+        "I will become a pro hero with my own strength."
+      ],
       "emojis": [
         "😑",
         "🧣",
@@ -1202,7 +1365,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Hero Killer / Final Exams",
-      "quote": "The only one who's allowed to kill me is All Might!",
+      "quotes": [
+        "The only one I'll let kill me is the true hero All Might!",
+        "Come! Try and get me, you fakes!",
+        "Reflect on yourself and save others. Don't use your power for yourself."
+      ],
       "emojis": [
         "🧣",
         "👅",
@@ -1232,7 +1399,11 @@ window.DLE.series["mha"] = {
         "Multiple"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": "Everything I don't like, I'll just destroy.",
+      "quotes": [
+        "Man, it's game over this time. Let's go home.",
+        "If you try following me, I'll get angry.",
+        "The villains... need a hero of their own."
+      ],
       "emojis": [
         "🎮",
         "🖐️",
@@ -1259,7 +1430,11 @@ window.DLE.series["mha"] = {
         "Multiple"
       ],
       "debut": "Hero Killer / Final Exams",
-      "quote": "Now then... where is Tomura?",
+      "quotes": [
+        "You failed again, huh, Tomura? But do not be discouraged. Just try again.",
+        "The view you had from atop our sacrifices... It must have been a great one.",
+        "Heroes have a lot of things they need to protect, don't they?"
+      ],
       "emojis": [
         "🎩",
         "🕴️",
@@ -1288,7 +1463,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Hero Killer / Final Exams",
-      "quote": "Hey, Endeavor. Let's dance.",
+      "quotes": [
+        "Those empty heroes will be pulled off their pedestals.",
+        "If you're trash, at least burn and be kindling for me.",
+        "A single person with a single conviction has the power to change the world."
+      ],
       "emojis": [
         "😒",
         "📎",
@@ -1315,7 +1494,11 @@ window.DLE.series["mha"] = {
         "Transformation"
       ],
       "debut": "Hero Killer / Final Exams",
-      "quote": "I want to become the people I love!",
+      "quotes": [
+        "I want to become Mr. Stainy! I want to kill Mr. Stainy!",
+        "I love people who are beat up and smell like blood!",
+        "To me, the League is a place that's comfortable."
+      ],
       "emojis": [
         "😊",
         "🎒",
@@ -1343,7 +1526,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Forest Training Camp",
-      "quote": "Sad Man's Parade!",
+      "quotes": [
+        "Sad Man's Parade!",
+        "I need to wrap myself up. I'm gonna tear apart, split in two!",
+        "Toga, I will save your life!"
+      ],
       "emojis": [
         "🎭",
         "🤝",
@@ -1371,7 +1558,11 @@ window.DLE.series["mha"] = {
         "Mutant"
       ],
       "debut": "Hero Killer / Final Exams",
-      "quote": "I'm here for Stain's ideology!",
+      "quotes": [
+        "That child is someone Stain wished to save!",
+        "You fake heroes who only care about yourselves are targets to be purged!",
+        "Maybe... I can really be somebody."
+      ],
       "emojis": [
         "🎮",
         "🧣",
@@ -1400,7 +1591,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Forest Training Camp",
-      "quote": "Ladies and gentlemen, it's show time!",
+      "quotes": [
+        "\"Give him back\"? That's a strange thing to say. Bakugo doesn't belong to anyone.",
+        "I can't believe you flew so far to chase after me.",
+        "It's all for that ta-da moment that the true trick is saved till the end."
+      ],
       "emojis": [
         "🎩",
         "🎭",
@@ -1426,7 +1621,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": "Greetings. We are the League of Villains.",
+      "quotes": [
+        "Nice to meet you. We are the League of Villains.",
+        "I do not want blood and guts overflowing within me...",
+        "I am... protector... of what?"
+      ],
       "emojis": [
         "🍸",
         "👔",
@@ -1453,7 +1652,11 @@ window.DLE.series["mha"] = {
         "Transformation"
       ],
       "debut": "Forest Training Camp",
-      "quote": "Is that all you've got, kid?",
+      "quotes": [
+        "I'll make sure to torment you thoroughly, so show me your blood!",
+        "What am I trying to say? I'm bragging!",
+        "In other words, you are a completely inferior version of me!"
+      ],
       "emojis": [
         "😈",
         "👁️",
@@ -1480,7 +1683,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Shie Hassaikai",
-      "quote": "Don't touch me. You're filthy.",
+      "quotes": [
+        "Give me a break. This place is so dusty I feel like I'll get sick.",
+        "It's all a filthy disease of our time. I'll fix guys like you.",
+        "Don't use my name so casually. I've already thrown that name away!"
+      ],
       "emojis": [
         "🧤",
         "🦠",
@@ -1507,7 +1714,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Provisional Hero License",
-      "quote": "Plus... Ultra!",
+      "quotes": [
+        "I love U.A. High School!",
+        "I think heroes need passion! All of your fights are so passionate!",
+        "You and your dad are the only heroes I won't accept no matter what!"
+      ],
       "emojis": [
         "💪",
         "📢",
@@ -1536,7 +1747,10 @@ window.DLE.series["mha"] = {
         "Transformation"
       ],
       "debut": "Dark Hero",
-      "quote": null,
+      "quotes": [
+        "This superpowered society is a gilded daydream seen through rose-colored glasses.",
+        "I'd been stained by darkness and lost faith in the light..."
+      ],
       "emojis": [
         "💗",
         "🌃",
@@ -1564,7 +1778,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "School Festival / Pro Hero",
-      "quote": null,
+      "quotes": [
+        "Dear listeners, what kind of tea do you drink at what times?",
+        "If you blame others, then you won't be able to grow, La Brava.",
+        "Today marks my first step towards true infamy."
+      ],
       "emojis": [
         "☕",
         "🎩",
@@ -1591,7 +1809,11 @@ window.DLE.series["mha"] = {
         "Mutant"
       ],
       "debut": "Sports Festival",
-      "quote": "Look at my babies!",
+      "quotes": [
+        "What do you think of my babies? Aren't they cute?",
+        "Cuteness can be made, you know.",
+        "If you want to cool your legs, then why don't you run with your arms?"
+      ],
       "emojis": [
         "🔧",
         "🥽",
@@ -1618,7 +1840,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Hideout Raid",
-      "quote": "Those who can smile are the strongest.",
+      "quotes": [
+        "Because in this world, the ones who are smiling are the strongest.",
+        "So true heroes don't just save lives, they save hearts, too.",
+        "Really, kid? Was that pipe gonna lead you to victory?"
+      ],
       "emojis": [
         "😊",
         "🦸‍♀️",
@@ -1645,7 +1871,11 @@ window.DLE.series["mha"] = {
         "Mutant"
       ],
       "debut": "Shie Hassaikai",
-      "quote": null,
+      "quotes": [
+        "...it's a matter of how fast you can make them lose their will to fight.",
+        "Our Suneater's skills have long been as good as a pro's!",
+        "If even your spirit breaks, then you really have lost!"
+      ],
       "emojis": [
         "😋",
         "🐙",
@@ -1675,7 +1905,11 @@ window.DLE.series["mha"] = {
         "Mutant"
       ],
       "debut": "Meta Liberation Army",
-      "quote": null,
+      "quotes": [
+        "Everything is for my master.",
+        "This is unacceptable! Master! Why? He is so puny!",
+        "A king... must inspire dread. Must be admired. Must be strong."
+      ],
       "emojis": [
         "😴",
         "💪",
@@ -1704,7 +1938,11 @@ window.DLE.series["mha"] = {
         "Transformation"
       ],
       "debut": "Meta Liberation Army",
-      "quote": null,
+      "quotes": [
+        "We will tear down the existing framework and rebuild this world...",
+        "Only someone who strives to survive under harsh conditions is capable of this.",
+        "I've been honing my Stress. So I know it very well."
+      ],
       "emojis": [
         "👓",
         "💼",
@@ -1732,7 +1970,11 @@ window.DLE.series["mha"] = {
         "Transformation"
       ],
       "debut": "Sports Festival",
-      "quote": null,
+      "quotes": [
+        "Hero course Class 1-B! If we don't stand now, then when will we?",
+        "Your ice wall means nothing to me!",
+        "I will crush it with my fists of justice!"
+      ],
       "emojis": [
         "🔥",
         "💪",
@@ -1760,7 +2002,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Entrance Exam / Battle Trial",
-      "quote": "I'm sorry, Izuku! I'm so sorry!",
+      "quotes": [
+        "I'm sorry, Izuku! I'm sorry. I'm sorry!",
+        "I'll support you openly with everything I've got from now on!",
+        "Izuku, I can't take this anymore. My heart can't take it."
+      ],
       "emojis": [
         "🏠",
         "💚",
@@ -1788,7 +2034,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Sports Festival",
-      "quote": null,
+      "quotes": [
+        "You're both extremely weak in a war of attrition.",
+        "I am a fan of yours, too.",
+        "Whatever happens... we must stake our lives on the job!"
+      ],
       "emojis": [
         "📚",
         "🟫",
@@ -1815,7 +2065,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Provisional Hero License",
-      "quote": null,
+      "quotes": [
+        "I'm totally psyched to train with a hot guy.",
+        "Seriously, can I like, have your number?",
+        "So psyched to get a chance for this do-over. It's, like, totes awesome."
+      ],
       "emojis": [
         "💁‍♀️",
         "🧢",
@@ -1843,7 +2097,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Joint Training",
-      "quote": null,
+      "quotes": [
+        "Freed from the shackles of humanity, with increasing power... Someone transcendent is coming. Stop him.",
+        "If only you could've found even a bit of compassion for others...",
+        "He only sees other human beings as playthings or as prizes to win."
+      ],
       "emojis": [
         "💭",
         "🤍",
@@ -1871,7 +2129,11 @@ window.DLE.series["mha"] = {
         "Emitter"
       ],
       "debut": "Sports Festival",
-      "quote": "You're allowed to become what you want to be.",
+      "quotes": [
+        "It's okay for you to become who you want to be.",
+        "You don't have to be a prisoner of your blood.",
+        "You don't get to claim you're hurting more than anyone."
+      ],
       "emojis": [
         "🌸",
         "🤍",

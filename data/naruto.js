@@ -66,7 +66,11 @@ window.DLE.series["naruto"] = {
         "Sage Mode"
       ],
       "debut": "Land of Waves",
-      "quote": "I never go back on my word! That's my nindo, my ninja way!",
+      "quotes": [
+        "I never go back on my word! That's my nindo, my ninja way!",
+        "Take your best shot, fool. I'll give it back to you a thousand fold!",
+        "If there's truly such a thing as peace in this world, I'll find it."
+      ],
       "emojis": [
         "☀️",
         "🍜",
@@ -95,7 +99,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Land of Waves",
-      "quote": "I have long since closed my eyes. My only goal is in the darkness.",
+      "quotes": [
+        "You're not hurt are you? Scaredy cat.",
+        "You haven't changed. You're still annoying.",
+        "The things I seek now lie only in the darkness."
+      ],
       "emojis": [
         "🌑",
         "🔥",
@@ -122,7 +130,11 @@ window.DLE.series["naruto"] = {
         "Taijutsu"
       ],
       "debut": "Land of Waves",
-      "quote": "Please, Naruto... bring Sasuke back home!",
+      "quotes": [
+        "Just bring him home. Please bring Sasuke back to me.",
+        "Okay, no more caving. Now it's my turn to take the lead.",
+        "Is that the ninja way? To use and be used by people like tools?"
+      ],
       "emojis": [
         "👊",
         "💊",
@@ -151,7 +163,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Land of Waves",
-      "quote": "Those who abandon their friends are worse than scum.",
+      "quotes": [
+        "Those who abandon their friends are worse than scum.",
+        "Sorry I'm late, I'm afraid I got lost on the path of life.",
+        "A ninja must see underneath the underneath."
+      ],
       "emojis": [
         "📖",
         "😷",
@@ -176,7 +192,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Tenchi Bridge Reconnaissance",
-      "quote": null,
+      "quotes": [
+        "Well don't write me off yet. I like everyone, even you, ugly.",
+        "The best way to defuse a troublesome situation is by smiling...",
+        "I told you, I just don't have any feelings at all."
+      ],
       "emojis": [
         "😶",
         "📜",
@@ -205,7 +225,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Tenchi Bridge Reconnaissance",
-      "quote": null,
+      "quotes": [
+        "Mutual respect and trust are essential elements of teamwork.",
+        "It doesn't matter whether the things you do for him are great or small.",
+        "You are part of the team led by the great Kakashi. Lose the attitude."
+      ],
       "emojis": [
         "😨",
         "🏠",
@@ -231,7 +255,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Land of Waves",
-      "quote": "What a drag.",
+      "quotes": [
+        "What a drag.",
+        "Sometimes I wish I was a cloud just floating along...",
+        "So why do I always have to fight girls? It sucks man."
+      ],
       "emojis": [
         "😴",
         "☁️",
@@ -259,7 +287,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Land of Waves",
-      "quote": "I'm not fat, I'm just big-boned!",
+      "quotes": [
+        "So far out of the loop, he doesn't even know there is a loop.",
+        "Do you really think I could get married one day?",
+        "Fat!? I'm big boned!"
+      ],
       "emojis": [
         "🎈",
         "🍙",
@@ -286,7 +318,11 @@ window.DLE.series["naruto"] = {
         "Medical Ninjutsu"
       ],
       "debut": "Land of Waves",
-      "quote": "Move it, Billboard Brow!",
+      "quotes": [
+        "What?! He should have been bowled over by my beauty!",
+        "Sakura, I will never let you beat me no matter how hard you try.",
+        "Guess you finally got a flower to bloom, a beautiful flower."
+      ],
       "emojis": [
         "💜",
         "🧠",
@@ -314,7 +350,11 @@ window.DLE.series["naruto"] = {
         "Taijutsu"
       ],
       "debut": "Land of Waves",
-      "quote": "I'm not afraid... because I love you, Naruto.",
+      "quotes": [
+        "I won't let you hurt Naruto anymore!",
+        "Naruto. I've run after you my whole life.",
+        "In my eyes... you're a proud failure!"
+      ],
       "emojis": [
         "😳",
         "🌙",
@@ -341,7 +381,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Land of Waves",
-      "quote": "Let's go, Akamaru!",
+      "quotes": [
+        "Deal with it. I never go into battle without Akamaru.",
+        "I have no idea what's going on but I'm always up for getting wild!",
+        "A wall's a wall and there's no wall I can't punch a hole through!"
+      ],
       "emojis": [
         "🐾",
         "🦷",
@@ -367,7 +411,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Land of Waves",
-      "quote": "You forgot about me again, didn't you?",
+      "quotes": [
+        "While an ace in the hole is good, two aces are better.",
+        "When we fight, no matter how puny our opponent is, we don't mock them.",
+        "I'll support you fully with my Ninjutsu, Naruto. And the reason is not necessary!"
+      ],
       "emojis": [
         "🕶️",
         "🧥",
@@ -395,7 +443,11 @@ window.DLE.series["naruto"] = {
         "Taijutsu"
       ],
       "debut": "Chunin Exams",
-      "quote": "A failure will always be a failure.",
+      "quotes": [
+        "A failure will always be a failure.",
+        "Why fight a hopeless battle trying to defy your destiny?",
+        "Naruto, sometimes your eyes are even better than mine."
+      ],
       "emojis": [
         "🕊️",
         "☯️",
@@ -422,7 +474,11 @@ window.DLE.series["naruto"] = {
         "Taijutsu"
       ],
       "debut": "Chunin Exams",
-      "quote": "A dropout will beat a genius through hard work!",
+      "quotes": [
+        "Please be my girlfriend! I vow to protect you with my life!",
+        "Sakura, the lotus of the Leaf Village blooms twice.",
+        "If I cannot do 1200 jump ropes without a mistake, then it is 2000 kicks!"
+      ],
       "emojis": [
         "👊",
         "🔥",
@@ -446,7 +502,11 @@ window.DLE.series["naruto"] = {
         "Kenjutsu / Weapons"
       ],
       "debut": "Chunin Exams",
-      "quote": null,
+      "quotes": [
+        "It's not because they're girls, you know.",
+        "Oh give me a break. Do you get this excited about everything he says?",
+        "...to walk in the footsteps of the legendary kunoichi Tsunade!"
+      ],
       "emojis": [
         "🎯",
         "📜",
@@ -475,7 +535,11 @@ window.DLE.series["naruto"] = {
         "Taijutsu"
       ],
       "debut": "Chunin Exams",
-      "quote": "It's the springtime of youth!",
+      "quotes": [
+        "You guys are in the springtime of your youth!",
+        "All the effort is pointless if you don't believe in yourself!",
+        "You make me so mad, Kakashi! Why do you always have to act so cool?"
+      ],
       "emojis": [
         "🔥",
         "👍",
@@ -502,7 +566,11 @@ window.DLE.series["naruto"] = {
         "Kenjutsu / Weapons"
       ],
       "debut": "Land of Waves",
-      "quote": "The king is the next generation.",
+      "quotes": [
+        "Shikamaru can think 10 steps ahead and imagine over 200 possible moves to make.",
+        "Make sure that you don't ever lose to Sakura, not in Ninjutsu or romance.",
+        "Whatever the future holds never forget you were members of Squad 10."
+      ],
       "emojis": [
         "♟️",
         "🌪️",
@@ -528,7 +596,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Land of Waves",
-      "quote": "He's Naruto Uzumaki of the Hidden Leaf Village!",
+      "quotes": [
+        "He's Naruto Uzumaki of the Village Hidden in the Leaves!",
+        "Not so fast. You've got a long way to go before you can beat me.",
+        "If you clean up all that mess, I'll buy you ramen tonight."
+      ],
       "emojis": [
         "📚",
         "🏫",
@@ -557,7 +629,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Chunin Exams",
-      "quote": "I'm not a pervert... I'm a super pervert!",
+      "quotes": [
+        "You ruined my peeking! I mean my research!",
+        "A real ninja is one who endures no matter what gets thrown at him.",
+        "I still plan to change this world with my books!"
+      ],
       "emojis": [
         "📕",
         "🔞",
@@ -565,7 +641,7 @@ window.DLE.series["naruto"] = {
         "📜",
         "🐸"
       ],
-      "hint": "White-maned toad sage and shameless pervert who writes adult novels."
+      "hint": "White-maned Sannin and shameless pervert who summons toads and writes adult novels."
     },
     {
       "id": "tsunade",
@@ -586,7 +662,11 @@ window.DLE.series["naruto"] = {
         "Taijutsu"
       ],
       "debut": "Search for Tsunade",
-      "quote": "Only a fool would want to be Hokage.",
+      "quotes": [
+        "Playing at Hokage, count me out. It's a fool's game.",
+        "From now on, I'm gambling everything too. I'm putting my life on the line!",
+        "People become stronger because they have memories they can't forget."
+      ],
       "emojis": [
         "🍶",
         "🎰",
@@ -612,7 +692,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Chunin Exams",
-      "quote": "I want to learn every jutsu in the world.",
+      "quotes": [
+        "The best medicines are always bitter.",
+        "You know how the game of chess is played... pieces must be sacrificed!",
+        "Now Sasuke you are mine. Give me your body!"
+      ],
       "emojis": [
         "🧪",
         "⚗️",
@@ -640,7 +724,11 @@ window.DLE.series["naruto"] = {
         "Sage Mode"
       ],
       "debut": "Konoha Crush",
-      "quote": null,
+      "quotes": [
+        "Nine Tails, your power is too great, too destructive.",
+        "I will protect our... no, my village.",
+        "Shinobi are those who endure in order to achieve their goals."
+      ],
       "emojis": [
         "🤝",
         "🏘️",
@@ -667,7 +755,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Konoha Crush",
-      "quote": null,
+      "quotes": [
+        "You're a bigger idiot than my elder brother!",
+        "Saru... Protect those who love the village and those who believe in you.",
+        "As you well know, older brother, the Uchiha are a clan possessed by evil!"
+      ],
       "emojis": [
         "⚡",
         "🏘️",
@@ -675,7 +767,7 @@ window.DLE.series["naruto"] = {
         "💧",
         "🌊"
       ],
-      "hint": "Stern white-haired Second Hokage who invented many forbidden jutsu."
+      "hint": "Stern white-haired early leader of the Leaf who invented many forbidden jutsu."
     },
     {
       "id": "hiruzen-sarutobi",
@@ -695,7 +787,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Land of Waves",
-      "quote": null,
+      "quotes": [
+        "These people are precious to me... They are my family!",
+        "Inside every ninja of the Hidden Leaf Village burns the Will of Fire.",
+        "It's hard to hide sadness behind laughter."
+      ],
       "emojis": [
         "🚬",
         "📚",
@@ -703,7 +799,7 @@ window.DLE.series["naruto"] = {
         "🐒",
         "🎓"
       ],
-      "hint": "Elderly pipe-smoking Third Hokage known as the Professor."
+      "hint": "Elderly pipe-smoking village leader who taught the three Sannin and summons a monkey king."
     },
     {
       "id": "minato-namikaze",
@@ -723,7 +819,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Land of Waves",
-      "quote": "I'm the Fourth Hokage... and I'm your father.",
+      "quotes": [
+        "You're my sensei Jiraiya. You're a great ninja who possesses true talent.",
+        "Are you Naruto's girlfriend?",
+        "I'm certain that you'll be able to find the answer, Naruto."
+      ],
       "emojis": [
         "💛",
         "🐸",
@@ -731,7 +831,7 @@ window.DLE.series["naruto"] = {
         "🔪",
         "⚡"
       ],
-      "hint": "Yellow-haired Fourth Hokage famous for teleporting with marked kunai."
+      "hint": "Yellow-haired leader of the Leaf famous for teleporting to his specially marked kunai."
     },
     {
       "id": "gaara",
@@ -751,7 +851,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Chunin Exams",
-      "quote": "I love only myself and fight only for myself.",
+      "quotes": [
+        "I live solely for myself. I love only myself.",
+        "Perhaps the companionship of even an evil person is preferable to loneliness...",
+        "I consider you a friend. In the past, \"friend\" was just a word to me."
+      ],
       "emojis": [
         "🏺",
         "🏜️",
@@ -776,7 +880,11 @@ window.DLE.series["naruto"] = {
         "Kenjutsu / Weapons"
       ],
       "debut": "Chunin Exams",
-      "quote": null,
+      "quotes": [
+        "Wasn't really much of a match. Kinda boring.",
+        "Honestly, all you men with such fragile egos.",
+        "By the way, you seem a lot dumber than the last time our paths crossed."
+      ],
       "emojis": [
         "🌵",
         "💨",
@@ -802,7 +910,11 @@ window.DLE.series["naruto"] = {
         "Puppetry"
       ],
       "debut": "Chunin Exams",
-      "quote": null,
+      "quotes": [
+        "I don't like runts or any other scrawny weaklings.",
+        "Fair warning. We sand ninja aren't pushovers like our friends from the Leaf.",
+        "I know Gaara would never harm the people of this village. Not ever."
+      ],
       "emojis": [
         "🌵",
         "🎨",
@@ -831,7 +943,11 @@ window.DLE.series["naruto"] = {
         "Kenjutsu / Weapons"
       ],
       "debut": "Itachi Pursuit",
-      "quote": "Fool, ya fool!",
+      "quotes": [
+        "Fool, ya fool!",
+        "I'm feeling hella fine. I just wrote the phatest rhyme.",
+        "Oh my sight. Light too bright. Noon already?"
+      ],
       "emojis": [
         "🕶️",
         "🎤",
@@ -862,7 +978,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Pain's Assault",
-      "quote": null,
+      "quotes": [
+        "Concessions are forbidden in agreements made between ninja.",
+        "Those without power are crushed. That is the truth of the ninja world.",
+        "I don't miss my left arm. After all, I have two right arms."
+      ],
       "emojis": [
         "🏔️",
         "⛅",
@@ -870,7 +990,7 @@ window.DLE.series["naruto"] = {
         "🔨",
         "⚡"
       ],
-      "hint": "Hot-headed, hulking Raikage who cloaks himself in lightning."
+      "hint": "Hot-headed, hulking leader of the Cloud who cloaks himself in lightning."
     },
     {
       "id": "mei-terumi",
@@ -891,7 +1011,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Five Kage Summit",
-      "quote": "Ao, shut up or I'll kill you.",
+      "quotes": [
+        "Shut up, or I'll kill you.",
+        "It pains my heart every time I see such a handsome man melt away.",
+        "I'm already late getting to the altar. I won't be late for anything else."
+      ],
       "emojis": [
         "💍",
         "💋",
@@ -899,7 +1023,7 @@ window.DLE.series["naruto"] = {
         "🔥",
         "🌋"
       ],
-      "hint": "Auburn-haired Mizukage who spits lava and is touchy about still being single."
+      "hint": "Auburn-haired leader of the Mist who spits lava and is touchy about still being single."
     },
     {
       "id": "onoki",
@@ -920,7 +1044,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Five Kage Summit",
-      "quote": null,
+      "quotes": [
+        "To be a Kage at your age is quite an accomplishment, Lord Kazekage.",
+        "It takes time to realize one's ideals.",
+        "I remembered who I was before I became so stubborn!"
+      ],
       "emojis": [
         "👴",
         "🏔️",
@@ -928,7 +1056,7 @@ window.DLE.series["naruto"] = {
         "💫",
         "🗿"
       ],
-      "hint": "Tiny, floating elderly Tsuchikage with a bad back who turns things to dust."
+      "hint": "Tiny, floating elderly leader of the Stone with a bad back who turns things to dust."
     },
     {
       "id": "pain",
@@ -952,7 +1080,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Kazekage Rescue Mission",
-      "quote": "Almighty Push!",
+      "quotes": [
+        "Yes, I've grown from a man... to a god.",
+        "If there is justice in vengeance, then justice will only breed more vengeance.",
+        "There will never be such a thing as true peace!"
+      ],
       "emojis": [
         "🌧️",
         "⚙️",
@@ -979,7 +1111,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Kazekage Rescue Mission",
-      "quote": null,
+      "quotes": [
+        "Once again the sky is weeping.",
+        "He is the light. That's why we can all carry flowers of hope.",
+        "You know nothing about what happened to us afterward, sensei."
+      ],
       "emojis": [
         "🌧️",
         "💙",
@@ -1007,7 +1143,11 @@ window.DLE.series["naruto"] = {
         "Genjutsu"
       ],
       "debut": "Search for Tsunade",
-      "quote": "Foolish little brother.",
+      "quotes": [
+        "Foolish little brother.",
+        "Sorry Sasuke, maybe next time.",
+        "You're still too weak. You don't have enough hate..."
+      ],
       "emojis": [
         "🌙",
         "🔴",
@@ -1015,7 +1155,7 @@ window.DLE.series["naruto"] = {
         "🐦‍⬛",
         "👁️"
       ],
-      "hint": "Genius Uchiha in a cloak of red clouds who traps foes in crow genjutsu."
+      "hint": "Sharingan-wielding genius in a cloak of red clouds who traps foes in crow genjutsu."
     },
     {
       "id": "kisame-hoshigaki",
@@ -1036,7 +1176,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Search for Tsunade",
-      "quote": "Samehada doesn't slice, it shaves!",
+      "quotes": [
+        "My massive blade, Sharkskin. It doesn't slice, it cuts to ribbons!",
+        "You're Might Guy, huh? Mighty stupid looking Guy!",
+        "Well that means our fates are sealed. Seems you and I are depraved and worthless."
+      ],
       "emojis": [
         "💙",
         "🌊",
@@ -1062,7 +1206,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Kazekage Rescue Mission",
-      "quote": "Art is an explosion!",
+      "quotes": [
+        "Art is an explosion!",
+        "Tobi, even the Buddha loses patience when insulted a third time.",
+        "I take commissions to make explosions using my art, hmm."
+      ],
       "emojis": [
         "🎨",
         "👋",
@@ -1089,7 +1237,11 @@ window.DLE.series["naruto"] = {
         "Puppetry"
       ],
       "debut": "Kazekage Rescue Mission",
-      "quote": "True art is eternal beauty.",
+      "quotes": [
+        "Art is a work of beauty, captured and left for posterity. Art is eternal beauty.",
+        "I don't like waiting for people, and I don't like making people wait.",
+        "As fellow Puppet Masters, it seems we think the same way."
+      ],
       "emojis": [
         "🎭",
         "🧵",
@@ -1115,7 +1267,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Akatsuki Suppression Mission",
-      "quote": "I'm going to sacrifice you to Lord Jashin!",
+      "quotes": [
+        "The way of Jashin is total slaughter.",
+        "Killing a monk for earthly gain is a one way ticket to damnation my friend.",
+        "That blasted leader of ours. One of these days I'll put a curse on him."
+      ],
       "emojis": [
         "🩸",
         "⭕",
@@ -1140,7 +1296,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Akatsuki Suppression Mission",
-      "quote": "Even Hell runs on money.",
+      "quotes": [
+        "You're wrong. The only thing you can have faith in is money.",
+        "According to our bingo book his head's worth 30 million.",
+        "Kakashi, I'm going to replace the heart you took out with yours!"
+      ],
       "emojis": [
         "💵",
         "🧵",
@@ -1170,7 +1330,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Kazekage Rescue Mission",
-      "quote": "Tobi is a good boy!",
+      "quotes": [
+        "I got some dust in my eyes and started tearing up, that's all.",
+        "You think you know all about your older brother but you know nothing.",
+        "I get it. I see now. I am in hell."
+      ],
       "emojis": [
         "🍭",
         "🎃",
@@ -1198,7 +1362,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Itachi Pursuit",
-      "quote": "Wake up to reality! Nothing ever goes as planned in this world.",
+      "quotes": [
+        "Wake up to reality! Nothing ever goes as planned in this world.",
+        "In this world, wherever there is light, there are always shadows.",
+        "And most of all, you're a weak woman! Weakness disgusts me."
+      ],
       "emojis": [
         "🪭",
         "⚔️",
@@ -1206,7 +1374,7 @@ window.DLE.series["naruto"] = {
         "🌙",
         "👁️"
       ],
-      "hint": "Legendary long-haired Uchiha who fought the First Hokage and dreams of a world of illusions."
+      "hint": "Legendary long-haired clan leader who fought the First Hokage and dreams of a world of illusions."
     },
     {
       "id": "kaguya-otsutsuki",
@@ -1227,7 +1395,11 @@ window.DLE.series["naruto"] = {
         "Jinchuriki"
       ],
       "debut": "Kaguya Otsutsuki Strikes",
-      "quote": null,
+      "quotes": [
+        "This place, this land is my precious nursery.",
+        "All chakra belongs to me and me alone.",
+        "I detest you... Hagoromo... Hamura... You are mine."
+      ],
       "emojis": [
         "🌳",
         "🍑",
@@ -1235,7 +1407,7 @@ window.DLE.series["naruto"] = {
         "👁️",
         "🐇"
       ],
-      "hint": "Horned rabbit goddess and mother of all chakra who ate the Divine Tree's fruit."
+      "hint": "Horned, white-haired goddess and mother of all chakra who ate the Divine Tree's fruit."
     },
     {
       "id": "kabuto-yakushi",
@@ -1256,7 +1428,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Chunin Exams",
-      "quote": null,
+      "quotes": [
+        "She's strong and terrifying. She must be single, no doubt.",
+        "My name is symbolic. My eyeglasses, a tool. From the very beginning I've been nobody.",
+        "My Sage power has allowed me to shed my skin and I'm now a dragon!"
+      ],
       "emojis": [
         "🃏",
         "🩺",
@@ -1285,7 +1461,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Land of Waves",
-      "quote": "Haku... I'd like to go to the same place as you.",
+      "quotes": [
+        "When I was your age, this hand had already crushed many opponents.",
+        "You talk too much. And your words, they cut deep, deeper than any blade...",
+        "I warn you, friendship, comfort and encouragement...I do not need these things..."
+      ],
       "emojis": [
         "🌊",
         "🌫️",
@@ -1293,7 +1473,7 @@ window.DLE.series["naruto"] = {
         "😈",
         "🗡️"
       ],
-      "hint": "Bandaged Demon of the Hidden Mist who swings a giant cleaver sword."
+      "hint": "Bandage-masked rogue swordsman of the Mist who swings a giant cleaver sword."
     },
     {
       "id": "haku",
@@ -1310,7 +1490,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Land of Waves",
-      "quote": "When a person has something precious to protect, they truly become strong.",
+      "quotes": [
+        "Is there somebody who's precious to you?",
+        "Oh, by the way... I'm a boy.",
+        "I am a broken tool, a blunted weapon of no use to anyone."
+      ],
       "emojis": [
         "🎭",
         "🥀",
@@ -1339,7 +1523,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Kazekage Rescue Mission",
-      "quote": null,
+      "quotes": [
+        "...emotions only generate hatred, and hatred breeds nought but conflict.",
+        "I just hope he's not too deeply rooted in the pacifism of that pushover Sarutobi.",
+        "I was nothing but a foundation hidden in darkness."
+      ],
       "emojis": [
         "👴",
         "🥷",
@@ -1364,7 +1552,11 @@ window.DLE.series["naruto"] = {
         "Taijutsu"
       ],
       "debut": "Sasuke Recovery Mission",
-      "quote": "Lord Orochimaru is the one who gave my life meaning.",
+      "quotes": [
+        "He is the one, the only one who ever gave my life meaning!",
+        "I don't hate the darkness. It was in the darkness that I was raised.",
+        "You've only seen one of my dances."
+      ],
       "emojis": [
         "💃",
         "💚",
@@ -1392,7 +1584,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Itachi Pursuit",
-      "quote": "Naruto, I love you.",
+      "quotes": [
+        "Only men who compliment my hair get to hear these precious words from me.",
+        "I'm going to become the village's first female Hokage!",
+        "Naruto... I think it's a wonderful name."
+      ],
       "emojis": [
         "❤️",
         "🍅",
@@ -1400,7 +1596,7 @@ window.DLE.series["naruto"] = {
         "⛓️",
         "🦊"
       ],
-      "hint": "Red-haired Uzumaki mother with a fiery temper and chakra chains."
+      "hint": "Red-haired mother with a fiery temper who binds tailed beasts with chakra chains."
     },
     {
       "id": "konohamaru-sarutobi",
@@ -1418,7 +1614,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Land of Waves",
-      "quote": "I'm gonna be Hokage after you, boss!",
+      "quotes": [
+        "Brother Naruto is my rival! So I'll never choose to run away!",
+        "To fight Brother Naruto over the title of Hokage. That's what we promised.",
+        "How was that? Not bad in the curves department there huh?"
+      ],
       "emojis": [
         "👦",
         "🧣",
@@ -1447,7 +1647,11 @@ window.DLE.series["naruto"] = {
         "Jinchuriki"
       ],
       "debut": "Land of Waves",
-      "quote": null,
+      "quotes": [
+        "Why are you hesitating? You need my power, don't you?",
+        "You are only a tiny little piece of my hatred!",
+        "Quit yelling so loudly! I wasn't lonely! You have half of me inside you, remember?!"
+      ],
       "emojis": [
         "😠",
         "🔒",
@@ -1476,7 +1680,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Itachi Pursuit",
-      "quote": "I'm not going because of you! I just happen to be heading that way!",
+      "quotes": [
+        "I just happened to be going in the same direction. That's all, nothing else.",
+        "Oh wow Sasuke's gotten even cooler!",
+        "You okay? Hurry, go on, bite down!"
+      ],
       "emojis": [
         "👓",
         "🔴",
@@ -1506,7 +1714,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Itachi Pursuit",
-      "quote": "I'm going to collect the swords of the Seven Ninja Swordsmen.",
+      "quotes": [
+        "Sorry, but without the blade here, me joining you will have to wait.",
+        "Or maybe it's because they're so lowly like you, Karin.",
+        "I was in a water tank all this time."
+      ],
       "emojis": [
         "🥤",
         "🦈",
@@ -1536,7 +1748,11 @@ window.DLE.series["naruto"] = {
         "Taijutsu"
       ],
       "debut": "Itachi Pursuit",
-      "quote": null,
+      "quotes": [
+        "A man? No no, a woman. My next victim will be a man.",
+        "I think I'll be able to keep myself under control. I feel so calm.",
+        "The birds are telling me there's no one nearby who will interfere with their fighting."
+      ],
       "emojis": [
         "😇",
         "🐦",
@@ -1564,7 +1780,11 @@ window.DLE.series["naruto"] = {
         "Genjutsu"
       ],
       "debut": "Land of Waves",
-      "quote": null,
+      "quotes": [
+        "Hinata... You used to be a quitter... But you began to try and change yourself.",
+        "Hinata, that's enough... You may have lost but you have changed... Good job...",
+        "Was he really trying to kill her?"
+      ],
       "emojis": [
         "👩",
         "👁️",
@@ -1593,7 +1813,11 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Sasuke Recovery Mission",
-      "quote": null,
+      "quotes": [
+        "What do you mean by aloe?",
+        "Gross fellow as always, regurgitating something out of his mouth like that.",
+        "Slithering around like the snake he is."
+      ],
       "emojis": [
         "🕵️",
         "🌱",
@@ -1622,7 +1846,10 @@ window.DLE.series["naruto"] = {
         "Genjutsu"
       ],
       "debut": "Five Kage Summit",
-      "quote": "Protect the village, and the Uchiha name.",
+      "quotes": [
+        "You're the only one I can count on, my best friend.",
+        "We fight believing in our own justice."
+      ],
       "emojis": [
         "😊",
         "💨",
@@ -1630,7 +1857,7 @@ window.DLE.series["naruto"] = {
         "👁️",
         "🐦‍⬛"
       ],
-      "hint": "Uchiha prodigy famed for blinding speed and a Sharingan that can rewrite minds undetected.",
+      "hint": "Prodigy famed for blinding speed and a Sharingan that can rewrite minds undetected.",
       "wiki": "Shisui Uchiha"
     },
     {
@@ -1649,7 +1876,10 @@ window.DLE.series["naruto"] = {
         "Medical Ninjutsu"
       ],
       "debut": "Itachi Pursuit",
-      "quote": null,
+      "quotes": [
+        "Don't act tough and hide your wounds! I'm always watching, you know.",
+        "No, you did your best! I've been watching you all along!"
+      ],
       "emojis": [
         "👧",
         "🟪",
@@ -1680,7 +1910,11 @@ window.DLE.series["naruto"] = {
         "Sage Mode"
       ],
       "debut": "Fourth Shinobi World War",
-      "quote": "I entrust the future of this world to the two of you.",
+      "quotes": [
+        "Just look at Kurama, all embarrassed and flustered.",
+        "Ashura... I entrust the future of this world... to you and your descendants...",
+        "Good job guiding everyone and sealing my mother away."
+      ],
       "emojis": [
         "👴",
         "🦯",
@@ -1706,7 +1940,11 @@ window.DLE.series["naruto"] = {
         "Kenjutsu / Weapons"
       ],
       "debut": "Search for Tsunade",
-      "quote": "Lady Tsunade!",
+      "quotes": [
+        "Lady Tsunade? Are you actually... STUDYING?!",
+        "Think about your brother and my uncle. They wouldn't have wanted any part of this!",
+        "Lady Tsunade!"
+      ],
       "emojis": [
         "👩",
         "📋",
@@ -1736,7 +1974,11 @@ window.DLE.series["naruto"] = {
         "Medical Ninjutsu"
       ],
       "debut": "Kazekage Rescue Mission",
-      "quote": "I leave the future of the Sand to you young ones.",
+      "quotes": [
+        "Fell for that one didn't you? I was just playing possum.",
+        "Don't treat me like a fossil!",
+        "Youth is something that holds such possibilities."
+      ],
       "emojis": [
         "👵",
         "🏜️",
@@ -1763,7 +2005,10 @@ window.DLE.series["naruto"] = {
         "Ninjutsu"
       ],
       "debut": "Chunin Exams",
-      "quote": "Kids like you are always the first to die.",
+      "quotes": [
+        "Tough guys like you usually leave their blood all over this forest.",
+        "You ready for the 2nd test? Good! Then let's go! Follow me!"
+      ],
       "emojis": [
         "🧥",
         "🔪",

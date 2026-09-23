@@ -56,7 +56,11 @@ window.DLE.series["hxh"] = {
         "Enhancer"
       ],
       "debut": "Hunter Exam",
-      "quote": "I'm going to become a Hunter, just like my dad!",
+      "quotes": [
+        "I'm going to become the best Hunter in the world!",
+        "I came here to see my friend, not to be tested.",
+        "Enough. I don't care what happens to me now."
+      ],
       "emojis": [
         "🌳",
         "🎣",
@@ -85,7 +89,11 @@ window.DLE.series["hxh"] = {
         "Transmuter"
       ],
       "debut": "Hunter Exam",
-      "quote": "You're the light. Sometimes you shine so brightly, I must look away.",
+      "quotes": [
+        "You are light. Sometimes, you shine so brightly, I must look away.",
+        "If you so much as touch them, I'll kill you.",
+        "You can bring out tanks and fighter jets. I will stop them all."
+      ],
       "emojis": [
         "🍫",
         "🛹",
@@ -116,7 +124,11 @@ window.DLE.series["hxh"] = {
         "Specialist"
       ],
       "debut": "Hunter Exam",
-      "quote": "I don't fear death. I fear only that my rage will fade over time.",
+      "quotes": [
+        "I do not fear death. I fear only that my rage will fade over time.",
+        "Because there's evil running loose that needs to be chained down to hell.",
+        "How can you do these things, yet feel and think nothing at all?!"
+      ],
       "emojis": [
         "📚",
         "⛓️",
@@ -143,7 +155,11 @@ window.DLE.series["hxh"] = {
         "Emitter"
       ],
       "debut": "Hunter Exam",
-      "quote": "I just want money! Money can buy anything!",
+      "quotes": [
+        "Money can get you everything! A big house! A nice car! Good liquor!",
+        "Turns out that to become a doctor, you need even more money!",
+        "Why haven't you gone to visit Gon? You must know his current condition!"
+      ],
       "emojis": [
         "💰",
         "💼",
@@ -172,7 +188,11 @@ window.DLE.series["hxh"] = {
         "Transmuter"
       ],
       "debut": "Hunter Exam",
-      "quote": "Bungee Gum has the properties of both rubber and gum.",
+      "quotes": [
+        "Bungee Gum possesses the properties of both rubber and gum.",
+        "Why must unripe fruit be so tantalizing?",
+        "I'll only take it back when you're able to punch me in the face."
+      ],
       "emojis": [
         "🎭",
         "🎪",
@@ -201,7 +221,11 @@ window.DLE.series["hxh"] = {
         "Manipulator"
       ],
       "debut": "Hunter Exam",
-      "quote": "You do not have the right to make friends.",
+      "quotes": [
+        "You don't have the right to make friends. Nor do you need friends.",
+        "You're not cut out to be a Hunter. You were born to be a killer.",
+        "You're a puppet of darkness, without passion."
+      ],
       "emojis": [
         "😶",
         "🖤",
@@ -227,7 +251,11 @@ window.DLE.series["hxh"] = {
         "Transmuter"
       ],
       "debut": "Zoldyck Family",
-      "quote": "Promise me one thing. Never betray your friends.",
+      "quotes": [
+        "Promise me one thing. Never betray your friends.",
+        "You are my son. But you are your own person. Live as you please.",
+        "He'll come home one day. Because he is my son."
+      ],
       "emojis": [
         "🏰",
         "💪",
@@ -253,7 +281,11 @@ window.DLE.series["hxh"] = {
         "Transmuter"
       ],
       "debut": "Yorknew City",
-      "quote": "One-on-one, I'd have had a hard time with you.",
+      "quotes": [
+        "Do you believe that we kill for pleasure? We don't do this for fun.",
+        "My job here is done. I know nothing beyond the mission I received.",
+        "You're a bright boy, but that foolish nature of yours doesn't help."
+      ],
       "emojis": [
         "👴",
         "🏯",
@@ -279,7 +311,11 @@ window.DLE.series["hxh"] = {
         "Unknown"
       ],
       "debut": "Zoldyck Family",
-      "quote": "I'm so happy! My son has grown so strong!",
+      "quotes": [
+        "Oh, Kil seems to be having fun with Papa. I won't forgive them!",
+        "Really, this always happens! They never ask me before they act.",
+        "He's the one child I shall not give up!"
+      ],
       "emojis": [
         "👒",
         "🩹",
@@ -307,7 +343,11 @@ window.DLE.series["hxh"] = {
         "Manipulator"
       ],
       "debut": "Zoldyck Family",
-      "quote": null,
+      "quotes": [
+        "All for the sake of retrieving my brother, no matter how long it takes.",
+        "I cannot tell you how my power works, but we found him by using it.",
+        "I was naïve. I thought I could become number two in no time."
+      ],
       "emojis": [
         "👘",
         "🌸",
@@ -335,7 +375,11 @@ window.DLE.series["hxh"] = {
         "Unknown"
       ],
       "debut": "13th Chairman Election",
-      "quote": "Big brother, I love you!",
+      "quotes": [
+        "Brother? Am I a nuisance? If I were gone, would everyone get along better?",
+        "Brother, pat my head.",
+        "Brother, let's play shiritori."
+      ],
       "emojis": [
         "🧸",
         "🎀",
@@ -361,7 +405,11 @@ window.DLE.series["hxh"] = {
         "Conjurer"
       ],
       "debut": "Hunter Exam",
-      "quote": "He's a great Hunter, but a terrible father.",
+      "quotes": [
+        "Good Hunters are well-liked by animals. And also blessed with good friends.",
+        "If you wish to become stronger, this is a perfect opportunity.",
+        "NGL and Chimera Ants... The worst combination imaginable."
+      ],
       "emojis": [
         "🧢",
         "🌲",
@@ -389,7 +437,11 @@ window.DLE.series["hxh"] = {
         "Unknown"
       ],
       "debut": "Hunter Exam",
-      "quote": "Enjoy the little detours to the fullest.",
+      "quotes": [
+        "You should enjoy the little detours. To the fullest.",
+        "Hunters are selfish creatures. They're willing to sacrifice anything to get what they want.",
+        "Catch me if you can. You are a Hunter, aren't you?"
+      ],
       "emojis": [
         "🧭",
         "🗺️",
@@ -416,7 +468,11 @@ window.DLE.series["hxh"] = {
         "Enhancer"
       ],
       "debut": "Hunter Exam",
-      "quote": "You don't know the bottomless malice of humanity.",
+      "quotes": [
+        "You know nothing of the bottomless malice within the human heart.",
+        "A prayer comes from the heart.",
+        "If you're able to defeat me, I shall let you be Hunters!"
+      ],
       "emojis": [
         "👴",
         "🙏",
@@ -441,7 +497,11 @@ window.DLE.series["hxh"] = {
         "Unknown"
       ],
       "debut": "Heavens Arena",
-      "quote": "Nen is a technique for using the life energy your body produces.",
+      "quotes": [
+        "You are like someone standing naked in a blizzard, wondering why it is cold.",
+        "If you learn something piecemeal, you'll end up knowing less than when you started.",
+        "You must be prepared to lose a thousand times while you're here."
+      ],
       "emojis": [
         "👔",
         "👓",
@@ -465,7 +525,11 @@ window.DLE.series["hxh"] = {
         "Unknown"
       ],
       "debut": "Heavens Arena",
-      "quote": "Osu!",
+      "quotes": [
+        "Master, your shirt is untucked again.",
+        "Forgive me! My opponent was so strong, I couldn't help myself.",
+        "One day, I will definitely catch up!"
+      ],
       "emojis": [
         "👦",
         "🥋",
@@ -494,7 +558,11 @@ window.DLE.series["hxh"] = {
         "Transmuter"
       ],
       "debut": "Greed Island",
-      "quote": "Rest is also part of your training.",
+      "quotes": [
+        "After lying for fifty years, I can recognize a fellow liar.",
+        "Why does my heart skip whenever I see something waiting to be polished?",
+        "If you can't defeat Shoot tomorrow, you must leave Gon's side."
+      ],
       "emojis": [
         "🎀",
         "💎",
@@ -520,7 +588,11 @@ window.DLE.series["hxh"] = {
         "Emitter"
       ],
       "debut": "Chimera Ant",
-      "quote": "Every ten seconds, the interest goes up ten percent!",
+      "quotes": [
+        "By the way, I charge ten percent interest. Ten percent every ten seconds!",
+        "I'm not crying! Don't tell anyone! Or I'll kill you!",
+        "I don't like the idea of cutting off whatever doesn't fit the mold."
+      ],
       "emojis": [
         "🐶",
         "💇",
@@ -546,7 +618,11 @@ window.DLE.series["hxh"] = {
         "Manipulator"
       ],
       "debut": "Chimera Ant",
-      "quote": "I'm not afraid anymore!",
+      "quotes": [
+        "You boys have taught me that a worthy opponent deserves my full strength.",
+        "Because if we lose our cool, billions could die!",
+        "A boy with less than half my strength managed to break my cage!"
+      ],
       "emojis": [
         "🤚",
         "🐦",
@@ -573,7 +649,11 @@ window.DLE.series["hxh"] = {
         "Manipulator"
       ],
       "debut": "Chimera Ant",
-      "quote": null,
+      "quotes": [
+        "Yeah, let's take it slow. Might as well enjoy the job.",
+        "Once we finish this, first thing we do is drink ourselves silly with good alcohol.",
+        "We aren't starting now. It's already over. Look at your ankle."
+      ],
       "emojis": [
         "🚬",
         "🕶️",
@@ -597,7 +677,11 @@ window.DLE.series["hxh"] = {
         "Conjurer"
       ],
       "debut": "Chimera Ant",
-      "quote": null,
+      "quotes": [
+        "We exterminate the Ants in silence, one at a time.",
+        "Your blood is an irreplaceable commodity... Use it only for me.",
+        "I'm sorry, Morel and everyone. But I can't bring myself to go."
+      ],
       "emojis": [
         "👓",
         "👔",
@@ -623,7 +707,11 @@ window.DLE.series["hxh"] = {
         "Enhancer"
       ],
       "debut": "Chimera Ant",
-      "quote": "If you two lose, I'll kill you myself!",
+      "quotes": [
+        "Cool, intelligent, composed... Ah, composed and cool mean the same thing!",
+        "But you must not forget. You are the one Gon needs most.",
+        "We are no different from the Ants. No... We are far worse."
+      ],
       "emojis": [
         "🔪",
         "😱",
@@ -650,7 +738,12 @@ window.DLE.series["hxh"] = {
         "Specialist"
       ],
       "debut": "Chimera Ant",
-      "quote": "Are you not afraid? I could kill you at any moment.",
+      "quotes": [
+        "Once you know their rhythm, you need only disrupt it.",
+        "I have learned what power is meant to be used for.",
+        "But who am I? Why was I brought into this world?",
+        "I shall not repeat myself."
+      ],
       "emojis": [
         "🐜",
         "👑",
@@ -676,7 +769,11 @@ window.DLE.series["hxh"] = {
         "Specialist"
       ],
       "debut": "Chimera Ant",
-      "quote": "I must protect the King, no matter what.",
+      "quotes": [
+        "I want to fight him... But I can't leave my post.",
+        "I'll do anything you say! So please wait. I must save this person!",
+        "No matter the cost! I must kill him. For the King's sake!"
+      ],
       "emojis": [
         "🐱",
         "🎀",
@@ -703,7 +800,11 @@ window.DLE.series["hxh"] = {
         "Manipulator"
       ],
       "debut": "Chimera Ant",
-      "quote": "Everything I do is for the King!",
+      "quotes": [
+        "My hasty impulse could have left the King with a permanent scar!",
+        "You are the King. You have no other name.",
+        "You are now a mere bug! You can no longer expect anything of yourself."
+      ],
       "emojis": [
         "🦋",
         "🎻",
@@ -730,7 +831,11 @@ window.DLE.series["hxh"] = {
         "Enhancer"
       ],
       "debut": "Chimera Ant",
-      "quote": "I have no ability. Just raw power.",
+      "quotes": [
+        "I am a shield. I protect the King with my body.",
+        "All of these guys have less than ten percent of my raw power.",
+        "You always think too much."
+      ],
       "emojis": [
         "🔴",
         "💪",
@@ -754,7 +859,11 @@ window.DLE.series["hxh"] = {
         "Unknown"
       ],
       "debut": "Chimera Ant",
-      "quote": "Please play one more game with me.",
+      "quotes": [
+        "If I lose, I will offer you my life.",
+        "It felt like... Like seeing my child brought back to life.",
+        "Am I allowed to be so happy?"
+      ],
       "emojis": [
         "🌾",
         "🧵",
@@ -778,7 +887,11 @@ window.DLE.series["hxh"] = {
         "Manipulator"
       ],
       "debut": "Chimera Ant",
-      "quote": "I'm not a squid! I'm an octopus!",
+      "quotes": [
+        "Don't call me an octopus!",
+        "I won't betray a buddy!",
+        "When I'm prepared to offer my own life, it's so easy to pull the trigger."
+      ],
       "emojis": [
         "🐙",
         "🔫",
@@ -786,7 +899,7 @@ window.DLE.series["hxh"] = {
         "🎭",
         "🦑"
       ],
-      "hint": "A friendly octopus soldier who pilots corpses and hates being called a squid."
+      "hint": "A friendly, octopus-like soldier who pilots corpses and hates being called an octopus."
     },
     {
       "id": "meleoron",
@@ -802,7 +915,11 @@ window.DLE.series["hxh"] = {
         "Specialist"
       ],
       "debut": "Chimera Ant",
-      "quote": "As long as I hold my breath, no one can find me.",
+      "quotes": [
+        "When I hold my breath, no one can sense my existence.",
+        "I'm right here, but no one notices me.",
+        "Hey, Gon. You're the partner I've been looking for."
+      ],
       "emojis": [
         "🦎",
         "🚬",
@@ -830,7 +947,11 @@ window.DLE.series["hxh"] = {
         "Specialist"
       ],
       "debut": "Yorknew City",
-      "quote": "The Spider must survive, even without its head.",
+      "quotes": [
+        "There are no traitors. Besides, Judas wasn't a traitor.",
+        "You won't kill me. You left your precious friends behind.",
+        "My orders are top priority. However, I am not your top priority."
+      ],
       "emojis": [
         "📖",
         "🖤",
@@ -856,7 +977,11 @@ window.DLE.series["hxh"] = {
         "Transmuter"
       ],
       "debut": "Yorknew City",
-      "quote": null,
+      "quotes": [
+        "We're thieves. If we want something, we take it.",
+        "I'd start with a finger. Peel off a nail.",
+        "She left herself wide open. I'm not nice enough to overlook that."
+      ],
       "emojis": [
         "☂️",
         "🧣",
@@ -883,7 +1008,11 @@ window.DLE.series["hxh"] = {
         "Enhancer"
       ],
       "debut": "Yorknew City",
-      "quote": null,
+      "quotes": [
+        "Man, this sucks. I hate having to wait.",
+        "Hell, no. I don't do mercy killings.",
+        "We're going to do things our way. If anyone interferes, we'll take them down."
+      ],
       "emojis": [
         "🏺",
         "🌀",
@@ -909,7 +1038,11 @@ window.DLE.series["hxh"] = {
         "Enhancer"
       ],
       "debut": "Yorknew City",
-      "quote": "Hey, you two. How about joining the Spider?",
+      "quotes": [
+        "Kid. Join the spiders. Team up with me.",
+        "Uvo was more than just a dumb brute.",
+        "I won't forget your name and face until I kill you!"
+      ],
       "emojis": [
         "⚔️",
         "🎎",
@@ -935,7 +1068,11 @@ window.DLE.series["hxh"] = {
         "Transmuter"
       ],
       "debut": "Heavens Arena",
-      "quote": "My intuition is never wrong.",
+      "quotes": [
+        "I would pursue you to the ends of the Earth to kill you.",
+        "Once you finish your job here, you can die, for all I care.",
+        "My job is done, so I'm not sticking around."
+      ],
       "emojis": [
         "🧵",
         "🪡",
@@ -961,7 +1098,11 @@ window.DLE.series["hxh"] = {
         "Conjurer"
       ],
       "debut": "Yorknew City",
-      "quote": "Blinky can't suck up living things.",
+      "quotes": [
+        "Lost? I lost? That's a lie. I would never lose to a kid.",
+        "He extended his right hand, so I did the same.",
+        "I said that I'll keep my distance, but I didn't say anything about running."
+      ],
       "emojis": [
         "👓",
         "🧹",
@@ -988,7 +1129,11 @@ window.DLE.series["hxh"] = {
         "Enhancer"
       ],
       "debut": "Yorknew City",
-      "quote": "This is my strongest punch: Big Bang Impact!",
+      "quotes": [
+        "I'm getting fired up. Let's see which is stronger, your grudge or my power!",
+        "Everything from my neck up is all I need to defeat you.",
+        "Tell the boss I won't go back until I settle up with that chain user."
+      ],
       "emojis": [
         "🦍",
         "💪",
@@ -1014,7 +1159,11 @@ window.DLE.series["hxh"] = {
         "Specialist"
       ],
       "debut": "Yorknew City",
-      "quote": null,
+      "quotes": [
+        "You wouldn't ask those questions if you intended to deceive me.",
+        "They have no memories of the chain user.",
+        "Boss... We still need you. Even if it means I must betray the spider."
+      ],
       "emojis": [
         "👩",
         "🔫",
@@ -1041,7 +1190,11 @@ window.DLE.series["hxh"] = {
         "Manipulator"
       ],
       "debut": "Yorknew City",
-      "quote": null,
+      "quotes": [
+        "Aw, he broke. I need to find my next machine.",
+        "That's why I hate using this! It makes me stronger, but there's a hefty price.",
+        "You should get a Hunter License, Uvo."
+      ],
       "emojis": [
         "📱",
         "📡",
@@ -1067,7 +1220,11 @@ window.DLE.series["hxh"] = {
         "Emitter"
       ],
       "debut": "Yorknew City",
-      "quote": "The Spider comes first. Each of us is just a leg.",
+      "quotes": [
+        "I don't care about your reasons. You're being too reliant on the boss.",
+        "This is what happens when I keep quiet and let you yap.",
+        "Shal, right now, what would our worst-case scenario be?"
+      ],
       "emojis": [
         "🧵",
         "🧟",
@@ -1094,7 +1251,11 @@ window.DLE.series["hxh"] = {
         "Unknown"
       ],
       "debut": "13th Chairman Election",
-      "quote": "I want to do something fun with all of you.",
+      "quotes": [
+        "When I said silly things to tease him, Netero-san always looked so happy.",
+        "I just wanted to hinder the chairman.",
+        "I outrank the rest of you, and I'm good at coordinating these things."
+      ],
       "emojis": [
         "🐀",
         "😁",
@@ -1121,7 +1282,11 @@ window.DLE.series["hxh"] = {
         "Unknown"
       ],
       "debut": "Hunter Exam",
-      "quote": "Here, have a juice to celebrate our meeting!",
+      "quotes": [
+        "I'm very sorry! I didn't realize the juice had gone bad.",
+        "I'm not looking to pass the Hunter Exam. I'm only in it for the thrills.",
+        "The moment of despair... gives me a sense of exquisite pleasure."
+      ],
       "emojis": [
         "🧃",
         "👃",
@@ -1129,7 +1294,7 @@ window.DLE.series["hxh"] = {
         "💩",
         "🍀"
       ],
-      "hint": "A chubby, big-nosed veteran applicant nicknamed the 'Rookie Crusher' who offers newcomers juice."
+      "hint": "A chubby, big-nosed veteran applicant who sabotages newcomers every year, starting with a friendly offer of juice."
     },
     {
       "id": "hanzo",
@@ -1145,7 +1310,11 @@ window.DLE.series["hxh"] = {
         "Unknown"
       ],
       "debut": "Hunter Exam",
-      "quote": "I'll break your arm if you don't give up!",
+      "quotes": [
+        "I'm going to break your arm. I'm not joking around, so give up.",
+        "You value your pride more than your own life?!",
+        "I can't kill you. But I can't think of a way to make you surrender."
+      ],
       "emojis": [
         "🥷",
         "🗾",
@@ -1172,7 +1341,11 @@ window.DLE.series["hxh"] = {
         "Conjurer"
       ],
       "debut": "Greed Island",
-      "quote": "Once you become a bomb, the countdown can't be stopped.",
+      "quotes": [
+        "You're insane. And I don't mean my kind of insane.",
+        "Why should I keep a promise I made to a bunch of scum?",
+        "Why am I telling you so much about my powers?"
+      ],
       "emojis": [
         "💣",
         "🎮",
@@ -1180,7 +1353,7 @@ window.DLE.series["hxh"] = {
         "⏳",
         "💥"
       ],
-      "hint": "A blond game player nicknamed the Bomber who turns rivals into ticking time bombs."
+      "hint": "A blond game player who turns rivals into ticking time bombs with a single touch."
     },
     {
       "id": "razor",
@@ -1196,7 +1369,11 @@ window.DLE.series["hxh"] = {
         "Emitter"
       ],
       "debut": "Greed Island",
-      "quote": "Well then, let's play dodgeball.",
+      "quotes": [
+        "I was instructed not to go easy on you by your old man.",
+        "It felt like no one had ever called me by name before.",
+        "Ging believed in your strength, so he left you to me."
+      ],
       "emojis": [
         "🏴‍☠️",
         "⚡",
@@ -1222,7 +1399,11 @@ window.DLE.series["hxh"] = {
         "Specialist"
       ],
       "debut": "Yorknew City",
-      "quote": "I want them! The Scarlet Eyes!",
+      "quotes": [
+        "I never look at the fortunes I write.",
+        "What about the mummy? Was it really stolen? I wanted it so much.",
+        "Say, tomorrow's auction starts at night, right? I want to do some shopping beforehand."
+      ],
       "emojis": [
         "👗",
         "💎",
@@ -1249,7 +1430,11 @@ window.DLE.series["hxh"] = {
         "Unknown"
       ],
       "debut": "Hunter Exam",
-      "quote": "Promise me you'll come back home.",
+      "quotes": [
+        "Your father abandoned you when you were still young to become a Hunter.",
+        "Just promise that you'll come back safe.",
+        "Take a bath while I make something to eat. And put out your dirty clothes."
+      ],
       "emojis": [
         "🏝️",
         "🍳",
@@ -1276,7 +1461,11 @@ window.DLE.series["hxh"] = {
         "Unknown"
       ],
       "debut": "Zoldyck Family",
-      "quote": null,
+      "quotes": [
+        "He isn't even the least bit sorry. We need to make him suffer more.",
+        "But he fails as an assassin because he's so moody.",
+        "Take me. I'll kill anyone I'm asked to."
+      ],
       "emojis": [
         "🎮",
         "🍔",
@@ -1302,7 +1491,11 @@ window.DLE.series["hxh"] = {
         "Unknown"
       ],
       "debut": "Zoldyck Family",
-      "quote": "Which hand is the coin in?",
+      "quotes": [
+        "Which hand holds the coin?",
+        "In all honesty, I must despise you for trying to take him away.",
+        "We butlers feel no emotional attachment to our employers."
+      ],
       "emojis": [
         "🤵",
         "👓",
@@ -1326,7 +1519,11 @@ window.DLE.series["hxh"] = {
         "Unknown"
       ],
       "debut": "Zoldyck Family",
-      "quote": "Please save Master Killua.",
+      "quotes": [
+        "If you take one step beyond this line, I'll remove you by force.",
+        "It doesn't matter what your motives are. I'm simply following my orders.",
+        "Please... Help Killua-sama..."
+      ],
       "emojis": [
         "👧",
         "🌲",
@@ -1350,7 +1547,11 @@ window.DLE.series["hxh"] = {
         "Conjurer"
       ],
       "debut": "Chimera Ant",
-      "quote": "My only king is Gyro!",
+      "quotes": [
+        "Gyro is the only man I'll ever call King!",
+        "When I woke up, my first thought was... Damn. I can still remember it.",
+        "Telling the truth feels really good."
+      ],
       "emojis": [
         "🐜",
         "🐺",
@@ -1376,7 +1577,11 @@ window.DLE.series["hxh"] = {
         "Unknown"
       ],
       "debut": "Chimera Ant",
-      "quote": "Please, save the Queen!",
+      "quotes": [
+        "We surrender! But there is one condition... You must save the Queen!",
+        "Can you use my organs? You can have all my blood, as well!",
+        "I shall protect this child. I swear it! This time, I won't fail."
+      ],
       "emojis": [
         "🐜",
         "🦅",
@@ -1403,7 +1608,11 @@ window.DLE.series["hxh"] = {
         "Unknown"
       ],
       "debut": "13th Chairman Election",
-      "quote": "I'll never let this go your way, Pariston!",
+      "quotes": [
+        "You aren't smiling anymore, Pariston. I won't let you have your way!",
+        "Why do I feel so irritated when he's talking?",
+        "Ladies and gentlemen, I believe the 13th chairman should be Leorio."
+      ],
       "emojis": [
         "👓",
         "🐶",
@@ -1430,7 +1639,11 @@ window.DLE.series["hxh"] = {
         "Emitter"
       ],
       "debut": "Yorknew City",
-      "quote": "I chose this job because I hoped one devil would know another.",
+      "quotes": [
+        "My body was destroyed, but I gained this ability in return.",
+        "You aren't lying, but you are concealing something important.",
+        "I've heard the flute version. One movement alone turned me into this."
+      ],
       "emojis": [
         "🎩",
         "👂",
@@ -1457,7 +1670,11 @@ window.DLE.series["hxh"] = {
         "Unknown"
       ],
       "debut": "Hunter Exam",
-      "quote": "Follow me and stay focused.",
+      "quotes": [
+        "Those who accept the risks, please follow me.",
+        "Stay very close to me so you won't be deceived.",
+        "You will be encountering such deception on a regular basis."
+      ],
       "emojis": [
         "🚶",
         "🥸",

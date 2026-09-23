@@ -61,7 +61,11 @@ window.DLE.series["jjk"] = {
         "Vessel"
       ],
       "debut": "Cursed Child / Fearsome Womb",
-      "quote": "I don't want to regret the way I lived.",
+      "quotes": [
+        "I don't want to regret the way I lived!",
+        "Clever people wouldn't really go around calling themselves clever.",
+        "A cog has a role, right? My role is to keep exorcising curses."
+      ],
       "emojis": [
         "🏃",
         "💪",
@@ -89,7 +93,11 @@ window.DLE.series["jjk"] = {
         "Shikigami User"
       ],
       "debut": "Cursed Child / Fearsome Womb",
-      "quote": "I'm not a hero. I'm a jujutsu sorcerer.",
+      "quotes": [
+        "I'm not a hero. I'm a jujutsu sorcerer.",
+        "I save people unequally!",
+        "Tsumiki's a model example of a good person."
+      ],
       "emojis": [
         "🌑",
         "🐕",
@@ -116,7 +124,11 @@ window.DLE.series["jjk"] = {
         "Cursed Tool User"
       ],
       "debut": "Cursed Child / Fearsome Womb",
-      "quote": "And I love myself when I'm kicking ass!",
+      "quotes": [
+        "I love myself when I'm pretty and all dressed up!",
+        "And I love myself when I'm being strong!",
+        "Because I hate the countryside, and I wanted to live in Tokyo!"
+      ],
       "emojis": [
         "🏙️",
         "💅",
@@ -145,7 +157,12 @@ window.DLE.series["jjk"] = {
         "Cursed Tool User"
       ],
       "debut": "Cursed Child / Fearsome Womb",
-      "quote": "No, it was taken from me.",
+      "quotes": [
+        "Don't call me by my last name!",
+        "I'm going to make that family cry when I return to them...",
+        "If you're gonna call me weak, then kill me in a single blow, Octobitch.",
+        "You can actually tell women apart by their faces?"
+      ],
       "emojis": [
         "👓",
         "🎽",
@@ -171,7 +188,11 @@ window.DLE.series["jjk"] = {
         "Inherited Technique"
       ],
       "debut": "Cursed Child / Fearsome Womb",
-      "quote": "Salmon. Tuna mayo. Kelp.",
+      "quotes": [
+        "Salmon.",
+        "Tuna mayo.",
+        "Bonito flakes."
+      ],
       "emojis": [
         "🍙",
         "🐟",
@@ -195,7 +216,11 @@ window.DLE.series["jjk"] = {
         "Cursed Corpse"
       ],
       "debut": "Cursed Child / Fearsome Womb",
-      "quote": "Gorilla Mode!",
+      "quotes": [
+        "Unlike these other two, my arm can be fixed later.",
+        "Chill out. We're all doing better than you right now.",
+        "I have no choice left but to beat him with Gorilla Mode!"
+      ],
       "emojis": [
         "🎓",
         "🐾",
@@ -224,7 +249,11 @@ window.DLE.series["jjk"] = {
         "Cursed Tool User"
       ],
       "debut": "Jujutsu Kaisen 0",
-      "quote": "I want the confidence to say it's okay for me to live.",
+      "quotes": [
+        "I want to interact with someone! I want to be needed by someone!",
+        "Thank you for falling in love with me.",
+        "That's rude. It's pure love."
+      ],
       "emojis": [
         "😔",
         "💍",
@@ -250,7 +279,11 @@ window.DLE.series["jjk"] = {
         "Cursed Technique"
       ],
       "debut": "Perfect Preparation",
-      "quote": null,
+      "quotes": [
+        "But without heat, people can't even fall in love.",
+        "\"Luck\" only matters if it's being tested.",
+        "I can't lie about heat."
+      ],
       "emojis": [
         "🎰",
         "🥊",
@@ -276,7 +309,10 @@ window.DLE.series["jjk"] = {
         "Cursed Technique"
       ],
       "debut": "Perfect Preparation",
-      "quote": null,
+      "quotes": [
+        "And I love a fired-up Kinji.",
+        "Kinji. Aren't you getting worked up?"
+      ],
       "emojis": [
         "✨",
         "💇",
@@ -305,7 +341,11 @@ window.DLE.series["jjk"] = {
         "Inherited Technique"
       ],
       "debut": "Cursed Child / Fearsome Womb",
-      "quote": "Throughout Heaven and Earth, I alone am the honored one.",
+      "quotes": [
+        "No one's allowed to take youth away from young people.",
+        "Dying to win and risking death to win are completely different, Megumi.",
+        "This is my personal theory, but there's no curse more twisted than love."
+      ],
       "emojis": [
         "🍬",
         "🕶️",
@@ -333,7 +373,11 @@ window.DLE.series["jjk"] = {
         "Cursed Corpse"
       ],
       "debut": "Cursed Child / Fearsome Womb",
-      "quote": "Why do you want to be a jujutsu sorcerer?",
+      "quotes": [
+        "Education is making people realize things.",
+        "A person's true nature reveals itself during a crisis.",
+        "I'll ask you once more. Why have you come here to Jujutsu Tech?"
+      ],
       "emojis": [
         "🕶️",
         "🧵",
@@ -359,7 +403,10 @@ window.DLE.series["jjk"] = {
         "Cursed Technique"
       ],
       "debut": "Cursed Child / Fearsome Womb",
-      "quote": null,
+      "quotes": [
+        "A window is a member of Jujutsu Tech who can see curses.",
+        "G-G-G-Gojou-san!"
+      ],
       "emojis": [
         "👔",
         "🚗",
@@ -386,7 +433,11 @@ window.DLE.series["jjk"] = {
         "Cursed Technique"
       ],
       "debut": "Cursed Child / Fearsome Womb",
-      "quote": null,
+      "quotes": [
+        "Sulking over the idea that no one will understand you sounds pretty childish...",
+        "Looks to me like you've taken quite a liking to him.",
+        "Don't torment Ijichi too much."
+      ],
       "emojis": [
         "🚬",
         "🩺",
@@ -414,7 +465,11 @@ window.DLE.series["jjk"] = {
         "Cursed Tool User"
       ],
       "debut": "Cursed Training / Vs. Mahito",
-      "quote": "Being a child is not a sin.",
+      "quotes": [
+        "Being a child is not a sin.",
+        "One thing I learned is that work is shit!",
+        "I hate overtime, so let's just finish this quickly."
+      ],
       "emojis": [
         "👔",
         "⏰",
@@ -440,7 +495,11 @@ window.DLE.series["jjk"] = {
         "Cursed Tool User"
       ],
       "debut": "Shibuya Incident",
-      "quote": null,
+      "quotes": [
+        "Don't go saying I helped you.",
+        "You being captured was just bait to draw Yaga out.",
+        "We're all here on standby outside the veil to catch any of Gojo's rebounds."
+      ],
       "emojis": [
         "👨‍🏫",
         "😑",
@@ -469,7 +528,11 @@ window.DLE.series["jjk"] = {
         "Shikigami User"
       ],
       "debut": "Kyoto Goodwill Event",
-      "quote": "In this world, money is everything.",
+      "quotes": [
+        "I'm on money's side.",
+        "There's no value to anything that can't be traded for money.",
+        "My crows didn't see anything."
+      ],
       "emojis": [
         "💰",
         "🪓",
@@ -496,7 +559,11 @@ window.DLE.series["jjk"] = {
         "Cursed Technique"
       ],
       "debut": "Cursed Training / Vs. Mahito",
-      "quote": "What kind of woman is your type?",
+      "quotes": [
+        "People with boring taste in women are boring people themselves.",
+        "Are you okay with staying weak?",
+        "The wrist is just for decoration. The so-called clap is the cheer of souls."
+      ],
       "emojis": [
         "💪",
         "🧠",
@@ -525,7 +592,11 @@ window.DLE.series["jjk"] = {
         "Cursed Tool User"
       ],
       "debut": "Cursed Training / Vs. Mahito",
-      "quote": "Destroy everything, Maki.",
+      "quotes": [
+        "You've always acted like you had no fear and plowed forward toward your future.",
+        "Oh, my. You're such a loser, I didn't even notice you, Maki.",
+        "Don't call me that, Fushiguro-kun. You make me sound the same as Maki."
+      ],
       "emojis": [
         "😒",
         "👯‍♀️",
@@ -552,7 +623,11 @@ window.DLE.series["jjk"] = {
         "Cursed Technique"
       ],
       "debut": "Kyoto Goodwill Event",
-      "quote": null,
+      "quotes": [
+        "Even if they are strong, women have to be cute, or they'll be undervalued.",
+        "Perfection is easy compared to what's demanded of Mai-chan!",
+        "You might have brought me down, but you still won't reach me!"
+      ],
       "emojis": [
         "🎀",
         "👧",
@@ -579,7 +654,11 @@ window.DLE.series["jjk"] = {
         "Inherited Technique"
       ],
       "debut": "Kyoto Goodwill Event",
-      "quote": null,
+      "quotes": [
+        "Why is everyone so mean to Mother?",
+        "For my mother's sake.",
+        "I intend to kill Itadori Yuuji."
+      ],
       "emojis": [
         "🎯",
         "🏹",
@@ -605,7 +684,10 @@ window.DLE.series["jjk"] = {
         "Cursed Tool User"
       ],
       "debut": "Kyoto Goodwill Event",
-      "quote": null,
+      "quotes": [
+        "I want to become independent as quickly as possible so I can earn money.",
+        "I'm poor!"
+      ],
       "emojis": [
         "💙",
         "🗡️",
@@ -634,7 +716,11 @@ window.DLE.series["jjk"] = {
         "Cursed Technique"
       ],
       "debut": "Kyoto Goodwill Event",
-      "quote": null,
+      "quotes": [
+        "I didn't ask for any of this power.",
+        "If I could trade my cursed techniques to have a normal body...",
+        "It constantly feels like needles are stabbing every pore of my body."
+      ],
       "emojis": [
         "🎮",
         "🤖",
@@ -661,7 +747,11 @@ window.DLE.series["jjk"] = {
         "Cursed Technique"
       ],
       "debut": "Cursed Training / Vs. Mahito",
-      "quote": "Show some respect to your seniors!",
+      "quotes": [
+        "Respect your seniors!",
+        "I'm not crying! And be more polite!",
+        "As if that idiot would ever show up on time."
+      ],
       "emojis": [
         "🎵",
         "⛩️",
@@ -687,7 +777,11 @@ window.DLE.series["jjk"] = {
         "Cursed Technique"
       ],
       "debut": "Cursed Training / Vs. Mahito",
-      "quote": null,
+      "quotes": [
+        "Kill Sukuna's vessel, Itadori Yuuji. He is not a person.",
+        "It'll be treated as an accident.",
+        "Where are you going without your cursed corpse, Principal Yaga?"
+      ],
       "emojis": [
         "👴",
         "🎼",
@@ -716,7 +810,11 @@ window.DLE.series["jjk"] = {
         "Cursed Technique"
       ],
       "debut": "Cursed Child / Fearsome Womb",
-      "quote": "Know your place, fool.",
+      "quotes": [
+        "Know your place, fool.",
+        "This is a good opportunity, so I'll show you what real jujutsu is.",
+        "Let's have a contest of firepower."
+      ],
       "emojis": [
         "👑",
         "☝️",
@@ -724,7 +822,7 @@ window.DLE.series["jjk"] = {
         "✂️",
         "👹"
       ],
-      "hint": "The four-armed King of Curses whose twenty fingers were scattered across Japan as cursed objects."
+      "hint": "The four-armed ancient curse whose twenty fingers were scattered across Japan as cursed objects."
     },
     {
       "id": "mahito",
@@ -740,7 +838,11 @@ window.DLE.series["jjk"] = {
         "Cursed Spirit"
       ],
       "debut": "Cursed Training / Vs. Mahito",
-      "quote": "Do you believe people have hearts?",
+      "quotes": [
+        "Do you believe people have hearts?",
+        "There's no value or importance to life.",
+        "Don't be naive, punk! This is war!"
+      ],
       "emojis": [
         "🧵",
         "🖐️",
@@ -766,7 +868,11 @@ window.DLE.series["jjk"] = {
         "Cursed Spirit"
       ],
       "debut": "Cursed Training / Vs. Mahito",
-      "quote": "We curses are the true humans.",
+      "quotes": [
+        "Most sorcerers would have burned to ash the moment they entered my Domain!",
+        "Ember Insects!",
+        "If I neutralize that Infinity of yours with a dense Domain..."
+      ],
       "emojis": [
         "🔥",
         "🌋",
@@ -790,7 +896,11 @@ window.DLE.series["jjk"] = {
         "Cursed Spirit"
       ],
       "debut": "Cursed Training / Vs. Mahito",
-      "quote": null,
+      "quotes": [
+        "I merely wish to protect this planet, that's all.",
+        "It's impossible to coexist with humans any longer.",
+        "This planet can shine blue once more, given a bit of time."
+      ],
       "emojis": [
         "🌳",
         "🌸",
@@ -814,7 +924,11 @@ window.DLE.series["jjk"] = {
         "Cursed Spirit"
       ],
       "debut": "Cursed Training / Vs. Mahito",
-      "quote": "Death Swarm!",
+      "quotes": [
+        "Activate technique: Death Swarm!",
+        "I'll split my power, 70% to the mustached man...",
+        "Weak. You're first."
+      ],
       "emojis": [
         "🐙",
         "🌊",
@@ -841,7 +955,11 @@ window.DLE.series["jjk"] = {
         "Inherited Technique"
       ],
       "debut": "Death Painting",
-      "quote": "I'm your big brother, Yuji.",
+      "quotes": [
+        "Competent or not, older brothers serve as an example to their younger brother.",
+        "I will do my utmost to fulfill my duty as the older brother.",
+        "You're impressive, my little brother."
+      ],
       "emojis": [
         "🩸",
         "🖼️",
@@ -868,7 +986,11 @@ window.DLE.series["jjk"] = {
         "Cursed Spirit"
       ],
       "debut": "Jujutsu Kaisen 0",
-      "quote": "Let's get married when we grow up!",
+      "quotes": [
+        "When we grow up, we'll get married! It's a promise.",
+        "Do not... bully Yuta!",
+        "I love, love, love you!"
+      ],
       "emojis": [
         "💍",
         "💞",
@@ -897,7 +1019,11 @@ window.DLE.series["jjk"] = {
         "Cursed Technique"
       ],
       "debut": "Jujutsu Kaisen 0",
-      "quote": "At least curse me a little at the end.",
+      "quotes": [
+        "Are you the strongest because you're Satoru Gojo?",
+        "Let's lower the curtain on the age of monkeys...",
+        "Sorry, but I don't have time to chat with monkeys."
+      ],
       "emojis": [
         "🙏",
         "👘",
@@ -926,7 +1052,11 @@ window.DLE.series["jjk"] = {
         "Cursed Technique"
       ],
       "debut": "Cursed Child / Fearsome Womb",
-      "quote": "Let the Culling Game begin.",
+      "quotes": [
+        "It's beginning once again. The golden age of sorcery.",
+        "What I have created is ultimately limited by my own possibilities.",
+        "Wrong, it's about optimizing Cursed Energy."
+      ],
       "emojis": [
         "🧠",
         "🪡",
@@ -957,7 +1087,11 @@ window.DLE.series["jjk"] = {
         "Cursed Tool User"
       ],
       "debut": "Hidden Inventory / Premature Death",
-      "quote": "Not Zenin, huh? Good for you.",
+      "quotes": [
+        "After all, the organs of the invisible man are invisible, too, right?",
+        "If you want to live a long life, never forget that.",
+        "You were all beaten by a monkey like me who can't even use cursed techniques."
+      ],
       "emojis": [
         "💸",
         "🎰",
@@ -981,7 +1115,10 @@ window.DLE.series["jjk"] = {
         "Cursed Technique"
       ],
       "debut": "Shibuya Incident",
-      "quote": "Ice Formation: Frost Calm.",
+      "quotes": [
+        "Ice Formation: Frost Calm.",
+        "I've come to welcome you, Sukuna-sama."
+      ],
       "emojis": [
         "🍚",
         "❄️",
@@ -1008,7 +1145,11 @@ window.DLE.series["jjk"] = {
         "Inherited Technique"
       ],
       "debut": "Itadori's Extermination",
-      "quote": "A woman should follow three steps behind a man.",
+      "quotes": [
+        "She may put on a brave face, but she understands her place as a woman.",
+        "Woulda been better if you got Toji-kun's looks.",
+        "Older brothers who are less competent than a younger brother serve no purpose."
+      ],
       "emojis": [
         "😏",
         "💨",
@@ -1035,7 +1176,11 @@ window.DLE.series["jjk"] = {
         "Inherited Technique"
       ],
       "debut": "Shibuya Incident",
-      "quote": "Twenty-four frames per second.",
+      "quotes": [
+        "Cursed spirit, do you know how many frames there are in one second of animation?",
+        "However, modern TVs have their damn frame interpolation set to \"on\" by default!",
+        "You only took one measly right arm. But it had 71 years in it."
+      ],
       "emojis": [
         "🍶",
         "🥃",
@@ -1043,7 +1188,7 @@ window.DLE.series["jjk"] = {
         "🏯",
         "👴"
       ],
-      "hint": "The hard-drinking old head of the Zenin clan, a Special Grade 1 sorcerer with a film-frame technique."
+      "hint": "The hard-drinking old head of one of the big three sorcerer clans, a Special Grade 1 sorcerer with a film-frame technique."
     },
     {
       "id": "junpei-yoshino",
@@ -1062,7 +1207,11 @@ window.DLE.series["jjk"] = {
         "Shikigami User"
       ],
       "debut": "Cursed Training / Vs. Mahito",
-      "quote": "People don't have hearts.",
+      "quotes": [
+        "Indifference is the virtue people ought to strive for.",
+        "But the jujutsu sorcerers are Mahito-san's enemies, right?",
+        "Mom, you've had too much to drink."
+      ],
       "emojis": [
         "🎬",
         "🍿",
@@ -1090,7 +1239,11 @@ window.DLE.series["jjk"] = {
         "Vessel"
       ],
       "debut": "Hidden Inventory / Premature Death",
-      "quote": "I want to be with everyone a little longer!",
+      "quotes": [
+        "I want to be with everyone longer!",
+        "A commoner's way of thinking!",
+        "I talk normally at school!"
+      ],
       "emojis": [
         "🎒",
         "🏝️",
@@ -1098,7 +1251,7 @@ window.DLE.series["jjk"] = {
         "🧬",
         "✨"
       ],
-      "hint": "A cheeky middle-schooler chosen as the Star Plasma Vessel and escorted by two Tokyo students."
+      "hint": "A cheeky middle-schooler destined to merge with an immortal sorcerer, escorted by two Tokyo students."
     },
     {
       "id": "yuki-tsukumo",
@@ -1117,7 +1270,11 @@ window.DLE.series["jjk"] = {
         "Cursed Technique"
       ],
       "debut": "Hidden Inventory / Premature Death",
-      "quote": "So, what's your type of woman?",
+      "quotes": [
+        "I want to create a world where cursed spirits aren't born.",
+        "Do you hate non-sorcerers, Geto-kun?",
+        "But unfortunately, I'm not crazy enough to do that."
+      ],
       "emojis": [
         "🏍️",
         "💁‍♀️",
@@ -1144,7 +1301,11 @@ window.DLE.series["jjk"] = {
         "Cursed Technique"
       ],
       "debut": "Perfect Preparation",
-      "quote": null,
+      "quotes": [
+        "Child of Zen'in, Descendant of Michizane, Cursed Womb Death Painting, and Vessel of Sukuna.",
+        "I'm immortal, but not ageless.",
+        "The world itself is who I am now."
+      ],
       "emojis": [
         "🏯",
         "🌳",
@@ -1172,7 +1333,11 @@ window.DLE.series["jjk"] = {
         "Shikigami User"
       ],
       "debut": "Tokyo No. 1 Colony",
-      "quote": null,
+      "quotes": [
+        "All acts of violence are prohibited in this space.",
+        "Judgeman knows everything about those within this domain.",
+        "This trial was guilty from the start…"
+      ],
       "emojis": [
         "⚖️",
         "👨‍⚖️",
@@ -1199,7 +1364,11 @@ window.DLE.series["jjk"] = {
         "Cursed Technique"
       ],
       "debut": "Perfect Preparation",
-      "quote": "I'm going to be the funniest man in the world!",
+      "quotes": [
+        "I won't do something that steals someone's smile forever!",
+        "So I can't mess up a joke in this thing!",
+        "So you're asking… if I'm funny… or not… right?"
+      ],
       "emojis": [
         "🎤",
         "😂",
@@ -1225,7 +1394,11 @@ window.DLE.series["jjk"] = {
         "Cursed Technique"
       ],
       "debut": "Tokyo No. 1 Colony",
-      "quote": null,
+      "quotes": [
+        "Didn't expect to get outplayed by a modern sorcerer...",
+        "Meaning I can do this too. Contractual Re-Creation!",
+        "What are you plotting, you little brat?"
+      ],
       "emojis": [
         "⭐",
         "🧾",
@@ -1251,7 +1424,11 @@ window.DLE.series["jjk"] = {
         "Cursed Technique"
       ],
       "debut": "Sendai Colony",
-      "quote": "You'll never get stronger fighting for others.",
+      "quotes": [
+        "What I strike is not a person, but the surface of the sky.",
+        "The ones who say that are always… those who already became someone!",
+        "My technique perceives the \"sky\" as a \"surface.\""
+      ],
       "emojis": [
         "🌌",
         "☁️",
@@ -1277,7 +1454,10 @@ window.DLE.series["jjk"] = {
         "Cursed Technique"
       ],
       "debut": "Perfect Preparation",
-      "quote": null,
+      "quotes": [
+        "Everyone is so damn weak. People were a bit better 400 years ago.",
+        "Where are you, Sukuna?"
+      ],
       "emojis": [
         "😐",
         "🥱",
@@ -1303,7 +1483,11 @@ window.DLE.series["jjk"] = {
         "Cursed Technique"
       ],
       "debut": "Shibuya Incident",
-      "quote": null,
+      "quotes": [
+        "So whenever I'm at a loss, I think to myself, \"What would Nanami-san do?\"",
+        "Nanami-san is counting on me!",
+        "Auspicious Beast Summon: #1, Kaichi!"
+      ],
       "emojis": [
         "🧢",
         "🐢",
@@ -1329,7 +1513,11 @@ window.DLE.series["jjk"] = {
         "Cursed Technique"
       ],
       "debut": "Shibuya Incident",
-      "quote": null,
+      "quotes": [
+        "Nee-sama is praising you! Just accept it!",
+        "You're not like ordinary women yourself, Nee-sama.",
+        "Forcing Nee-sama to be his backup, Satoru Gojo must think he's some big-shot."
+      ],
       "emojis": [
         "👦",
         "💰",
@@ -1356,7 +1544,11 @@ window.DLE.series["jjk"] = {
         "Cursed Technique"
       ],
       "debut": "Hidden Inventory / Premature Death",
-      "quote": "I like when I do things that only I can do.",
+      "quotes": [
+        "I'm not really one to think about things too deeply...",
+        "I like girls who eat a lot!",
+        "I'm a great judge of character!"
+      ],
       "emojis": [
         "🏫",
         "😁",
@@ -1381,7 +1573,11 @@ window.DLE.series["jjk"] = {
         "Inherited Technique"
       ],
       "debut": "Death Painting",
-      "quote": null,
+      "quotes": [
+        "I'm a bit insecure about my back, you see.",
+        "Rot Technique, Supreme Art: Wing King!",
+        "We brothers were tasked with an errand."
+      ],
       "emojis": [
         "💪",
         "🎀",
@@ -1406,7 +1602,10 @@ window.DLE.series["jjk"] = {
         "Inherited Technique"
       ],
       "debut": "Death Painting",
-      "quote": null,
+      "quotes": [
+        "What's this? Someone beat me here?",
+        "You're going to play with me?"
+      ],
       "emojis": [
         "👄",
         "🦷",
@@ -1432,7 +1631,10 @@ window.DLE.series["jjk"] = {
         "Cursed Technique"
       ],
       "debut": "Shibuya Incident",
-      "quote": "I can't heal it, but I can keep it from getting worse.",
+      "quotes": [
+        "Listen carefully, Itadori. Your current injuries won't continue to worsen.",
+        "They haven't healed, but the bleeding has stopped."
+      ],
       "emojis": [
         "🎒",
         "😪",
@@ -1459,7 +1661,7 @@ window.DLE.series["jjk"] = {
         "Inherited Technique"
       ],
       "debut": "Shibuya Incident",
-      "quote": null,
+      "quotes": [],
       "emojis": [
         "🗡️",
         "💪",
@@ -1487,7 +1689,7 @@ window.DLE.series["jjk"] = {
         "Vessel"
       ],
       "debut": "Tokyo No. 1 Colony",
-      "quote": null,
+      "quotes": [],
       "emojis": [
         "✨",
         "🕊️",
@@ -1513,7 +1715,12 @@ window.DLE.series["jjk"] = {
         "Cursed Technique"
       ],
       "debut": "Sendai Colony",
-      "quote": "Granite Blast!",
+      "quotes": [
+        "Granite Blast!",
+        "My first life was about 80% full.",
+        "I'm unsatisfied because I'm not full yet!",
+        "Not bad, Okkotsu. Are you my… dessert?"
+      ],
       "emojis": [
         "🍽️",
         "🕶️",

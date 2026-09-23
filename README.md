@@ -35,7 +35,7 @@ Open `index.html` in a browser. No build step or server needed. Portraits, episo
 
 ## Editing character casts
 
-Edit `data/<series>.js`, then run `node tools/validate.js data/<series>.js`. Each character needs: `id`, `name`, `aliases`, `gender`, `hair`, `affiliation` (array, from the file's `affiliations` vocab), `age` (integer or `null` — the latest age the show gives them, or age at death), `power` (array, from `powers`), `debut` (from `arcs`, which must stay in air order), `quote` (or `null`), `emojis` (exactly 5), `hint`, optional `wiki` (Fandom page title). Portraits live in `data/images.js`; without one the tile shows initials.
+Edit `data/<series>.js`, then run `node tools/validate.js data/<series>.js`. Each character needs: `id`, `name`, `aliases`, `gender`, `hair`, `affiliation` (array, from the file's `affiliations` vocab), `age` (integer or `null` — the latest age the show gives them, or age at death), `power` (array, from `powers`), `debut` (from `arcs`, which must stay in air order), `quotes` (a list of 2-4 short lines the character says, none naming them; `[]` skips them in Quote mode), `emojis` (exactly 5), `hint`, optional `wiki` (Fandom page title). Portraits live in `data/images.js`; without one the tile shows initials.
 
 Per-series switches: `hairLabel` + `hairVocab` replace the Hair column (SpongeBob uses body Color), `hideAge: true` drops the Age column, `maxPower` raises the 2-power cap, `tagline` adds a line under the name on the home card.
 

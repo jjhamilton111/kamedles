@@ -53,7 +53,11 @@ window.DLE.series["frieren"] = {
         "Mage"
       ],
       "debut": "Journey's End",
-      "quote": "Because that's what Himmel would have done.",
+      "quotes": [
+        "Why didn't I try to get to know him better?",
+        "It's dark and scary in here!",
+        "The greatest joy of magic lies in searching for it."
+      ],
       "emojis": [
         "⏳",
         "📚",
@@ -79,7 +83,11 @@ window.DLE.series["frieren"] = {
         "Mage"
       ],
       "debut": "Journey's End",
-      "quote": "Ms. Frieren, wake up. It's morning.",
+      "quotes": [
+        "Ms. Frieren, it's morning. Please wake up.",
+        "Don't make me angry, Ms. Frieren.",
+        "Ms. Frieren, you've been carrying debt?"
+      ],
       "emojis": [
         "🍰",
         "😤",
@@ -106,7 +114,11 @@ window.DLE.series["frieren"] = {
         "Warrior"
       ],
       "debut": "Journey's End",
-      "quote": "I wasn't brave. I was just frozen with fear.",
+      "quotes": [
+        "But I was so scared, I couldn't move a muscle!",
+        "It slices through houses like they're vegetables!",
+        "What are you plotting?! I'm scared!"
+      ],
       "emojis": [
         "😨",
         "🍖",
@@ -133,7 +145,11 @@ window.DLE.series["frieren"] = {
         "Warrior"
       ],
       "debut": "Journey's End",
-      "quote": "Make the statue a little more handsome, would you?",
+      "quotes": [
+        "I'm not sure they'll be able to faithfully recreate my handsome looks, though.",
+        "I'm still pretty handsome at this age, though, aren't I?",
+        "To live is to be known and remembered by others."
+      ],
       "emojis": [
         "🌠",
         "💙",
@@ -157,7 +173,11 @@ window.DLE.series["frieren"] = {
         "Priest"
       ],
       "debut": "Journey's End",
-      "quote": "Even priests tell lies sometimes.",
+      "quotes": [
+        "I'd like something where I can drink on the job.",
+        "Now, now, Frieren. Tonight, we drink for free.",
+        "Also, in your spare time, will you teach Fern magic?"
+      ],
       "emojis": [
         "🍺",
         "😆",
@@ -181,7 +201,11 @@ window.DLE.series["frieren"] = {
         "Warrior"
       ],
       "debut": "Journey's End",
-      "quote": "The trick to beating a strong opponent? Keep getting back up.",
+      "quotes": [
+        "No matter how many times it takes, get back up and keep fighting.",
+        "We thought about leaving you behind when that mimic tried to eat you.",
+        "I wouldn't trade my memories of those ridiculous adventures with my friends for anything."
+      ],
       "emojis": [
         "🧔",
         "💪",
@@ -207,7 +231,11 @@ window.DLE.series["frieren"] = {
         "Priest"
       ],
       "debut": "Journey with Sein",
-      "quote": "Booze, tobacco, gambling, and older women. That's my kind of life.",
+      "quotes": [
+        "But an older woman like that... is no older woman at all!",
+        "I would've loved to have an older woman do this.",
+        "That's the whole reason I wanted to become an adventurer as a kid."
+      ],
       "emojis": [
         "🎰",
         "🚬",
@@ -233,7 +261,11 @@ window.DLE.series["frieren"] = {
         "Mage"
       ],
       "debut": "Journey's End",
-      "quote": "Suppress your mana for your whole life, and deceive the demons.",
+      "quotes": [
+        "It's a cowardly and unfair way to fight that makes a mockery of magic.",
+        "It will be a mage like her who clears the way to a peaceful era.",
+        "Master, someday this girl will defeat the Demon King."
+      ],
       "emojis": [
         "🌻",
         "📜",
@@ -259,7 +291,11 @@ window.DLE.series["frieren"] = {
         "Mage"
       ],
       "debut": "First-Class Mage Exam",
-      "quote": "In the world of magic, imagination is everything.",
+      "quotes": [
+        "In the world of magic, sometimes the world is turned upside down.",
+        "It's been a thousand years, and this is how you say hello?",
+        "Tell me what spell you desire."
+      ],
       "emojis": [
         "🌳",
         "💛",
@@ -285,7 +321,11 @@ window.DLE.series["frieren"] = {
         "Demon"
       ],
       "debut": "Aura the Guillotine",
-      "quote": "I have lived for over five hundred years.",
+      "quotes": [
+        "This is absurd. I'm a great demon who's lived for over five hundred years.",
+        "Are you stupid? Why would you do something so pointless?",
+        "After all that work I put in collecting them."
+      ],
       "emojis": [
         "💜",
         "😈",
@@ -312,7 +352,11 @@ window.DLE.series["frieren"] = {
         "Demon"
       ],
       "debut": "Aura the Guillotine",
-      "quote": "Words are nothing but a tool to deceive humans.",
+      "quotes": [
+        "I despise geniuses. They lack the beauty of accumulated effort.",
+        "Graf Granat, what are words? How do they differ from swords?",
+        "What am I to do with that hot-blooded youngster?"
+      ],
       "emojis": [
         "🎩",
         "🤝",
@@ -337,7 +381,11 @@ window.DLE.series["frieren"] = {
         "Warrior"
       ],
       "debut": "Aura the Guillotine",
-      "quote": "I remember those moves. That dwarf's technique.",
+      "quotes": [
+        "I'm good at reading people's mana.",
+        "I memorize the way mana flows through people's bodies as they move.",
+        "I am copying the movements of Eisen the warrior."
+      ],
       "emojis": [
         "🩷",
         "👧",
@@ -361,7 +409,11 @@ window.DLE.series["frieren"] = {
         "Demon"
       ],
       "debut": "Aura the Guillotine",
-      "quote": null,
+      "quotes": [
+        "Just so you know, I'm strong.",
+        "But this wire is among the strongest of demonkind's spells.",
+        "I'll cut through both your neck and your mana."
+      ],
       "emojis": [
         "🕶️",
         "😈",
@@ -388,7 +440,11 @@ window.DLE.series["frieren"] = {
         "Other"
       ],
       "debut": "Aura the Guillotine",
-      "quote": null,
+      "quotes": [
+        "Your peace means nothing to me!",
+        "I will pardon the incident with your mage friend. Her judgement was right.",
+        "Don't tell me she's the elf mage who was in the party of heroes..."
+      ],
       "emojis": [
         "🍷",
         "🏰",
@@ -414,7 +470,11 @@ window.DLE.series["frieren"] = {
         "Demon"
       ],
       "debut": "Journey's End",
-      "quote": "How many years has it been, elf?",
+      "quotes": [
+        "It's been a while, Frieren. How many years has it been?",
+        "A mere eighty years, huh?",
+        "So you can fly? Interesting."
+      ],
       "emojis": [
         "⏳",
         "🔒",
@@ -439,7 +499,11 @@ window.DLE.series["frieren"] = {
         "Warrior"
       ],
       "debut": "Journey with Sein",
-      "quote": "Then I will praise you in the Goddess's stead.",
+      "quotes": [
+        "If you don't believe in the Goddess, then I'll praise you instead.",
+        "The Goddess must have led you here.",
+        "But now I believe in the Goddess from the bottom of my heart."
+      ],
       "emojis": [
         "💪",
         "🗿",
@@ -463,7 +527,11 @@ window.DLE.series["frieren"] = {
         "Warrior"
       ],
       "debut": "Journey with Sein",
-      "quote": "I've long since forgotten her face.",
+      "quotes": [
+        "I'm just defending the village my wife loved.",
+        "I can't remember anymore. Not her face, nor her voice, nor her eyes.",
+        "But I continue defending this village for an important something."
+      ],
       "emojis": [
         "⏳",
         "🏘️",
@@ -487,7 +555,11 @@ window.DLE.series["frieren"] = {
         "Warrior"
       ],
       "debut": "Journey with Sein",
-      "quote": "Happy birthday. I made you a hamburg steak.",
+      "quotes": [
+        "I'm going to train my foolish younger brother.",
+        "I know you'll become stronger, but your stance could use some improvement.",
+        "Hamburg steak. It's your birthday, isn't it?"
+      ],
       "emojis": [
         "🍖",
         "🎂",
@@ -515,7 +587,11 @@ window.DLE.series["frieren"] = {
         "Mage"
       ],
       "debut": "First-Class Mage Exam",
-      "quote": "I can cut anything, as long as I can picture it.",
+      "quotes": [
+        "It will cut through anything that I deem cuttable.",
+        "What goes through that head of yours? What kind of life have you led?",
+        "That's fine, but if you try to run away from me, I might kill you."
+      ],
       "emojis": [
         "😏",
         "🌿",
@@ -540,7 +616,11 @@ window.DLE.series["frieren"] = {
         "Mage"
       ],
       "debut": "First-Class Mage Exam",
-      "quote": "I never once stepped onto the battlefield myself.",
+      "quotes": [
+        "I'm saying I won't tell you because I don't like you.",
+        "I don't like dim-witted people like you.",
+        "You don't think anything of killing people, do you?"
+      ],
       "emojis": [
         "👓",
         "🥱",
@@ -566,7 +646,11 @@ window.DLE.series["frieren"] = {
         "Mage"
       ],
       "debut": "First-Class Mage Exam",
-      "quote": "I'm an old man, but my fists still work.",
+      "quotes": [
+        "Let's settle this with our fists!",
+        "You must eat your vegetables, too.",
+        "If you intend to live as a mage, then ingratiating yourself to me wouldn't hurt."
+      ],
       "emojis": [
         "👴",
         "🎩",
@@ -590,7 +674,11 @@ window.DLE.series["frieren"] = {
         "Mage"
       ],
       "debut": "First-Class Mage Exam",
-      "quote": "Jilwer!",
+      "quotes": [
+        "The old man bought these for me. I'm not sharing.",
+        "Why are you so desperate to become a first-class mage?",
+        "You've got wealth, influence, and everything else you could want."
+      ],
       "emojis": [
         "🍊",
         "💨",
@@ -614,7 +702,11 @@ window.DLE.series["frieren"] = {
         "Mage"
       ],
       "debut": "First-Class Mage Exam",
-      "quote": "Bargland!",
+      "quotes": [
+        "A crazy old man dragged me into a fistfight.",
+        "This is why I don't like water.",
+        "Grandma, I'm not a kid anymore."
+      ],
       "emojis": [
         "🧔",
         "🪨",
@@ -640,7 +732,11 @@ window.DLE.series["frieren"] = {
         "Mage"
       ],
       "debut": "First-Class Mage Exam",
-      "quote": "It's a shame. You've got such a cute face.",
+      "quotes": [
+        "That's right. I use this time to prepare myself to kill.",
+        "Just so you know, I'm not that old yet.",
+        "I'll do anything to protect the far north."
+      ],
       "emojis": [
         "❄️",
         "🪖",
@@ -665,7 +761,11 @@ window.DLE.series["frieren"] = {
         "Mage"
       ],
       "debut": "First-Class Mage Exam",
-      "quote": null,
+      "quotes": [
+        "Her technique is refined and near seamless, but it's old-fashioned.",
+        "It feels like I'm fighting my grandfather.",
+        "His magic is utterly devoid of character, designed to win at all costs."
+      ],
       "emojis": [
         "❄️",
         "🪖",
@@ -690,7 +790,9 @@ window.DLE.series["frieren"] = {
         "Mage"
       ],
       "debut": "First-Class Mage Exam",
-      "quote": null,
+      "quotes": [
+        "Wirbel, please carry me. My whole body feels numb."
+      ],
       "emojis": [
         "❄️",
         "🪖",
@@ -714,7 +816,11 @@ window.DLE.series["frieren"] = {
         "Mage"
       ],
       "debut": "First-Class Mage Exam",
-      "quote": "Rain is water too, you know.",
+      "quotes": [
+        "You're even more spoiled than me.",
+        "Ow, ow! You're gonna rip them off!",
+        "You're looking cuter than ever, Lawine."
+      ],
       "emojis": [
         "😢",
         "🍊",
@@ -738,7 +844,11 @@ window.DLE.series["frieren"] = {
         "Mage"
       ],
       "debut": "First-Class Mage Exam",
-      "quote": "Stop crying, you big baby.",
+      "quotes": [
+        "It's hell being compared to my talented brothers.",
+        "I'm not their dress-up doll.",
+        "Not even bluffing works? I hate adults like you."
+      ],
       "emojis": [
         "😤",
         "🩶",
@@ -762,7 +872,11 @@ window.DLE.series["frieren"] = {
         "Mage"
       ],
       "debut": "First-Class Mage Exam",
-      "quote": "You are permitted to kill the other candidates.",
+      "quotes": [
+        "Do you declare your name before exterminating a pest?",
+        "Despite how I may seem, I'm skilled in close-quarters combat.",
+        "Do you really think there's a mage in this world greater than Serie?"
+      ],
       "emojis": [
         "📋",
         "🐦",
@@ -786,7 +900,11 @@ window.DLE.series["frieren"] = {
         "Mage"
       ],
       "debut": "First-Class Mage Exam",
-      "quote": "I'd like this exam to end without any conflict.",
+      "quotes": [
+        "I am a pacifist. I dislike fighting.",
+        "First-class mages make the impossible possible.",
+        "You are attempting to reach the pinnacle of magehood."
+      ],
       "emojis": [
         "🕊️",
         "🤫",
@@ -810,7 +928,10 @@ window.DLE.series["frieren"] = {
         "Mage"
       ],
       "debut": "First-Class Mage Exam",
-      "quote": null,
+      "quotes": [
+        "This isn't my first time being at the mercy of your one-sided decisions.",
+        "It seems that Mistress Serie has caused you trouble."
+      ],
       "emojis": [
         "👴",
         "🎓",
@@ -834,7 +955,11 @@ window.DLE.series["frieren"] = {
         "Mage"
       ],
       "debut": "First-Class Mage Exam",
-      "quote": "She's so cute. I just want to pet her.",
+      "quotes": [
+        "In that case, Ms. Frieren, may I pet you?",
+        "I love giving headpats to small girls...",
+        "She's so small and cute, you know?"
+      ],
       "emojis": [
         "💛",
         "😊",
@@ -858,7 +983,10 @@ window.DLE.series["frieren"] = {
         "Mage"
       ],
       "debut": "First-Class Mage Exam",
-      "quote": "Sorganeil!",
+      "quotes": [
+        "Hypnosis magic is indeed my family's calling...",
+        "At most, I could create an opening by making it kneel."
+      ],
       "emojis": [
         "🍓",
         "👁️",
@@ -885,7 +1013,7 @@ window.DLE.series["frieren"] = {
         "Warrior"
       ],
       "debut": "Northern Plateau",
-      "quote": "Tell him humanity's strongest cleared the road ahead.",
+      "quotes": [],
       "emojis": [
         "🗿",
         "🔮",
@@ -911,7 +1039,7 @@ window.DLE.series["frieren"] = {
         "Demon"
       ],
       "debut": "Northern Plateau",
-      "quote": "I cannot know my fate without trying.",
+      "quotes": [],
       "emojis": [
         "♟️",
         "🔮",
@@ -939,7 +1067,7 @@ window.DLE.series["frieren"] = {
         "Warrior"
       ],
       "debut": "Divine Revolte",
-      "quote": null,
+      "quotes": [],
       "emojis": [
         "🎭",
         "🐍",

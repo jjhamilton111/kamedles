@@ -68,7 +68,11 @@ window.DLE.series["blackclover"] = {
         "Anti Magic"
       ],
       "debut": "Magic Knights Entrance Exam",
-      "quote": "Not giving up is my magic!",
+      "quotes": [
+        "Not giving up is my magic!",
+        "I may be just a pebble, but I'm... a pebble that shatters diamonds!",
+        "Even without magical powers... I'm going to become the Wizard King!"
+      ],
       "emojis": [
         "💪",
         "📢",
@@ -94,7 +98,11 @@ window.DLE.series["blackclover"] = {
         "Wind"
       ],
       "debut": "Magic Knights Entrance Exam",
-      "quote": "I'm going to become the Wizard King.",
+      "quotes": [
+        "He's no loser. He's... Asta's my rival!",
+        "I have no interest in being too friendly with my rival.",
+        "But you're the one who gave me hope."
+      ],
       "emojis": [
         "😐",
         "🌟",
@@ -120,7 +128,11 @@ window.DLE.series["blackclover"] = {
         "Water"
       ],
       "debut": "Magic Knights Entrance Exam",
-      "quote": "Don't get the wrong idea, Bakasta!",
+      "quotes": [
+        "I didn't give you permission to speak to me.",
+        "N-Not that I'm worried about you! Don't get the wrong idea!",
+        "I'll defeat you, whether you ask me to or not!"
+      ],
       "emojis": [
         "👑",
         "😤",
@@ -146,7 +158,11 @@ window.DLE.series["blackclover"] = {
         "Dark"
       ],
       "debut": "Magic Knights Entrance Exam",
-      "quote": "Surpass your limits. Right here, right now.",
+      "quotes": [
+        "Surpass your limits. Right here, right now.",
+        "You just protect what you want to protect. Someday, that'll help somebody out.",
+        "Even if I have to destroy fate, I'm going to do whatever I want."
+      ],
       "emojis": [
         "🚬",
         "🥋",
@@ -172,7 +188,11 @@ window.DLE.series["blackclover"] = {
         "Fire"
       ],
       "debut": "Magic Knights Entrance Exam",
-      "quote": "Bring it on, ya punk!",
+      "quotes": [
+        "I'll be sure to clean up any of you newbies' mistakes, since I'm your senior.",
+        "I want to make sure I don't embarrass them as their senior.",
+        "Who are you calling a gangster?!"
+      ],
       "emojis": [
         "🕶️",
         "🔥",
@@ -198,7 +218,11 @@ window.DLE.series["blackclover"] = {
         "Lightning"
       ],
       "debut": "Magic Knights Entrance Exam",
-      "quote": "Let's fight! It'll be so much fun!",
+      "quotes": [
+        "Whatever! I don't care as long as I get to fight strong people.",
+        "Hey, Magna. Let's fight. No holding back.",
+        "Hey, hey, Yuno! Let's fight sometime."
+      ],
       "emojis": [
         "😄",
         "⚡",
@@ -225,7 +249,11 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Magic Knights Entrance Exam",
-      "quote": "Just leave it to your big sis.",
+      "quotes": [
+        "C'mon, just ignore these brats and drink with me.",
+        "The most gifted witch in the history of the kingdom of witches has returned!",
+        "My magic is in changing fate."
+      ],
       "emojis": [
         "🍷",
         "💗",
@@ -252,7 +280,11 @@ window.DLE.series["blackclover"] = {
         "Spatial"
       ],
       "debut": "Magic Knights Entrance Exam",
-      "quote": "I may not be able to attack, but I can still fight!",
+      "quotes": [
+        "Do you have some time, miss? Want to have some tea with me?",
+        "I ran away from my parents, my brother, my home, and reality.",
+        "But I'll make the Black Bulls the strongest squad!"
+      ],
       "emojis": [
         "💐",
         "👋",
@@ -278,7 +310,11 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Magic Knights Entrance Exam",
-      "quote": "My little sister Marie is an angel!",
+      "quotes": [
+        "This is my little sister Marie. She's an angel.",
+        "As long as Marie is smiling, I don't need anything else.",
+        "Almost... I'm almost done with my life-size statue of Marie."
+      ],
       "emojis": [
         "😡",
         "💢",
@@ -305,7 +341,11 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Magic Knights Entrance Exam",
-      "quote": "Anyone who ruins my meal is my enemy, la!",
+      "quotes": [
+        "None shall ever lay a finger on my food.",
+        "My meal-saving prince has arrived!",
+        "Thanks for the nummies!"
+      ],
       "emojis": [
         "🍖",
         "🍰",
@@ -331,7 +371,11 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Magic Knights Entrance Exam",
-      "quote": "I just want to be your friend...",
+      "quotes": [
+        "Born into a family famed for its Curse Magic, I wasn't allowed to make friends.",
+        "So many of you came to be friends with me.",
+        "When I first came to Black Bull, I was very lonely."
+      ],
       "emojis": [
         "🖤",
         "😶",
@@ -355,7 +399,11 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Magic Knights Entrance Exam",
-      "quote": "I'm sorry! I'm so embarrassed!",
+      "quotes": [
+        "I-I'm so embarrassed!",
+        "Please don't look at me!",
+        "I found friends I could truly trust like family."
+      ],
       "emojis": [
         "😳",
         "🎭",
@@ -381,7 +429,11 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Royal Knights Selection",
-      "quote": "Wel...come... home... every...one.",
+      "quotes": [
+        "You probably didn't know about me, but... I knew about all of you.",
+        "You probably didn't know I existed, but you are... my precious friends.",
+        "Bad guys who hurt my precious friends... will not be spared!"
+      ],
       "emojis": [
         "🏰",
         "🛌",
@@ -408,7 +460,11 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Royal Knights Selection",
-      "quote": "Magic Knights who abuse the weak are trash.",
+      "quotes": [
+        "What an idiot. How is that cheating? Gathering intel counts as an ability.",
+        "Was there a rule against setting traps up the day before?",
+        "People like you... aren't the Magic Knights that my father envisioned!"
+      ],
       "emojis": [
         "😏",
         "🎭",
@@ -436,7 +492,11 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Magic Knights Entrance Exam",
-      "quote": "I'm the one who sealed him away five hundred years ago.",
+      "quotes": [
+        "Today, you will be defeated by those you've looked down on and tricked.",
+        "How many times do you want to flirt with death, Idiosta?",
+        "His Highness said that even my magic has potential."
+      ],
       "emojis": [
         "🐦",
         "🪶",
@@ -462,7 +522,11 @@ window.DLE.series["blackclover"] = {
         "Dark"
       ],
       "debut": "Spade Kingdom Raid",
-      "quote": "You're all trash. But even trash can do the right thing.",
+      "quotes": [
+        "Even if God and the devils forgive them, I never will.",
+        "Because I hate the Black Bulls.",
+        "But that doesn't mean people who are right will always be rewarded."
+      ],
       "emojis": [
         "🎩",
         "🌑",
@@ -488,7 +552,11 @@ window.DLE.series["blackclover"] = {
         "Fire"
       ],
       "debut": "Royal Knights Selection",
-      "quote": "I'll crush whoever stands in my way. That's all.",
+      "quotes": [
+        "There is nothing more powerful than a woman who has resolved herself.",
+        "Have you resolved to climb to the top?",
+        "Stall you? Don't make me laugh."
+      ],
       "emojis": [
         "🦁",
         "🔥",
@@ -514,7 +582,11 @@ window.DLE.series["blackclover"] = {
         "Fire"
       ],
       "debut": "Magic Knights Entrance Exam",
-      "quote": "The one who becomes the Wizard King will be me.",
+      "quotes": [
+        "Being weak is nothing to be ashamed of. However, staying weak is!",
+        "Spirit, allow me to use this power.",
+        "I apologize for worrying you, Leo."
+      ],
       "emojis": [
         "🦁",
         "🔥",
@@ -540,7 +612,11 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Magic Knights Entrance Exam",
-      "quote": "Do not tarnish the Silva name any further, failure.",
+      "quotes": [
+        "A peasant that foolishly tried to defy royalty... How shall I punish you?",
+        "Silence, you foreigner and former peasant. You're annoying.",
+        "You got a big head from one achievement."
+      ],
       "emojis": [
         "🦅",
         "👑",
@@ -566,7 +642,11 @@ window.DLE.series["blackclover"] = {
         "Plant"
       ],
       "debut": "Magic Knights Entrance Exam",
-      "quote": "Men are all so useless.",
+      "quotes": [
+        "This is foolish. Ignore the men and their boorish fighting.",
+        "Could Yami have noticed my feelings?",
+        "With my mental condition, I can't be in the same room as Yami."
+      ],
       "emojis": [
         "🌹",
         "🛡️",
@@ -592,7 +672,11 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Magic Knights Entrance Exam",
-      "quote": "I'll slice everything to shreds!",
+      "quotes": [
+        "Actually, why don't I use this opportunity to slice you up, too?",
+        "You moron. Like I actually would. I'll only do it when you're in tip-top shape.",
+        "Those are negative stars! Why are you proud of that?"
+      ],
       "emojis": [
         "😁",
         "🦗",
@@ -618,7 +702,11 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Magic Knights Entrance Exam",
-      "quote": "This will be my greatest masterpiece yet!",
+      "quotes": [
+        "I wonder if I can paint that color with lapis lazuli.",
+        "I think I can draw anything now!",
+        "Let's paint the greatest masterpiece together!"
+      ],
       "emojis": [
         "😊",
         "🎨",
@@ -645,7 +733,10 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Magic Knights Entrance Exam",
-      "quote": "Welcome to my dream world!",
+      "quotes": [
+        "Welcome, everybody, to the world where I can do whatever I want.",
+        "This is my world of dreams, Glamour World."
+      ],
       "emojis": [
         "😴",
         "💤",
@@ -672,7 +763,11 @@ window.DLE.series["blackclover"] = {
         "Plant"
       ],
       "debut": "Magic Knights Entrance Exam",
-      "quote": "Everyone in the Golden Dawn is my precious comrade.",
+      "quotes": [
+        "Of course I won't abandon them. I made them walk down a path of thorns.",
+        "They are my pride and joy! They are my dream!",
+        "I couldn't fully trust Lord Julius and the future I should've protected."
+      ],
       "emojis": [
         "🎭",
         "🌳",
@@ -698,7 +793,11 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Dungeon",
-      "quote": "Hmph! You peasants have no manners at all!",
+      "quotes": [
+        "I'm your senior. You'll address me with respect.",
+        "I'm so ashamed that I didn't acknowledge you just because you were peasants!",
+        "Making my glasses sparkle is my magic!"
+      ],
       "emojis": [
         "👓",
         "😤",
@@ -724,7 +823,11 @@ window.DLE.series["blackclover"] = {
         "Plant"
       ],
       "debut": "Dungeon",
-      "quote": "I'll heal you, so please don't push yourself!",
+      "quotes": [
+        "But... I admire you for the hard work you do.",
+        "Saving a dying person doesn't need any reason.",
+        "My brother now looks more beautiful than ever."
+      ],
       "emojis": [
         "🌸",
         "💚",
@@ -750,7 +853,11 @@ window.DLE.series["blackclover"] = {
         "Spatial"
       ],
       "debut": "Royal Knights Selection",
-      "quote": "Weakness is a crime, big brother.",
+      "quotes": [
+        "You're weaker than me in every way.",
+        "How dare you try to stand on the same stage as me, a chosen one?",
+        "I am special! You don't stand a chance against me!"
+      ],
       "emojis": [
         "😏",
         "💢",
@@ -777,7 +884,11 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Dungeon",
-      "quote": "Tell me more about your magic! It's fascinating!",
+      "quotes": [
+        "Gain merit. Continuously gaining merit is everything.",
+        "People look to the Magic Knights for one thing... Peace in the Clover Kingdom.",
+        "I would really like to see what kind of magic that is!"
+      ],
       "emojis": [
         "👑",
         "😄",
@@ -785,7 +896,7 @@ window.DLE.series["blackclover"] = {
         "⏳",
         "🕰️"
       ],
-      "hint": "The magic-obsessed Wizard King who loves discovering new spells more than ruling."
+      "hint": "The magic-obsessed head of the Magic Knights who loves discovering new spells more than ruling."
     },
     {
       "id": "licht",
@@ -801,7 +912,11 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Royal Capital Assault",
-      "quote": "I wanted to believe in humans.",
+      "quotes": [
+        "What are you talking about? We're friends, aren't we? I'll always save you.",
+        "Although we're alike, we fear each other due to the lack of understanding.",
+        "Be it humans or elves, both races receive grimoires."
+      ],
       "emojis": [
         "🧝",
         "😇",
@@ -829,7 +944,11 @@ window.DLE.series["blackclover"] = {
         "Light"
       ],
       "debut": "Royal Capital Assault",
-      "quote": "This is the judgment of light.",
+      "quotes": [
+        "That is incorrect. The victims are the strong.",
+        "I've always wanted to fight him, since he uses dark magic.",
+        "What is wrong with you? Why are you so agitated? Just leave me alone!"
+      ],
       "emojis": [
         "🧝",
         "☀️",
@@ -857,7 +976,10 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Eye of the Midnight Sun",
-      "quote": "Man, what a drag. I was napping.",
+      "quotes": [
+        "I'm a pretty decent actor. No one can see through my copy transformation magic.",
+        "So which one of them was actually me?"
+      ],
       "emojis": [
         "😴",
         "🧝",
@@ -884,7 +1006,11 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Eye of the Midnight Sun",
-      "quote": "Feel despair, humans!",
+      "quotes": [
+        "You insects aren't even allowed to hold on to hope.",
+        "The ones you broke... Our golden dreams and our bonds of blood!",
+        "Did you get your hopes up? These childish attacks won't work on me!"
+      ],
       "emojis": [
         "💪",
         "🐻",
@@ -911,7 +1037,11 @@ window.DLE.series["blackclover"] = {
         "Fire"
       ],
       "debut": "Eye of the Midnight Sun",
-      "quote": "I hate you! I hate all of you humans!",
+      "quotes": [
+        "When things get rough, remember the faces of those you love.",
+        "This will make Master Licht very happy.",
+        "Let's burn it all and wait for them to come out."
+      ],
       "emojis": [
         "👧",
         "🔥",
@@ -938,7 +1068,11 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Royal Capital Assault",
-      "quote": "I'll make you my puppet, too!",
+      "quotes": [
+        "Everyone who doesn't understand my magic... is a sinner!",
+        "I'm not going to fight. I'm going to control my corpses and enjoy the show!",
+        "A righteous heart?! I've always been true to myself!"
+      ],
       "emojis": [
         "😜",
         "🧟",
@@ -962,7 +1096,11 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Eye of the Midnight Sun",
-      "quote": "Your body is so interesting. Let me experiment on it!",
+      "quotes": [
+        "While I'm at it, maybe I'll dissect you all!",
+        "I want to do experiments! I want to do dissections!",
+        "I want to make a specimen out of him!"
+      ],
       "emojis": [
         "👓",
         "🧪",
@@ -987,7 +1125,11 @@ window.DLE.series["blackclover"] = {
         "Fire"
       ],
       "debut": "Dungeon",
-      "quote": "I'll defeat you. That is my mission.",
+      "quotes": [
+        "You're all the same. Just pebbles by the wayside.",
+        "The weak will perish, and only the strong will remain. That's all that matters.",
+        "My power exists to protect people."
+      ],
       "emojis": [
         "🤖",
         "🛡️",
@@ -1011,7 +1153,11 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Witches' Forest",
-      "quote": "I'm going to become the Diamond Kingdom's number one!",
+      "quotes": [
+        "Taking what we want by force is the Diamond Kingdom's way, isn't it?",
+        "In this world, there are only people who manipulate others and the manipulated ones.",
+        "I used my so-called companions to get to where I am now."
+      ],
       "emojis": [
         "😆",
         "💎",
@@ -1035,7 +1181,11 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Seabed Temple",
-      "quote": "My dream is to become an idol!",
+      "quotes": [
+        "Yup! I have a dream! I want to be a singing, dancing, magic-using... idol!",
+        "I'm going to become a famous idol and get super rich!",
+        "There's no doubt about it... Because I'm your friend, and I say so!"
+      ],
       "emojis": [
         "🎤",
         "🎶",
@@ -1061,7 +1211,11 @@ window.DLE.series["blackclover"] = {
         "Water"
       ],
       "debut": "Heart Kingdom Joint Struggle",
-      "quote": "I'm counting on you, Magic Knights of Clover.",
+      "quotes": [
+        "So I'm happy to have some friends I can be so honest with.",
+        "I look forward to working with you, Nero.",
+        "And as for Noelle, Undine and I will be training you."
+      ],
       "emojis": [
         "👑",
         "💧",
@@ -1088,7 +1242,11 @@ window.DLE.series["blackclover"] = {
         "Spatial"
       ],
       "debut": "Heart Kingdom Joint Struggle",
-      "quote": "You lack the power to stop me.",
+      "quotes": [
+        "To benefit the Spade Kingdom, I'll be taking you.",
+        "It's not that you're weak. It's just that I'm far superior.",
+        "Then let me show you... just a bit of my devil powers."
+      ],
       "emojis": [
         "😐",
         "♠️",
@@ -1114,7 +1272,11 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Heart Kingdom Joint Struggle",
-      "quote": "Malice is what makes humans truly beautiful!",
+      "quotes": [
+        "The true nature of humans is evil.",
+        "When you unleash those feelings of malice, you are the most human.",
+        "Though we have different ranks, we are both possessed by devils."
+      ],
       "emojis": [
         "♠️",
         "😏",
@@ -1140,7 +1302,11 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Heart Kingdom Joint Struggle",
-      "quote": "Come on! Show me more! This is so fun!",
+      "quotes": [
+        "Don't worry. I'll play with you girlies.",
+        "I have no interest in the past, so let's just enjoy this moment!",
+        "I wonder if Dante and Zenon are also having fun right now."
+      ],
       "emojis": [
         "😆",
         "♠️",
@@ -1167,7 +1333,11 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Reincarnation (Elves)",
-      "quote": "At last, I have a body of my own!",
+      "quotes": [
+        "Elves and humans' dreams and ambitions are the best playthings.",
+        "Although it is incomplete, I haven't been in my own body for centuries.",
+        "But I'm not interested in old toys."
+      ],
       "emojis": [
         "👿",
         "💬",
@@ -1175,7 +1345,7 @@ window.DLE.series["blackclover"] = {
         "🕸️",
         "😈"
       ],
-      "hint": "A word-soul devil who has been pulling strings from the underworld for centuries."
+      "hint": "A devil whose spoken words become reality, pulling strings from the underworld for centuries."
     },
     {
       "id": "liebe",
@@ -1193,7 +1363,10 @@ window.DLE.series["blackclover"] = {
         "Anti Magic"
       ],
       "debut": "Witches' Forest",
-      "quote": "I will never forgive you humans!",
+      "quotes": [
+        "I'm gonna steal your body and—",
+        "Yeah, I can't believe how unbelievably stupid you are."
+      ],
       "emojis": [
         "😈",
         "📖",
@@ -1201,7 +1374,7 @@ window.DLE.series["blackclover"] = {
         "⚔️",
         "🍀"
       ],
-      "hint": "The anti-magic devil living inside a five-leaf grimoire."
+      "hint": "The devil living inside a five-leaf grimoire, whose power cancels out magic."
     },
     {
       "id": "lumiere-silvamillion-clover",
@@ -1220,7 +1393,11 @@ window.DLE.series["blackclover"] = {
         "Light"
       ],
       "debut": "Reincarnation (Elves)",
-      "quote": "I want a world where everyone can smile.",
+      "quotes": [
+        "Welcome. You must be Secre.",
+        "I'm researching ancient magic, so I didn't do much to welcome you.",
+        "I'm sorry. I doubted you for a second. Please forgive me."
+      ],
       "emojis": [
         "👑",
         "☀️",
@@ -1228,7 +1405,7 @@ window.DLE.series["blackclover"] = {
         "🗿",
         "🧝"
       ],
-      "hint": "The first Wizard King, a light mage from five hundred years ago."
+      "hint": "A legendary light mage from five hundred years ago, revered for saving the kingdom."
     },
     {
       "id": "sister-lily",
@@ -1247,7 +1424,11 @@ window.DLE.series["blackclover"] = {
         "Water"
       ],
       "debut": "Magic Knights Entrance Exam",
-      "quote": "I'm sorry, but I can't marry you.",
+      "quotes": [
+        "Stop pestering me!",
+        "Water Creation Magic: Holy Fist of Love!",
+        "Say, Yuno... Couldn't you be a bit nicer to Asta?"
+      ],
       "emojis": [
         "⛪",
         "🙏",
@@ -1274,7 +1455,11 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Magic Knights Entrance Exam",
-      "quote": "Bah-ha! Nice to meet you, friend!",
+      "quotes": [
+        "Thank you for making me look even better so far.",
+        "Hurry back to your village in the boonies and continue enjoying your crappy little life.",
+        "It's offense and defense all in one!"
+      ],
       "emojis": [
         "😎",
         "😂",
@@ -1282,7 +1467,7 @@ window.DLE.series["blackclover"] = {
         "🦗",
         "🎺"
       ],
-      "hint": "A cocky bronze mage who laughs 'Bah-ha' and always ends up losing."
+      "hint": "A cocky bronze mage with a signature laugh who always ends up losing."
     },
     {
       "id": "leopold-vermillion",
@@ -1301,7 +1486,11 @@ window.DLE.series["blackclover"] = {
         "Fire"
       ],
       "debut": "Magic Knights Entrance Exam",
-      "quote": "From this day forward, you are my rival!",
+      "quotes": [
+        "Let me join you, my rival!",
+        "I won't let the flames of the proud Crimson Lion be extinguished!",
+        "If you aren't prepared to get hurt, stay off the battlefield!"
+      ],
       "emojis": [
         "👑",
         "🤜",
@@ -1327,7 +1516,11 @@ window.DLE.series["blackclover"] = {
         "Water"
       ],
       "debut": "Royal Capital Assault",
-      "quote": null,
+      "quotes": [
+        "Now, now. The most useless fool here... is you.",
+        "Did you just make me kneel? You lowly peasant!",
+        "I'll never accept a failure like you as family."
+      ],
       "emojis": [
         "👑",
         "😏",
@@ -1353,7 +1546,10 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Magic Knights Entrance Exam",
-      "quote": null,
+      "quotes": [
+        "I can't sense any magic from him. Them capturing the dungeon must've been sheer luck.",
+        "Are you seriously Mother's child?"
+      ],
       "emojis": [
         "👑",
         "💅",
@@ -1379,7 +1575,11 @@ window.DLE.series["blackclover"] = {
         "Other"
       ],
       "debut": "Royal Capital Assault",
-      "quote": "As expected, men are idiots!",
+      "quotes": [
+        "The only one who can tie me down is my sis, the captain.",
+        "Guys really are dumb, aren't they, Sis?",
+        "Shouldn't we stop them, Sis?"
+      ],
       "emojis": [
         "🌹",
         "😤",

@@ -37,7 +37,7 @@ window.DLE.series["SLUG"] = {
       age: 19 | null,                              // integer; see AGE RULE (latest age, not debut age)
       power: ["<from powers>", ...],               // 1-2 entries
       debut: "<from arcs>",                        // arc where they FIRST appear on screen in the anime
-      quote: "One short line (max 15 words) they say in the anime" | null,
+      quotes: ["Short line (max 15 words) they say in the show", "..."],  // 0-6 entries; [] = skipped in Quote mode
       emojis: ["🍖","👒","🏴‍☠️","👑","☀️"],          // EXACTLY 5, vaguest -> most revealing
       hint: "One sentence describing them without their name, spoiler-light.",
       wiki: "Exact page title on the series' Fandom wiki"   // OPTIONAL; used to look up a portrait image
@@ -72,14 +72,20 @@ window.DLE.series["SLUG"] = {
    Ignore flash-forward epilogues ("X years later" finales) — use ages at the end of the main story,
    since epilogue ages are rarely canon.
 6. **No alive/dead status anywhere** (not in fields, hints, or quotes).
-7. **Quotes:** one short, recognizable line (<= 15 words) the character says in the anime,
-   in the common English rendering. Do not include the character's own name in the quote. If the
-   character has no well-known line, set quote to null (the game will skip them in quote mode).
-   Aim for a real quote on at least 70% of characters.
+7. **Quotes:** 2-4 short, recognizable lines (<= 15 words each) the character actually says in the
+   show, in the common English rendering. Quote mode shows one per puzzle and rotates through a
+   character's lines on repeat appearances, so variety matters. A quote must never give away who is
+   speaking: no own name, surname, nickname, alias, title or epithet ("Gold Ranger Power!", "Tobi is
+   a good boy!", "I'm the Fourth Hokage"), no roll calls or morph calls that announce their own
+   ranger color/number, no self-introductions. Mentioning *other* characters is fine. No song lyrics.
+   No two characters in a series may share a quote. Never invent or paraphrase a line: use only
+   quotes you have verified (see Process). If a character has no verifiable line, use `quotes: []`
+   (the game skips them in Quote mode). Aim for quotes on at least 70% of characters.
 8. **Emojis:** exactly 5 per character. They describe the character (appearance, power, role,
    iconic objects/moments). Ordered vaguest -> most revealing. Never use letters, flags, or emojis
    that spell the name. Every entry must be a single emoji (ZWJ sequences are fine).
 9. **Hint:** one sentence, no name, no spoilers about deaths/betrayals; describe role/power/look.
+   No alias, surname or title that names them outright ("Third Hokage", "Straw Hat", "Uchiha").
 10. **Names:** use the spelling used by Crunchyroll/Viz subtitles. Put other common spellings and
     nicknames in `aliases` (e.g. "Zolo", "Jaeger", "Tsuna"). Aliases are used for search matching.
 11. **ids:** kebab-case, unique within the file, ASCII only.
@@ -96,6 +102,8 @@ window.DLE.series["SLUG"] = {
 - Where you are unsure of an age, hair color, or debut arc, verify against a wiki (fandom wiki,
   Wikipedia) using WebFetch. If a fetch fails, rely on your knowledge but prefer null for age over
   a guess.
+- Verify every quote against a source you fetched: Wikiquote, the show's Fandom wiki (character
+  quote sections, episode transcripts) or another transcript site. Recalling a line is not enough.
 - Run the node load test, then run `node tools/validate.js <path>` if it exists and
   fix every reported error.
 - Your final message: a 5-line summary (character count, quote coverage, any characters you were

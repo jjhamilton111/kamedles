@@ -70,7 +70,11 @@ window.DLE.series["onepiece"] = {
         "Mythical Zoan"
       ],
       "debut": "East Blue",
-      "quote": "I'm gonna be King of the Pirates!",
+      "quotes": [
+        "I'm gonna be King of the Pirates!",
+        "I love heroes, but I don't want to be one.",
+        "I still haven't heard it from your lips. Say that you want to live!"
+      ],
       "emojis": [
         "🍖",
         "😆",
@@ -78,7 +82,7 @@ window.DLE.series["onepiece"] = {
         "☀️",
         "👒"
       ],
-      "hint": "A rubbery, meat-loving captain in a straw hat who dreams of becoming King of the Pirates."
+      "hint": "A rubbery, meat-loving captain with a treasured hat who dreams of becoming King of the Pirates."
     },
     {
       "id": "roronoa-zoro",
@@ -99,7 +103,11 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "East Blue",
-      "quote": "Nothing happened.",
+      "quotes": [
+        "Nothing happened.",
+        "Scars on the back are a swordsman's shame.",
+        "I've never done a single thing in my life that I regret."
+      ],
       "emojis": [
         "🧭",
         "🍶",
@@ -126,7 +134,11 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "East Blue",
-      "quote": "Luffy... help me.",
+      "quotes": [
+        "Luffy... help me.",
+        "I'm going so I can draw a map of the entire world.",
+        "My goal is to earn 100 million berries no matter how hard it is..."
+      ],
       "emojis": [
         "💰",
         "🌤️",
@@ -154,7 +166,11 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "East Blue",
-      "quote": "I'm going to become a brave warrior of the sea!",
+      "quotes": [
+        "I guess I'm going... to be a brave warrior of the sea!",
+        "There comes a time when a man has to stand and fight.",
+        "You dare to slander my own captain to my face?!"
+      ],
       "emojis": [
         "🤥",
         "🎯",
@@ -182,7 +198,11 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "East Blue",
-      "quote": "I'm going to find the All Blue!",
+      "quotes": [
+        "I'm going to the Grand Line to find the All Blue!",
+        "I'll never forget your kindness! I owe my life to you, old man!",
+        "A real man is someone who forgives a woman for her lies!"
+      ],
       "emojis": [
         "🍳",
         "🚬",
@@ -210,7 +230,11 @@ window.DLE.series["onepiece"] = {
         "Zoan"
       ],
       "debut": "Alabasta",
-      "quote": "Shut up! I'm not happy that you praised me, you jerk!",
+      "quotes": [
+        "I'll become a doctor who can cure any disease!",
+        "Now, I just want to be a monster that can help Luffy.",
+        "Dummy! Praising me like that wouldn't make me feel happy! You jerk!"
+      ],
       "emojis": [
         "🍬",
         "💊",
@@ -239,7 +263,11 @@ window.DLE.series["onepiece"] = {
         "Paramecia"
       ],
       "debut": "Alabasta",
-      "quote": "I want to live!",
+      "quotes": [
+        "I want to live!",
+        "This is the first time I ever wanted to be stronger for someone else's sake.",
+        "My dream just had too many enemies."
+      ],
       "emojis": [
         "📚",
         "🏛️",
@@ -266,7 +294,11 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "Water 7 / Enies Lobby",
-      "quote": "This week's me is SUPER!",
+      "quotes": [
+        "Existing is not a crime!",
+        "I want to...build a dream ship someday too.",
+        "Unfortunately, I'm just too super."
+      ],
       "emojis": [
         "🔧",
         "🥤",
@@ -294,7 +326,12 @@ window.DLE.series["onepiece"] = {
         "Paramecia"
       ],
       "debut": "Thriller Bark",
-      "quote": "Yohohoho! May I see your panties?",
+      "quotes": [
+        "May I see your panties?",
+        "Because when a man promises to return, he must return!",
+        "I made a promise with a friend.",
+        "What kind of fool regards his own death as part of a plan, young lady?"
+      ],
       "emojis": [
         "☕",
         "🎩",
@@ -325,7 +362,11 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "Summit War",
-      "quote": "Instead of what you've lost, what do you still have?",
+      "quotes": [
+        "So ask yourself this! What is there... that still remains to you?",
+        "Well, we all made it out alright didn't we? That's all that matters.",
+        "It's not my flesh that hurts! It's my heart, Ace..."
+      ],
       "emojis": [
         "🍵",
         "🥋",
@@ -354,7 +395,10 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "Alabasta",
-      "quote": "If we meet again, will you still call me your friend?",
+      "quotes": [
+        "If we meet again someday... will you call me your friend one more time?",
+        "Please stop fighting!"
+      ],
       "emojis": [
         "💙",
         "🌵",
@@ -383,7 +427,11 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "East Blue",
-      "quote": "I bet this arm on the new era.",
+      "quotes": [
+        "I bet this arm on a new era.",
+        "I'm saying that guns aren't for threats, they're for actions.",
+        "If you hurt a friend of mine, you'll pay for it regardless of your reason."
+      ],
       "emojis": [
         "🍶",
         "🗡️",
@@ -412,7 +460,11 @@ window.DLE.series["onepiece"] = {
         "Paramecia"
       ],
       "debut": "East Blue",
-      "quote": "Don't you dare call me Big Nose!",
+      "quotes": [
+        "What dream drove you all to the sea?",
+        "Why didn't anyone tell me that's his dad?!",
+        "It is time for us to finally go and claim the One Piece!"
+      ],
       "emojis": [
         "🎪",
         "🤡",
@@ -441,7 +493,11 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "East Blue",
-      "quote": "I'll be waiting for you. Come and take my title.",
+      "quotes": [
+        "You tread a perilous path. Even more perilous than trying to surpass me.",
+        "Surpass this sword! Surpass me! Roronoa Zoro!",
+        "What did this cockroach just say?"
+      ],
       "emojis": [
         "🍷",
         "🕯️",
@@ -470,7 +526,11 @@ window.DLE.series["onepiece"] = {
         "Logia"
       ],
       "debut": "Alabasta",
-      "quote": "Weaklings don't get to choose how they die.",
+      "quotes": [
+        "Their love for the kingdom is what will destroy the kingdom!",
+        "Dogs that run away to lick their wounds have no right to speak of justice.",
+        "We're not \"playing pirates\" here!! This is serious business."
+      ],
       "emojis": [
         "🚬",
         "⏳",
@@ -500,7 +560,11 @@ window.DLE.series["onepiece"] = {
         "Paramecia"
       ],
       "debut": "Skypiea",
-      "quote": "Pirates are evil? The Marines are righteous?",
+      "quotes": [
+        "Are the pirates the bad guys?! Is the Navy the good guys?!",
+        "The winner will define the meaning of justice!",
+        "Putting me in solitary, are you? I'm so lonely."
+      ],
       "emojis": [
         "🕶️",
         "👑",
@@ -529,7 +593,11 @@ window.DLE.series["onepiece"] = {
         "Paramecia"
       ],
       "debut": "Skypiea",
-      "quote": "If you were to go on a trip, where would you like to go?",
+      "quotes": [
+        "If you were to go on a trip... where would you like to go?",
+        "We will not be seeing one another again... farewell.",
+        "I am yours to command, master."
+      ],
       "emojis": [
         "📖",
         "🧢",
@@ -557,7 +625,11 @@ window.DLE.series["onepiece"] = {
         "Paramecia"
       ],
       "debut": "Summit War",
-      "quote": "The world will forgive me because I am beautiful!",
+      "quotes": [
+        "The world will never cease to forgive my actions! ...because I am... beautiful!",
+        "To me... all men are alike... all but him.",
+        "Since it's come to this... I think I'd better... go and marry Luffy."
+      ],
       "emojis": [
         "👑",
         "💘",
@@ -565,7 +637,7 @@ window.DLE.series["onepiece"] = {
         "🗿",
         "👸"
       ],
-      "hint": "The stunning Pirate Empress whose beauty turns people to stone."
+      "hint": "The stunning ruler of an island of warrior women whose beauty turns people to stone."
     },
     {
       "id": "gecko-moria",
@@ -585,7 +657,10 @@ window.DLE.series["onepiece"] = {
         "Paramecia"
       ],
       "debut": "Thriller Bark",
-      "quote": "Give me your shadow! Kishishishi!",
+      "quotes": [
+        "Then you go see for yourself... What a real nightmare is...! In the New World!",
+        "I was like you once... trusting in my famous and talented crew."
+      ],
       "emojis": [
         "🕯️",
         "🦇",
@@ -613,7 +688,11 @@ window.DLE.series["onepiece"] = {
         "Paramecia"
       ],
       "debut": "Skypiea",
-      "quote": "The One Piece does exist!",
+      "quotes": [
+        "The One Piece is real!",
+        "Doesn't matter who you're born to... Everyone's still a child of the sea!",
+        "I'm only human, and every human has a heart no matter how large or small."
+      ],
       "emojis": [
         "🍶",
         "🌊",
@@ -641,7 +720,11 @@ window.DLE.series["onepiece"] = {
         "Logia"
       ],
       "debut": "Alabasta",
-      "quote": "Thank you for loving me!",
+      "quotes": [
+        "Thank you for loving me!",
+        "We have to live a life with no regrets!",
+        "Oh, I'm just looking around for my little brother..."
+      ],
       "emojis": [
         "😴",
         "🎩",
@@ -669,7 +752,11 @@ window.DLE.series["onepiece"] = {
         "Paramecia"
       ],
       "debut": "Fish-Man Island",
-      "quote": "Life or treat?",
+      "quotes": [
+        "Life... or treat?",
+        "I bet the country must have smelled delicious after it was all burnt down...",
+        "Kid!! Law!! I'll never forgive you for this...!"
+      ],
       "emojis": [
         "🍬",
         "🍰",
@@ -696,7 +783,11 @@ window.DLE.series["onepiece"] = {
         "Paramecia"
       ],
       "debut": "Zou / Whole Cake Island",
-      "quote": "I can see a little bit into the future.",
+      "quotes": [
+        "There's nothing you can do that I can't.",
+        "I no longer think that you are below my level.",
+        "You're looking quite far into the future."
+      ],
       "emojis": [
         "🧣",
         "🍩",
@@ -724,7 +815,11 @@ window.DLE.series["onepiece"] = {
         "Mythical Zoan"
       ],
       "debut": "Dressrosa",
-      "quote": "Worororo! How boring.",
+      "quotes": [
+        "What kind of king did you say you'll be...? You brat!!",
+        "What a shame... If you'd come with me, we could have conquered the world...",
+        "Sorry about that idiot from before. I didn't want to win like that."
+      ],
       "emojis": [
         "🍶",
         "🧌",
@@ -752,7 +847,7 @@ window.DLE.series["onepiece"] = {
         "Zoan"
       ],
       "debut": "Wano",
-      "quote": null,
+      "quotes": [],
       "emojis": [
         "🎭",
         "🖤",
@@ -779,7 +874,9 @@ window.DLE.series["onepiece"] = {
         "Mythical Zoan"
       ],
       "debut": "Wano",
-      "quote": "I am Oden!",
+      "quotes": [
+        "Damn it, that bull-gorilla!! He was seriously trying to kill me!!!"
+      ],
       "emojis": [
         "⛓️",
         "🏏",
@@ -810,7 +907,11 @@ window.DLE.series["onepiece"] = {
         "Paramecia"
       ],
       "debut": "Skypiea",
-      "quote": "Zehahaha! People's dreams never end!",
+      "quotes": [
+        "People's dreams... don't ever end!",
+        "Pretty as a picture aren't you Red Hair? Those scars are a nice touch.",
+        "An Emperor...? It's still too soon for you, Straw Hat...!!"
+      ],
       "emojis": [
         "🍒",
         "🦷",
@@ -840,7 +941,11 @@ window.DLE.series["onepiece"] = {
         "Paramecia"
       ],
       "debut": "Summit War",
-      "quote": "Let's form an alliance, Straw Hat-ya.",
+      "quotes": [
+        "The weak do not get to decide how they die.",
+        "Our enemy is Big Mom. Grow up, Eustass-ya... Let's form a temporary alliance.",
+        "The Straw Hat crew has left nothing but sheer miracles in its wake."
+      ],
       "emojis": [
         "🧢",
         "🩺",
@@ -868,7 +973,11 @@ window.DLE.series["onepiece"] = {
         "Paramecia"
       ],
       "debut": "Summit War",
-      "quote": "Next time we meet, there'll be no mercy!",
+      "quotes": [
+        "You have no place in the new era that I'm gonna create!",
+        "You think the last gasps... of an old windbag scares me?!",
+        "...I've heard rumors about him, and they weren't pleasant."
+      ],
       "emojis": [
         "🕶️",
         "⚙️",
@@ -896,7 +1005,11 @@ window.DLE.series["onepiece"] = {
         "Paramecia"
       ],
       "debut": "Summit War",
-      "quote": null,
+      "quotes": [
+        "Here are our ironclad rules of piracy! Plunder whatever you want! (From bad guys!)",
+        "How dare you call yourself a god?! Real gods do exist!! Real heroes too!!",
+        "I know my daddy is the kindest and most wonderful man in the entire world..."
+      ],
       "emojis": [
         "🍕",
         "💗",
@@ -924,7 +1037,11 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "Summit War",
-      "quote": "Haki is a power dormant in every person in the world.",
+      "quotes": [
+        "Haki is a power that lies dormant in all the world's creatures.",
+        "Hey, Whitebeard's little apprentice! I know it's childish, but I don't like you!",
+        "Who'd want to buy me as a slave? I'm an old man!"
+      ],
       "emojis": [
         "👓",
         "🍶",
@@ -932,7 +1049,7 @@ window.DLE.series["onepiece"] = {
         "👴",
         "🌑"
       ],
-      "hint": "The bespectacled Dark King, right hand of the Pirate King, who trains a young captain in Haki."
+      "hint": "The bespectacled right hand of the Pirate King who trains a young captain in Haki."
     },
     {
       "id": "gol-d-roger",
@@ -952,7 +1069,11 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "East Blue",
-      "quote": "My treasure? If you want it, I'll let you have it!",
+      "quotes": [
+        "My treasure? If you want it, I'll grant it! Search on!",
+        "Oh, Joyboy... I wish I'd been born in your time!!",
+        "This is quite a treasure you've left behind!! A tale full of laughs!!"
+      ],
       "emojis": [
         "🍶",
         "🧭",
@@ -960,7 +1081,7 @@ window.DLE.series["onepiece"] = {
         "👑",
         "🏴‍☠️"
       ],
-      "hint": "The mustached Pirate King whose last words set off the Great Pirate Era."
+      "hint": "The mustached legend who conquered the Grand Line and whose famous words set off the Great Pirate Era."
     },
     {
       "id": "monkey-d-garp",
@@ -980,7 +1101,10 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "Alabasta",
-      "quote": "Fist of Love!",
+      "quotes": [
+        "Don't be tied down by this nonsense!! I taught you to live in the moment!!!!",
+        "I have no pity for criminals, but family is a different story."
+      ],
       "emojis": [
         "🍩",
         "💤",
@@ -1008,7 +1132,11 @@ window.DLE.series["onepiece"] = {
         "Logia"
       ],
       "debut": "Water 7 / Enies Lobby",
-      "quote": "This is absolute justice!",
+      "quotes": [
+        "Is every single one of you... willing to die for the sake of that kid?",
+        "The Navy has no use for soldiers who aren't righteous!",
+        "If you're going to declare war, ya could've consulted with me first, ya damned brats!"
+      ],
       "emojis": [
         "🎩",
         "🌹",
@@ -1037,7 +1165,10 @@ window.DLE.series["onepiece"] = {
         "Logia"
       ],
       "debut": "Water 7 / Enies Lobby",
-      "quote": "Lazy justice.",
+      "quotes": [
+        "The thing called \"justice\" changes its shape... Depending on where you stand.",
+        "That is why I won't criticize your idea of justice."
+      ],
       "emojis": [
         "😴",
         "🚲",
@@ -1065,7 +1196,11 @@ window.DLE.series["onepiece"] = {
         "Logia"
       ],
       "debut": "Summit War",
-      "quote": "Have you ever been kicked at the speed of light?",
+      "quotes": [
+        "Have you ever been kicked at the speed of light?",
+        "I'm just another cog in the machine.",
+        "The pirates' sins won't disappear, right? Especially not those of the Roger Pirates."
+      ],
       "emojis": [
         "🍋",
         "😑",
@@ -1093,7 +1228,11 @@ window.DLE.series["onepiece"] = {
         "Paramecia"
       ],
       "debut": "Dressrosa",
-      "quote": null,
+      "quotes": [
+        "The world of men... is full of filthy things not worth layin' eyes upon.",
+        "Is the World Government... some kind of god!?",
+        "It is not the number defeated that is important, but the number protected!"
+      ],
       "emojis": [
         "🎲",
         "🦯",
@@ -1121,7 +1260,10 @@ window.DLE.series["onepiece"] = {
         "Logia"
       ],
       "debut": "East Blue",
-      "quote": "I don't like owing debts to pirates.",
+      "quotes": [
+        "Sorry... it seems my pants ate your ice cream.",
+        "Soldier, did you ever see a pirate laugh right before his execution?"
+      ],
       "emojis": [
         "🏍️",
         "🚬",
@@ -1147,7 +1289,10 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "East Blue",
-      "quote": "I'm going to be a Marine and catch the bad guys!",
+      "quotes": [
+        "That's enough!! Let's stop this!! Stop fighting!! It's a waste of human life!!",
+        "I think it sounds delusional! There's no way they'd acknowledge a country of criminals!"
+      ],
       "emojis": [
         "🎀",
         "🥺",
@@ -1174,7 +1319,11 @@ window.DLE.series["onepiece"] = {
         "Unknown"
       ],
       "debut": "East Blue",
-      "quote": "Would you stand in the way of a man setting sail?",
+      "quotes": [
+        "What reason would I have to get in the way of another man's voyage?",
+        "A child is a weak spot for any parent.",
+        "You have caused this boy to despise his own kind... Goa Kingdom!!"
+      ],
       "emojis": [
         "🌬️",
         "🌪️",
@@ -1202,7 +1351,10 @@ window.DLE.series["onepiece"] = {
         "Logia"
       ],
       "debut": "Summit War",
-      "quote": "I will inherit Ace's will!",
+      "quotes": [
+        "Not all kids get along with their parents.",
+        "Not justice, just freedom."
+      ],
       "emojis": [
         "🎩",
         "🔧",
@@ -1232,7 +1384,10 @@ window.DLE.series["onepiece"] = {
         "Paramecia"
       ],
       "debut": "Summit War",
-      "quote": "Miracles only happen to those who never give up!",
+      "quotes": [
+        "Miracles only happen to those who never give up!",
+        "Hee-haw!"
+      ],
       "emojis": [
         "💃",
         "💜",
@@ -1261,7 +1416,11 @@ window.DLE.series["onepiece"] = {
         "Paramecia"
       ],
       "debut": "Alabasta",
-      "quote": "This is the Okama Way!",
+      "quotes": [
+        "Because we're friends. There is no need for another reason.",
+        "The flower of friendship can bloom even in hell.",
+        "Swans never die... and never say \"Goodbye\"!"
+      ],
       "emojis": [
         "🩰",
         "🦢",
@@ -1289,7 +1448,11 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "East Blue",
-      "quote": "Fish-men are a superior race!",
+      "quotes": [
+        "Money is good! It's the only thing a man can really believe in!",
+        "Can't you understand why I'm upset? I've watched my beloved comrades be defeated by worms!",
+        "Trying to oppose the Fishmen is like going against nature itself!"
+      ],
       "emojis": [
         "🌊",
         "💰",
@@ -1316,7 +1479,10 @@ window.DLE.series["onepiece"] = {
         "Logia"
       ],
       "debut": "Skypiea",
-      "quote": "Yahahaha! I am God!",
+      "quotes": [
+        "People do not fear God. Fear itself is God.",
+        "King of the pirates? In control of what kingdom?"
+      ],
       "emojis": [
         "☁️",
         "🥁",
@@ -1342,7 +1508,11 @@ window.DLE.series["onepiece"] = {
         "Zoan"
       ],
       "debut": "Water 7 / Enies Lobby",
-      "quote": "This is dark justice.",
+      "quotes": [
+        "That is the meaning of Dark Justice!",
+        "I don't care if this island is burnt to the ground!",
+        "Straw Hat... Don't think you're the only one... who's gotten stronger!!"
+      ],
       "emojis": [
         "🕊️",
         "🎩",
@@ -1370,7 +1540,11 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "Zou / Whole Cake Island",
-      "quote": "Open the borders of Wano!",
+      "quotes": [
+        "Leaving the country is my dream!! Let's travel together!!! Show me the world!!!",
+        "Shame on all of you!! Your fear of the alien exposes your own ignorance!!",
+        "I'm counting on you guys! Open up the Land of Wano!"
+      ],
       "emojis": [
         "🍶",
         "🏯",
@@ -1398,7 +1572,7 @@ window.DLE.series["onepiece"] = {
         "Paramecia"
       ],
       "debut": "Punk Hazard",
-      "quote": "I am a samurai of the Wano Country!",
+      "quotes": [],
       "emojis": [
         "🍢",
         "🔥",
@@ -1426,7 +1600,11 @@ window.DLE.series["onepiece"] = {
         "Paramecia"
       ],
       "debut": "Egghead",
-      "quote": "The world will sink into the sea!",
+      "quotes": [
+        "Help! I re-quasar help!! I've failed again, blast it!!",
+        "I have committed two sins.",
+        "...the world as we know it will sink into the sea!!"
+      ],
       "emojis": [
         "🍎",
         "💡",
@@ -1453,7 +1631,7 @@ window.DLE.series["onepiece"] = {
         "Unknown"
       ],
       "debut": "Elbaph",
-      "quote": null,
+      "quotes": [],
       "emojis": [
         "⛓️",
         "👑",
@@ -1461,7 +1639,7 @@ window.DLE.series["onepiece"] = {
         "☀️",
         "🐐"
       ],
-      "hint": "A chained giant prince of Elbaph known as the Accursed Prince."
+      "hint": "A chained giant prince of Elbaph whom his own people fear and revile."
     },
     {
       "id": "marco",
@@ -1480,7 +1658,10 @@ window.DLE.series["onepiece"] = {
         "Mythical Zoan"
       ],
       "debut": "Skypiea",
-      "quote": null,
+      "quotes": [
+        "Anyone who lays a hand on one of us has to suffer the consequences!",
+        "The world hates us for what we are, you know... It makes us happy..."
+      ],
       "emojis": [
         "🩺",
         "💙",
@@ -1508,7 +1689,9 @@ window.DLE.series["onepiece"] = {
         "Mythical Zoan"
       ],
       "debut": "Punk Hazard",
-      "quote": "I will become the shogun of Wano!",
+      "quotes": [
+        "My-My name was given to me by my father!! It means second to none!!"
+      ],
       "emojis": [
         "👦",
         "😭",
@@ -1532,7 +1715,9 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "Zou / Whole Cake Island",
-      "quote": "Garchu!",
+      "quotes": [
+        "The sea truly is... a wonderland!"
+      ],
       "emojis": [
         "🗡️",
         "⚡",
@@ -1559,7 +1744,9 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "Fish-Man Island",
-      "quote": "I want to see the forest in the sun someday!",
+      "quotes": [
+        "You're not my type!"
+      ],
       "emojis": [
         "😭",
         "👸",
@@ -1590,7 +1777,10 @@ window.DLE.series["onepiece"] = {
         "Logia"
       ],
       "debut": "Punk Hazard",
-      "quote": "Shurororo!",
+      "quotes": [
+        "Shurororo!",
+        "Just watch... I'll teach you who's the world's number one scientist!"
+      ],
       "emojis": [
         "😈",
         "🧤",
@@ -1616,7 +1806,9 @@ window.DLE.series["onepiece"] = {
         "Paramecia"
       ],
       "debut": "Thriller Bark",
-      "quote": "Horohorohoro! Negative Hollow!",
+      "quotes": [
+        "If you weren't cute, you wouldn't even have the right to serve me!"
+      ],
       "emojis": [
         "☂️",
         "🧸",
@@ -1644,7 +1836,10 @@ window.DLE.series["onepiece"] = {
         "Paramecia"
       ],
       "debut": "Dressrosa",
-      "quote": "Luffy-senpai!",
+      "quotes": [
+        "Luffy-senpai!",
+        "Even if I were scum, I wouldn't let a friend die without helping!!"
+      ],
       "emojis": [
         "🦷",
         "😭",
@@ -1668,7 +1863,9 @@ window.DLE.series["onepiece"] = {
         "Zoan"
       ],
       "debut": "Water 7 / Enies Lobby",
-      "quote": null,
+      "quotes": [
+        "That's if you can cut me! Roronoa!"
+      ],
       "emojis": [
         "🧢",
         "🛠️",
@@ -1695,7 +1892,10 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "Summit War",
-      "quote": null,
+      "quotes": [
+        "You got lucky.",
+        "Fa fa fa fa!"
+      ],
       "emojis": [
         "😂",
         "💇‍♂️",
@@ -1722,7 +1922,11 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "East Blue",
-      "quote": null,
+      "quotes": [
+        "Who did you think you're dealing with? We never claimed to be saints or anything.",
+        "If you wanted to fight us, bring a warship.",
+        "Don't move a muscle, Kizaru!"
+      ],
       "emojis": [
         "🍶",
         "🧠",
@@ -1748,7 +1952,10 @@ window.DLE.series["onepiece"] = {
         "Zoan"
       ],
       "debut": "Wano",
-      "quote": "Murahahaha!",
+      "quotes": [
+        "Muhahaha!",
+        "We're the three calamities that protect Kaido-san!!!"
+      ],
       "emojis": [
         "🎤",
         "🍜",
@@ -1775,7 +1982,11 @@ window.DLE.series["onepiece"] = {
         "Paramecia"
       ],
       "debut": "Zou / Whole Cake Island",
-      "quote": "Did you really think I'd fall in love with you?",
+      "quotes": [
+        "Quit dreaming, you fool! Me, marrying that little punk?! Never in a billion years!",
+        "She especially loves how good I am at acting.",
+        "I've deceived countless people like this!"
+      ],
       "emojis": [
         "🍫",
         "💍",
@@ -1802,7 +2013,10 @@ window.DLE.series["onepiece"] = {
         "Paramecia"
       ],
       "debut": "Summit War",
-      "quote": null,
+      "quotes": [
+        "We let a single intruder slip through our defenses... and look where we've ended up!!!",
+        "This is an opportunity to postpone your sentence. There is no second chance."
+      ],
       "emojis": [
         "🔑",
         "🚽",
@@ -1828,7 +2042,10 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "Fish-Man Island",
-      "quote": null,
+      "quotes": [
+        "Nothing... Heaven has chosen us to hand down judgement to humanity... and given us power!!",
+        "We are going to pull down all you humans into the abyss of the sea!"
+      ],
       "emojis": [
         "😡",
         "🔱",
@@ -1854,7 +2071,7 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "East Blue",
-      "quote": "Don't hold back just because I'm a woman!",
+      "quotes": [],
       "emojis": [
         "🤓",
         "📖",
@@ -1882,7 +2099,10 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "East Blue",
-      "quote": null,
+      "quotes": [
+        "My plan... My plan... My plan cannot fail!!!",
+        "Pirates should be faithful pawns of their captain. They live and die by my command."
+      ],
       "emojis": [
         "🤵",
         "👓",
@@ -1910,7 +2130,11 @@ window.DLE.series["onepiece"] = {
         "Unknown"
       ],
       "debut": "Skypiea",
-      "quote": null,
+      "quotes": [
+        "Think of human lives as nothing more than insects.",
+        "Why must people be tempted by that which is explicitly forbidden...?",
+        "So Nika... finally emerged."
+      ],
       "emojis": [
         "👴",
         "🦯",
@@ -1937,7 +2161,11 @@ window.DLE.series["onepiece"] = {
         "Mythical Zoan"
       ],
       "debut": "Wano",
-      "quote": "I am the shogun of this country!",
+      "quotes": [
+        "Kill them!! I command you!! Everybody who dares to defy me must be eliminated!!!",
+        "Silence, trash.",
+        "You dare to laugh at me, child?!!"
+      ],
       "emojis": [
         "💰",
         "👑",
@@ -1965,7 +2193,9 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "Wano",
-      "quote": null,
+      "quotes": [
+        "If I believe I am right... there is no reason for me to back down."
+      ],
       "emojis": [
         "🌸",
         "🪭",
@@ -1992,7 +2222,10 @@ window.DLE.series["onepiece"] = {
         "Mythical Zoan"
       ],
       "debut": "Skypiea",
-      "quote": null,
+      "quotes": [
+        "Don't try to find a reason... for somebody's love!",
+        "Want some rice crackers?"
+      ],
       "emojis": [
         "🍘",
         "🐐",
@@ -2018,7 +2251,9 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "Dressrosa",
-      "quote": null,
+      "quotes": [
+        "Please... help me, soldier!!"
+      ],
       "emojis": [
         "🌻",
         "🗡️",
@@ -2045,7 +2280,7 @@ window.DLE.series["onepiece"] = {
         "None"
       ],
       "debut": "Dressrosa",
-      "quote": null,
+      "quotes": [],
       "emojis": [
         "🌹",
         "🤴",

@@ -21,12 +21,12 @@ const HINTS = {
     { after: 2, label: s => s.affiliationLabel, value: c => c.affiliation.join(" · ") },
     { after: 4, label: s => s.powerLabel, value: c => c.power.join(" · ") },
     { after: 6, label: () => "Debut", value: c => c.debut },
-    { after: 8, label: () => "Hint", value: c => c.hint },
+    { after: 8, label: () => "Hint", value: c => c.hint, key: "hint" },
   ],
   emoji: [
     { after: 4, label: s => s.affiliationLabel, value: c => c.affiliation.join(" · ") },
     { after: 6, label: s => s.powerLabel, value: c => c.power.join(" · ") },
-    { after: 8, label: () => "Hint", value: c => c.hint },
+    { after: 8, label: () => "Hint", value: c => c.hint, key: "hint" },
   ],
 };
 
@@ -84,23 +84,45 @@ function saveState() { try { localStorage.setItem(APP.storeKey, JSON.stringify(S
 let game = null;
 const view = { seriesId: null, mode: MODES.some(m => m.id === S.prefs.mode) ? S.prefs.mode : "classic", unlimited: false };
 
-function poolFor(series, mode) { return mode === "quote" ? series.characters.filter(c => c.quote) : series.characters; }
+const quotesOf = c => (c && c.quotes) || [];
+function poolFor(series, mode) { return mode === "quote" ? series.characters.filter(c => quotesOf(c).length) : series.characters; }
 function dailyAnswer(series, mode, day) {
   const p = poolFor(series, mode), n = p.length;
   const cycle = Math.floor(day / n), idx = ((day % n) + n) % n;
   return seededShuffle(p, cyrb53(`${series.id}|${mode}|${cycle}`) >>> 0)[idx];
 }
+// A character comes up once per pass through the pool, and each pass shows their next line.
+function pickQuote(series, c, day, unlimited) {
+  const qs = quotesOf(c);
+  if (!qs.length) return null;
+  if (unlimited) return qs[Math.floor(Math.random() * qs.length)];
+  const cycle = Math.floor(day / poolFor(series, "quote").length);
+  return qs[(((cycle + cyrb53(`${series.id}|${c.id}|quote`)) % qs.length) + qs.length) % qs.length];
+}
 const gameKey = (seriesId, mode, day) => `${seriesId}:${mode}:${day}`;
 const dailyRecord = (seriesId, mode, day) => S.games[gameKey(seriesId, mode, day)] || null;
 const charById = (series, id) => series.characters.find(c => c.id === id);
+// A saved daily keeps the answer it was played with, even if the cast changed since. Older saves
+// didn't store it, but for a solved game it's the last guess.
+function savedAnswer(series, saved) {
+  if (!saved) return null;
+  const id = saved.answer || (saved.solved && saved.guesses[saved.guesses.length - 1]);
+  return (id && charById(series, id)) || null;
+}
 
 function startGame(seriesId, mode, unlimited, avoidId) {
   const series = D.series[seriesId], day = dayIndex(), p = poolFor(series, mode);
-  let answer, key = null, saved = null;
+  let answer, key = null, saved = null, quote = null;
   if (unlimited) { do { answer = p[Math.floor(Math.random() * p.length)]; } while (p.length > 1 && answer.id === avoidId); }
-  else { answer = dailyAnswer(series, mode, day); key = gameKey(seriesId, mode, day); saved = S.games[key]; }
+  else {
+    key = gameKey(seriesId, mode, day); saved = S.games[key];
+    const kept = savedAnswer(series, saved);
+    if (kept && (mode !== "quote" || saved.quote || quotesOf(kept).length)) { answer = kept; quote = mode === "quote" ? saved.quote || null : null; }
+    else answer = dailyAnswer(series, mode, day);
+  }
+  if (mode === "quote" && !quote) quote = pickQuote(series, answer, day, unlimited);
   const ids = new Set(series.characters.map(c => c.id));
-  game = { seriesId, series, mode, unlimited, day, answer, key,
+  game = { seriesId, series, mode, unlimited, day, answer, key, quote,
     guesses: saved ? saved.guesses.filter(id => ids.has(id)) : [],
     revealed: saved && Array.isArray(saved.hints) ? saved.hints.slice() : [],
     solved: !!(saved && saved.solved), gaveUp: !!(saved && saved.gaveUp), rounds: game && game.unlimited && unlimited ? game.rounds : 0 };
@@ -111,7 +133,7 @@ const isOver = () => game.solved || game.gaveUp;
 
 function persistGame(outcome) {
   if (game.unlimited) return;
-  S.games[game.key] = { guesses: game.guesses, solved: game.solved, gaveUp: game.gaveUp, hints: game.revealed };
+  S.games[game.key] = { answer: game.answer.id, quote: game.quote || undefined, guesses: game.guesses, solved: game.solved, gaveUp: game.gaveUp, hints: game.revealed };
   if (outcome) {
     const k = `${game.seriesId}:${game.mode}`;
     const st = S.stats[k] || (S.stats[k] = { played: 0, won: 0, streak: 0, max: 0, lastDay: null, dist: {} });
@@ -289,7 +311,7 @@ function renderPrompt() {
     ui.prompt.replaceChildren(h("p", { class: "lead" }, game.unlimited ? "Practice round. " : "", "Guess the ", h("b", null, s.short), " character. ", `${poolFor(s, "classic").length} possible; every guess lights up the attributes you got right.`));
   } else if (game.mode === "quote") {
     ui.prompt.replaceChildren(h("div", { class: "prompt-quote" },
-      h("blockquote", null, a.quote),
+      h("blockquote", null, game.quote),
       h("div", { class: "who" }, over ? `— ${a.name}` : "— who said it?")));
   } else {
     const shown = over ? 5 : Math.min(5, APP.emojiStart + wrongCount());
@@ -391,17 +413,18 @@ function renderHints(flipIdx = -1) {
   const sched = HINTS[game.mode] || [], wrong = wrongCount(), over = isOver();
   ui.hints.replaceChildren(...sched.map((hn, i) => {
     const label = hn.label(game.series);
-    const unlocked = over || wrong >= hn.after;
-    if (over || game.revealed.includes(i)) {
+    if (game.revealed.includes(i)) {
       return h("div", { class: `hint open${i === flipIdx ? " flip" : ""}` }, h("span", { class: "hl" }, label), h("span", { class: "hv" }, hn.value(game.answer)));
     }
-    if (unlocked) {
+    // Once the round is over, clues nobody flipped stay hidden so they can't spoil a later round.
+    if (over) return null;
+    if (wrong >= hn.after) {
       return h("button", { type: "button", class: "hint ready", onclick: () => revealHint(i), "aria-label": `Reveal hint: ${label}` },
         h("span", { class: "hl" }, label), h("span", { class: "tap" }, "Tap to reveal"));
     }
     return h("div", { class: "hint locked" }, h("span", { class: "hl" }, label),
       h("span", { class: "hv" }, `Unlocks after ${plural(hn.after, "miss")}${wrong ? ` (${hn.after - wrong} to go)` : ""}`));
-  }));
+  }).filter(Boolean));
 }
 function revealHint(i) {
   if (!game || game.revealed.includes(i)) return;
@@ -435,9 +458,10 @@ function showResult(animate) {
   const s = game.series, a = game.answer, n = game.guesses.length, m = modeById(game.mode);
   ui.form.hidden = true;
   if (game.mode !== "classic") renderPrompt();
+  // Only the Classic attributes: a quote, the emoji set or the hint text shown here would give the
+  // character away the next time they come up in another mode.
   const facts = [["Gender", a.gender], [s.hairLabel || "Hair", a.hair], [s.affiliationLabel, a.affiliation.join(" · ")], !s.hideAge && ["Age", a.age == null ? "unknown" : a.age], [s.powerLabel, a.power.join(" · ")], ["Debut", a.debut]].filter(Boolean);
-  if (game.mode !== "quote" && a.quote) facts.push(["Quote", `“${a.quote}”`]);
-  if (game.mode !== "emoji") facts.push(["Emoji", a.emojis.join(" ")]);
+  const hintSeen = (HINTS[game.mode] || []).some((hn, i) => hn.key === "hint" && game.revealed.includes(i));
 
   const actions = h("div", { class: "result-actions" });
   if (!game.unlimited) {
@@ -455,7 +479,7 @@ function showResult(animate) {
   const panel = h("div", { class: "result", style: animate ? null : { animation: "none" } },
     h("h2", null, game.solved ? (n === 1 ? "First try!" : n <= 3 ? "Nailed it." : n <= 6 ? "Got it!" : "Finally!") : "The answer was…"),
     h("p", { class: "sub" }, game.solved ? `${m.label} · solved in ${plural(n, "guess")}${game.unlimited ? "" : ` · Daily #${game.day + 1}`}` : `${m.label} · revealed after ${plural(n, "guess")}`),
-    h("div", { class: "answer" }, avatar(a, "lg"), h("div", null, h("div", { class: "answer-name" }, a.name), h("div", { class: "answer-hint" }, a.hint))),
+    h("div", { class: "answer" }, avatar(a, "lg"), h("div", null, h("div", { class: "answer-name" }, a.name), hintSeen && h("div", { class: "answer-hint" }, a.hint))),
     h("div", { class: "facts" }, facts.map(([k, v]) => h("span", { class: "fact" }, h("b", null, k), v))),
     actions);
   ui.result.replaceChildren(panel);
@@ -522,7 +546,7 @@ function openHelp() {
     h("div", { class: "legend-tiles" }, tile("ok", "Match", "Exactly the same"), tile("part", "Partial", "Shares at least one entry"), tile("bad", "Miss", "Nothing in common"), tile("bad", "19 ▲ older", "Answer is higher / later"), tile("unk", "?", "No canon value on record")),
     h("p", null, "Age is the latest age the show gives the character (for anyone who dies, their age at death). Debut is the arc or season they first show up in; ▲ later means the answer appears later than your guess. Affiliation and power can list more than one value — yellow means some overlap."),
     h("h3", null, "Quote"),
-    h("p", null, "A line the character says in the show. Hint cards unlock after 2, 4, 6 and 8 misses — they stay face-down until you tap one, so using them is up to you."),
+    h("p", null, "A line the character says in the show. Most characters have a few, so when someone comes back you get a different line. Hint cards unlock after 2, 4, 6 and 8 misses — they stay face-down until you tap one, so using them is up to you."),
     h("h3", null, "Emoji"),
     h("p", null, "Five emojis describe the character. You start with two and each miss reveals another. Hint cards unlock after 4, 6 and 8 misses; tap one to flip it."),
     h("h3", null, "The casts"),

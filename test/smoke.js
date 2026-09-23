@@ -30,7 +30,7 @@ const path = require("path");
       // find the answer by reproducing the seeding in-page
       const info = await page.evaluate(({ id, mode }) => {
         const s = window.DLE.series[id];
-        const pool = mode === "quote" ? s.characters.filter(c => c.quote) : s.characters;
+        const pool = mode === "quote" ? s.characters.filter(c => c.quotes.length) : s.characters;
         return { n: pool.length, names: pool.map(c => c.name) };
       }, { id, mode });
       // make 3 wrong-ish guesses (first three pool names), then brute force until solved
@@ -54,6 +54,9 @@ const path = require("path");
       if (!solved) { await page.waitForSelector(".result", { timeout: 3000 }); solved = true; }
       const resultText = await page.$eval(".result", el => el.textContent);
       if (!/solved in/i.test(resultText)) throw new Error(`${id}/${mode}: result text missing: ${resultText.slice(0, 80)}`);
+      // the result card must not hand out clues from the other modes (no hints were flipped here)
+      const leak = await page.evaluate(() => ({ facts: [...document.querySelectorAll(".result .fact b")].map(b => b.textContent).filter(k => /quote|emoji/i.test(k)), hint: !!document.querySelector(".result .answer-hint"), cards: document.querySelectorAll(".hint").length }));
+      if (leak.facts.length || leak.hint || leak.cards) throw new Error(`${id}/${mode}: result card leaks ${JSON.stringify(leak)}`);
       // reload: state should persist and result should still show
       await page.reload();
       await page.waitForSelector(".result");

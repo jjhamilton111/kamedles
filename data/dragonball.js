@@ -72,7 +72,11 @@ window.DLE.series["dragonball"] = {
         "Saiyan"
       ],
       "debut": "Emperor Pilaf",
-      "quote": "I am the hope of the universe.",
+      "quotes": [
+        "I'd rather find a room full of food than one full of gold.",
+        "No, I'm trembling...'cause I'm excited!",
+        "I thought \"bride\" meant something to eat."
+      ],
       "emojis": [
         "🍚",
         "☁️",
@@ -99,7 +103,11 @@ window.DLE.series["dragonball"] = {
         "Human"
       ],
       "debut": "Emperor Pilaf",
-      "quote": "You're going to help me find the Dragon Balls!",
+      "quotes": [
+        "I hate being unselfish! It's always such a drag!",
+        "Those rotten skunks! This is it! I'm one ticked off damsel in distress!",
+        "I save your lives, and what do I get in return? Guns in my face."
+      ],
       "emojis": [
         "🔧",
         "💊",
@@ -127,7 +135,11 @@ window.DLE.series["dragonball"] = {
         "Human"
       ],
       "debut": "21st Tournament",
-      "quote": "Destructo Disc!",
+      "quotes": [
+        "People will cheer for a goldfish if you put a champion belt on 'im.",
+        "Actually, we were the same size. But then, he kept growing and I stopped.",
+        "Do your best! Oh, wait. Trunks' best might hurt someone. Do okay!"
+      ],
       "emojis": [
         "🧑‍🦲",
         "🟠",
@@ -158,7 +170,11 @@ window.DLE.series["dragonball"] = {
         "Human"
       ],
       "debut": "Emperor Pilaf",
-      "quote": "Work hard, study well, and eat and sleep plenty. That's the Turtle Hermit way.",
+      "quotes": [
+        "Do your legs hurt, 'cuz you've been runnin'... all through my dreams!",
+        "Find me a young gal. It's the only way I can start training you.",
+        "Since I broke the moon, everything has been nice and peaceful."
+      ],
       "emojis": [
         "🏝️",
         "🕶️",
@@ -185,7 +201,11 @@ window.DLE.series["dragonball"] = {
         "Human"
       ],
       "debut": "Emperor Pilaf",
-      "quote": "Wolf Fang Fist!",
+      "quotes": [
+        "It's Wolf Fang Fist time!",
+        "I'm sorry, I can't understand you. I don't speak pain.",
+        "Eh, shame it won't run on good looks. I'd keep it going forever."
+      ],
       "emojis": [
         "🏜️",
         "⚾",
@@ -214,7 +234,11 @@ window.DLE.series["dragonball"] = {
         "Human"
       ],
       "debut": "22nd Tournament",
-      "quote": "Tri-Beam!",
+      "quotes": [
+        "For someone who doesn't speak pain, you sound very fluent.",
+        "Well, you're resilient. Stupid, but resilient.",
+        "I've mastered the Evil Containment Wave. It's time to put it to the test."
+      ],
       "emojis": [
         "🧑‍🦲",
         "🦢",
@@ -242,7 +266,11 @@ window.DLE.series["dragonball"] = {
         "Human"
       ],
       "debut": "22nd Tournament",
-      "quote": null,
+      "quotes": [
+        "Well, I'm no genius, but I'm smart enough... to know you're stalling.",
+        "I will do anything you ask of me, but I cannot hurt Tien Shinhan.",
+        "How can you guys watch TV? I can't stop thinking about Tien and the others."
+      ],
       "emojis": [
         "🎈",
         "🤍",
@@ -268,7 +296,11 @@ window.DLE.series["dragonball"] = {
         "Other"
       ],
       "debut": "Emperor Pilaf",
-      "quote": "I wish for the world's most comfortable pair of underwear!",
+      "quotes": [
+        "My pig appeal gets them every time.",
+        "You were a lot nicer when you were a carrot, you know.",
+        "Hey, kid! Remember, before you ever got famous, I was your best buddy!"
+      ],
       "emojis": [
         "🍵",
         "🤪",
@@ -295,7 +327,11 @@ window.DLE.series["dragonball"] = {
         "Other"
       ],
       "debut": "Emperor Pilaf",
-      "quote": null,
+      "quotes": [
+        "Yamcha, why are your pants wet?",
+        "Fighting doesn't pay the rent Yamcha! You have to make money somehow.",
+        "Be careful Yamcha. Krillin's head is pretty slippery."
+      ],
       "emojis": [
         "☁️",
         "🔄",
@@ -322,7 +358,11 @@ window.DLE.series["dragonball"] = {
         "Human"
       ],
       "debut": "21st Tournament",
-      "quote": null,
+      "quotes": [
+        "Anyone else wanna call me their sweetheart!?",
+        "What are you doing in my bed, you pervert?!",
+        "Slow down, ya little pig! How's about I cook you for dinner?!"
+      ],
       "emojis": [
         "🏝️",
         "🍳",
@@ -349,7 +389,11 @@ window.DLE.series["dragonball"] = {
         "Human"
       ],
       "debut": "Emperor Pilaf",
-      "quote": "My Gohan is going to be a scholar, not some delinquent fighter!",
+      "quotes": [
+        "You just leave my little Gohan out of this. His fighting days are over!",
+        "My sweet little Gohan's become a punker!",
+        "Goku! Wedding is not a food!"
+      ],
       "emojis": [
         "🏔️",
         "🍳",
@@ -377,7 +421,11 @@ window.DLE.series["dragonball"] = {
         "Namekian"
       ],
       "debut": "Piccolo Jr.",
-      "quote": "Special Beam Cannon!",
+      "quotes": [
+        "My ears do more than just frame my face you know, Goku.",
+        "Never train children when their mothers are around. It's always trouble.",
+        "If that's what you humans call love, count me out."
+      ],
       "emojis": [
         "🧘",
         "💚",
@@ -405,7 +453,11 @@ window.DLE.series["dragonball"] = {
         "Namekian"
       ],
       "debut": "King Piccolo",
-      "quote": "Grant me eternal youth!",
+      "quotes": [
+        "Vengeance is most refreshing. It's what keeps up my youthful appearance.",
+        "I wish to be made young again. Restore my youth and power!",
+        "Well, well. I went searching for a king and found a coward."
+      ],
       "emojis": [
         "👑",
         "🥚",
@@ -432,7 +484,11 @@ window.DLE.series["dragonball"] = {
         "Namekian"
       ],
       "debut": "Piccolo Jr.",
-      "quote": "I am the Guardian of the Earth.",
+      "quotes": [
+        "I taught... Goku... nothing! That's what I taught him.",
+        "Now, Mr. Popo, I would like to begin recreating the Eternal Dragon immediately.",
+        "I have brought all this on myself. I must now answer for it."
+      ],
       "emojis": [
         "☁️",
         "🏛️",
@@ -440,7 +496,7 @@ window.DLE.series["dragonball"] = {
         "💚",
         "👴"
       ],
-      "hint": "The elderly green guardian of Earth who lives on a floating lookout and created the Dragon Balls."
+      "hint": "An elderly green sage who watches over the world from a floating lookout and created the Dragon Balls."
     },
     {
       "id": "mr-popo",
@@ -458,7 +514,11 @@ window.DLE.series["dragonball"] = {
         "Other"
       ],
       "debut": "Piccolo Jr.",
-      "quote": null,
+      "quotes": [
+        "You must be more tranquil than the sky yet quicker than lightning.",
+        "So you know yourself, do you? How come you don't know that you are weak?",
+        "Ah, yes. Well, I guess so. But don't leave skid marks on the tiles."
+      ],
       "emojis": [
         "☁️",
         "🧞",
@@ -485,7 +545,11 @@ window.DLE.series["dragonball"] = {
         "Other"
       ],
       "debut": "Red Ribbon Army",
-      "quote": "That Sacred Water? It's just ordinary water.",
+      "quotes": [
+        "I...read...minds! But don't worry, kid. There weren't that many chapters.",
+        "Distraction is the root of all failure.",
+        "Eight hundred years, give or take a few."
+      ],
       "emojis": [
         "🗼",
         "🌰",
@@ -511,7 +575,11 @@ window.DLE.series["dragonball"] = {
         "Human"
       ],
       "debut": "King Piccolo",
-      "quote": null,
+      "quotes": [
+        "It was strategy! I was distracting him!",
+        "I like you, Goku. But not as much as I like living.",
+        "That's right! That fish was my dinner and you ate it!"
+      ],
       "emojis": [
         "🍖",
         "😴",
@@ -537,7 +605,11 @@ window.DLE.series["dragonball"] = {
         "Other"
       ],
       "debut": "Emperor Pilaf",
-      "quote": "I wish to rule the world!",
+      "quotes": [
+        "Born leaders, like us, only need one wish... to rule the world!",
+        "I got my degree in torture, I am a certified master of torture!",
+        "That trap didn't work! Who designed that trap anyway?"
+      ],
       "emojis": [
         "🏰",
         "🤏",
@@ -566,7 +638,11 @@ window.DLE.series["dragonball"] = {
         "Human"
       ],
       "debut": "Red Ribbon Army",
-      "quote": "Dodon Ray!",
+      "quotes": [
+        "Dodon Ray!",
+        "I will annihilate any man, woman, or child as long as the price is right.",
+        "There is a very thin line between bravery and stupidity, child."
+      ],
       "emojis": [
         "💰",
         "🗡️",
@@ -592,7 +668,11 @@ window.DLE.series["dragonball"] = {
         "Saiyan"
       ],
       "debut": "Saiyan",
-      "quote": null,
+      "quotes": [
+        "Impressive. You actually managed to singe some of my leg hair.",
+        "Such harsh words. Careful, you're more like me than you realize.",
+        "You should listen to your big brother."
+      ],
       "emojis": [
         "🛸",
         "🦁",
@@ -616,7 +696,11 @@ window.DLE.series["dragonball"] = {
         "Saiyan"
       ],
       "debut": "Saiyan",
-      "quote": "What does the scouter say about his power level?",
+      "quotes": [
+        "What does the scouter say about his power level?",
+        "There'll always be a soft spot at the bottom of my boot for ya!",
+        "Do you think I was trying too hard to impress them Vegeta?"
+      ],
       "emojis": [
         "🧑‍🦲",
         "🌱",
@@ -644,7 +728,12 @@ window.DLE.series["dragonball"] = {
         "Saiyan"
       ],
       "debut": "Saiyan",
-      "quote": "It's over 9000!",
+      "quotes": [
+        "It's over 9000!",
+        "Nobody kills Kakarot while I'm around! Destiny has reserved that pleasure for me!",
+        "I don't have time to listen to Kakarot's hair problems.",
+        "Kakarot has surpassed me in power, but now his son has too!?"
+      ],
       "emojis": [
         "👑",
         "🐒",
@@ -671,7 +760,11 @@ window.DLE.series["dragonball"] = {
         "Saiyan"
       ],
       "debut": "Saiyan",
-      "quote": "I'm the Great Saiyaman!",
+      "quotes": [
+        "Sorry we're late. I had to finish my homework.",
+        "Piccolo, can I have a new outfit just like yours? You were my first teacher.",
+        "Uh oh. It's been five hours and they've already made a legend out of me."
+      ],
       "emojis": [
         "📚",
         "🎓",
@@ -697,7 +790,11 @@ window.DLE.series["dragonball"] = {
         "Saiyan"
       ],
       "debut": "Majin Buu",
-      "quote": "Fu... sion... HA!",
+      "quotes": [
+        "What's my dad like?",
+        "Hey! So, does this mean that Videl's gonna be my new sister?",
+        "I guess it's a bad thing because she called me a monster."
+      ],
       "emojis": [
         "👦",
         "🤝",
@@ -723,7 +820,11 @@ window.DLE.series["dragonball"] = {
         "Saiyan"
       ],
       "debut": "Androids / Cell",
-      "quote": null,
+      "quotes": [
+        "Yeah...it's great... If you like looking like a total geek, that is...",
+        "You didn't say you would hit back, dad.",
+        "Uh...I...I don't think Goten knows what symmetry is, sir."
+      ],
       "emojis": [
         "👦",
         "💊",
@@ -750,7 +851,11 @@ window.DLE.series["dragonball"] = {
         "Saiyan"
       ],
       "debut": "Androids / Cell",
-      "quote": "In three years, two androids will appear.",
+      "quotes": [
+        "Well, sorry Frieza. But I'm canceling your date with Goku.",
+        "Man, those same moves turned Frieza into cold cuts.",
+        "Nightmares never last, Mom. One day you wake up and they're gone."
+      ],
       "emojis": [
         "⏳",
         "🧥",
@@ -778,7 +883,11 @@ window.DLE.series["dragonball"] = {
         "Frieza Race"
       ],
       "debut": "Namek / Frieza",
-      "quote": "I'm the emperor of the universe!",
+      "quotes": [
+        "I say we torch the whole barrel of monkeys. What do you say, Zarbon?",
+        "I've never met a sentimental Saiyan before. It'll be your downfall.",
+        "Nice move but your shoe came untied."
+      ],
       "emojis": [
         "🪐",
         "🛸",
@@ -805,7 +914,11 @@ window.DLE.series["dragonball"] = {
         "Alien"
       ],
       "debut": "Namek / Frieza",
-      "quote": "Change... now!",
+      "quotes": [
+        "Lord Frieza, allow me to honor you by performing the dance of joy.",
+        "Imagine. Working for the most powerful man in the universe. How's that for a 401K?",
+        "This new face doesn't look half bad. What do you think Jeice?"
+      ],
       "emojis": [
         "🕺",
         "💜",
@@ -834,7 +947,11 @@ window.DLE.series["dragonball"] = {
         "Android"
       ],
       "debut": "Androids / Cell",
-      "quote": "The Red Ribbon Army will have its revenge!",
+      "quotes": [
+        "My data indicates that their abilities could not have improved this much!",
+        "Careful! Those are the blueprints for my ultimate android!",
+        "For the last time, do not release him!"
+      ],
       "emojis": [
         "🧪",
         "🧠",
@@ -862,7 +979,11 @@ window.DLE.series["dragonball"] = {
         "Android"
       ],
       "debut": "Androids / Cell",
-      "quote": "It is not a sin to fight for the right cause.",
+      "quotes": [
+        "It is not a sin to fight for the right cause.",
+        "You two made too much noise. You scared the birds away.",
+        "No. I am programmed to destroy Goku."
+      ],
       "emojis": [
         "🌳",
         "🐦",
@@ -891,7 +1012,11 @@ window.DLE.series["dragonball"] = {
         "Android"
       ],
       "debut": "Androids / Cell",
-      "quote": null,
+      "quotes": [
+        "Hi. Can Goku come out and play?",
+        "Alright. Have it your way pal. But I suggest you loosen up before you rust.",
+        "Why don't you take a new outfit from one of these goons, 18?"
+      ],
       "emojis": [
         "🧣",
         "🏝️",
@@ -920,7 +1045,11 @@ window.DLE.series["dragonball"] = {
         "Android"
       ],
       "debut": "Androids / Cell",
-      "quote": "Pay me twenty million zeni and I'll take a dive.",
+      "quotes": [
+        "Men. Heh. They just have to destroy everything.",
+        "Whoever owns these clothes should have their optic sensors adjusted. They are obviously malfunctioning.",
+        "Hey, boneheads! 17 is my twin brother!"
+      ],
       "emojis": [
         "👱‍♀️",
         "💰",
@@ -948,7 +1077,11 @@ window.DLE.series["dragonball"] = {
         "Bio-Android"
       ],
       "debut": "Androids / Cell",
-      "quote": "I am perfect.",
+      "quotes": [
+        "You Saiyans are like cockroaches. Squash one, and another crawls out from the wall.",
+        "It's rare that I get to make use of Frieza and his father's wonderful genes.",
+        "Yes, he is a brave one. Incredibly stupid, but brave nonetheless."
+      ],
       "emojis": [
         "🧬",
         "🦗",
@@ -978,7 +1111,11 @@ window.DLE.series["dragonball"] = {
         "Majin"
       ],
       "debut": "Majin Buu",
-      "quote": "Turn into candy!",
+      "quotes": [
+        "What should me turn you into? Chocolate or jelly?",
+        "He say oogly? What means that, oogly?",
+        "You girls don't know what you want! How do you like candy!?"
+      ],
       "emojis": [
         "🍬",
         "🩷",
@@ -1004,7 +1141,11 @@ window.DLE.series["dragonball"] = {
         "Alien"
       ],
       "debut": "Majin Buu",
-      "quote": "Paparapapa!",
+      "quotes": [
+        "Ho hum. What a useless transformation. You've changed your hair. So what?",
+        "Hey! Do you want to go back inside your ball for another million years!?",
+        "Grr...he means your face would frighten small children. Now be quiet!"
+      ],
       "emojis": [
         "🛸",
         "🪄",
@@ -1033,7 +1174,11 @@ window.DLE.series["dragonball"] = {
         "Human"
       ],
       "debut": "Androids / Cell",
-      "quote": "It's just a trick! Lights and mirrors!",
+      "quotes": [
+        "It's a trick! It's all a trick, I swear!",
+        "Let's just say my chances of winning are about one hundred and twenty percent.",
+        "I'm really more of a chef than a fighter."
+      ],
       "emojis": [
         "🏆",
         "🎤",
@@ -1058,7 +1203,11 @@ window.DLE.series["dragonball"] = {
         "Human"
       ],
       "debut": "Majin Buu",
-      "quote": "You're going to teach me how to fly.",
+      "quotes": [
+        "Gohan's not a geek. He's a heck of a lot cooler than you, Sharpner.",
+        "I thought you were a nice boy. Keep your pants on, or else. Got it?",
+        "Dad doesn't even let me watch him train now. It's all a secret."
+      ],
       "emojis": [
         "🏙️",
         "👮",
@@ -1086,7 +1235,11 @@ window.DLE.series["dragonball"] = {
         "God / Angel"
       ],
       "debut": "Majin Buu",
-      "quote": "We must stop Babidi before he revives Majin Buu.",
+      "quotes": [
+        "I will not let you resurrect Majin Buu.",
+        "Who are you people!? Don't you see the universe matters more than your meaningless squabble?",
+        "Yes. That's Bibidi's creation without a doubt. I can never forget that disgusting creature's face!"
+      ],
       "emojis": [
         "💜",
         "👂",
@@ -1112,7 +1265,11 @@ window.DLE.series["dragonball"] = {
         "Saiyan"
       ],
       "debut": "Namek / Frieza",
-      "quote": null,
+      "quotes": [
+        "Frieza's taken our loyalty and paid us back in our own blood.",
+        "Maybe it's because I'm constantly fighting... I'd actually like to save something for once.",
+        "Especially someone who is judged to be a lower-class warrior... like my Kakarot."
+      ],
       "emojis": [
         "🪐",
         "🩸",
@@ -1140,7 +1297,10 @@ window.DLE.series["dragonball"] = {
         "God / Angel"
       ],
       "debut": "Battle of Gods / Resurrection F",
-      "quote": "Before creation comes destruction.",
+      "quotes": [
+        "You couldn't save me any?! Not one puny slice?!",
+        "Goku's done it, hasn't he? He's finally achieved it..."
+      ],
       "emojis": [
         "😴",
         "🍮",
@@ -1148,7 +1308,7 @@ window.DLE.series["dragonball"] = {
         "💥",
         "💜"
       ],
-      "hint": "A lazy, cat-like god of destruction who nearly ends Earth over a pudding cup."
+      "hint": "A lazy, cat-like deity who wipes out planets on a whim and nearly ends Earth over a pudding cup."
     },
     {
       "id": "whis",
@@ -1164,7 +1324,10 @@ window.DLE.series["dragonball"] = {
         "God / Angel"
       ],
       "debut": "Battle of Gods / Resurrection F",
-      "quote": null,
+      "quotes": [
+        "Tell me, Goku. Why do you seek even greater strength than you have already?",
+        "How truly magnificent! I think this battle is about to come to a rousing finale!"
+      ],
       "emojis": [
         "🍰",
         "⏪",
@@ -1189,7 +1352,9 @@ window.DLE.series["dragonball"] = {
         "God / Angel"
       ],
       "debut": "Universe 6",
-      "quote": "I'm the God of Destruction of Universe 6!",
+      "quotes": [
+        "When you're a big star like me, you have to make an entrance."
+      ],
       "emojis": [
         "🍩",
         "🐈",
@@ -1215,7 +1380,11 @@ window.DLE.series["dragonball"] = {
         "Alien"
       ],
       "debut": "Universe 6",
-      "quote": "Time Skip.",
+      "quotes": [
+        "You showing your cards tells me that you're young.",
+        "Then I'll just have to put all my chips on the table!",
+        "Making Universe 6 win is my job!"
+      ],
       "emojis": [
         "🧥",
         "⏱️",
@@ -1242,7 +1411,11 @@ window.DLE.series["dragonball"] = {
         "God / Angel"
       ],
       "debut": "Goku Black",
-      "quote": "Mortals are a mistake made by the gods.",
+      "quotes": [
+        "Mortals do not succumb to evil, they are the evil.",
+        "How can we call ourselves gods if we watch this plight and do nothing?",
+        "You give corruption far too much credit; evil does not inform good."
+      ],
       "emojis": [
         "🍵",
         "⚖️",
@@ -1270,7 +1443,11 @@ window.DLE.series["dragonball"] = {
         "God / Angel"
       ],
       "debut": "Goku Black",
-      "quote": null,
+      "quotes": [
+        "I look down on existence from a much higher perspective than you do.",
+        "When your sword is mighty enough, you don't need a shield.",
+        "What do you think of it? Quite the color, huh?"
+      ],
       "emojis": [
         "🖤",
         "💗",
@@ -1296,7 +1473,11 @@ window.DLE.series["dragonball"] = {
         "Alien"
       ],
       "debut": "Tournament of Power",
-      "quote": "Strength is absolute.",
+      "quotes": [
+        "Might makes right and might alone! Without strength, we have nothing!",
+        "To hell with your friendship! To hell with your trust!",
+        "However, your passion is expended. You have nothing more to offer."
+      ],
       "emojis": [
         "🧘",
         "🔴",
@@ -1325,7 +1506,10 @@ window.DLE.series["dragonball"] = {
         "God / Angel"
       ],
       "debut": "Universe 6",
-      "quote": "Erase!",
+      "quotes": [
+        "A tournament with all the universes together... wouldn't that be fun?",
+        "And then I got an idea that was very good."
+      ],
       "emojis": [
         "👶",
         "🌌",
@@ -1351,7 +1535,9 @@ window.DLE.series["dragonball"] = {
         "Saiyan"
       ],
       "debut": "Broly",
-      "quote": null,
+      "quotes": [
+        "It's not right for you to say bad things about him. He is my dad."
+      ],
       "emojis": [
         "🪐",
         "🦎",
@@ -1377,7 +1563,10 @@ window.DLE.series["dragonball"] = {
         "Android"
       ],
       "debut": "Super Hero",
-      "quote": null,
+      "quotes": [
+        "It wasn't my idea to resort to that, but I have orders.",
+        "And I'll fulfill them without question in the name of justice!"
+      ],
       "emojis": [
         "🦸",
         "🎀",
@@ -1404,7 +1593,11 @@ window.DLE.series["dragonball"] = {
         "God / Angel"
       ],
       "debut": "Saiyan",
-      "quote": "Any student of mine must first make me laugh!",
+      "quotes": [
+        "How dare you call my jokes corny, you little shrimp!?",
+        "When I'm through with you, you'll be a real prince of comedy.",
+        "Him? He's my favorite monkey, Bubbles."
+      ],
       "emojis": [
         "🐒",
         "🦗",
@@ -1431,7 +1624,11 @@ window.DLE.series["dragonball"] = {
         "Namekian"
       ],
       "debut": "Namek / Frieza",
-      "quote": null,
+      "quotes": [
+        "I know I'll never be able to replace Kami, but I will try my best.",
+        "Uh...what do you mean how...he spit the eggs out of his mouth of course.",
+        "You probably wouldn't understand it even if I told it to you."
+      ],
       "emojis": [
         "👦",
         "🟢",
@@ -1457,7 +1654,11 @@ window.DLE.series["dragonball"] = {
         "Alien"
       ],
       "debut": "Namek / Frieza",
-      "quote": null,
+      "quotes": [
+        "Naturally, I am somewhat reluctant to sacrifice looks.",
+        "For someone who looks like you, you have no right to call me hideous!",
+        "Now with great pleasure, I introduce you to the beast!"
+      ],
       "emojis": [
         "💅",
         "🪞",
@@ -1481,7 +1682,11 @@ window.DLE.series["dragonball"] = {
         "Alien"
       ],
       "debut": "Namek / Frieza",
-      "quote": null,
+      "quotes": [
+        "If those little twerps think they can outrun me, they've got another thing coming!",
+        "That felt about as strong as a bumble bee sting!",
+        "I should've known. Shooting people in the back always was your style."
+      ],
       "emojis": [
         "🍖",
         "🩷",
@@ -1509,7 +1714,11 @@ window.DLE.series["dragonball"] = {
         "Alien"
       ],
       "debut": "Namek / Frieza",
-      "quote": "Ultra Fighting Bomber!",
+      "quotes": [
+        "What do we have here? Ha, looks like a vegetable ready to be picked.",
+        "Guldo will kill them in under a minute. One chocolate nut bar says he does.",
+        "Earth to Guldo, what's wrong, have you got something in one of your eyes there?"
+      ],
       "emojis": [
         "💪",
         "🧡",
@@ -1537,7 +1746,11 @@ window.DLE.series["dragonball"] = {
         "Alien"
       ],
       "debut": "Namek / Frieza",
-      "quote": "Crusher Ball!",
+      "quotes": [
+        "Crusher Ball!",
+        "So, vegetable breath, where exactly were you hiding? My scouter didn't show you anywhere!",
+        "He's just cooling off mate. He'll be back!"
+      ],
       "emojis": [
         "🔴",
         "🤍",
@@ -1565,7 +1778,11 @@ window.DLE.series["dragonball"] = {
         "Alien"
       ],
       "debut": "Namek / Frieza",
-      "quote": "I'm the fastest in the universe!",
+      "quotes": [
+        "How did you get behind me? No one's that fast!",
+        "I've defeated hundreds of Saiyans and none of them were faster than me!",
+        "Complain all you want. At least you've got hair."
+      ],
       "emojis": [
         "💙",
         "🦎",
@@ -1592,7 +1809,11 @@ window.DLE.series["dragonball"] = {
         "Alien"
       ],
       "debut": "Namek / Frieza",
-      "quote": null,
+      "quotes": [
+        "What am I, the janitor?",
+        "So you've finally shown your true colors Vegeta.",
+        "So why don't you make like a hair and split!"
+      ],
       "emojis": [
         "🟢",
         "👀",
@@ -1619,7 +1840,11 @@ window.DLE.series["dragonball"] = {
         "Frieza Race"
       ],
       "debut": "Androids / Cell",
-      "quote": "May I see that sword?",
+      "quotes": [
+        "Yes. Yes indeed. Remarkable craftsmanship.",
+        "I say, that without this sword, you're nothing!",
+        "Seems something's got your blood boiling, yes son?"
+      ],
       "emojis": [
         "👑",
         "🦹",
@@ -1647,7 +1872,11 @@ window.DLE.series["dragonball"] = {
         "Other"
       ],
       "debut": "Majin Buu",
-      "quote": "I am the King of the Demon Realm.",
+      "quotes": [
+        "Is that all the power your transformation yields? You're pathetic.",
+        "Master, don't worry. He's mine now. I'll take care of everything.",
+        "So what? He's just emitting light."
+      ],
       "emojis": [
         "😈",
         "🔴",
@@ -1672,7 +1901,10 @@ window.DLE.series["dragonball"] = {
         "God / Angel"
       ],
       "debut": "Universe 6",
-      "quote": null,
+      "quotes": [
+        "Lord Champa hasn't behaved any better... just look at the shape he's in.",
+        "I work so hard to give him nutritionally balanced meals..."
+      ],
       "emojis": [
         "👩",
         "💙",
@@ -1698,7 +1930,11 @@ window.DLE.series["dragonball"] = {
         "Alien"
       ],
       "debut": "Tournament of Power",
-      "quote": "I will abandon justice.",
+      "quotes": [
+        "Justice and evil. I'm beyond that now. All that matters now is winning and survival.",
+        "I love my people! I love my land, and my planet! I love my Universe!",
+        "Is this honestly the way you want your fight to end?"
+      ],
       "emojis": [
         "👮",
         "🥸",
@@ -1725,7 +1961,10 @@ window.DLE.series["dragonball"] = {
         "Saiyan"
       ],
       "debut": "Tournament of Power",
-      "quote": null,
+      "quotes": [
+        "Wait - there's a THREE?!",
+        "Oh, please, Cabba... I'm not here to make new friends."
+      ],
       "emojis": [
         "👩",
         "😤",
@@ -1749,7 +1988,9 @@ window.DLE.series["dragonball"] = {
         "Saiyan"
       ],
       "debut": "Tournament of Power",
-      "quote": "Sis!",
+      "quotes": [
+        "Sis!"
+      ],
       "emojis": [
         "👩",
         "😳",
@@ -1776,7 +2017,9 @@ window.DLE.series["dragonball"] = {
         "Saiyan"
       ],
       "debut": "Universe 6",
-      "quote": "Mr. Vegeta!",
+      "quotes": [
+        "Master, I shall fight without forgetting my pride as a Saiyan!"
+      ],
       "emojis": [
         "👦",
         "🪖",
@@ -1800,7 +2043,10 @@ window.DLE.series["dragonball"] = {
         "Frieza Race"
       ],
       "debut": "Universe 6",
-      "quote": null,
+      "quotes": [
+        "Welcome to the world of trickery, deception, and murder!",
+        "Yes, I start my own wars, but then I resolve them..."
+      ],
       "emojis": [
         "😇",
         "❄️",
@@ -1826,7 +2072,9 @@ window.DLE.series["dragonball"] = {
         "Saiyan"
       ],
       "debut": "Majin Buu",
-      "quote": "Mr. Piccolo!",
+      "quotes": [
+        "I want to be big and strong like you, and save the world too!"
+      ],
       "emojis": [
         "👧",
         "🎀",
@@ -1854,7 +2102,11 @@ window.DLE.series["dragonball"] = {
         "Android"
       ],
       "debut": "Androids / Cell",
-      "quote": null,
+      "quotes": [
+        "We will destroy it, yes 20?",
+        "This technique is not listed in my files, 20.",
+        "You know some of my moves. But I know all of your moves Vegeta."
+      ],
       "emojis": [
         "🤖",
         "🤡",
@@ -1880,7 +2132,11 @@ window.DLE.series["dragonball"] = {
         "God / Angel"
       ],
       "debut": "Majin Buu",
-      "quote": null,
+      "quotes": [
+        "That cursed wizard. He's even managed to ensnare the king of the demons!",
+        "Have you no respect for the power that is in your grasp!?",
+        "We anticipate great things to come from you, Gohan."
+      ],
       "emojis": [
         "🧍‍♂️",
         "🩷",
@@ -1906,7 +2162,10 @@ window.DLE.series["dragonball"] = {
         "Saiyan"
       ],
       "debut": "Broly",
-      "quote": null,
+      "quotes": [
+        "This is our chance, my son! Attack!",
+        "He can't control it, he's lost all sense of who and what he is."
+      ],
       "emojis": [
         "👨",
         "🧔",
@@ -1932,7 +2191,9 @@ window.DLE.series["dragonball"] = {
         "Alien"
       ],
       "debut": "Broly",
-      "quote": null,
+      "quotes": [
+        "Why so formal? Maybe just try a thank you."
+      ],
       "emojis": [
         "👩",
         "💚",
@@ -1959,7 +2220,10 @@ window.DLE.series["dragonball"] = {
         "God / Angel"
       ],
       "debut": "Universe 6",
-      "quote": "Let the Tournament of Power begin!",
+      "quotes": [
+        "The Tournament of Power shall commence in all its glory.",
+        "Ten warriors from each universe shall engage in epic combat!"
+      ],
       "emojis": [
         "👴",
         "🙏",
@@ -1983,7 +2247,11 @@ window.DLE.series["dragonball"] = {
         "Saiyan"
       ],
       "debut": "Majin Buu",
-      "quote": "Super Ghost Kamikaze Attack!",
+      "quotes": [
+        "Guess you can tell jokes now that you're not a tub o' lard.",
+        "Not only am I freaky looking, I'm stronger, I'm faster and I'm ready for action.",
+        "For a pink guy, you've got bad temper."
+      ],
       "emojis": [
         "🧒",
         "😏",
@@ -2010,7 +2278,11 @@ window.DLE.series["dragonball"] = {
         "Saiyan"
       ],
       "debut": "Majin Buu",
-      "quote": "Final Kamehameha!",
+      "quotes": [
+        "You're wrong, Buu. I'm destined to destroy you.",
+        "You villains never really do take true pride in your fighting skills.",
+        "I don't think anything would get your bad taste out of my mouth."
+      ],
       "emojis": [
         "😎",
         "💪",
@@ -2038,7 +2310,11 @@ window.DLE.series["dragonball"] = {
         "Other"
       ],
       "debut": "Emperor Pilaf",
-      "quote": "Your wish has been granted.",
+      "quotes": [
+        "Your wish has been granted.",
+        "Why have you summoned me? Tell me your wish now.",
+        "Speak. Name your wish. Say it now and it will be so granted."
+      ],
       "emojis": [
         "🌩️",
         "🟢",
