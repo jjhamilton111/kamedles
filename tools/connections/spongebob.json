@@ -1,0 +1,195 @@
+{
+  "show": "spongebob",
+  "groups": [
+    {
+      "title": "SquarePants Family",
+      "level": 1,
+      "def": "SpongeBob's immediate household: his parents, his grandmother, and his pet snail (not the wider extended SquarePants family tree of aunts, uncles, and cousins).",
+      "members": [
+        "SpongeBob SquarePants",
+        "Gary the Snail",
+        "Grandma SquarePants",
+        "Harold SquarePants",
+        "Margaret SquarePants"
+      ],
+      "source": "https://spongebob.fandom.com/wiki/SquarePants_family"
+    },
+    {
+      "title": "Superheroes & Villains",
+      "level": 1,
+      "def": "Members of the in-universe Mermaid Man franchise, hero or villain.",
+      "members": [
+        "Mermaid Man",
+        "Barnacle Boy",
+        "Man Ray",
+        "Dirty Bubble"
+      ],
+      "source": "https://spongebob.fandom.com/wiki/Mermaid_Man"
+    },
+    {
+      "title": "Fish",
+      "level": 1,
+      "def": "Characters whose species is an ordinary fish (not a sponge, crab, or other specific species).",
+      "members": [
+        "Mrs. Puff",
+        "Bubble Bass",
+        "Fred",
+        "Old Man Jenkins",
+        "Perch Perkins",
+        "Mystery the Seahorse",
+        "Flats the Flounder",
+        "Dennis"
+      ],
+      "source": "https://spongebob.fandom.com/wiki/Mrs._Puff"
+    },
+    {
+      "title": "Humanoid",
+      "level": 1,
+      "def": "Characters whose species is a human-shaped sea being, like a merman or mermaid (not a fish, sponge, or other invertebrate).",
+      "members": [
+        "Mermaid Man",
+        "Barnacle Boy",
+        "Man Ray",
+        "King Neptune",
+        "Patchy the Pirate",
+        "French Narrator",
+        "Princess Mindy",
+        "Burger-Beard",
+        "King Poseidon",
+        "Triton",
+        "Lord Royal Highness"
+      ],
+      "source": "https://spongebob.fandom.com/wiki/King_Neptune"
+    },
+    {
+      "title": "Pirates",
+      "level": 2,
+      "def": "Pirates, living or ghostly, who appear in the show.",
+      "members": [
+        "The Flying Dutchman",
+        "Patchy the Pirate",
+        "Potty the Parrot",
+        "Painty the Pirate",
+        "Burger-Beard"
+      ],
+      "source": "https://spongebob.fandom.com/wiki/Flying_Dutchman"
+    },
+    {
+      "title": "Royalty",
+      "level": 2,
+      "def": "Kings, princes, and princesses of the sea shown in the show.",
+      "members": [
+        "King Neptune",
+        "Princess Mindy",
+        "King Poseidon",
+        "Triton",
+        "Lord Royal Highness"
+      ],
+      "source": "https://spongebob.fandom.com/wiki/King_Neptune"
+    },
+    {
+      "title": "Sea Sponge",
+      "level": 2,
+      "def": "Every sea sponge character in the show.",
+      "members": [
+        "SpongeBob SquarePants",
+        "Grandma SquarePants",
+        "Harold SquarePants",
+        "Margaret SquarePants"
+      ],
+      "source": "https://spongebob.fandom.com/wiki/SpongeBob_SquarePants_(character)"
+    },
+    {
+      "title": "Surface World",
+      "level": 2,
+      "def": "Characters established as live-action or otherwise from the human world above the sea.",
+      "members": [
+        "Patchy the Pirate",
+        "Potty the Parrot",
+        "Painty the Pirate",
+        "French Narrator",
+        "Burger-Beard"
+      ],
+      "source": "https://spongebob.fandom.com/wiki/Patchy_the_Pirate"
+    },
+    {
+      "title": "Married Couples",
+      "level": 2,
+      "def": "Characters shown or clearly established on screen as half of a married pair.",
+      "members": [
+        "Harold SquarePants",
+        "Margaret SquarePants",
+        "Plankton",
+        "Karen"
+      ],
+      "source": "https://spongebob.fandom.com/wiki/Karen_Plankton"
+    },
+    {
+      "title": "Worked at the Chum Bucket",
+      "level": 3,
+      "def": "Characters shown holding a job at the Chum Bucket at some point.",
+      "members": [
+        "Plankton",
+        "Karen",
+        "SpongeBob SquarePants",
+        "Patrick Star"
+      ],
+      "source": "https://spongebob.fandom.com/wiki/Chum_Bucket"
+    },
+    {
+      "title": "Boating School",
+      "level": 3,
+      "def": "Characters shown enrolled as a student at Mrs. Puff's Boating School (not counting Mrs. Puff herself, who is only ever the teacher within this file's cutoff).",
+      "members": [
+        "SpongeBob SquarePants",
+        "Patrick Star",
+        "Squidward Tentacles",
+        "Flats the Flounder",
+        "Mr. Krabs"
+      ],
+      "source": "https://spongebob.fandom.com/wiki/Mrs._Puff%27s_Boating_School"
+    },
+    {
+      "title": "Movie-Exclusive Characters",
+      "level": 3,
+      "def": "Characters who appear only in one of the three theatrical movies, never in a regular TV episode (unlike Perch Perkins, who debuted in the 2004 movie but went on to recur in the show).",
+      "members": [
+        "Dennis",
+        "Princess Mindy",
+        "Burger-Beard",
+        "King Poseidon"
+      ],
+      "source": "https://spongebob.fandom.com/wiki/Dennis"
+    },
+    {
+      "title": "Worked at the Krusty Krab",
+      "level": 4,
+      "def": "Characters shown holding a job at the Krusty Krab at some point, even briefly.",
+      "members": [
+        "SpongeBob SquarePants",
+        "Squidward Tentacles",
+        "Mr. Krabs",
+        "Patrick Star",
+        "Pearl Krabs",
+        "Sandy Cheeks",
+        "Mrs. Puff",
+        "King Neptune",
+        "Karen"
+      ],
+      "source": "https://spongebob.fandom.com/wiki/Krusty_Krew"
+    },
+    {
+      "title": "Name Says Their Species",
+      "level": 4,
+      "def": "Characters whose full name is literally \"[Name] the [Species]\".",
+      "members": [
+        "Larry the Lobster",
+        "Flats the Flounder",
+        "Mystery the Seahorse",
+        "Gary the Snail",
+        "Potty the Parrot"
+      ],
+      "source": "https://spongebob.fandom.com/wiki/Larry_the_Lobster"
+    }
+  ]
+}

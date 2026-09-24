@@ -1,0 +1,377 @@
+{
+  "show": "blackclover",
+  "groups": [
+    {
+      "title": "Black Bulls",
+      "level": 1,
+      "def": "Every registered Magic Knight of the Black Bulls squad shown in the anime.",
+      "members": [
+        "Asta",
+        "Noelle",
+        "Yami",
+        "Magna",
+        "Luck",
+        "Vanessa",
+        "Finral",
+        "Gauche",
+        "Charmy",
+        "Gordon",
+        "Grey",
+        "Henry",
+        "Zora",
+        "Nero",
+        "Nacht"
+      ],
+      "source": "https://blackclover.fandom.com/wiki/Category:Black_Bull_members"
+    },
+    {
+      "title": "Golden Dawn",
+      "level": 1,
+      "def": "Every registered Magic Knight of the Golden Dawn squad shown in the anime.",
+      "members": [
+        "Yuno",
+        "William",
+        "Klaus",
+        "Mimosa",
+        "Langris"
+      ],
+      "source": "https://blackclover.fandom.com/wiki/Category:Golden_Dawn_members"
+    },
+    {
+      "title": "House Vermillion",
+      "level": 1,
+      "def": "Every member of House Vermillion by blood shown in the anime.",
+      "members": [
+        "Mereoleona",
+        "Fuegoleon",
+        "Leopold",
+        "Mimosa",
+        "Kirsch"
+      ],
+      "source": "https://blackclover.fandom.com/wiki/Category:House_Vermillion"
+    },
+    {
+      "title": "Grew Up at Hage Church",
+      "level": 1,
+      "def": "The two boys raised there and the sister and priest who raised them, as shown in the anime's opening episodes.",
+      "members": [
+        "Asta",
+        "Yuno",
+        "Lily",
+        "Orsi"
+      ],
+      "source": "https://blackclover.fandom.com/wiki/Orsi_Orfai"
+    },
+    {
+      "title": "House Silva",
+      "level": 1,
+      "def": "Every member of House Silva by blood shown in the anime.",
+      "members": [
+        "Acier",
+        "Nebra",
+        "Noelle",
+        "Nozel",
+        "Solid"
+      ],
+      "source": "https://blackclover.fandom.com/wiki/Category:House_Silva"
+    },
+    {
+      "title": "Magic Knight Captains",
+      "level": 2,
+      "def": "Everyone shown holding a Magic Knights squad captaincy in the anime, current or former. Crimson Lion has two (Fuegoleon and his temporary replacement Mereoleona), and Julius held Aqua Deer's captaincy before becoming Wizard King.",
+      "members": [
+        "Yami",
+        "William",
+        "Fuegoleon",
+        "Mereoleona",
+        "Nozel",
+        "Charlotte",
+        "Jack",
+        "Rill",
+        "Dorothy",
+        "Kaiser",
+        "Julius"
+      ],
+      "source": "https://blackclover.fandom.com/wiki/Category:Captains"
+    },
+    {
+      "title": "Fire Magic Users",
+      "level": 2,
+      "def": "Every character shown with Fire as their own signature magic attribute in the anime - not Rhya, who can temporarily copy any attribute he witnesses, fire included.",
+      "members": [
+        "Fana",
+        "Mars",
+        "Magna",
+        "Fuegoleon",
+        "Leopold",
+        "Mereoleona",
+        "Forte",
+        "Theresa",
+        "Nix",
+        "Dmitri",
+        "Orsi"
+      ],
+      "source": "https://blackclover.fandom.com/wiki/Category:Fire_Magic_users"
+    },
+    {
+      "title": "Water Magic Users",
+      "level": 2,
+      "def": "Every character shown with Water as their own signature magic attribute in the anime - not Rhya, who can temporarily copy any attribute he witnesses, water included.",
+      "members": [
+        "Lolopechka",
+        "Noelle",
+        "Solid",
+        "Acier",
+        "Lily",
+        "Selena",
+        "Risacca",
+        "Francis",
+        "Adrian"
+      ],
+      "source": "https://blackclover.fandom.com/wiki/Category:Water_Magic_users"
+    },
+    {
+      "title": "Wind Magic Users",
+      "level": 3,
+      "def": "Every character shown with Wind as their own signature magic attribute in the anime - not Rhya, who can temporarily copy any attribute he witnesses, wind included.",
+      "members": [
+        "Yuno",
+        "Rob",
+        "Fanzell",
+        "Tetia"
+      ],
+      "source": "https://blackclover.fandom.com/wiki/Category:Wind_Magic_users"
+    },
+    {
+      "title": "Elves",
+      "level": 3,
+      "def": "The elf tribe's named leadership, seen either 500 years ago or reincarnated into human vessels during the present-day Reincarnation arc. Dozens of ordinary Magic Knights (Nils Ragus, Cob Portaport, Risacca Ondell and more) were also briefly possessed by rank-and-file elves during that arc; neither those knights nor the minor elves who rode them count here.",
+      "members": [
+        "Licht",
+        "Patolli",
+        "Rhya",
+        "Vetto",
+        "Fana"
+      ],
+      "source": "https://blackclover.fandom.com/wiki/Elf"
+    },
+    {
+      "title": "Eye of the Midnight Sun",
+      "level": 3,
+      "def": "Every willing member of the present-day terrorist group Eye of the Midnight Sun shown in the anime, elf and human alike - not the many Magic Knights whose bodies were briefly hijacked as unwilling vessels during the Reincarnation arc. Licht, the elves' leader from 500 years ago, predates the group and doesn't count either.",
+      "members": [
+        "Patolli",
+        "Rhya",
+        "Vetto",
+        "Fana",
+        "Rades",
+        "Sally"
+      ],
+      "source": "https://blackclover.fandom.com/wiki/Eye_of_the_Midnight_Sun"
+    },
+    {
+      "title": "Royal Knights",
+      "level": 3,
+      "def": "Everyone shown competing in the Royal Knights selection trials or serving in the elite unit itself in the anime.",
+      "members": [
+        "Asta",
+        "Rill",
+        "Yuno",
+        "Zora",
+        "Klaus",
+        "Noelle",
+        "Nozel",
+        "Mereoleona",
+        "Mimosa",
+        "Luck",
+        "Puli",
+        "Ben",
+        "Ruben",
+        "Cob",
+        "Nils",
+        "En",
+        "Fragil",
+        "Kirsch"
+      ],
+      "source": "https://blackclover.fandom.com/wiki/Category:Royal_Knights_members"
+    },
+    {
+      "title": "Mana Zone Users",
+      "level": 3,
+      "def": "Every character shown creating a Mana Zone, a rare feat of only the most powerful mages, in the anime.",
+      "members": [
+        "Nacht",
+        "Yuno",
+        "Lolopechka",
+        "Julius",
+        "Langris",
+        "Mereoleona",
+        "Yami",
+        "Lumiere",
+        "Theresa"
+      ],
+      "source": "https://blackclover.fandom.com/wiki/Category:Mana_Zone_users"
+    },
+    {
+      "title": "Witches",
+      "level": 2,
+      "def": "Every witch of the Witch Queen's forest shown in the anime.",
+      "members": [
+        "Vanessa",
+        "Dorothy",
+        "Elvira",
+        "Catherine"
+      ],
+      "source": "https://blackclover.fandom.com/wiki/Category:Witches"
+    },
+    {
+      "title": "Spatial Magic Users",
+      "level": 4,
+      "def": "Every character shown with Spatial as their own signature magic attribute in the anime - not Rhya, who can temporarily copy any attribute he witnesses, spatial included.",
+      "members": [
+        "Finral",
+        "Langris",
+        "Zenon",
+        "Lily",
+        "Cob"
+      ],
+      "source": "https://blackclover.fandom.com/wiki/Category:Spatial_Magic_users"
+    },
+    {
+      "title": "Names That Are Also English Words",
+      "level": 4,
+      "def": "Character names that are also English dictionary words: Gauche, Grey, Jack, Lily, Luck, Mars, Mimosa, Rill, Sally, Solid, Kirsch (cherry brandy), Kaiser (emperor), Charlotte (a dessert), Rob (to steal), Forte (a strong point), Nix (to veto), Digit (a numeral or finger) and Cob (a corn cob). Sol (the musical note) also counts. Near-misses that don't count: Noelle, Vanessa, Magna, Henry, Fragil (missing the 'e' of 'fragile') and Ben, Rick, Puli, En (only names, or too obscure a technical/dialect term).",
+      "members": [
+        "Gauche",
+        "Grey",
+        "Jack",
+        "Lily",
+        "Luck",
+        "Mars",
+        "Mimosa",
+        "Rill",
+        "Sally",
+        "Solid",
+        "Kirsch",
+        "Kaiser",
+        "Charlotte",
+        "Rob",
+        "Forte",
+        "Nix",
+        "Digit",
+        "Cob",
+        "Sol"
+      ],
+      "source": "https://blackclover.fandom.com/wiki/Category:Characters"
+    },
+    {
+      "title": "Silver Eagle",
+      "level": 3,
+      "def": "Every registered Magic Knight of the Silver Eagle squad shown in the anime, including the late Acier, seen in flashback.",
+      "members": [
+        "Nozel",
+        "Solid",
+        "Nebra",
+        "Acier",
+        "Mohl",
+        "Nils",
+        "Rob",
+        "Curtis"
+      ],
+      "source": "https://blackclover.fandom.com/wiki/Category:Silver_Eagle_members"
+    },
+    {
+      "title": "Blue Rose",
+      "level": 3,
+      "def": "Every registered Magic Knight of the Blue Rose squad shown in the anime.",
+      "members": [
+        "Charlotte",
+        "Sol",
+        "Selena",
+        "Wainsley",
+        "Galgaria",
+        "Risacca",
+        "Puli"
+      ],
+      "source": "https://blackclover.fandom.com/wiki/Category:Blue_Rose_members"
+    },
+    {
+      "title": "Crimson Lion",
+      "level": 3,
+      "def": "Every registered Magic Knight of the Crimson Lion squad shown in the anime.",
+      "members": [
+        "Mereoleona",
+        "Fuegoleon",
+        "Leopold",
+        "Randall",
+        "Forte",
+        "Ben",
+        "Ruben",
+        "Theresa"
+      ],
+      "source": "https://blackclover.fandom.com/wiki/Category:Crimson_Lion_members"
+    },
+    {
+      "title": "Aqua Deer",
+      "level": 2,
+      "def": "Every Magic Knight currently registered to the Aqua Deer squad shown in the anime - not the several who started there before moving on (see Former Aqua Deer Members).",
+      "members": [
+        "Rill",
+        "Cesc",
+        "Francis",
+        "Fragil"
+      ],
+      "source": "https://blackclover.fandom.com/wiki/Category:Aqua_Deer_members"
+    },
+    {
+      "title": "Green Mantis",
+      "level": 2,
+      "def": "Every registered Magic Knight of the Green Mantis squad shown in the anime.",
+      "members": [
+        "Jack",
+        "Sekke",
+        "Nix",
+        "En"
+      ],
+      "source": "https://blackclover.fandom.com/wiki/Category:Green_Mantis_members"
+    },
+    {
+      "title": "Coral Peacock",
+      "level": 2,
+      "def": "Every registered Magic Knight of the Coral Peacock squad shown in the anime.",
+      "members": [
+        "Dorothy",
+        "Kirsch",
+        "Dmitri",
+        "Rick",
+        "Roland"
+      ],
+      "source": "https://blackclover.fandom.com/wiki/Category:Coral_Peacock_members"
+    },
+    {
+      "title": "Purple Orca",
+      "level": 3,
+      "def": "Every registered Magic Knight of the Purple Orca squad shown in the anime. Zora, who spent years undercover here under the alias Xerx Lugner, is tracked only under his real name elsewhere (Black Bulls, Royal Knights), not counted here.",
+      "members": [
+        "Kaiser",
+        "Adrian",
+        "Digit",
+        "Rades"
+      ],
+      "source": "https://blackclover.fandom.com/wiki/Category:Purple_Orca_members"
+    },
+    {
+      "title": "Former Aqua Deer Members",
+      "level": 4,
+      "def": "Characters explicitly shown to have started their careers in the Aqua Deer squad before moving on to a different post, in the anime.",
+      "members": [
+        "Julius",
+        "William",
+        "Yami",
+        "Cob",
+        "Marx"
+      ],
+      "source": "https://blackclover.fandom.com/wiki/Category:Former_Aqua_Deer_members"
+    }
+  ]
+}

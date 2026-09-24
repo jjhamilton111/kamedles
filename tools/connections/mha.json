@@ -1,0 +1,239 @@
+{
+  "show": "mha",
+  "groups": [
+    {
+      "title": "U.A. Class 1-A — Boys",
+      "level": 1,
+      "def": "Every male student of U.A.'s Class 1-A for the vast majority of the series (the original 20-person roster from the Entrance Exam through the Final War). Excludes Hitoshi Shinso, who only joins the class after Yuga Aoyama transfers out at the very end of the series.",
+      "members": [
+        "Deku",
+        "Bakugo",
+        "Shoto",
+        "Iida",
+        "Kirishima",
+        "Kaminari",
+        "Tokoyami",
+        "Shoji",
+        "Sero",
+        "Ojiro",
+        "Sato",
+        "Koda",
+        "Aoyama",
+        "Mineta"
+      ],
+      "source": "https://myheroacademia.fandom.com/wiki/Class_1-A"
+    },
+    {
+      "title": "U.A. Class 1-A — Girls",
+      "level": 1,
+      "def": "Every female student of U.A.'s Class 1-A for the vast majority of the series (the original 20-person roster from the Entrance Exam through the Final War).",
+      "members": [
+        "Uraraka",
+        "Tsuyu",
+        "Yaoyorozu",
+        "Jiro",
+        "Ashido",
+        "Hagakure"
+      ],
+      "source": "https://myheroacademia.fandom.com/wiki/Class_1-A"
+    },
+    {
+      "title": "Class 1-A: Emitter-Type Quirks",
+      "level": 2,
+      "def": "Members of the original 20-student Class 1-A roster whose Quirk is classified as Emitter-type.",
+      "members": [
+        "Deku",
+        "Bakugo",
+        "Shoto",
+        "Uraraka",
+        "Yaoyorozu",
+        "Kaminari",
+        "Tokoyami",
+        "Ashido",
+        "Sato",
+        "Aoyama"
+      ],
+      "source": "https://myheroacademia.fandom.com/wiki/Quirk"
+    },
+    {
+      "title": "Class 1-A: Mutant-Type Quirks",
+      "level": 2,
+      "def": "Members of the original 20-student Class 1-A roster whose Quirk is classified as Mutant-type.",
+      "members": [
+        "Iida",
+        "Tsuyu",
+        "Jiro",
+        "Shoji",
+        "Sero",
+        "Ojiro",
+        "Koda",
+        "Hagakure",
+        "Mineta"
+      ],
+      "source": "https://myheroacademia.fandom.com/wiki/Quirk"
+    },
+    {
+      "title": "League of Villains",
+      "level": 2,
+      "def": "The League's core members who lived together at the bar hideout, from its founding at the U.S.J. through the Paranormal Liberation War: leaders Shigaraki and Kurogiri, plus the five-member Vanguard Action Squad. Excludes All For One, the League's off-site original founder/backer, and hired outside muscle like Muscular.",
+      "members": [
+        "Shigaraki",
+        "Kurogiri",
+        "Dabi",
+        "Toga",
+        "Twice",
+        "Spinner",
+        "Compress"
+      ],
+      "source": "https://myheroacademia.fandom.com/wiki/League_of_Villains"
+    },
+    {
+      "title": "U.A. Teaching & Admin Staff",
+      "level": 2,
+      "def": "U.A. High School faculty who appear as recurring, named characters across the anime (the principal, homeroom teachers, and other regularly-appearing staff) — not single-scene background teachers like Snipe, Ectoplasm, Hound Dog or Lunch Rush.",
+      "members": [
+        "All Might",
+        "Aizawa",
+        "Present Mic",
+        "Midnight",
+        "Thirteen",
+        "Nezu",
+        "Cementoss",
+        "Power Loader",
+        "Recovery Girl",
+        "Vlad King"
+      ],
+      "source": "https://myheroacademia.fandom.com/wiki/U.A._High_School"
+    },
+    {
+      "title": "The Todoroki Family",
+      "level": 2,
+      "def": "Endeavor's wife and all four of their children, including estranged eldest son Dabi.",
+      "members": [
+        "Shoto",
+        "Endeavor",
+        "Rei",
+        "Dabi",
+        "Natsuo",
+        "Fuyumi"
+      ],
+      "source": "https://myheroacademia.fandom.com/wiki/Todoroki_Family"
+    },
+    {
+      "title": "Wild, Wild Pussycats",
+      "level": 2,
+      "def": "All four members of the pro hero team that ran the Forest Training Camp.",
+      "members": [
+        "Mandalay",
+        "Pixie-Bob",
+        "Ragdoll",
+        "Tiger"
+      ],
+      "source": "https://myheroacademia.fandom.com/wiki/Wild,_Wild_Pussycats"
+    },
+    {
+      "title": "Sports Festival Final Four",
+      "level": 2,
+      "def": "The four students who reached the final four of the U.A. Sports Festival's first-year 1-on-1 tournament in Season 1: the champion, the runner-up, and the two students who tied for third place.",
+      "members": [
+        "Bakugo",
+        "Shoto",
+        "Tokoyami",
+        "Iida"
+      ],
+      "source": "https://myheroacademia.fandom.com/wiki/U.A._Sports_Festival_Arc"
+    },
+    {
+      "title": "The Kamino Rescue Squad",
+      "level": 2,
+      "def": "The five Class 1-A students who snuck out against orders to rescue Bakugo from the League of Villains after the Kamino Incident, straining the rest of the class's trust in them.",
+      "members": [
+        "Deku",
+        "Kirishima",
+        "Shoto",
+        "Iida",
+        "Yaoyorozu"
+      ],
+      "source": "https://myheroacademia.fandom.com/wiki/Provisional_Hero_License_Exam_Arc"
+    },
+    {
+      "title": "Transformation-Type Quirk Users",
+      "level": 3,
+      "def": "Named characters whose Quirk this site classifies as Transformation-type (temporarily changes the user's body when activated).",
+      "members": [
+        "Kirishima",
+        "Mt. Lady",
+        "Mirio",
+        "Tamaki",
+        "Kendo",
+        "Toga",
+        "Muscular",
+        "Lady Nagant",
+        "Fat Gum",
+        "Re-Destro",
+        "Tetsutetsu"
+      ],
+      "source": "https://myheroacademia.fandom.com/wiki/Quirk"
+    },
+    {
+      "title": "Meta Liberation Army Leadership",
+      "level": 3,
+      "def": "The named commanders of the Meta Liberation Army introduced in Deika City during the Meta Liberation Army Arc.",
+      "members": [
+        "Re-Destro",
+        "Curious",
+        "Trumpet",
+        "Skeptic",
+        "Geten",
+        "Slidin' Go"
+      ],
+      "source": "https://myheroacademia.fandom.com/wiki/Meta_Liberation_Army"
+    },
+    {
+      "title": "One For All's Confirmed Users",
+      "level": 3,
+      "def": "Users of the One For All Quirk clearly shown on screen passing it on or using it: its first user, a later inheritor who mentored All Might, All Might himself, and his chosen successor.",
+      "members": [
+        "Yoichi",
+        "Nana Shimura",
+        "All Might",
+        "Deku"
+      ],
+      "source": "https://myheroacademia.fandom.com/wiki/One_For_All"
+    },
+    {
+      "title": "Hero names that are English words",
+      "level": 4,
+      "def": "Heroes (pros and students) whose name as shown on the tile is an ordinary English dictionary word: Hawks, Endeavor, Thirteen, Midnight, Tiger, Ragdoll, and Kendo (a surname that is also the martial art).",
+      "members": [
+        "Hawks",
+        "Endeavor",
+        "Thirteen",
+        "Midnight",
+        "Tiger",
+        "Ragdoll",
+        "Kendo"
+      ],
+      "source": "https://myheroacademia.fandom.com/wiki/Heroes"
+    },
+    {
+      "title": "Villain names that are English words",
+      "level": 4,
+      "def": "Villains whose name as shown on the tile is an ordinary English dictionary word, code name or not: Gentle, Twice, Stain, Compress, Overhaul, Muscular, Spinner, Curious, Trumpet, Skeptic, and Toga (her surname, also the Roman garment).",
+      "members": [
+        "Gentle",
+        "Twice",
+        "Stain",
+        "Compress",
+        "Overhaul",
+        "Muscular",
+        "Spinner",
+        "Curious",
+        "Trumpet",
+        "Skeptic",
+        "Toga"
+      ],
+      "source": "https://myheroacademia.fandom.com/wiki/Villains"
+    }
+  ]
+}

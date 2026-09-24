@@ -14,7 +14,9 @@ const MODES = [
   { id: "classic", label: "Classic", blurb: "Guess by attributes" },
   { id: "quote", label: "Quote", blurb: "Who said it?" },
   { id: "emoji", label: "Emoji", blurb: "Five emojis, one character" },
+  { id: "portrait", label: "Portrait", blurb: "A zoomed-in portrait" },
 ];
+const PORTRAIT_ZOOM = [4, 3, 2.3, 1.8, 1.45, 1.2, 1]; // one step out per miss
 const modeById = id => MODES.find(m => m.id === id) || MODES[0];
 const HINTS = {
   quote: [
@@ -27,6 +29,11 @@ const HINTS = {
     { after: 4, label: s => s.affiliationLabel, value: c => c.affiliation.join(" · ") },
     { after: 6, label: s => s.powerLabel, value: c => c.power.join(" · ") },
     { after: 8, label: () => "Hint", value: c => c.hint, key: "hint" },
+  ],
+  portrait: [
+    { after: 3, label: s => s.affiliationLabel, value: c => c.affiliation.join(" · ") },
+    { after: 5, label: s => s.powerLabel, value: c => c.power.join(" · ") },
+    { after: 7, label: () => "Hint", value: c => c.hint, key: "hint" },
   ],
 };
 
@@ -97,7 +104,14 @@ let game = null;
 const view = { seriesId: null, mode: MODES.some(m => m.id === S.prefs.mode) ? S.prefs.mode : "classic", unlimited: false };
 
 const quotesOf = c => (c && c.quotes) || [];
-function poolFor(series, mode) { return mode === "quote" ? series.characters.filter(c => quotesOf(c).length) : series.characters; }
+const portraitOf = (series, c) => (IMG[series.id] && IMG[series.id][c.id]) || c.img || null;
+function poolFor(series, mode) {
+  if (mode === "quote") return series.characters.filter(c => quotesOf(c).length);
+  if (mode === "portrait") return series.characters.filter(c => portraitOf(series, c));
+  return series.characters;
+}
+// Where the zoomed portrait is centred: somewhere around the face, never the empty edges.
+function portraitFocus(seed) { const rng = mulberry32(seed); return [0.28 + rng() * 0.44, 0.18 + rng() * 0.42]; }
 function dailyAnswer(series, mode, day) {
   const p = poolFor(series, mode), n = p.length;
   const cycle = Math.floor(day / n), idx = ((day % n) + n) % n;
@@ -133,8 +147,9 @@ function startGame(seriesId, mode, unlimited, avoidId) {
     else answer = dailyAnswer(series, mode, day);
   }
   if (mode === "quote" && !quote) quote = pickQuote(series, answer, day, unlimited);
+  const focus = mode === "portrait" ? portraitFocus(unlimited ? (Math.random() * 4294967296) >>> 0 : cyrb53(`${seriesId}|portrait|${day}`) >>> 0) : null;
   const ids = new Set(series.characters.map(c => c.id));
-  game = { seriesId, series, mode, unlimited, day, answer, key, quote,
+  game = { seriesId, series, mode, unlimited, day, answer, key, quote, focus,
     guesses: saved ? saved.guesses.filter(id => ids.has(id)) : [],
     revealed: saved && Array.isArray(saved.hints) ? saved.hints.slice() : [],
     solved: !!(saved && saved.solved), gaveUp: !!(saved && saved.gaveUp), rounds: game && game.unlimited && unlimited ? game.rounds : 0 };
@@ -327,6 +342,20 @@ function renderPrompt() {
     ui.prompt.replaceChildren(h("div", { class: "prompt-quote" },
       h("blockquote", null, game.quote),
       h("div", { class: "who" }, over ? `— ${a.name}` : "— who said it?")));
+  } else if (game.mode === "portrait") {
+    // Built once, then only the zoom changes, so each miss animates the camera pulling back.
+    const z = over ? 1 : PORTRAIT_ZOOM[Math.min(wrongCount(), PORTRAIT_ZOOM.length - 1)];
+    if (!ui.portraitImg) {
+      ui.portraitImg = h("img", { class: "portrait-img", alt: "Mystery character portrait", src: portraitOf(s, a), referrerpolicy: "no-referrer", decoding: "async", draggable: "false",
+        onerror: () => { ui.portraitFrame.classList.add("broken"); ui.portraitFrame.append(h("div", { class: "ep-broken" }, "Couldn't load this portrait. Try Unlimited for another one.")); } });
+      ui.portraitNote = h("div", { class: "zoom-note" });
+      ui.portraitFrame = h("div", { class: "portrait-frame" }, ui.portraitImg, ui.portraitNote);
+      ui.portraitImg.style.transformOrigin = `${game.focus[0] * 100}% ${game.focus[1] * 100}%`;
+      ui.portraitImg.style.transition = "none";
+      ui.prompt.replaceChildren(ui.portraitFrame);
+    } else ui.portraitImg.style.transition = "transform .6s cubic-bezier(.2,.7,.2,1)";
+    ui.portraitImg.style.transform = `scale(${z})`;
+    ui.portraitNote.textContent = over ? `— ${a.name}` : z > 1 ? `${z.toFixed(1)}× zoom · a miss zooms out` : "Full portrait — last look";
   } else {
     const shown = over ? 5 : Math.min(5, APP.emojiStart + wrongCount());
     const prev = ui.prompt.dataset.shown ? Number(ui.prompt.dataset.shown) : -1;
@@ -369,7 +398,7 @@ function guessForm() {
     ui.submit.disabled = !items.length;
     ui.suggest.replaceChildren(...(items.length ? items.map(({ c, via }, i) =>
       h("button", { type: "button", class: "sug", role: "option", id: `sug-${i}`, "aria-selected": String(i === active), onmousedown: e => e.preventDefault(), onclick: () => pick(c) },
-        avatar(c),
+        game.mode === "portrait" ? null : avatar(c), // portraits here would give the answer away
         h("span", { class: "sug-name" }, h("span", null, c.name),
           via !== c.name ? h("span", { class: "alias" }, `matches “${via}”`) : (c.aliases && c.aliases[0] ? h("span", { class: "alias" }, c.aliases[0]) : null))))
       : [h("div", { class: "sug-empty" }, "No character matches that. Only characters who matter to the show are in the pool.")]));
@@ -564,6 +593,8 @@ function openHelp() {
     h("p", null, "A line the character says in the show. Most characters have a few, so when someone comes back you get a different line. Hint cards unlock after 2, 4, 6 and 8 misses — they stay face-down until you tap one, so using them is up to you."),
     h("h3", null, "Emoji"),
     h("p", null, "Five emojis describe the character. You start with two and each miss reveals another. Hint cards unlock after 4, 6 and 8 misses; tap one to flip it."),
+    h("h3", null, "Portrait"),
+    h("p", null, "The character's portrait, zoomed way in on one spot. Every miss pulls the camera back a step; after six misses you see the whole picture. Hint cards unlock after 3, 5 and 7 misses."),
     h("h3", null, "The casts"),
     h("p", null, "Only characters a viewer would actually know: main cast, supporting cast, major villains. Everything comes from the show itself (no manga-only material), up to where each show has aired. No horses."));
 }

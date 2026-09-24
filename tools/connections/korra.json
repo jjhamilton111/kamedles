@@ -1,0 +1,159 @@
+{
+  "show": "korra",
+  "groups": [
+    {
+      "title": "Air Nation",
+      "level": 1,
+      "def": "Members of Tenzin's Air Nation community (not just anyone who happens to airbend — this excludes airbenders like Zaheer who aren't part of it).",
+      "members": ["Tenzin", "Pema", "Jinora", "Ikki", "Meelo", "Bumi", "Kai", "Opal"],
+      "source": "https://avatar.fandom.com/wiki/Air_Nomads"
+    },
+    {
+      "title": "Team Avatar",
+      "level": 1,
+      "def": "The official core of Korra's Team Avatar and its two animal members, not counting the many characters who temporarily tag along for one arc.",
+      "members": ["Korra", "Mako", "Bolin", "Asami Sato", "Naga", "Pabu"],
+      "source": "https://avatar.fandom.com/wiki/Team_Avatar_(Korra)"
+    },
+    {
+      "title": "Waterbenders",
+      "level": 1,
+      "def": "Every non-Avatar character confirmed on screen to waterbend.",
+      "members": ["Katara", "Amon", "Tarrlok", "Tahno", "Tonraq", "Unalaq", "Desna", "Eska", "Ming-Hua", "Kya"],
+      "source": "https://avatar.fandom.com/wiki/Waterbending"
+    },
+    {
+      "title": "Firebenders",
+      "level": 1,
+      "def": "Every non-Avatar character confirmed on screen to firebend.",
+      "members": ["Mako", "General Iroh", "Zuko", "P'Li"],
+      "source": "https://avatar.fandom.com/wiki/Firebending"
+    },
+    {
+      "title": "Earthbenders",
+      "level": 1,
+      "def": "Every non-Avatar character confirmed on screen to earthbend (including metalbending and lavabending, which are earthbending sub-skills).",
+      "members": ["Lin Beifong", "Bolin", "Toph Beifong", "Saikhan", "Suyin Beifong", "Ghazan", "Aiwei", "Kuvira", "Huan", "Wei", "Wing"],
+      "source": "https://avatar.fandom.com/wiki/Earthbending"
+    },
+    {
+      "title": "Red Lotus",
+      "level": 2,
+      "def": "Named members of the anarchist Red Lotus organization.",
+      "members": ["Unalaq", "Zaheer", "P'Li", "Ming-Hua", "Ghazan", "Aiwei"],
+      "source": "https://avatar.fandom.com/wiki/Red_Lotus"
+    },
+    {
+      "title": "Metal Clan",
+      "level": 2,
+      "def": "Characters affiliated with Suyin Beifong's city of Zaofu and its Metal Clan.",
+      "members": ["Suyin Beifong", "Opal", "Baatar Jr.", "Aiwei", "Kuvira", "Huan", "Wei", "Wing"],
+      "source": "https://avatar.fandom.com/wiki/Metal_Clan"
+    },
+    {
+      "title": "Beifong Family",
+      "level": 2,
+      "def": "Toph Beifong's blood descendants, plus Suyin's adopted daughter Kuvira.",
+      "members": ["Toph Beifong", "Lin Beifong", "Suyin Beifong", "Opal", "Baatar Jr.", "Kuvira", "Huan", "Wei", "Wing"],
+      "source": "https://avatar.fandom.com/wiki/Beifong_family"
+    },
+    {
+      "title": "Republic City Police",
+      "level": 2,
+      "def": "Officers or chiefs of the Republic City Police Force shown in the series.",
+      "members": ["Lin Beifong", "Saikhan", "Mako", "Bolin", "Toph Beifong"],
+      "source": "https://avatar.fandom.com/wiki/Republic_City_Police"
+    },
+    {
+      "title": "Married Couples",
+      "level": 2,
+      "def": "Characters shown or clearly established on screen as half of a married pair.",
+      "members": ["Varrick", "Zhu Li", "Tenzin", "Pema", "Tonraq", "Senna"],
+      "source": "https://avatar.fandom.com/wiki/Zhu_Li_Moon"
+    },
+    {
+      "title": "Metalbenders",
+      "level": 2,
+      "def": "Every character confirmed on screen to metalbend.",
+      "members": ["Lin Beifong", "Toph Beifong", "Saikhan", "Suyin Beifong", "Kuvira", "Huan", "Wei", "Wing"],
+      "source": "https://avatar.fandom.com/wiki/Metalbending"
+    },
+    {
+      "title": "Heads of State",
+      "level": 2,
+      "def": "Characters who hold an explicit on-screen title as the ruling head of a nation, tribe, or self-governing city at some point in the show.",
+      "members": ["Hou-Ting", "Wu", "Raiko", "Unalaq", "Tonraq", "Suyin Beifong", "Kuvira"],
+      "source": "https://avatar.fandom.com/wiki/Hou-Ting"
+    },
+    {
+      "title": "Children of Team Avatar",
+      "level": 2,
+      "def": "Children of an original Team Avatar member from Avatar: The Last Airbender (Aang, Katara, or Toph).",
+      "members": ["Tenzin", "Bumi", "Kya", "Lin Beifong", "Suyin Beifong"],
+      "source": "https://avatar.fandom.com/wiki/Tenzin"
+    },
+    {
+      "title": "Earth Empire",
+      "level": 3,
+      "def": "Characters affiliated with Kuvira's Earth Empire regime in Book Four.",
+      "members": ["Bolin", "Varrick", "Zhu Li", "Baatar Jr.", "Kuvira"],
+      "source": "https://avatar.fandom.com/wiki/Earth_Empire"
+    },
+    {
+      "title": "Spirits",
+      "level": 3,
+      "def": "Non-human spirit-world residents (not humans who merely have a spiritual gift, like Jinora).",
+      "members": ["Raava", "Vaatu", "Bum-Ju", "Iroh"],
+      "source": "https://avatar.fandom.com/wiki/Raava"
+    },
+    {
+      "title": "Triple Threat Triad",
+      "level": 3,
+      "def": "Named members of the Triple Threat Triad gang seen on screen (Mako and Bolin are former members from their street-kid days).",
+      "members": ["Zolt", "Shady Shin", "Viper", "Mako", "Bolin"],
+      "source": "https://avatar.fandom.com/wiki/Triple_Threat_Triad"
+    },
+    {
+      "title": "Fire Ferrets",
+      "level": 3,
+      "def": "Every member of the Fire Ferrets pro-bending team at some point in Book One.",
+      "members": ["Mako", "Bolin", "Hasook", "Korra"],
+      "source": "https://avatar.fandom.com/wiki/Future_Industries_Fire_Ferrets"
+    },
+    {
+      "title": "Twins",
+      "level": 3,
+      "def": "Characters who are one half of a pair of twins.",
+      "members": ["Desna", "Eska", "Wei", "Wing"],
+      "source": "https://avatar.fandom.com/wiki/Wei_and_Wing"
+    },
+    {
+      "title": "Back from the Original Series",
+      "level": 4,
+      "def": "Characters from Avatar: The Last Airbender who reappear, now elderly (or as a spirit), in this show.",
+      "members": ["Katara", "Zuko", "Toph Beifong", "Iroh"],
+      "source": "https://avatar.fandom.com/wiki/Iroh"
+    },
+    {
+      "title": "Book Villains",
+      "level": 4,
+      "def": "The main antagonist of each of the show's four books, in order: Amon (One), Unalaq (Two), Zaheer (Three), Kuvira (Four).",
+      "members": ["Amon", "Unalaq", "Zaheer", "Kuvira"],
+      "source": "https://avatar.fandom.com/wiki/Kuvira"
+    },
+    {
+      "title": "Industrialists",
+      "level": 1,
+      "def": "Characters who own or co-own a major company shown in the series.",
+      "members": ["Varrick", "Hiroshi Sato", "Asami Sato", "Zhu Li"],
+      "source": "https://avatar.fandom.com/wiki/Varrick"
+    },
+    {
+      "title": "Animal Companions",
+      "level": 1,
+      "def": "Named, ordinary (non-spirit) animals who appear in the show.",
+      "members": ["Naga", "Pabu", "Oogi", "Druk"],
+      "source": "https://avatar.fandom.com/wiki/Naga"
+    }
+  ]
+}

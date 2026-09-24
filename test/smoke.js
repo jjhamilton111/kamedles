@@ -20,7 +20,7 @@ const path = require("path");
   const ids = process.env.SERIES ? process.env.SERIES.split(",") : await page.evaluate(() => window.DLE.order);
   let checks = 0;
   for (const id of ids) {
-    for (const mode of ["classic", "quote", "emoji"]) {
+    for (const mode of ["classic", "quote", "emoji", "portrait"]) {
       if (process.env.QUICK && mode !== "classic" && id !== ids[0]) continue;
       await page.goto(url + "#" + id);
       await page.waitForSelector(".series-title");
@@ -30,7 +30,7 @@ const path = require("path");
       // find the answer by reproducing the seeding in-page
       const info = await page.evaluate(({ id, mode }) => {
         const s = window.DLE.series[id];
-        const pool = mode === "quote" ? s.characters.filter(c => c.quotes.length) : s.characters;
+        const pool = mode === "quote" ? s.characters.filter(c => c.quotes.length) : mode === "portrait" ? s.characters.filter(c => (window.DLE.img[id] || {})[c.id] || c.img) : s.characters;
         return { n: pool.length, names: pool.map(c => c.name) };
       }, { id, mode });
       // make 3 wrong-ish guesses (first three pool names), then brute force until solved

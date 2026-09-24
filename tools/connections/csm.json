@@ -1,0 +1,75 @@
+{
+  "show": "csm",
+  "groups": [
+    {
+      "title": "Public Safety Division 4",
+      "level": 1,
+      "def": "The core named human, fiend, and hybrid hunters of Tokyo Special Division 4 who get significant screen time — not one-off background members.",
+      "members": ["Denji", "Makima", "Aki", "Power", "Himeno", "Kobeni", "Arai", "Kishibe", "Madoka"],
+      "source": "https://chainsaw-man.fandom.com/wiki/Tokyo_Special_Division_4"
+    },
+    {
+      "title": "Wild Devils",
+      "level": 1,
+      "def": "Devils encountered on their own terms, not under contract to Public Safety.",
+      "members": ["Pochita", "Bat Devil", "Leech Devil", "Eternity Devil", "Zombie Devil", "Typhoon Devil", "Tomato Devil", "Sea Cucumber Devil"],
+      "source": "https://chainsaw-man.fandom.com/wiki/Devil"
+    },
+    {
+      "title": "Introduced in the Intro Arc",
+      "level": 1,
+      "def": "Characters who debut in the very first episodes, before Denji formally joins Public Safety Division 4.",
+      "members": ["Denji", "Pochita", "Makima", "Aki", "Power", "Zombie Devil", "Tomato Devil", "Sea Cucumber Devil"],
+      "source": "https://chainsaw-man.fandom.com/wiki/Denji"
+    },
+    {
+      "title": "Introduced in the Eternity Devil Arc",
+      "level": 2,
+      "def": "Characters who debut during the Eternity Devil Arc.",
+      "members": ["Kobeni", "Arai", "Kishibe", "Eternity Devil", "Ghost Devil", "Madoka"],
+      "source": "https://chainsaw-man.fandom.com/wiki/Kishibe"
+    },
+    {
+      "title": "Devils & Fiends Serving Public Safety",
+      "level": 2,
+      "def": "Devils and fiends who fight on Public Safety's side, whether under an individual hunter's contract or as hunters themselves.",
+      "members": ["Ghost Devil", "Curse Devil", "Fox Devil", "Future Devil", "Angel", "Beam", "Violence Fiend", "Spider Devil"],
+      "source": "https://chainsaw-man.fandom.com/wiki/Devil"
+    },
+    {
+      "title": "Introduced in the Bat Devil Arc",
+      "level": 2,
+      "def": "Characters who debut during the Bat Devil Arc.",
+      "members": ["Himeno", "Bat Devil", "Leech Devil", "Fox Devil"],
+      "source": "https://chainsaw-man.fandom.com/wiki/Himeno"
+    },
+    {
+      "title": "Made a Devil Contract",
+      "level": 3,
+      "def": "Humans, not hybrids, who have made a contract with a devil, trading something of theirs for its power.",
+      "members": ["Makima", "Aki", "Himeno", "Kobeni", "Arai", "Kishibe", "Sawatari"],
+      "source": "https://chainsaw-man.fandom.com/wiki/Tokyo_Special_Division_4"
+    },
+    {
+      "title": "New Hunters of the Katana Man Arc",
+      "level": 3,
+      "def": "Public Safety hunters, human or devil, first introduced as reinforcements during the Katana Man Arc.",
+      "members": ["Angel", "Beam", "Violence Fiend", "Spider Devil"],
+      "source": "https://chainsaw-man.fandom.com/wiki/Tokyo_Special_Division_4"
+    },
+    {
+      "title": "Introduced in the Katana Man Arc",
+      "level": 3,
+      "def": "Every named character, on either side, who debuts during the Katana Man Arc.",
+      "members": ["Angel", "Beam", "Violence Fiend", "Spider Devil", "Katana Man", "Sawatari", "Curse Devil", "Future Devil", "Snake Devil"],
+      "source": "https://chainsaw-man.fandom.com/wiki/Katana_Man"
+    },
+    {
+      "title": "Contracted Devils Known Only By Type",
+      "level": 4,
+      "def": "Devils under contract who have no revealed proper name of their own, going only by a generic '[X] Devil' label — unlike Spider Devil, whose real name (Princi) has been shown.",
+      "members": ["Ghost Devil", "Curse Devil", "Future Devil", "Fox Devil", "Snake Devil"],
+      "source": "https://chainsaw-man.fandom.com/wiki/Devil"
+    }
+  ]
+}

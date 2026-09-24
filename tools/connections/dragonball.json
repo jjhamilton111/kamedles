@@ -1,0 +1,268 @@
+{
+  "show": "dragonball",
+  "groups": [
+    {
+      "title": "Son Family",
+      "level": 1,
+      "def": "Members of Goku's family by blood or marriage shown in the anime.",
+      "members": [
+        "Goku",
+        "Chi-Chi",
+        "Gohan",
+        "Goten",
+        "Pan",
+        "Videl"
+      ],
+      "source": "https://dragonball.fandom.com/wiki/Son_family"
+    },
+    {
+      "title": "Turtle School",
+      "level": 1,
+      "def": "Martial artists trained under Master Roshi's Turtle School style shown in the anime.",
+      "members": [
+        "Goku",
+        "Krillin",
+        "Master Roshi",
+        "Yamcha"
+      ],
+      "source": "https://dragonball.fandom.com/wiki/Turtle_School"
+    },
+    {
+      "title": "Ginyu Force",
+      "level": 1,
+      "def": "The five members of Frieza's elite Ginyu Force special squadron.",
+      "members": [
+        "Captain Ginyu",
+        "Burter",
+        "Recoome",
+        "Jeice",
+        "Guldo"
+      ],
+      "source": "https://dragonball.fandom.com/wiki/Ginyu_Force"
+    },
+    {
+      "title": "Namekians",
+      "level": 1,
+      "def": "Characters of the Namekian race shown in the anime.",
+      "members": [
+        "Piccolo",
+        "King Piccolo",
+        "Kami",
+        "Dende"
+      ],
+      "source": "https://dragonball.fandom.com/wiki/Namekian"
+    },
+    {
+      "title": "Androids",
+      "level": 1,
+      "def": "The numbered Androids built by Dr. Gero, including his own cyborg form (Android 20).",
+      "members": [
+        "Dr. Gero",
+        "Android 16",
+        "Android 17",
+        "Android 18",
+        "Android 19"
+      ],
+      "source": "https://dragonball.fandom.com/wiki/Android"
+    },
+    {
+      "title": "Half-Saiyans",
+      "level": 2,
+      "def": "Characters born of one Saiyan and one human parent shown in the anime (not fusion characters).",
+      "members": [
+        "Gohan",
+        "Goten",
+        "Trunks",
+        "Future Trunks",
+        "Pan"
+      ],
+      "source": "https://dragonball.fandom.com/wiki/Saiyan"
+    },
+    {
+      "title": "Crane School",
+      "level": 2,
+      "def": "Fighters trained under Master Shen's rival Crane School style shown in the anime.",
+      "members": [
+        "Tien",
+        "Chiaotzu",
+        "Mercenary Tao",
+        "Master Shen"
+      ],
+      "source": "https://dragonball.fandom.com/wiki/Crane_School"
+    },
+    {
+      "title": "Universe 6",
+      "level": 2,
+      "def": "Characters native to Universe 6 shown in the anime.",
+      "members": [
+        "Champa",
+        "Hit",
+        "Vados",
+        "Caulifla",
+        "Kale",
+        "Cabba",
+        "Frost"
+      ],
+      "source": "https://dragonball.fandom.com/wiki/Universe_6"
+    },
+    {
+      "title": "Frieza Force",
+      "level": 2,
+      "def": "Frieza's soldiers and family shown fighting for him during the Saiyan-to-Namek era of the anime (not Vegeta, who later defects to Earth).",
+      "members": [
+        "Raditz",
+        "Nappa",
+        "Zarbon",
+        "Dodoria",
+        "Bardock",
+        "Captain Ginyu",
+        "Recoome",
+        "Jeice",
+        "Burter",
+        "Guldo",
+        "Frieza",
+        "King Cold"
+      ],
+      "source": "https://dragonball.fandom.com/wiki/Frieza%27s_Army"
+    },
+    {
+      "title": "Red Ribbon Army",
+      "level": 2,
+      "def": "Members, creations, and androids of the Red Ribbon Army (the original and its Capsule Corp-revived successor) shown in the anime.",
+      "members": [
+        "Dr. Gero",
+        "Android 16",
+        "Android 19",
+        "Cell",
+        "Gamma 1",
+        "Gamma 2",
+        "Mercenary Tao"
+      ],
+      "source": "https://dragonball.fandom.com/wiki/Red_Ribbon_Army"
+    },
+    {
+      "title": "The Kais",
+      "level": 2,
+      "def": "Deities of the Kai race, the guardians who serve below the Gods of Destruction, shown in the anime.",
+      "members": [
+        "King Kai",
+        "Supreme Kai",
+        "Old Kai",
+        "Kibito"
+      ],
+      "source": "https://dragonball.fandom.com/wiki/Kai"
+    },
+    {
+      "title": "Broly (2018) cast",
+      "level": 2,
+      "def": "Principal characters introduced by the Dragon Ball Super: Broly (2018) film.",
+      "members": [
+        "Broly",
+        "Paragus",
+        "Cheelai",
+        "Lemo",
+        "King Vegeta"
+      ],
+      "source": "https://dragonball.fandom.com/wiki/Dragon_Ball_Super:_Broly"
+    },
+    {
+      "title": "Pride Troopers",
+      "level": 3,
+      "def": "Universe 11's Pride Troopers who fought named, one-on-one battles on screen during the Tournament of Power.",
+      "members": [
+        "Toppo",
+        "Jiren",
+        "Dyspo",
+        "Kahseral",
+        "Cocotte",
+        "K'nsi"
+      ],
+      "source": "https://dragonball.fandom.com/wiki/Pride_Troopers"
+    },
+    {
+      "title": "Gods of Destruction",
+      "level": 3,
+      "def": "The twelve Gods of Destruction, one per universe, shown in the anime.",
+      "members": [
+        "Iwan",
+        "Heles",
+        "Mosco",
+        "Quitela",
+        "Arak",
+        "Champa",
+        "Beerus",
+        "Liquiir",
+        "Sidra",
+        "Rumsshi",
+        "Belmod",
+        "Giin"
+      ],
+      "source": "https://dragonball.fandom.com/wiki/God_of_Destruction"
+    },
+    {
+      "title": "Fusion characters",
+      "level": 3,
+      "def": "Characters formed on-screen when two others fuse, by dance, Potara earrings, or otherwise.",
+      "members": [
+        "Gotenks",
+        "Vegito",
+        "Gogeta",
+        "Kefla"
+      ],
+      "source": "https://dragonball.fandom.com/wiki/Fusion"
+    },
+    {
+      "title": "Time travelers",
+      "level": 3,
+      "def": "Characters shown physically traveling between different timelines in the anime.",
+      "members": [
+        "Future Trunks",
+        "Cell",
+        "Zamasu",
+        "Goku Black"
+      ],
+      "source": "https://dragonball.fandom.com/wiki/Time_Machine"
+    },
+    {
+      "title": "Named after vegetables",
+      "level": 4,
+      "def": "Full-blooded Saiyans whose names are puns on vegetables, per the wiki's own naming-convention note (King Vegeta included, since his name is literally Vegeta).",
+      "members": [
+        "Goku",
+        "Vegeta",
+        "King Vegeta",
+        "Raditz",
+        "Nappa",
+        "Bardock",
+        "Broly",
+        "Paragus",
+        "Caulifla",
+        "Cabba",
+        "Kale"
+      ],
+      "source": "https://dragonball.fandom.com/wiki/Saiyan"
+    },
+    {
+      "title": "Named after alcoholic drinks",
+      "level": 4,
+      "def": "Gods of Destruction and Angels whose names pun on an alcoholic drink. Every God of Destruction's name does (beer, champagne, rum, gin, tequila, cider, liqueur, vermouth, wine, Hennessy, arak, moscato), plus the angels Whis (whisky) and Vados (calvados).",
+      "members": [
+        "Beerus",
+        "Whis",
+        "Champa",
+        "Vados",
+        "Rumsshi",
+        "Giin",
+        "Quitela",
+        "Sidra",
+        "Liquiir",
+        "Belmod",
+        "Iwan",
+        "Heles",
+        "Arak",
+        "Mosco"
+      ],
+      "source": "https://dragonball.fandom.com/wiki/God_of_Destruction"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "show": "powerrangers",
+  "groups": [
+    {
+      "title": "MMPR Season 1 Rangers",
+      "level": 1,
+      "def": "The five original teenagers with attitude who first morphed into Mighty Morphin Power Rangers in Season 1.",
+      "members": ["Jason", "Zack", "Billy", "Trini", "Kimberly"],
+      "source": "https://powerrangers.fandom.com/wiki/Mighty_Morphin_Power_Rangers"
+    },
+    {
+      "title": "Zeo Rangers",
+      "level": 1,
+      "def": "Everyone who wore a Zeo Ranger suit, including both Gold Zeo Rangers.",
+      "members": ["Jason", "Tommy", "Rocky", "Adam", "Katherine", "Tanya", "Trey"],
+      "source": "https://powerrangers.fandom.com/wiki/Power_Rangers_Zeo"
+    },
+    {
+      "title": "Ninja Storm Rangers",
+      "level": 1,
+      "def": "Everyone who morphed into a Wind, Thunder, or Samurai Ranger on the Ninja Storm team.",
+      "members": ["Shane", "Tori", "Dustin", "Hunter", "Blake", "Cam"],
+      "source": "https://powerrangers.fandom.com/wiki/Power_Rangers_Ninja_Storm"
+    },
+    {
+      "title": "Dino Thunder Rangers",
+      "level": 1,
+      "def": "Everyone who morphed into a Dino Ranger, including the mentor who joined as Black Ranger.",
+      "members": ["Conner", "Ethan", "Kira", "Trent", "Tommy"],
+      "source": "https://powerrangers.fandom.com/wiki/Power_Rangers_Dino_Thunder"
+    },
+    {
+      "title": "S.P.D. Rangers",
+      "level": 1,
+      "def": "Everyone who morphed into an S.P.D. Ranger, B-Squad or otherwise.",
+      "members": ["Jack", "Sky", "Bridge", "Syd", "Z", "Sam", "Cruger"],
+      "source": "https://powerrangers.fandom.com/wiki/Power_Rangers_S.P.D."
+    },
+    {
+      "title": "Mystic Force Rangers",
+      "level": 1,
+      "def": "Everyone who morphed into a Mystic Force Ranger.",
+      "members": ["Nick", "Udonna", "Xander", "Chip", "Vida", "Madison", "Daggeron"],
+      "source": "https://powerrangers.fandom.com/wiki/Power_Rangers_Mystic_Force"
+    },
+    {
+      "title": "Operation Overdrive Rangers",
+      "level": 2,
+      "def": "Everyone who morphed into an Operation Overdrive Ranger.",
+      "members": ["Mack", "Will", "Dax", "Ronny", "Rose", "Tyzonn"],
+      "source": "https://powerrangers.fandom.com/wiki/Power_Rangers_Operation_Overdrive"
+    },
+    {
+      "title": "Jungle Fury Rangers",
+      "level": 2,
+      "def": "Everyone who morphed into a Jungle Fury Ranger.",
+      "members": ["Casey", "RJ", "Theo", "Lily", "Dominic"],
+      "source": "https://powerrangers.fandom.com/wiki/Power_Rangers_Jungle_Fury"
+    },
+    {
+      "title": "RPM Rangers",
+      "level": 2,
+      "def": "Everyone who morphed into an RPM Ranger (their scientist ally Dr. K never suits up herself).",
+      "members": ["Scott", "Dillon", "Summer", "Ziggy", "Flynn", "Gem", "Gemma"],
+      "source": "https://powerrangers.fandom.com/wiki/Power_Rangers_RPM"
+    },
+    {
+      "title": "Red Rangers",
+      "level": 2,
+      "def": "Every ranger covered here who has morphed as a Red Ranger, even briefly or as a mid-season promotion.",
+      "members": ["Jason", "Tommy", "Rocky", "Shane", "Conner", "Jack", "Sky", "Bridge", "Nick", "Mack", "Casey", "Scott"],
+      "source": "https://powerrangers.fandom.com/wiki/Category:Red_Ranger"
+    },
+    {
+      "title": "Blue Rangers",
+      "level": 2,
+      "def": "Every ranger covered here who has morphed as a Blue Ranger, even briefly.",
+      "members": ["Billy", "Rocky", "Tori", "Ethan", "Sky", "Bridge", "Madison", "Dax", "Theo", "Flynn"],
+      "source": "https://powerrangers.fandom.com/wiki/Category:Blue_Ranger"
+    },
+    {
+      "title": "Yellow Rangers",
+      "level": 2,
+      "def": "Every ranger covered here who has morphed as a Yellow Ranger.",
+      "members": ["Trini", "Aisha", "Tanya", "Dustin", "Kira", "Z", "Chip", "Ronny", "Lily", "Summer"],
+      "source": "https://powerrangers.fandom.com/wiki/Category:Yellow_Ranger"
+    },
+    {
+      "title": "Pink Rangers",
+      "level": 2,
+      "def": "Every ranger covered here who has morphed as a Pink Ranger.",
+      "members": ["Kimberly", "Katherine", "Syd", "Vida", "Rose"],
+      "source": "https://powerrangers.fandom.com/wiki/Category:Pink_Ranger"
+    },
+    {
+      "title": "Black Rangers",
+      "level": 2,
+      "def": "Every ranger covered here who has morphed as a Black Ranger.",
+      "members": ["Zack", "Tommy", "Adam", "Cruger", "Will", "Dillon"],
+      "source": "https://powerrangers.fandom.com/wiki/Category:Black_Ranger"
+    },
+    {
+      "title": "Rita and Zedd's palace",
+      "level": 2,
+      "def": "The villains based in Rita and/or Zedd's palace on the Moon across Mighty Morphin, including the Alien Rangers arc.",
+      "members": ["Rita", "Lord Zedd", "Goldar", "Rito", "Scorpina", "Finster", "Squatt", "Baboo", "Master Vile"],
+      "source": "https://powerrangers.fandom.com/wiki/Rita_Repulsa"
+    },
+    {
+      "title": "The Machine Empire",
+      "level": 2,
+      "def": "King Mondo's robotic family and commanders, the main villains of Power Rangers Zeo.",
+      "members": ["King Mondo", "Machina", "Gasket", "Archerina", "Sprocket", "Klank", "Orbus"],
+      "source": "https://powerrangers.fandom.com/wiki/Category:Machine_Empire"
+    },
+    {
+      "title": "Lothor's forces",
+      "level": 2,
+      "def": "Lothor and the named generals of his army in Ninja Storm.",
+      "members": ["Lothor", "Zurgane", "Vexacus", "Marah", "Kapri", "Choobo", "Motodrone"],
+      "source": "https://powerrangers.fandom.com/wiki/Category:Lothor%27s_Army"
+    },
+    {
+      "title": "Green Rangers",
+      "level": 3,
+      "def": "Every ranger covered here who has morphed as a Green Ranger, even briefly.",
+      "members": ["Tommy", "Adam", "Cam", "Bridge", "Xander", "Ziggy"],
+      "source": "https://powerrangers.fandom.com/wiki/Category:Green_Ranger"
+    },
+    {
+      "title": "White Rangers",
+      "level": 3,
+      "def": "Every ranger covered here who has morphed as a White Ranger.",
+      "members": ["Tommy", "Trent", "Sam", "Udonna", "Dominic"],
+      "source": "https://powerrangers.fandom.com/wiki/Category:White_Ranger"
+    },
+    {
+      "title": "Gold Rangers",
+      "level": 3,
+      "def": "Every ranger covered here who has morphed as a Gold Ranger.",
+      "members": ["Jason", "Trey", "Daggeron", "Gem"],
+      "source": "https://powerrangers.fandom.com/wiki/Category:Gold_Ranger"
+    },
+    {
+      "title": "Mentors who never morphed",
+      "level": 3,
+      "def": "Allies who train or guide a team from behind the scenes across these seasons but are never seen morphing into a Ranger themselves.",
+      "members": ["Zordon", "Alpha 5", "Dr. K", "Andrew Hartford", "Master Mao"],
+      "source": "https://powerrangers.fandom.com/wiki/Category:PR_Mentors"
+    },
+    {
+      "title": "Troobian Empire",
+      "level": 3,
+      "def": "The named commanders of the Troobian Empire, the main villains of Power Rangers S.P.D.",
+      "members": ["Gruumm", "Broodwing", "Morgana", "Omni"],
+      "source": "https://powerrangers.fandom.com/wiki/Category:Troobian_Empire"
+    },
+    {
+      "title": "Mystic Force villains",
+      "level": 3,
+      "def": "The named villains from the Underworld that the Mystic Force Rangers fight, including ones later redeemed.",
+      "members": ["Necrolai", "Imperious", "Koragg", "Octomus", "Morticon", "Sculpin"],
+      "source": "https://powerrangers.fandom.com/wiki/Category:Morlocks"
+    },
+    {
+      "title": "Operation Overdrive villains",
+      "level": 3,
+      "def": "The named villains hunting the same jewels as the Operation Overdrive Rangers.",
+      "members": ["Flurious", "Moltor", "Miratrix", "Kamdor", "Thrax"],
+      "source": "https://powerrangers.fandom.com/wiki/Flurious"
+    },
+    {
+      "title": "The Dai Shi Clan",
+      "level": 4,
+      "def": "Named members of the Dai Shi Clan/Order of the Claw in Jungle Fury, including two later redeemed and restored to human form.",
+      "members": ["Dai Shi", "Carnisoar", "Jarrod", "Camille", "Grizzaka"],
+      "source": "https://powerrangers.fandom.com/wiki/Category:Dai_Shi_Clan"
+    },
+    {
+      "title": "Venjix's network",
+      "level": 4,
+      "def": "The named villains of the Venjix computer network in RPM, including one who later defects to help the Rangers.",
+      "members": ["Venjix", "Tenaya", "Kilobyte", "General Shifter"],
+      "source": "https://powerrangers.fandom.com/wiki/Category:Venjix_Computer_Network"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "show": "hxh",
+  "groups": [
+    {
+      "title": "Zoldyck Family",
+      "level": 1,
+      "def": "Blood and marriage members of the Zoldyck assassin family.",
+      "members": ["Zeno Zoldyck", "Silva Zoldyck", "Kikyo Zoldyck", "Illumi Zoldyck", "Milluki Zoldyck", "Killua Zoldyck", "Alluka Zoldyck", "Kalluto Zoldyck"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Zoldyck_Family"
+    },
+    {
+      "title": "Killua's Siblings",
+      "level": 1,
+      "def": "Killua Zoldyck's brothers and sister.",
+      "members": ["Illumi Zoldyck", "Milluki Zoldyck", "Alluka Zoldyck", "Kalluto Zoldyck"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Zoldyck_Family"
+    },
+    {
+      "title": "Zoldyck Butlers",
+      "level": 4,
+      "def": "Servants of the Zoldyck estate shown and named on screen in the anime.",
+      "members": ["Gotoh", "Canary", "Zebro", "Seaquant", "Amane", "Tsubone"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Zoldyck_Family"
+    },
+    {
+      "title": "Phantom Troupe",
+      "level": 1,
+      "def": "Characters shown holding a numbered spider tattoo as members of Chrollo's Phantom Troupe at some point in the anime.",
+      "members": ["Chrollo Lucilfer", "Uvogin", "Pakunoda", "Nobunaga Hazama", "Machi Komacine", "Franklin Bordeau", "Feitan Portor", "Phinks Magcub", "Shizuku Murasaki", "Shalnark", "Bonolenov Ndongo", "Kortopi", "Hisoka Morow", "Kalluto Zoldyck"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Phantom_Troupe"
+    },
+    {
+      "title": "Enhancers",
+      "level": 2,
+      "def": "Characters whose Nen type is Enhancer.",
+      "members": ["Gon Freecss", "Isaac Netero", "Palm Siberia", "Phinks Magcub", "Nobunaga Hazama", "Uvogin"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Nen"
+    },
+    {
+      "title": "Transmuters",
+      "level": 2,
+      "def": "Characters whose Nen type is Transmuter.",
+      "members": ["Killua Zoldyck", "Hisoka Morow", "Biscuit Krueger", "Menthuthuyoupi", "Feitan Portor", "Machi Komacine"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Nen"
+    },
+    {
+      "title": "Conjurers",
+      "level": 2,
+      "def": "Characters whose Nen type is Conjurer.",
+      "members": ["Kurapika", "Kite", "Shizuku Murasaki", "Genthru", "Knuckle Bine"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Nen"
+    },
+    {
+      "title": "Emitters",
+      "level": 2,
+      "def": "Characters whose Nen type is Emitter.",
+      "members": ["Leorio Paradinight", "Silva Zoldyck", "Zeno Zoldyck", "Knov", "Meruem", "Franklin Bordeau", "Senritsu", "Razor"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Nen"
+    },
+    {
+      "title": "Manipulators",
+      "level": 3,
+      "def": "Characters whose Nen type is Manipulator.",
+      "members": ["Illumi Zoldyck", "Shoot McMahon", "Morel Mackernasey", "Shaiapouf", "Ikalgo", "Shalnark", "Kalluto Zoldyck"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Nen"
+    },
+    {
+      "title": "Specialists",
+      "level": 3,
+      "def": "Characters whose Nen type is Specialist (Kurapika's base type is Conjurer, but his Scarlet Eyes ability is Specialist-classified).",
+      "members": ["Neferpitou", "Chrollo Lucilfer", "Pakunoda", "Meleoron", "Neon Nostrade", "Kurapika"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Nen"
+    },
+    {
+      "title": "The Zodiacs",
+      "level": 3,
+      "def": "The twelve Hunter Association committee members named after zodiac animals who elected the 13th Chairman.",
+      "members": ["Pariston Hill", "Cheadle Yorkshire", "Botobai", "Ging Freecss", "Mizaistom", "Saccho", "Pyon", "Saiyu", "Cluck", "Ginta", "Gel", "Kanzai"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Zodiacs"
+    },
+    {
+      "title": "Chimera Ant Royal Guard",
+      "level": 2,
+      "def": "Meruem, the Chimera Ant King, and the three Squadron Leaders who form his personal Royal Guard.",
+      "members": ["Meruem", "Neferpitou", "Shaiapouf", "Menthuthuyoupi"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Meruem"
+    },
+    {
+      "title": "Chimera Ants",
+      "level": 2,
+      "def": "Characters born as Chimera Ants, shown in the anime.",
+      "members": ["Meruem", "Neferpitou", "Shaiapouf", "Menthuthuyoupi", "Ikalgo", "Meleoron", "Welfin", "Colt"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Welfin"
+    },
+    {
+      "title": "Greed Island",
+      "level": 2,
+      "def": "Characters central to the Greed Island arc, as players, Game Masters, or the game's designer.",
+      "members": ["Gon Freecss", "Killua Zoldyck", "Biscuit Krueger", "Genthru", "Razor", "Ging Freecss"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Greed_Island"
+    },
+    {
+      "title": "Hunter Exam Applicants",
+      "level": 1,
+      "def": "Characters shown taking the 193rd Hunter Exam alongside Gon, whether or not they passed.",
+      "members": ["Gon Freecss", "Killua Zoldyck", "Kurapika", "Leorio Paradinight", "Hisoka Morow", "Illumi Zoldyck", "Tonpa"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Hunter_Exam"
+    },
+    {
+      "title": "Heavens Arena",
+      "level": 2,
+      "def": "Characters shown fighting or training at Heavens Arena during the anime.",
+      "members": ["Gon Freecss", "Killua Zoldyck", "Wing", "Zushi", "Hisoka Morow"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Heavens_Arena"
+    }
+  ]
+}

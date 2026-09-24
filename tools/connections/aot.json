@@ -1,0 +1,103 @@
+{
+  "show": "aot",
+  "groups": [
+    {
+      "title": "104th Top 10 Graduates",
+      "level": 2,
+      "def": "The ten cadets ranked highest at the 104th Training Corps (Southern Division) graduation ceremony, as shown on screen.",
+      "members": ["Mikasa Ackerman", "Reiner Braun", "Bertholdt Hoover", "Annie Leonhart", "Eren Yeager", "Jean Kirstein", "Marco Bott", "Connie Springer", "Sasha Blouse", "Historia Reiss"],
+      "source": "https://attackontitan.fandom.com/wiki/Cadet_Corps_(Anime)"
+    },
+    {
+      "title": "104th Training Corps",
+      "level": 1,
+      "def": "Cadets who graduated in Eren, Mikasa, and Armin's class of the 104th Training Corps, as named on screen in the anime.",
+      "members": ["Eren Yeager", "Mikasa Ackerman", "Armin Arlert", "Jean Kirstein", "Connie Springer", "Sasha Blouse", "Historia Reiss", "Ymir", "Reiner Braun", "Bertholdt Hoover", "Annie Leonhart", "Marco Bott", "Floch Forster"],
+      "source": "https://attackontitan.fandom.com/wiki/Cadet_Corps_(Anime)"
+    },
+    {
+      "title": "Levi Squad",
+      "level": 3,
+      "def": "Levi's hand-picked Special Operations Squad within the Survey Corps, as shown before and during the Female Titan arc.",
+      "members": ["Levi Ackerman", "Petra Ral", "Oluo Bozado", "Eld Jinn", "Gunther Schultz"],
+      "source": "https://attackontitan.fandom.com/wiki/Special_Operations_Squad"
+    },
+    {
+      "title": "Ackerman Family",
+      "level": 3,
+      "def": "Named members of the Ackerman bloodline shown or explicitly mentioned on screen.",
+      "members": ["Mikasa Ackerman", "Levi Ackerman", "Kenny Ackerman", "Kuchel Ackerman"],
+      "source": "https://attackontitan.fandom.com/wiki/Kuchel_Ackerman"
+    },
+    {
+      "title": "Titan Shifters",
+      "level": 2,
+      "def": "Characters confirmed in the anime to have inherited one of the Eight Titans other than the Founding Titan.",
+      "members": ["Eren Yeager", "Grisha Yeager", "Eren Kruger", "Armin Arlert", "Bertholdt Hoover", "Reiner Braun", "Annie Leonhart", "Zeke Yeager", "Pieck Finger", "Marcel Galliard", "Ymir", "Porco Galliard", "Falco Grice"],
+      "source": "https://attackontitan.fandom.com/wiki/Jaw_Titan"
+    },
+    {
+      "title": "Founding Titan Holders",
+      "level": 3,
+      "def": "Characters confirmed in the anime to have inherited the Founding Titan itself.",
+      "members": ["Ymir Fritz", "Karl Fritz", "Uri Reiss", "Frieda Reiss", "Grisha Yeager", "Eren Yeager"],
+      "source": "https://attackontitan.fandom.com/wiki/Founding_Titan"
+    },
+    {
+      "title": "Royal Blood",
+      "level": 3,
+      "def": "Characters explicitly identified in the anime as carrying royal (Fritz/Reiss) blood as descendants of Ymir Fritz.",
+      "members": ["Historia Reiss", "Rod Reiss", "Uri Reiss", "Frieda Reiss", "Dina Fritz", "Zeke Yeager", "Karl Fritz"],
+      "source": "https://attackontitan.fandom.com/wiki/Zeke_Yeager"
+    },
+    {
+      "title": "Marleyan Warriors",
+      "level": 1,
+      "def": "Members of Marley's Warrior program (titan shifters and candidates) shown in the anime.",
+      "members": ["Reiner Braun", "Bertholdt Hoover", "Annie Leonhart", "Zeke Yeager", "Pieck Finger", "Porco Galliard", "Falco Grice", "Gabi Braun", "Colt Grice", "Marcel Galliard"],
+      "source": "https://attackontitan.fandom.com/wiki/Marcel_Galliard"
+    },
+    {
+      "title": "Survey Corps Commanders",
+      "level": 2,
+      "def": "Characters who served as Commander of the Survey Corps at some point in the anime.",
+      "members": ["Keith Shadis", "Erwin Smith", "Hange Zoë", "Armin Arlert"],
+      "source": "https://attackontitan.fandom.com/wiki/Armin_Arlert"
+    },
+    {
+      "title": "Garrison Regiment",
+      "level": 3,
+      "def": "Named Garrison soldiers shown in the anime.",
+      "members": ["Dot Pixis", "Hannes", "Rico Brzenska", "Ian Dietrich"],
+      "source": "https://attackontitan.fandom.com/wiki/Dot_Pixis"
+    },
+    {
+      "title": "Surnames That Are Also Words",
+      "level": 4,
+      "def": "Characters whose surname is also a common English word.",
+      "members": ["Sasha Blouse", "Bertholdt Hoover", "Connie Springer", "Pieck Finger", "Erwin Smith", "Eld Jinn"],
+      "source": "https://attackontitan.fandom.com/wiki/Sasha_Blouse"
+    },
+    {
+      "title": "Secret Titan Shifters of the 104th",
+      "level": 1,
+      "def": "104th Training Corps graduates who were secretly Titan Shifters.",
+      "members": ["Eren Yeager", "Armin Arlert", "Reiner Braun", "Bertholdt Hoover", "Annie Leonhart", "Ymir"],
+      "source": "https://attackontitan.fandom.com/wiki/Cadet_Corps_(Anime)"
+    },
+    {
+      "title": "Warriors Sent to Paradis (845)",
+      "level": 3,
+      "def": "The four Warriors Marley sent to infiltrate Paradis Island in the year 845, starting the Paradis Island Operation.",
+      "members": ["Marcel Galliard", "Reiner Braun", "Bertholdt Hoover", "Annie Leonhart"],
+      "source": "https://attackontitan.fandom.com/wiki/Marcel_Galliard"
+    },
+    {
+      "title": "Top Military Brass",
+      "level": 2,
+      "def": "Characters who held the rank of Commander (or Commander-in-Chief) of a military branch, as shown in the anime.",
+      "members": ["Keith Shadis", "Erwin Smith", "Hange Zoë", "Armin Arlert", "Dot Pixis", "Nile Dok", "Darius Zackly"],
+      "source": "https://attackontitan.fandom.com/wiki/Nile_Dok"
+    }
+  ]
+}

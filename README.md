@@ -1,10 +1,12 @@
 # Kamedles
 
-Daily guessing games for the group, in three tabs:
+Daily guessing games for the group, in five tabs:
 
-- **Characters** — mangadle-style character guessing (Classic, Quote, Emoji) across 10 anime plus Avatar, Korra, SpongeBob, Power Rangers, Game of Thrones and a combined TeenNick pool (iCarly, Victorious, Drake & Josh, Zoey 101, Big Time Rush), with hand-picked casts.
+- **Characters** — mangadle-style character guessing (Classic, Quote, Emoji, Portrait) across 10 anime plus Avatar, Korra, SpongeBob, Power Rangers, Game of Thrones and a combined TeenNick pool (iCarly, Victorious, Drake & Josh, Zoey 101, Big Time Rush), with hand-picked casts.
 - **Episodes** — name the episode from a zoomed-in still that zooms out on every miss (Avatar, Korra, AoT, JJK, HxH). You pick the season, book or arc, then the episode.
+- **Openings** — name the show from its opening theme, Heardle-style. Two pools: your shows (their anime openings plus the western shows' theme songs) and the most popular anime on AniList.
 - **Songs** — Heardle-style: name the song from a 1-second clip that grows to 16 seconds. The pool is every song that shows up in at least two people's exported playlists.
+- **Connections** — NYT-style: sort 16 names into four hidden groups. One daily puzzle per show, plus one built from your playlists.
 
 ## Run it
 
@@ -17,14 +19,19 @@ Open `index.html` in a browser. No build step or server needed. Portraits, episo
 - `index.html`, `css/`, `js/`, `data/` — the site. This is everything that gets published.
   - `js/app.js` — core + Characters tab (daily seeding, comparisons, stats, site tabs, routing).
   - `js/episodes.js` — Episodes tab.
+  - `js/openings.js` — Openings tab.
   - `js/songs.js` — Songs tab (clip player, party scoreboard).
+  - `js/connections.js` — Connections tab and its puzzle generator.
   - `data/<series>.js` — one file per show for the Characters tab.
   - `data/images.js` — character portrait URLs.
   - `data/episodes.js` — generated episode lists + stills.
   - `data/songs.js`, `data/song-sources.js` — generated song pool + preview sources.
+  - `data/openings.js` — generated opening themes (AniList + AnisongDB + Deezer/Apple).
+  - `data/connections.js` — generated Connections group banks.
 - `sources/` — raw inputs that never ship (git-ignored): `playlists/` holds everyone's Spotify exports; `tvmaze-episodes.txt` is the episode list pulled from TVmaze.
 - `tools/` — build and data scripts (see below).
 - `docs/DATA_SPEC.md` — the rules for a character entry.
+- `docs/CONNECTIONS_SPEC.md` — the rules for a Connections group; the banks live in `tools/connections/<show>.json`.
 - `test/smoke.js` — headless browser test.
 
 ## Updating the Songs pool
@@ -50,6 +57,8 @@ Adding or reordering characters/songs changes which one lands on which day, sinc
 - `node tools/build.js` — single-file build in `dist/`.
 - `node tools/build-songs.mjs` — rebuilds the song pool from `sources/playlists/`.
 - `node tools/check-song-sources.mjs [--fix]` — makes sure every song clip is the original recording (see above). `--only=<title>` checks a single song.
+- `node tools/build-openings.mjs` — rebuilds `data/openings.js` (popular anime from AniList, openings from AnisongDB, clips matched on Deezer/Apple; lookups cached in `sources/`).
+- `node tools/build-connections.mjs` — checks every group bank and rebuilds `data/connections.js` (plus the Music set from `data/songs.js`).
 - `node tools/build-episodes.mjs` — rebuilds `data/episodes.js` from `sources/tvmaze-episodes.txt` + `tools/hxh-titles.json`.
 - `node tools/download-images.mjs` — optional: copies every character portrait into `img/` so the site stops hotlinking.
 

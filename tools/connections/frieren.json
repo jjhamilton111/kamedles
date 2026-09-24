@@ -1,0 +1,75 @@
+{
+  "show": "frieren",
+  "groups": [
+    {
+      "title": "Hero's Party",
+      "level": 1,
+      "def": "The four-person party led by Himmel that defeated the Demon King, as shown in flashbacks.",
+      "members": ["Himmel", "Frieren", "Heiter", "Eisen"],
+      "source": "https://frieren.fandom.com/wiki/Hero_Party"
+    },
+    {
+      "title": "Frieren's Party",
+      "level": 1,
+      "def": "Frieren's traveling party after Himmel's death, as shown in the anime.",
+      "members": ["Frieren", "Fern", "Stark", "Sein"],
+      "source": "https://frieren.fandom.com/wiki/Frieren"
+    },
+    {
+      "title": "First-Class Mage Exam Candidates",
+      "level": 4,
+      "def": "Characters shown taking the First-Class Mage Exam as candidates.",
+      "members": ["Frieren", "Fern", "Übel", "Land", "Denken", "Laufen", "Richter", "Wirbel", "Ehre", "Scharf", "Kanne", "Lawine", "Edel"],
+      "source": "https://frieren.fandom.com/wiki/First-Class_Mage_Exam"
+    },
+    {
+      "title": "Mage Exam Examiners",
+      "level": 3,
+      "def": "Continental Magic Association mages shown personally administering a stage of the First-Class Mage Exam that Frieren and Fern take.",
+      "members": ["Genau", "Sense", "Lernen", "Serie"],
+      "source": "https://frieren.fandom.com/wiki/First-Class_Mage_Exam"
+    },
+    {
+      "title": "Demons",
+      "level": 1,
+      "def": "Demons who appear on screen (including in flashback) in the anime.",
+      "members": ["Aura", "Lügner", "Linie", "Draht", "Qual", "Schlacht", "Revolte"],
+      "source": "https://frieren.fandom.com/wiki/Seven_Sages_of_Destruction"
+    },
+    {
+      "title": "Legends of the Past",
+      "level": 2,
+      "def": "Figures whose stories are told as historical \"Legends of the Past,\" met or referenced by Frieren's group.",
+      "members": ["Flamme", "Kraft", "Voll", "Hero of the South"],
+      "source": "https://frieren.fandom.com/wiki/Voll"
+    },
+    {
+      "title": "Warrior Class",
+      "level": 2,
+      "def": "Characters whose class is Warrior (including former Warriors and demon Warriors).",
+      "members": ["Stark", "Himmel", "Eisen", "Linie", "Voll", "Stoltz", "Hero of the South", "Revolte", "Kraft"],
+      "source": "https://frieren.fandom.com/wiki/Warrior"
+    },
+    {
+      "title": "Names That Are German Verbs",
+      "level": 4,
+      "def": "Characters whose name is also a German infinitive verb.",
+      "members": ["Frieren", "Sein", "Laufen", "Lernen", "Denken"],
+      "source": "https://frieren.fandom.com/wiki/Frieren"
+    },
+    {
+      "title": "Continental Magic Association",
+      "level": 3,
+      "def": "Characters affiliated with the Continental Magic Association, the mage licensing body, as shown in the anime.",
+      "members": ["Fern", "Serie", "Übel", "Land", "Denken", "Wirbel", "Genau", "Sense", "Lernen", "Methode"],
+      "source": "https://frieren.fandom.com/wiki/Continental_Magic_Association"
+    },
+    {
+      "title": "Known By an Epithet",
+      "level": 4,
+      "def": "Characters given an on-screen epithet in the form \"[Name] the [Title]\".",
+      "members": ["Frieren", "Himmel", "Flamme", "Aura", "Qual", "Schlacht", "Revolte"],
+      "source": "https://frieren.fandom.com/wiki/Frieren"
+    }
+  ]
+}

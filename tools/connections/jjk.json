@@ -1,0 +1,221 @@
+{
+  "show": "jjk",
+  "groups": [
+    {
+      "title": "Tokyo Jujutsu High — Current Students",
+      "level": 1,
+      "def": "Students enrolled at Tokyo Jujutsu High during the main story, through the Culling Game (not the older generation who already graduated, and not school staff).",
+      "members": [
+        "Yuji",
+        "Megumi",
+        "Nobara",
+        "Maki",
+        "Toge",
+        "Panda",
+        "Yuta",
+        "Hakari",
+        "Kirara",
+        "Ino"
+      ],
+      "source": "https://jujutsu-kaisen.fandom.com/wiki/Tokyo_Metropolitan_Curse_Technical_College"
+    },
+    {
+      "title": "Cursed Spirits",
+      "level": 1,
+      "def": "Named cursed spirits — beings born from human negative emotion — as opposed to humans, fiends, or human/curse hybrids.",
+      "members": [
+        "Sukuna",
+        "Mahito",
+        "Jogo",
+        "Hanami",
+        "Dagon",
+        "Choso",
+        "Rika",
+        "Eso",
+        "Kechizu"
+      ],
+      "source": "https://jujutsu-kaisen.fandom.com/wiki/Cursed_Spirit"
+    },
+    {
+      "title": "Jujutsu High Staff (Tokyo & Kyoto)",
+      "level": 2,
+      "def": "The principals, homeroom teachers, in-house doctor, and assistant manager of the two jujutsu schools — their administrative/teaching staff, not field sorcerers who merely collaborate with the schools.",
+      "members": [
+        "Yaga",
+        "Ijichi",
+        "Ieiri",
+        "Kusakabe",
+        "Gojo",
+        "Utahime",
+        "Gakuganji"
+      ],
+      "source": "https://jujutsu-kaisen.fandom.com/wiki/Tokyo_Metropolitan_Curse_Technical_College"
+    },
+    {
+      "title": "Gojo's Student-Era Cohort",
+      "level": 2,
+      "def": "The four classmates/friends shown together as students in the Hidden Inventory/Premature Death flashback arc.",
+      "members": [
+        "Gojo",
+        "Geto",
+        "Nanami",
+        "Haibara"
+      ],
+      "source": "https://jujutsu-kaisen.fandom.com/wiki/Satoru_Gojo"
+    },
+    {
+      "title": "Kyoto Jujutsu High Students",
+      "level": 2,
+      "def": "Students of Kyoto Jujutsu High shown in the anime, from the Goodwill Event roster onward.",
+      "members": [
+        "Todo",
+        "Mai",
+        "Nishimiya",
+        "Kamo",
+        "Miwa",
+        "Mechamaru",
+        "Nitta"
+      ],
+      "source": "https://jujutsu-kaisen.fandom.com/wiki/Kyoto_Metropolitan_Curse_Technical_College"
+    },
+    {
+      "title": "The Zenin Clan",
+      "level": 2,
+      "def": "Sorcerers born into the Zenin family by blood, including those who left or were estranged from it — Toji, who was disowned, and Megumi, who was raised apart from the clan but is its blood heir and later becomes its head. Excludes Mahoraga, a shikigami tied to the clan's inherited technique, not a family member.",
+      "members": [
+        "Maki",
+        "Mai",
+        "Naoya",
+        "Naobito",
+        "Toji",
+        "Megumi"
+      ],
+      "source": "https://jujutsu-kaisen.fandom.com/wiki/Sorcerer_Clan/Zenin_Clan"
+    },
+    {
+      "title": "Culling Game Players",
+      "level": 2,
+      "def": "Sorcerers forced or recruited into playing the Culling Game.",
+      "members": [
+        "Yuji",
+        "Megumi",
+        "Yuta",
+        "Higuruma",
+        "Takaba",
+        "Reggie",
+        "Uro",
+        "Kashimo",
+        "Angel",
+        "Ishigori"
+      ],
+      "source": "https://jujutsu-kaisen.fandom.com/wiki/Culling_Game"
+    },
+    {
+      "title": "Cursed Tool Users",
+      "level": 2,
+      "def": "Sorcerers whose fighting style relies on a cursed tool — a weapon imbued with a cursed technique.",
+      "members": [
+        "Nobara",
+        "Maki",
+        "Yuta",
+        "Nanami",
+        "Kusakabe",
+        "Mai",
+        "Miwa",
+        "Toji"
+      ],
+      "source": "https://jujutsu-kaisen.fandom.com/wiki/Cursed_Tool"
+    },
+    {
+      "title": "Civilians Drawn Into the Jujutsu World",
+      "level": 2,
+      "def": "Ordinary civilians, not trained sorcerers, whose lives become entangled in jujutsu society's events.",
+      "members": [
+        "Junpei",
+        "Riko",
+        "Higuruma",
+        "Takaba"
+      ],
+      "source": "https://jujutsu-kaisen.fandom.com/wiki/Junpei_Yoshino"
+    },
+    {
+      "title": "Reincarnated Sorcerers (Culling Game)",
+      "level": 3,
+      "def": "Culling Game players who are reincarnated sorcerers revived from centuries in the past, not modern-day recruits.",
+      "members": [
+        "Uro",
+        "Kashimo",
+        "Ishigori",
+        "Reggie"
+      ],
+      "source": "https://jujutsu-kaisen.fandom.com/wiki/Culling_Game"
+    },
+    {
+      "title": "Special Grade Sorcerers",
+      "level": 3,
+      "def": "Sorcerers who hold the rare Special Grade rank — the highest, reserved for a handful of anomalies.",
+      "members": [
+        "Gojo",
+        "Geto",
+        "Yuki Tsukumo",
+        "Yuta",
+        "Yuji"
+      ],
+      "source": "https://jujutsu-kaisen.fandom.com/wiki/Grade"
+    },
+    {
+      "title": "Grade 1 Sorcerers",
+      "level": 4,
+      "def": "Named sorcerers who hold Grade 1 rank (one step below the rare Special Grade).",
+      "members": [
+        "Nanami",
+        "Mei Mei",
+        "Todo",
+        "Kusakabe",
+        "Yaga"
+      ],
+      "source": "https://jujutsu-kaisen.fandom.com/wiki/Grade"
+    },
+    {
+      "title": "Curse Users",
+      "level": 3,
+      "def": "Humans who work with or as cursed spirits against jujutsu society, unaffiliated with either school.",
+      "members": [
+        "Geto",
+        "Kenjaku",
+        "Toji",
+        "Uraume"
+      ],
+      "source": "https://jujutsu-kaisen.fandom.com/wiki/Suguru_Geto"
+    },
+    {
+      "title": "Inherited Techniques",
+      "level": 3,
+      "def": "Sorcerers whose cursed technique was passed down within their family or shared bloodline, rather than manifesting on its own.",
+      "members": [
+        "Megumi",
+        "Toge",
+        "Gojo",
+        "Kamo",
+        "Choso",
+        "Naoya",
+        "Naobito",
+        "Eso",
+        "Kechizu"
+      ],
+      "source": "https://jujutsu-kaisen.fandom.com/wiki/Inherited_Technique"
+    },
+    {
+      "title": "Vessels",
+      "level": 4,
+      "def": "Characters whose body serves, or served, as a vessel or host for another being: Riko for the Star Plasma Vessel ritual, Yuji for Sukuna, Angel for an ancient sorcerer's soul, and Megumi when Sukuna seizes control of his body.",
+      "members": [
+        "Yuji",
+        "Riko",
+        "Angel",
+        "Megumi"
+      ],
+      "source": "https://jujutsu-kaisen.fandom.com/wiki/Yuji_Itadori"
+    }
+  ]
+}
