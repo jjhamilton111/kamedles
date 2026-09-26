@@ -21,8 +21,10 @@ for (const [slug, s] of Object.entries(series)) {
   const map = {};
   for (const c of s.characters) {
     const p = picks[c.id];
-    const m = p && p.url && /^https:\/\/static\.wikia\.nocookie\.net\/(.+?)(?:\/revision\/.*)?$/.exec(p.url);
-    if (m) map[c.id] = decodeURI(m[1]); else missing++;
+    // some wikis (e.g. hero.fandom.com) only serve their images with a ?path-prefix= query, which is kept
+    const m = p && p.url && /^https:\/\/static\.wikia\.nocookie\.net\/([^?]+?)(?:\/revision\/[^?]*)?(?:\?(.*))?$/.exec(p.url);
+    const prefix = m && new URLSearchParams(m[2] || "").get("path-prefix");
+    if (m) map[c.id] = decodeURI(m[1]) + (prefix ? `?path-prefix=${encodeURIComponent(prefix)}` : ""); else missing++;
   }
   total += Object.keys(map).length;
   if (Object.keys(map).length) out[slug] = map;

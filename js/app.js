@@ -106,7 +106,11 @@ const view = { seriesId: null, mode: MODES.some(m => m.id === S.prefs.mode) ? S.
 const quotesOf = c => (c && c.quotes) || [];
 // Portrait mode uses full-body pictures (Fandom wiki paths in data/bodies.js), at a size that stays sharp zoomed in
 const BODIES = (window.DLE && window.DLE.bodies) || {};
-const portraitOf = (series, c) => { const p = BODIES[series.id] && BODIES[series.id][c.id]; return p ? `https://static.wikia.nocookie.net/${p}/revision/latest/scale-to-height-down/1600` : null; };
+const portraitOf = (series, c) => {
+  const p = BODIES[series.id] && BODIES[series.id][c.id]; if (!p) return null;
+  const [file, query] = p.split("?"); // a few wikis need their ?path-prefix= query kept
+  return `https://static.wikia.nocookie.net/${file}/revision/latest/scale-to-height-down/1600${query ? `?${query}` : ""}`;
+};
 function poolFor(series, mode) {
   if (mode === "quote") return series.characters.filter(c => quotesOf(c).length);
   if (mode === "portrait") return series.characters.filter(c => portraitOf(series, c));
