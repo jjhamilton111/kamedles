@@ -20,14 +20,16 @@
       "level": 1,
       "def": "Characters who debut in the very first episodes, before Denji formally joins Public Safety Division 4.",
       "members": ["Denji", "Pochita", "Makima", "Aki", "Power", "Zombie Devil", "Tomato Devil", "Sea Cucumber Devil"],
-      "source": "https://chainsaw-man.fandom.com/wiki/Denji"
+      "source": "https://chainsaw-man.fandom.com/wiki/Denji",
+      "family": "debut-arc"
     },
     {
       "title": "Introduced in the Eternity Devil Arc",
       "level": 2,
       "def": "Characters who debut during the Eternity Devil Arc.",
       "members": ["Kobeni", "Arai", "Kishibe", "Eternity Devil", "Ghost Devil", "Madoka"],
-      "source": "https://chainsaw-man.fandom.com/wiki/Kishibe"
+      "source": "https://chainsaw-man.fandom.com/wiki/Kishibe",
+      "family": "debut-arc"
     },
     {
       "title": "Devils & Fiends Serving Public Safety",
@@ -41,7 +43,8 @@
       "level": 2,
       "def": "Characters who debut during the Bat Devil Arc.",
       "members": ["Himeno", "Bat Devil", "Leech Devil", "Fox Devil"],
-      "source": "https://chainsaw-man.fandom.com/wiki/Himeno"
+      "source": "https://chainsaw-man.fandom.com/wiki/Himeno",
+      "family": "debut-arc"
     },
     {
       "title": "Made a Devil Contract",
@@ -55,14 +58,16 @@
       "level": 3,
       "def": "Public Safety hunters, human or devil, first introduced as reinforcements during the Katana Man Arc.",
       "members": ["Angel", "Beam", "Violence Fiend", "Spider Devil"],
-      "source": "https://chainsaw-man.fandom.com/wiki/Tokyo_Special_Division_4"
+      "source": "https://chainsaw-man.fandom.com/wiki/Tokyo_Special_Division_4",
+      "family": "debut-arc"
     },
     {
       "title": "Introduced in the Katana Man Arc",
       "level": 3,
       "def": "Every named character, on either side, who debuts during the Katana Man Arc.",
       "members": ["Angel", "Beam", "Violence Fiend", "Spider Devil", "Katana Man", "Sawatari", "Curse Devil", "Future Devil", "Snake Devil"],
-      "source": "https://chainsaw-man.fandom.com/wiki/Katana_Man"
+      "source": "https://chainsaw-man.fandom.com/wiki/Katana_Man",
+      "family": "debut-arc"
     },
     {
       "title": "Contracted Devils Known Only By Type",

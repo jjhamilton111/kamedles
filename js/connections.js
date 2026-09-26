@@ -16,21 +16,24 @@ function shuffle(arr, rng) { const a = arr.slice(); for (let i = a.length - 1; i
 const seedFor = (slug, day) => cyrb53(`conn|${slug}|${day}`) >>> 0;
 
 // Picks 4 groups and 4 members of each. A member who also belongs to another chosen group is never
-// dealt, so every tile has exactly one home. Attempts alternate between one group per difficulty
-// level and any four groups, so small banks with lots of overlap still get varied boards. Colours
-// follow difficulty order within the board (yellow → purple), never repeating.
+// dealt, so every tile has exactly one home, and groups listed in each other's `no` (two slices of one
+// list, like a show's main and recurring cast) never share a board. Attempts alternate between one
+// group per difficulty level and any four groups, so small banks with lots of overlap still get
+// varied boards. Colours follow difficulty order within the board (yellow → purple), never repeating.
 function makePuzzle(set, seed) {
   const rng = mulberry32(seed);
   const pick = arr => arr[Math.floor(rng() * arr.length)];
-  const groups = set.groups.map(g => ({ g, keys: new Set(g.members.map(norm)) }));
+  const groups = set.groups.map((g, i) => ({ g, i, keys: new Set(g.members.map(norm)) }));
+  const fits = (x, chosen) => !chosen.includes(x) && !(x.g.no && chosen.some(o => x.g.no.includes(o.i)));
   if (groups.length < 4) return null;
   for (let attempt = 0; attempt < 400; attempt++) {
     const chosen = [];
     if (attempt % 2 === 0) for (const level of shuffle([1, 2, 3, 4], rng)) {
-      const bucket = groups.filter(x => x.g.level === level && !chosen.includes(x));
+      const bucket = groups.filter(x => x.g.level === level && fits(x, chosen));
       if (bucket.length) chosen.push(pick(bucket));
     }
-    while (chosen.length < 4) { const x = pick(groups); if (!chosen.includes(x)) chosen.push(x); }
+    for (let tries = 0; chosen.length < 4 && tries < 60; tries++) { const x = pick(groups); if (fits(x, chosen)) chosen.push(x); }
+    if (chosen.length < 4) continue;
     const pools = chosen.map(x => x.g.members.filter(m => chosen.every(o => o === x || !o.keys.has(norm(m)))));
     if (pools.some(p => p.length < 4)) continue;
     const picks = pools.map(p => shuffle(p, rng).slice(0, 4));

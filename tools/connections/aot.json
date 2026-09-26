@@ -9,80 +9,84 @@
       "source": "https://attackontitan.fandom.com/wiki/Cadet_Corps_(Anime)"
     },
     {
-      "title": "104th Training Corps",
+      "title": "104th Cadets",
       "level": 1,
-      "def": "Cadets who graduated in Eren, Mikasa, and Armin's class of the 104th Training Corps, as named on screen in the anime.",
-      "members": ["Eren Yeager", "Mikasa Ackerman", "Armin Arlert", "Jean Kirstein", "Connie Springer", "Sasha Blouse", "Historia Reiss", "Ymir", "Reiner Braun", "Bertholdt Hoover", "Annie Leonhart", "Marco Bott", "Floch Forster"],
+      "def": "Cadets who trained in and graduated from the 104th Training Corps' Southern Division (Eren, Mikasa and Armin's class): its top ten plus Armin, Ymir and Floch. Their commandant Keith Shadis doesn't count (he was the instructor, not a cadet), nor does anyone from another class or division.",
+      "members": ["Eren Yeager", "Mikasa Ackerman", "Armin Arlert", "Jean Kirstein", "Connie Springer", "Sasha Blouse", "Historia Reiss", "Ymir (104th)", "Reiner Braun", "Bertholdt Hoover", "Annie Leonhart", "Marco Bott", "Floch Forster"],
       "source": "https://attackontitan.fandom.com/wiki/Cadet_Corps_(Anime)"
     },
     {
-      "title": "Levi Squad",
+      "title": "Original Levi Squad",
       "level": 3,
-      "def": "Levi's hand-picked Special Operations Squad within the Survey Corps, as shown before and during the Female Titan arc.",
-      "members": ["Levi Ackerman", "Petra Ral", "Oluo Bozado", "Eld Jinn", "Gunther Schultz"],
-      "source": "https://attackontitan.fandom.com/wiki/Special_Operations_Squad"
+      "def": "The first lineup of Levi's Special Operations Squad, shown before and during the Female Titan arc: Levi, his hand-picked Eld, Gunther, Oluo and Petra, and Eren, who was placed in the squad when he joined the Survey Corps. The later Levi Squad lineups (Mikasa, Armin, Jean, Connie, Sasha, Historia from Season 3) don't count.",
+      "members": ["Levi Ackerman", "Petra Ral", "Oluo Bozado", "Eld Jinn", "Gunther Schultz", "Eren Yeager"],
+      "source": "https://attackontitan.fandom.com/wiki/Special_Operations_Squad_(Anime)"
     },
     {
       "title": "Ackerman Family",
-      "level": 3,
-      "def": "Named members of the Ackerman bloodline shown or explicitly mentioned on screen.",
+      "level": 1,
+      "def": "Named members of the Ackerman bloodline in the anime: Kenny, his sister Kuchel (named in ep. 47), her son Levi, and Mikasa (an Ackerman through her father). The family's other members (Kenny's grandfather, Mikasa's parents) are unnamed and not in the bank. Level 1 because every tile shows the surname.",
       "members": ["Mikasa Ackerman", "Levi Ackerman", "Kenny Ackerman", "Kuchel Ackerman"],
-      "source": "https://attackontitan.fandom.com/wiki/Kuchel_Ackerman"
+      "source": "https://attackontitan.fandom.com/wiki/Ackermann_family_(Anime)"
     },
     {
-      "title": "Titan Shifters",
+      "title": "Inherited a Non-Founding Titan",
       "level": 2,
-      "def": "Characters confirmed in the anime to have inherited one of the Eight Titans other than the Founding Titan.",
-      "members": ["Eren Yeager", "Grisha Yeager", "Eren Kruger", "Armin Arlert", "Bertholdt Hoover", "Reiner Braun", "Annie Leonhart", "Zeke Yeager", "Pieck Finger", "Marcel Galliard", "Ymir", "Porco Galliard", "Falco Grice"],
-      "source": "https://attackontitan.fandom.com/wiki/Jaw_Titan"
+      "def": "Characters shown in the anime inheriting (holding, at any point) one of the eight Titans other than the Founding Titan, whether or not they also held the Founding Titan: Eren (Attack, War Hammer), Grisha and Eren Kruger (Attack), Reiner (Armored), Bertholdt and Armin (Colossal), Annie (Female), Tom Ksaver and Zeke (Beast), Pieck (Cart), and Marcel, Ymir, Porco and Falco (Jaw). Founding-only holders (Ymir Fritz, Karl Fritz, Uri, Frieda) don't count, nor does only ever being a mindless Pure Titan (Dina, Rod, Pixis and Nile after Zeke's scream, Jean, Connie and Gabi at Fort Salta in the finale). Avoids Founding Titan Holders: the two split one list of Titan holders.",
+      "members": ["Eren Yeager", "Grisha Yeager", "Eren Kruger", "Armin Arlert", "Bertholdt Hoover", "Reiner Braun", "Annie Leonhart", "Zeke Yeager", "Pieck Finger", "Marcel Galliard", "Ymir (104th)", "Porco Galliard", "Falco Grice", "Tom Ksaver"],
+      "source": "https://attackontitan.fandom.com/wiki/Nine_Titans_(Anime)",
+      "avoid": ["Founding Titan Holders"]
     },
     {
       "title": "Founding Titan Holders",
       "level": 3,
-      "def": "Characters confirmed in the anime to have inherited the Founding Titan itself.",
+      "def": "Characters shown in the anime holding the Founding Titan: its origin Ymir Fritz (the Founder, listed as its first holder), Karl Fritz, Uri and Frieda Reiss, then Grisha (who took it from Frieda) and Eren. Rod and Uri's father holds it too but is unnamed; Rod, Historia, Dina and Zeke have royal blood but never held it.",
       "members": ["Ymir Fritz", "Karl Fritz", "Uri Reiss", "Frieda Reiss", "Grisha Yeager", "Eren Yeager"],
-      "source": "https://attackontitan.fandom.com/wiki/Founding_Titan"
+      "source": "https://attackontitan.fandom.com/wiki/Founding_Titan_(Anime)"
     },
     {
       "title": "Royal Blood",
-      "level": 3,
-      "def": "Characters explicitly identified in the anime as carrying royal (Fritz/Reiss) blood as descendants of Ymir Fritz.",
+      "level": 2,
+      "def": "Characters the anime identifies as blood members of the royal Fritz line or its Reiss branch: Karl Fritz, Rod, Uri, Frieda and Historia Reiss, Dina Fritz and her son Zeke. Grisha and Eren Yeager have no royal blood, and Mikasa's lineage (Hizuru's Shogun clan, via her mother) isn't the Fritz royal line. Ymir Fritz is the line's ancestor through the king, not a blood member (the anime wiki lists her as a 'political member'), so every group that deals her tile avoids this one.",
       "members": ["Historia Reiss", "Rod Reiss", "Uri Reiss", "Frieda Reiss", "Dina Fritz", "Zeke Yeager", "Karl Fritz"],
-      "source": "https://attackontitan.fandom.com/wiki/Zeke_Yeager"
+      "source": "https://attackontitan.fandom.com/wiki/Fritz_family_(Anime)",
+      "avoid": ["Founding Titan Holders"]
     },
     {
       "title": "Marleyan Warriors",
       "level": 1,
-      "def": "Members of Marley's Warrior program (titan shifters and candidates) shown in the anime.",
-      "members": ["Reiner Braun", "Bertholdt Hoover", "Annie Leonhart", "Zeke Yeager", "Pieck Finger", "Porco Galliard", "Falco Grice", "Gabi Braun", "Colt Grice", "Marcel Galliard"],
-      "source": "https://attackontitan.fandom.com/wiki/Marcel_Galliard"
+      "def": "Members of Marley's Warrior program (titan shifters and candidates) shown in the anime, including Tom Ksaver, the Beast Titan before Zeke. Eren Kruger (a Marleyan officer and Restorationist spy) and Grisha were never Warriors.",
+      "members": ["Reiner Braun", "Bertholdt Hoover", "Annie Leonhart", "Zeke Yeager", "Pieck Finger", "Porco Galliard", "Falco Grice", "Gabi Braun", "Colt Grice", "Marcel Galliard", "Tom Ksaver"],
+      "source": "https://attackontitan.fandom.com/wiki/Warriors_(Anime)"
     },
     {
       "title": "Survey Corps Commanders",
       "level": 2,
       "def": "Characters who served as Commander of the Survey Corps at some point in the anime.",
       "members": ["Keith Shadis", "Erwin Smith", "Hange Zoë", "Armin Arlert"],
-      "source": "https://attackontitan.fandom.com/wiki/Armin_Arlert"
+      "source": "https://attackontitan.fandom.com/wiki/Scout_Regiment_(Anime)"
     },
     {
       "title": "Garrison Regiment",
       "level": 3,
-      "def": "Named Garrison soldiers shown in the anime.",
+      "def": "Characters the anime shows serving as Garrison soldiers: Commander Dot Pixis, Captain Hannes, and squad leaders Rico Brzenska and Ian Dietrich. Floch is not counted even though the anime wiki lists him as briefly ex-Garrison (one line in ep. 48); this group avoids both groups that deal Floch so he never shares its board. Premier Zackly (over all three regiments) and the cadets attached to Ian's squad at Trost (Eren, Mikasa) don't count.",
       "members": ["Dot Pixis", "Hannes", "Rico Brzenska", "Ian Dietrich"],
-      "source": "https://attackontitan.fandom.com/wiki/Dot_Pixis"
+      "source": "https://attackontitan.fandom.com/wiki/Garrison_Regiment_(Anime)",
+      "avoid": ["104th Cadets", "Scouts Who Survived Shiganshina (850)"]
     },
     {
-      "title": "Surnames That Are Also Words",
+      "title": "Surnames That Are Common Words",
       "level": 4,
-      "def": "Characters whose surname is also a common English word.",
+      "def": "Characters whose displayed surname is, on its own, a common English word: Blouse, Hoover (to vacuum), Springer (the spaniel), Finger, Smith and Jinn (genies). Every other surname in the bank is not a common word (Galliard is a rare old dance, Grice and Bott are obscure; Zackly, Pixis, Forster, Braun, Reiss, Yeager, Ksaver etc. aren't words). Fritz only exists in the idiom 'on the fritz', so to keep it off the board this group avoids every group that deals a Fritz tile (Founding Titan Holders, Royal Blood, Women Who Held a Titan, Share a First Name).",
       "members": ["Sasha Blouse", "Bertholdt Hoover", "Connie Springer", "Pieck Finger", "Erwin Smith", "Eld Jinn"],
-      "source": "https://attackontitan.fandom.com/wiki/Sasha_Blouse"
+      "source": "https://attackontitan.fandom.com/wiki/Sasha_Blouse",
+      "avoid": ["Founding Titan Holders", "Royal Blood", "Women Who Held a Titan", "Share a First Name"]
     },
     {
-      "title": "Secret Titan Shifters of the 104th",
+      "title": "Titan Shifters of the 104th",
       "level": 1,
-      "def": "104th Training Corps graduates who were secretly Titan Shifters.",
-      "members": ["Eren Yeager", "Armin Arlert", "Reiner Braun", "Bertholdt Hoover", "Annie Leonhart", "Ymir"],
+      "def": "Graduates of Eren's 104th class (Southern Division) shown in the anime holding one of the Nine Titans at some point: the hidden shifters Reiner, Bertholdt, Annie and Ymir, plus Eren and Armin (who inherited the Colossal Titan openly in Shiganshina - the old title 'Secret' didn't fit him). Jean and Connie, turned into mindless Pure Titans at Fort Salta in the finale, never held one of the Nine and don't count.",
+      "members": ["Eren Yeager", "Armin Arlert", "Reiner Braun", "Bertholdt Hoover", "Annie Leonhart", "Ymir (104th)"],
       "source": "https://attackontitan.fandom.com/wiki/Cadet_Corps_(Anime)"
     },
     {
@@ -90,14 +94,59 @@
       "level": 3,
       "def": "The four Warriors Marley sent to infiltrate Paradis Island in the year 845, starting the Paradis Island Operation.",
       "members": ["Marcel Galliard", "Reiner Braun", "Bertholdt Hoover", "Annie Leonhart"],
-      "source": "https://attackontitan.fandom.com/wiki/Marcel_Galliard"
+      "source": "https://attackontitan.fandom.com/wiki/Paradis_Island_Operation_(Anime)"
     },
     {
-      "title": "Top Military Brass",
+      "title": "Regiment Commanders",
       "level": 2,
-      "def": "Characters who held the rank of Commander (or Commander-in-Chief) of a military branch, as shown in the anime.",
+      "def": "Characters who commanded the Walls' regiments in the anime: Survey Corps Commanders Keith, Erwin, Hange and Armin, Garrison Commander Dot Pixis, Military Police Commander Nile Dok, and Premier Darius Zackly, commander-in-chief of all three regiments. Captains (Levi, Kenny, Hannes), squad leaders (Rico, Ian), field officers like Jean, Yeagerist leader Floch, the monarchs (Rod, Historia) and Zeke (War Chief of Marley's Warriors, not a regiment) don't count.",
       "members": ["Keith Shadis", "Erwin Smith", "Hange Zoë", "Armin Arlert", "Dot Pixis", "Nile Dok", "Darius Zackly"],
-      "source": "https://attackontitan.fandom.com/wiki/Nile_Dok"
+      "source": "https://attackontitan.fandom.com/wiki/Military_(Anime)"
+    },
+    {
+      "title": "Alive at the Finale",
+      "level": 1,
+      "def": "Characters still alive when the anime ends (Final Season finale, including its epilogue): Mikasa, Armin, Jean, Connie, Levi, Reiner, Annie, Pieck, Falco and Gabi, plus Historia and Rico (seen in the epilogue three years after Eren's death). Everyone else in this bank dies on screen or before the story begins - e.g. Pixis and Nile (turned into Pure Titans in ep. 78, killed in ep. 81), Keith (blows up a Marleyan cruiser with Magath, ep. 86), Hange (Final Chapters Special 1), Zeke and Eren at the very end.",
+      "members": ["Mikasa Ackerman", "Armin Arlert", "Jean Kirstein", "Connie Springer", "Historia Reiss", "Levi Ackerman", "Reiner Braun", "Annie Leonhart", "Pieck Finger", "Falco Grice", "Gabi Braun", "Rico Brzenska"],
+      "source": "https://attackontitan.fandom.com/wiki/Rico_Brzenska_(Anime)"
+    },
+    {
+      "title": "Scouts Who Survived Shiganshina (850)",
+      "level": 2,
+      "def": "The nine Survey Corps soldiers who survived the 850 battle to retake Shiganshina District (Season 3 Part 2) and were honoured in the medal ceremony: Levi, Hange, the recruit Floch, and the Levi Squad members Eren, Mikasa, Armin (revived by the Titan injection), Jean, Connie and Sasha. Not Erwin (killed in the charge), not Historia (queen by then, not there), not the Warriors who fought there and escaped (Reiner, by then no longer a Scout, Zeke, Pieck), and not the 845 fall of Shiganshina (the year in the title rules out Scouts such as Keith and Erwin who lived through that one).",
+      "members": ["Levi Ackerman", "Hange Zoë", "Floch Forster", "Eren Yeager", "Mikasa Ackerman", "Armin Arlert", "Jean Kirstein", "Connie Springer", "Sasha Blouse"],
+      "source": "https://attackontitan.fandom.com/wiki/Battle_of_Shiganshina_District_(Anime)"
+    },
+    {
+      "title": "Jaw Titan Holders",
+      "level": 2,
+      "def": "Everyone shown holding the Jaw Titan in the anime: Marcel Galliard, then Ymir (who ate him), then his brother Porco (who ate her), then Falco (who ate Porco). Ymir Fritz held the original power the Nine Titans split from, not the Jaw Titan itself.",
+      "members": ["Marcel Galliard", "Ymir (104th)", "Porco Galliard", "Falco Grice"],
+      "source": "https://attackontitan.fandom.com/wiki/Jaw_Titan_(Anime)"
+    },
+    {
+      "title": "Women Who Held a Titan",
+      "level": 3,
+      "def": "Female characters shown in the anime holding one of the Nine Titans: Annie (Female), Pieck (Cart), Ymir (Jaw), Frieda (Founding) and Ymir Fritz (the Founder, listed as the first Founding Titan holder). Being turned into a mindless Pure Titan doesn't count: not Dina, not Gabi (a candidate who never inherited, only briefly turned by the smoke at Fort Salta in the finale), and not Historia (who refused to inherit). Lara Tybur (War Hammer) isn't in this bank.",
+      "members": ["Annie Leonhart", "Pieck Finger", "Ymir (104th)", "Frieda Reiss", "Ymir Fritz"],
+      "source": "https://attackontitan.fandom.com/wiki/Nine_Titans_(Anime)",
+      "avoid": ["Royal Blood"]
+    },
+    {
+      "title": "Share a First Name",
+      "level": 4,
+      "def": "Characters whose first name is shared by another character in this bank: Eren Yeager and Eren Kruger (Grisha named his son after Kruger), and the 104th's Ymir and the Founder Ymir Fritz. No other first name repeats among the bank's names.",
+      "members": ["Eren Yeager", "Eren Kruger", "Ymir (104th)", "Ymir Fritz"],
+      "source": "https://attackontitan.fandom.com/wiki/Eren_Kruger_(Anime)",
+      "avoid": ["Royal Blood"]
+    },
+    {
+      "title": "First Names That Are Common Words",
+      "level": 4,
+      "def": "Characters whose displayed first name is, on its own, a common English word: Dot, Rod, Colt, Jean (the cloth) and Tom (a male cat). Every other first name in the bank is not a common word: Eld (archaic for 'old age') and Marcel (an obscure hair wave) are rare dictionary words, Nile is a proper noun, Levi, Porco, Falco, Rico and Historia aren't English, and the rest aren't words.",
+      "members": ["Dot Pixis", "Rod Reiss", "Colt Grice", "Jean Kirstein", "Tom Ksaver"],
+      "source": "https://attackontitan.fandom.com/wiki/Dot_Pixis",
+      "avoid": ["Surnames That Are Common Words"]
     }
   ]
 }

@@ -4,114 +4,132 @@
     {
       "title": "Zoldyck Family",
       "level": 1,
-      "def": "Blood and marriage members of the Zoldyck assassin family.",
-      "members": ["Zeno Zoldyck", "Silva Zoldyck", "Kikyo Zoldyck", "Illumi Zoldyck", "Milluki Zoldyck", "Killua Zoldyck", "Alluka Zoldyck", "Kalluto Zoldyck"],
+      "def": "Zoldycks by blood or marriage, as listed under 'Family Members' in the wiki's Zoldyck household: Zeno, Silva, his wife Kikyo and their five children Illumi, Milluki, Killua, Alluka and Kalluto (great-grandfather Maha isn't in this file). Kalluto still counts after joining the Phantom Troupe. The household's servants (Gotoh, Canary, Tsubone, Amane, Zebro, Seaquant) don't count.",
+      "members": ["Zeno", "Silva", "Kikyo", "Illumi", "Milluki", "Killua", "Alluka", "Kalluto"],
       "source": "https://hunterxhunter.fandom.com/wiki/Zoldyck_Family"
     },
     {
       "title": "Killua's Siblings",
       "level": 1,
       "def": "Killua Zoldyck's brothers and sister.",
-      "members": ["Illumi Zoldyck", "Milluki Zoldyck", "Alluka Zoldyck", "Kalluto Zoldyck"],
+      "members": ["Illumi", "Milluki", "Alluka", "Kalluto"],
       "source": "https://hunterxhunter.fandom.com/wiki/Zoldyck_Family"
     },
     {
-      "title": "Zoldyck Butlers",
+      "title": "Zoldyck Servants",
       "level": 4,
-      "def": "Servants of the Zoldyck estate shown and named on screen in the anime.",
+      "def": "Servants of the Zoldyck household shown in the 2011 anime, as listed under 'Servants' in the wiki's Zoldyck household: the butlers Gotoh, Tsubone and Amane, apprentice butler Canary, and the groundskeepers Zebro and Seaquant. Gotoh counts even though Hisoka kills him. Family members don't count.",
       "members": ["Gotoh", "Canary", "Zebro", "Seaquant", "Amane", "Tsubone"],
-      "source": "https://hunterxhunter.fandom.com/wiki/Zoldyck_Family"
+      "source": "https://hunterxhunter.fandom.com/wiki/Zoldyck_Family",
+      "avoid": ["Zoldyck Family"]
     },
     {
       "title": "Phantom Troupe",
       "level": 1,
-      "def": "Characters shown holding a numbered spider tattoo as members of Chrollo's Phantom Troupe at some point in the anime.",
-      "members": ["Chrollo Lucilfer", "Uvogin", "Pakunoda", "Nobunaga Hazama", "Machi Komacine", "Franklin Bordeau", "Feitan Portor", "Phinks Magcub", "Shizuku Murasaki", "Shalnark", "Bonolenov Ndongo", "Kortopi", "Hisoka Morow", "Kalluto Zoldyck"],
+      "def": "Everyone the 2011 anime shows as a member of Chrollo's Phantom Troupe at any point: leader Chrollo; Nobunaga, Machi, Franklin, Feitan, Phinks, Shizuku, Shalnark, Bonolenov and Kortopi (Shalnark's and Kortopi's deaths are manga-only); Uvogin and Pakunoda, who die in Yorknew; Hisoka, the fake #4 who leaves; and Kalluto, shown as the newest member (ep 72). Illumi joins only in the manga.",
+      "members": ["Chrollo", "Uvogin", "Pakunoda", "Nobunaga", "Machi", "Franklin", "Feitan", "Phinks", "Shizuku", "Shalnark", "Bonolenov", "Kortopi", "Hisoka", "Kalluto"],
       "source": "https://hunterxhunter.fandom.com/wiki/Phantom_Troupe"
     },
     {
       "title": "Enhancers",
       "level": 2,
-      "def": "Characters whose Nen type is Enhancer.",
-      "members": ["Gon Freecss", "Isaac Netero", "Palm Siberia", "Phinks Magcub", "Nobunaga Hazama", "Uvogin"],
-      "source": "https://hunterxhunter.fandom.com/wiki/Nen"
+      "def": "Characters the 2011 anime itself says or shows are Enhancers: Gon and Wing (water divination, ep 35), Palm (her Hatsu makes her tea overflow and Gon calls her an Enhancer, ep 86), Uvogin (stated when he fights the Shadow Beasts, ch. 79, adapted in eps 45-46) and Phinks (his Huncyclopedia segment, ep 51). Types known only from the manga, databooks or Togashi's 2018 Nen chart don't count, so Netero, Nobunaga, Gotoh and Ikalgo are out.",
+      "members": ["Gon", "Wing", "Palm", "Phinks", "Uvogin"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Category:Enhancers"
     },
     {
       "title": "Transmuters",
       "level": 2,
-      "def": "Characters whose Nen type is Transmuter.",
-      "members": ["Killua Zoldyck", "Hisoka Morow", "Biscuit Krueger", "Menthuthuyoupi", "Feitan Portor", "Machi Komacine"],
-      "source": "https://hunterxhunter.fandom.com/wiki/Nen"
-    },
-    {
-      "title": "Conjurers",
-      "level": 2,
-      "def": "Characters whose Nen type is Conjurer.",
-      "members": ["Kurapika", "Kite", "Shizuku Murasaki", "Genthru", "Knuckle Bine"],
-      "source": "https://hunterxhunter.fandom.com/wiki/Nen"
-    },
-    {
-      "title": "Emitters",
-      "level": 2,
-      "def": "Characters whose Nen type is Emitter.",
-      "members": ["Leorio Paradinight", "Silva Zoldyck", "Zeno Zoldyck", "Knov", "Meruem", "Franklin Bordeau", "Senritsu", "Razor"],
-      "source": "https://hunterxhunter.fandom.com/wiki/Nen"
-    },
-    {
-      "title": "Manipulators",
-      "level": 3,
-      "def": "Characters whose Nen type is Manipulator.",
-      "members": ["Illumi Zoldyck", "Shoot McMahon", "Morel Mackernasey", "Shaiapouf", "Ikalgo", "Shalnark", "Kalluto Zoldyck"],
-      "source": "https://hunterxhunter.fandom.com/wiki/Nen"
+      "def": "Characters the 2011 anime itself says or shows are Transmuters: Killua (water divination, ep 35), Hisoka (says so himself, eps 35-36), Machi (stated when she tracks Uvogin's captors, ch. 78, adapted in ep 45), Biscuit (Hisoka sizes her up as a Transmuter, ch. 158, adapted in ep 68) and Feitan (his Huncyclopedia segment, ep 55). Types known only from the manga, databooks or Togashi's 2018 Nen chart don't count, so Menthuthuyoupi is out.",
+      "members": ["Killua", "Hisoka", "Biscuit", "Feitan", "Machi"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Category:Transmuters"
     },
     {
       "title": "Specialists",
       "level": 3,
-      "def": "Characters whose Nen type is Specialist (Kurapika's base type is Conjurer, but his Scarlet Eyes ability is Specialist-classified).",
-      "members": ["Neferpitou", "Chrollo Lucilfer", "Pakunoda", "Meleoron", "Neon Nostrade", "Kurapika"],
-      "source": "https://hunterxhunter.fandom.com/wiki/Nen"
+      "def": "Characters the 2011 anime itself says or shows are Specialists: Neferpitou (water divination, ep 84), Kurapika (a Conjurer who becomes a Specialist while his eyes are scarlet, ep 47), Chrollo (Zeno works it out, ch. 98, adapted in ep 52), Pakunoda (ch. 105, adapted in ep 54) and Neon (ch. 110, adapted in ep 56). Types known only from the manga, databooks or Togashi's 2018 Nen chart don't count, so Meleoron and Alluka are out.",
+      "members": ["Neferpitou", "Kurapika", "Chrollo", "Pakunoda", "Neon"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Category:Specialists"
     },
     {
       "title": "The Zodiacs",
       "level": 3,
-      "def": "The twelve Hunter Association committee members named after zodiac animals who elected the 13th Chairman.",
-      "members": ["Pariston Hill", "Cheadle Yorkshire", "Botobai", "Ging Freecss", "Mizaistom", "Saccho", "Pyon", "Saiyu", "Cluck", "Ginta", "Gel", "Kanzai"],
+      "def": "The twelve original Zodiacs, Chairman Netero's advisors, who run the 13th Chairman Election in the anime: Pariston (Rat), Mizaistom (Ox), Kanzai (Tiger), Pyon (Rabbit), Botobai (Dragon), Gel (Snake), Saccho (Horse), Ginta (Sheep), Saiyu (Monkey), Cluck (Rooster), Cheadle (Dog) and Ging (Boar). Netero appointed them but isn't one, and Kurapika and Leorio join only in the manga.",
+      "members": ["Pariston", "Cheadle", "Botobai", "Ging", "Mizaistom", "Saccho", "Pyon", "Saiyu", "Cluck", "Ginta", "Gel", "Kanzai"],
       "source": "https://hunterxhunter.fandom.com/wiki/Zodiacs"
     },
     {
-      "title": "Chimera Ant Royal Guard",
+      "title": "Meruem and the Royal Guard",
       "level": 2,
-      "def": "Meruem, the Chimera Ant King, and the three Squadron Leaders who form his personal Royal Guard.",
+      "def": "Meruem, the Chimera Ant King, and his three Royal Guards (Neferpitou, Shaiapouf, Menthuthuyoupi).",
       "members": ["Meruem", "Neferpitou", "Shaiapouf", "Menthuthuyoupi"],
-      "source": "https://hunterxhunter.fandom.com/wiki/Meruem"
+      "source": "https://hunterxhunter.fandom.com/wiki/Royal_Guards"
     },
     {
       "title": "Chimera Ants",
       "level": 2,
-      "def": "Characters born as Chimera Ants, shown in the anime.",
-      "members": ["Meruem", "Neferpitou", "Shaiapouf", "Menthuthuyoupi", "Ikalgo", "Meleoron", "Welfin", "Colt"],
-      "source": "https://hunterxhunter.fandom.com/wiki/Welfin"
+      "def": "Characters who are Chimera Ants in the anime: the Queen's children Meruem, Neferpitou, Shaiapouf, Menthuthuyoupi, Colt, Welfin, Ikalgo and Meleoron; Kite, killed by Neferpitou and reborn as the Queen's last child; and Palm, captured and reborn as a Chimera Ant soldier (eps 123-124). No other character in this file is an ant.",
+      "members": ["Meruem", "Neferpitou", "Shaiapouf", "Menthuthuyoupi", "Ikalgo", "Meleoron", "Welfin", "Colt", "Kite", "Palm"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Chimera_Ants"
     },
     {
-      "title": "Greed Island",
+      "title": "Razor's dodgeball match",
       "level": 2,
-      "def": "Characters central to the Greed Island arc, as players, Game Masters, or the game's designer.",
-      "members": ["Gon Freecss", "Killua Zoldyck", "Biscuit Krueger", "Genthru", "Razor", "Ging Freecss"],
-      "source": "https://hunterxhunter.fandom.com/wiki/Greed_Island"
+      "def": "Characters in the Greed Island dodgeball match against the Game Master Razor: Razor himself and, on Gon's team, Gon, Killua, Biscuit and Hisoka (Goreinu and Tsezguerra's team aren't in this file). Genthru and Ging weren't in it.",
+      "members": ["Gon", "Killua", "Biscuit", "Hisoka", "Razor"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Greed_Island_arc"
     },
     {
-      "title": "Hunter Exam Applicants",
+      "title": "Took the 287th Hunter Exam",
       "level": 1,
-      "def": "Characters shown taking the 193rd Hunter Exam alongside Gon, whether or not they passed.",
-      "members": ["Gon Freecss", "Killua Zoldyck", "Kurapika", "Leorio Paradinight", "Hisoka Morow", "Illumi Zoldyck", "Tonpa"],
-      "source": "https://hunterxhunter.fandom.com/wiki/Hunter_Exam"
+      "def": "Characters shown taking the 287th Hunter Exam (Gon's exam), whether or not they passed; Illumi took it disguised as Gittarackur. The examiners don't count.",
+      "members": ["Gon", "Killua", "Kurapika", "Leorio", "Hisoka", "Illumi", "Tonpa"],
+      "source": "https://hunterxhunter.fandom.com/wiki/287th_Hunter_Exam",
+      "family": "hunter-exam"
     },
     {
-      "title": "Heavens Arena",
+      "title": "At Heavens Arena",
       "level": 2,
-      "def": "Characters shown fighting or training at Heavens Arena during the anime.",
-      "members": ["Gon Freecss", "Killua Zoldyck", "Wing", "Zushi", "Hisoka Morow"],
+      "def": "Characters the 2011 anime shows at Heavens Arena (eps 27-36, the only episodes set there): Gon, Killua and Zushi, who fight there; their teacher Wing; floor master Hisoka; and Machi, who stitches Hisoka's arms back after his match with Kastro (ep 32). Characters only seen there in flashbacks or pictures don't count, and Chrollo's fight with Hisoka there is manga-only.",
+      "members": ["Gon", "Killua", "Wing", "Zushi", "Hisoka", "Machi"],
       "source": "https://hunterxhunter.fandom.com/wiki/Heavens_Arena"
+    },
+    {
+      "title": "The main four",
+      "level": 1,
+      "def": "The four main characters of the series, as listed on the wiki's 'Main Characters' navbox: Gon, Killua, Kurapika and Leorio.",
+      "members": ["Gon", "Killua", "Kurapika", "Leorio"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Template:Nav/Main_Characters"
+    },
+    {
+      "title": "Chimera Ant Extermination Team",
+      "level": 2,
+      "def": "Members of Netero's Chimera Ant Extermination Team: Netero, Morel and Knov, their pupils Knuckle, Shoot and Palm, Gon and Killua, and the two defecting ants Ikalgo and Meleoron. Zeno (secretly hired for the Dragon Dive) and Colt are only listed as associates; Kite's earlier expedition came before the team.",
+      "members": ["Netero", "Morel", "Knov", "Knuckle", "Shoot", "Palm", "Gon", "Killua", "Ikalgo", "Meleoron"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Extermination_Team",
+      "avoid": ["Zoldyck Family"]
+    },
+    {
+      "title": "Died in the anime",
+      "level": 2,
+      "def": "Characters shown dying in the 2011 anime: Uvogin and Pakunoda (Yorknew), Dalzollene (killed by Phinks), Kite (killed by Neferpitou, later reborn as an ant), Netero, Neferpitou, Menthuthuyoupi, Shaiapouf and Meruem (Chimera Ant arc), and Gotoh (killed by Hisoka in the Election arc). Shalnark, Kortopi and Neon die only in the manga.",
+      "members": ["Uvogin", "Pakunoda", "Dalzollene", "Kite", "Netero", "Neferpitou", "Menthuthuyoupi", "Shaiapouf", "Meruem", "Gotoh"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Poor_Man%27s_Rose"
+    },
+    {
+      "title": "Nostrade Family",
+      "level": 3,
+      "def": "The Nostrade mafia family and its employees shown in the anime: boss Light Nostrade, his daughter Neon, head bodyguard Dalzollene, and the bodyguards Kurapika, Senritsu and Basho. (Squala, Linssen and the other guards aren't in this file.)",
+      "members": ["Light Nostrade", "Neon", "Dalzollene", "Kurapika", "Senritsu", "Basho"],
+      "source": "https://hunterxhunter.fandom.com/wiki/Nostrade_Family"
+    },
+    {
+      "title": "287th Hunter Exam examiners",
+      "level": 3,
+      "def": "The examiners of the 287th Hunter Exam: Satotz (Phase 1), Menchi and Buhara (Phase 2), Lippo (Phase 3, who also briefs Phase 4) and Chairman Netero (final phase). Hisoka only 'played examiner' as an applicant.",
+      "members": ["Satotz", "Menchi", "Buhara", "Lippo", "Netero"],
+      "source": "https://hunterxhunter.fandom.com/wiki/287th_Hunter_Exam",
+      "family": "hunter-exam"
     }
   ]
 }

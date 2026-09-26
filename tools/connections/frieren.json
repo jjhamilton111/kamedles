@@ -4,72 +4,151 @@
     {
       "title": "Hero's Party",
       "level": 1,
-      "def": "The four-person party led by Himmel that defeated the Demon King, as shown in flashbacks.",
+      "def": "The four heroes who defeated the Demon King (ep 1 and S1 flashbacks): Himmel the Hero, Heiter the Priest, Eisen the Warrior and Frieren the Mage. Nobody else in this bank ever belonged to it.",
       "members": ["Himmel", "Frieren", "Heiter", "Eisen"],
       "source": "https://frieren.fandom.com/wiki/Hero_Party"
     },
     {
       "title": "Frieren's Party",
       "level": 1,
-      "def": "Frieren's traveling party after Himmel's death, as shown in the anime.",
+      "def": "Everyone who travels as a member of Frieren's party after Himmel's death, at any point in S1: Frieren, Fern (sets off with her after Heiter's death, ep 2), Stark (joins in ep 6) and Sein (joins at the end of ep 13, leaves for Tür in ep 17). Not members: Eisen (declines to come along, eps 1 and 4), Kraft (ep 11) and Voll (ep 16), who only host them, and Kanne and Lawine, who are only Frieren's first-test teammates (2nd party).",
       "members": ["Frieren", "Fern", "Stark", "Sein"],
-      "source": "https://frieren.fandom.com/wiki/Frieren"
-    },
-    {
-      "title": "First-Class Mage Exam Candidates",
-      "level": 4,
-      "def": "Characters shown taking the First-Class Mage Exam as candidates.",
-      "members": ["Frieren", "Fern", "Übel", "Land", "Denken", "Laufen", "Richter", "Wirbel", "Ehre", "Scharf", "Kanne", "Lawine", "Edel"],
-      "source": "https://frieren.fandom.com/wiki/First-Class_Mage_Exam"
-    },
-    {
-      "title": "Mage Exam Examiners",
-      "level": 3,
-      "def": "Continental Magic Association mages shown personally administering a stage of the First-Class Mage Exam that Frieren and Fern take.",
-      "members": ["Genau", "Sense", "Lernen", "Serie"],
-      "source": "https://frieren.fandom.com/wiki/First-Class_Mage_Exam"
+      "source": "https://frieren.fandom.com/wiki/Frieren%27s_Party"
     },
     {
       "title": "Demons",
       "level": 1,
-      "def": "Demons who appear on screen (including in flashback) in the anime.",
-      "members": ["Aura", "Lügner", "Linie", "Draht", "Qual", "Schlacht", "Revolte"],
-      "source": "https://frieren.fandom.com/wiki/Seven_Sages_of_Destruction"
+      "def": "Every demon in this bank: Qual (ep 3) and Aura with her three subordinates Lügner, Linie and Draht (eps 7-10). Every other name is a human, elf or dwarf (wiki infoboxes).",
+      "members": ["Aura", "Lügner", "Linie", "Draht", "Qual"],
+      "source": "https://frieren.fandom.com/wiki/Episode_7"
     },
     {
-      "title": "Legends of the Past",
-      "level": 2,
-      "def": "Figures whose stories are told as historical \"Legends of the Past,\" met or referenced by Frieren's group.",
-      "members": ["Flamme", "Kraft", "Voll", "Hero of the South"],
-      "source": "https://frieren.fandom.com/wiki/Voll"
+      "title": "First-Class Mage Exam Candidates",
+      "level": 1,
+      "family": "mage-exam",
+      "avoid": ["Passed the First-Class Mage Exam", "Failed the First-Class Mage Exam", "First Test: 4th vs 8th Party", "First Test: 2nd vs 13th Party"],
+      "def": "Everyone in this bank who sits S1's First-Class Mage Exam (eps 18-28) as an examinee: the 2nd, 4th, 8th and 13th first-test parties plus Methode (1st party) and Edel (17th party). The exam staff (Serie, Genau, Sense, Lernen, Falsch) and Stark (who only waits in Äußerst) are not candidates.",
+      "members": ["Frieren", "Fern", "Übel", "Land", "Denken", "Laufen", "Richter", "Wirbel", "Ehre", "Scharf", "Kanne", "Lawine", "Edel", "Methode"],
+      "source": "https://frieren.fandom.com/wiki/First-Class_Mage_Exam"
     },
     {
-      "title": "Warrior Class",
+      "title": "Mage Exam Staff",
       "level": 2,
-      "def": "Characters whose class is Warrior (including former Warriors and demon Warriors).",
-      "members": ["Stark", "Himmel", "Eisen", "Linie", "Voll", "Stoltz", "Hero of the South", "Revolte", "Kraft"],
+      "family": "mage-exam",
+      "avoid": ["Passed the First-Class Mage Exam"],
+      "def": "Continental Magic Association mages who work S1's First-Class Mage Exam instead of sitting it: Genau (proctors the 1st test), Sense (proctors the 2nd, oversees the 1st), Serie (takes over the final test and interviews everyone, eps 27-28), Lernen (checks Frieren's Holy Emblem at registration, ep 18; the usual final-test examiner, he stands aside for Serie in ep 27) and Falsch (sizes up the candidates with Sense, ep 18; announces the interview format, ep 27). Every other exam mage in this bank is a candidate.",
+      "members": ["Serie", "Genau", "Sense", "Lernen", "Falsch"],
+      "source": "https://frieren.fandom.com/wiki/Episode_27"
+    },
+    {
+      "title": "Passed the First-Class Mage Exam",
+      "level": 2,
+      "avoid": ["Failed the First-Class Mage Exam", "First Test: 4th vs 8th Party", "First Test: 2nd vs 13th Party"],
+      "def": "The six examinees Serie passes in the final interview, who become first-class mages: Fern (end of ep 27), Denken, Übel, Land, Wirbel and Methode (ep 28). Every other candidate fails.",
+      "members": ["Fern", "Denken", "Übel", "Land", "Wirbel", "Methode"],
+      "source": "https://frieren.fandom.com/wiki/Episode_28"
+    },
+    {
+      "title": "Failed the First-Class Mage Exam",
+      "level": 2,
+      "avoid": ["First Test: 4th vs 8th Party", "First Test: 2nd vs 13th Party"],
+      "def": "Examinees in this bank who don't pass: out in the 2nd test (Edel drops out, eps 24-25; Lawine and Richter break their escape bottles, ep 26) or failed by Serie in the final interview (Kanne, Laufen, Scharf, Ehre, Frieren; ep 27). Every other candidate passes.",
+      "members": ["Frieren", "Kanne", "Laufen", "Scharf", "Ehre", "Lawine", "Richter", "Edel"],
+      "source": "https://frieren.fandom.com/wiki/Episode_27"
+    },
+    {
+      "title": "First Test: 4th vs 8th Party",
+      "level": 3,
+      "avoid": ["First Test: 2nd vs 13th Party"],
+      "def": "The two first-test parties that fight each other over a Stille (eps 19-20): the 4th party (Fern, Übel, Land) and the 8th party (Wirbel, Ehre, Scharf) that ambushes it.",
+      "members": ["Fern", "Übel", "Land", "Wirbel", "Ehre", "Scharf"],
+      "source": "https://frieren.fandom.com/wiki/Episode_19"
+    },
+    {
+      "title": "First Test: 2nd vs 13th Party",
+      "level": 3,
+      "def": "The two first-test parties that fight over the 2nd party's Stille (eps 19-21): the 2nd party (Frieren, Kanne, Lawine) and the 13th party (Denken, Laufen, Richter).",
+      "members": ["Frieren", "Kanne", "Lawine", "Denken", "Laufen", "Richter"],
+      "source": "https://frieren.fandom.com/wiki/Episode_21"
+    },
+    {
+      "title": "Warriors",
+      "level": 1,
+      "def": "Everyone in this bank who is or was a warrior in S1: Stark and Eisen; Stark's brother Stoltz (the strongest warrior of their warrior village, ep 12 flashback); Voll ('a seasoned elder warrior', ep 16); Warrior Gorilla (Sein's friend, eps 13-17); Kraft (a monk now, but the warrior on the forgotten heroes' statue, ep 16); and the demon Linie, who fights with conjured axes and swords copied from warriors (ep 9). Not warriors: Himmel is the Hero (ep 1: 'Himmel the Hero ... Eisen the Warrior'), Graf Granat is a count who only draws his late son's sword on Lügner (eps 7-8), and Denken is a mage who brawls once when out of mana (ep 21).",
+      "members": ["Stark", "Eisen", "Stoltz", "Voll", "Gorilla", "Kraft", "Linie"],
       "source": "https://frieren.fandom.com/wiki/Warrior"
+    },
+    {
+      "title": "Elves and Dwarves",
+      "level": 1,
+      "def": "Every elf (Frieren, Serie, Kraft) and dwarf (Eisen, Voll) in this bank. All other names are humans or demons.",
+      "members": ["Frieren", "Serie", "Kraft", "Eisen", "Voll"],
+      "source": "https://frieren.fandom.com/wiki/Dwarf"
+    },
+    {
+      "title": "Not Human",
+      "level": 2,
+      "avoid": ["Demons", "Elves and Dwarves"],
+      "def": "Every non-human in this bank: the elves (Frieren, Serie, Kraft), the dwarves (Eisen, Voll) and the demons (Aura, Lügner, Linie, Draht, Qual).",
+      "members": ["Frieren", "Serie", "Kraft", "Eisen", "Voll", "Aura", "Lügner", "Linie", "Draht", "Qual"],
+      "source": "https://frieren.fandom.com/wiki/Elf"
+    },
+    {
+      "title": "Humans Who Aren't Mages",
+      "level": 3,
+      "avoid": ["Warriors"],
+      "def": "Human characters whose class is not Mage: the warriors Stark, Stoltz and Gorilla, the Hero Himmel, the priests Heiter and Sein, and Graf Granat (a count). Every other human in this bank is a mage (wiki infoboxes); elves, dwarves and demons don't count.",
+      "members": ["Stark", "Himmel", "Heiter", "Sein", "Stoltz", "Graf Granat", "Gorilla"],
+      "source": "https://frieren.fandom.com/wiki/Mage"
+    },
+    {
+      "title": "Have a Brother or Sister",
+      "level": 3,
+      "def": "Characters with a sibling shown or mentioned in S1: Stark and Stoltz (brothers, ep 12), Sein (older brother, the village priest, ep 13), Lawine (older brothers, eps 22 and 25), Übel (older sister, ep 26). No one else's siblings come up in S1 (Kanne and Lawine are childhood friends, not sisters).",
+      "members": ["Stark", "Stoltz", "Sein", "Lawine", "Übel"],
+      "source": "https://frieren.fandom.com/wiki/Episode_26"
+    },
+    {
+      "title": "Related by Blood",
+      "level": 3,
+      "def": "Characters with a blood relative who is also in this bank: brothers Stark and Stoltz (ep 12), and Ehre and her grandfather Lernen (Ehre mentions her first-class-mage grandfather in ep 20; the ep 28 epilogue shows her introducing Lernen to Wirbel and Scharf). Adoptive (Heiter and Fern) and master-apprentice ties (Eisen and Stark, Serie and Lernen) don't count.",
+      "members": ["Stark", "Stoltz", "Ehre", "Lernen"],
+      "source": "https://frieren.fandom.com/wiki/Lernen"
     },
     {
       "title": "Names That Are German Verbs",
       "level": 4,
-      "def": "Characters whose name is also a German infinitive verb.",
+      "def": "Names spelled exactly like a German verb infinitive (DWDS): frieren (to freeze), sein (to be), laufen (to run), lernen (to learn), denken (to think). Eisen is the noun 'iron'; DWDS marks both senses of the verb 'eisen' as 'selten' (rare), so it doesn't count. Ehre is a noun (the verb is 'ehren').",
       "members": ["Frieren", "Sein", "Laufen", "Lernen", "Denken"],
-      "source": "https://frieren.fandom.com/wiki/Frieren"
+      "source": "https://www.dwds.de/wb/eisen"
     },
     {
-      "title": "Continental Magic Association",
-      "level": 3,
-      "def": "Characters affiliated with the Continental Magic Association, the mage licensing body, as shown in the anime.",
-      "members": ["Fern", "Serie", "Übel", "Land", "Denken", "Wirbel", "Genau", "Sense", "Lernen", "Methode"],
-      "source": "https://frieren.fandom.com/wiki/Continental_Magic_Association"
-    },
-    {
-      "title": "Known By an Epithet",
+      "title": "Names That Are German Adjectives",
       "level": 4,
-      "def": "Characters given an on-screen epithet in the form \"[Name] the [Title]\".",
-      "members": ["Frieren", "Himmel", "Flamme", "Aura", "Qual", "Schlacht", "Revolte"],
-      "source": "https://frieren.fandom.com/wiki/Frieren"
+      "def": "Names spelled exactly like a German adjective (DWDS 'Adjektiv'): fern (far), stark (strong), heiter (cheerful), voll (full), scharf (sharp), genau (exact), edel (noble), übel (nasty), falsch (false). Stoltz doesn't count: DWDS has no 'Stoltz' (the adjective is 'stolz', and the wiki derives the name from the noun Stolz, 'pride'). 'Sein' (pronoun) and 'kraft' (preposition) aren't adjectives.",
+      "members": ["Fern", "Stark", "Heiter", "Voll", "Scharf", "Genau", "Edel", "Übel", "Falsch"],
+      "source": "https://www.dwds.de/wb/stolz"
+    },
+    {
+      "title": "Names That Are Also English Words",
+      "level": 4,
+      "def": "Names spelled exactly like an ordinary English word: fern, stark, land, sense, aura, gorilla (all in Cambridge and dictionary.com) and kraft (kraft paper; dictionary.com, Collins). Not counted: Qual ('qual' is only informal shorthand for a qualifying exam), Sein (archaic spelling of 'seine'), Methode, Serie and Lawine (archaic spellings of method, series and lauwine), Richter (only a name, as in 'Richter scale') and Graf Granat (two words).",
+      "members": ["Fern", "Stark", "Land", "Sense", "Aura", "Kraft", "Gorilla"],
+      "source": "https://www.dictionary.com/browse/kraft"
+    },
+    {
+      "title": "Names With a Double Letter",
+      "level": 4,
+      "def": "Names with the same letter twice in a row: Himmel, Flamme, Kanne, Voll, Gorilla. No other name in this bank has one.",
+      "members": ["Himmel", "Flamme", "Kanne", "Voll", "Gorilla"],
+      "source": "https://frieren.fandom.com/wiki/Episode_16"
+    },
+    {
+      "title": "Names Ending in E",
+      "level": 4,
+      "def": "Names whose last letter is E: Flamme, Serie, Linie, Ehre, Kanne, Lawine, Sense, Methode. No other name in this bank ends in E.",
+      "members": ["Flamme", "Serie", "Linie", "Ehre", "Kanne", "Lawine", "Sense", "Methode"],
+      "source": "https://frieren.fandom.com/wiki/Episode_22"
     }
   ]
 }

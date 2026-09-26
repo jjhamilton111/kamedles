@@ -2,267 +2,215 @@
   "show": "dragonball",
   "groups": [
     {
-      "title": "Son Family",
+      "title": "Goku's family",
       "level": 1,
-      "def": "Members of Goku's family by blood or marriage shown in the anime.",
-      "members": [
-        "Goku",
-        "Chi-Chi",
-        "Gohan",
-        "Goten",
-        "Pan",
-        "Videl"
-      ],
+      "def": "Goku himself and his relatives shown in the anime: blood family (father Bardock, older brother Raditz, sons Gohan and Goten, granddaughter Pan) and family by marriage (wife Chi-Chi, daughter-in-law Videl). The wiki's Son family page lists Bardock and Raditz as extended members. Not the fusions the same page lists as 'Fused Members' (Gotenks, Vegito, Gogeta), not Captain Ginyu (who briefly swapped into it) and not Cell (grown partly from Goku's cells); Vegeta, Bulma, Kid Trunks and Bulla are the Brief family. Goku Black is kept out of the file: the same page says Zamasu 'technically becomes a member of the family' in Goku's body.",
+      "members": ["Goku", "Chi-Chi", "Gohan", "Goten", "Pan", "Videl", "Raditz", "Bardock"],
       "source": "https://dragonball.fandom.com/wiki/Son_family"
     },
     {
       "title": "Turtle School",
       "level": 1,
-      "def": "Martial artists trained under Master Roshi's Turtle School style shown in the anime.",
-      "members": [
-        "Goku",
-        "Krillin",
-        "Master Roshi",
-        "Yamcha"
-      ],
-      "source": "https://dragonball.fandom.com/wiki/Turtle_School"
+      "def": "Master Roshi and the students he formally trained (the wiki's 'Known Students' list): Goku, Krillin and Yamcha. Not the people the wiki lists only as associated or taught the style second-hand (Tien and Chiaotzu, who never graduated and in the anime turn down Roshi's offer to stay at Kame House; Chi-Chi, Gohan, Goten, Pan), and not Oolong, who just lived at Kame House. Avoids 'Crane School', the only group that can deal Tien or Chiaotzu next to this one: their infoboxes list Roshi as a mentor, so a fan could argue they fit here.",
+      "members": ["Goku", "Krillin", "Master Roshi", "Yamcha"],
+      "source": "https://dragonball.fandom.com/wiki/Turtle_School",
+      "avoid": ["Crane School"]
     },
     {
       "title": "Ginyu Force",
       "level": 1,
       "def": "The five members of Frieza's elite Ginyu Force special squadron.",
-      "members": [
-        "Captain Ginyu",
-        "Burter",
-        "Recoome",
-        "Jeice",
-        "Guldo"
-      ],
+      "members": ["Captain Ginyu", "Burter", "Recoome", "Jeice", "Guldo"],
       "source": "https://dragonball.fandom.com/wiki/Ginyu_Force"
     },
     {
       "title": "Namekians",
       "level": 1,
-      "def": "Characters of the Namekian race shown in the anime.",
-      "members": [
-        "Piccolo",
-        "King Piccolo",
-        "Kami",
-        "Dende"
-      ],
+      "def": "Characters of the Namekian race shown in the anime. Cell, a Bio-Android grown partly from Piccolo's cells, doesn't count.",
+      "members": ["Piccolo", "King Piccolo", "Kami", "Dende"],
       "source": "https://dragonball.fandom.com/wiki/Namekian"
     },
     {
-      "title": "Androids",
+      "title": "Dr. Gero's Androids",
       "level": 1,
-      "def": "The numbered Androids built by Dr. Gero, including his own cyborg form (Android 20).",
-      "members": [
-        "Dr. Gero",
-        "Android 16",
-        "Android 17",
-        "Android 18",
-        "Android 19"
-      ],
+      "def": "The androids created by Dr. Gero or his supercomputer shown in the anime: Androids 16, 17, 18 and 19, Gero himself (who became Android 20), and the Bio-Android Cell. Not Gamma 1 and Gamma 2, who were built by Dr. Hedo.",
+      "members": ["Dr. Gero", "Android 16", "Android 17", "Android 18", "Android 19", "Cell"],
       "source": "https://dragonball.fandom.com/wiki/Android"
     },
     {
       "title": "Half-Saiyans",
       "level": 2,
-      "def": "Characters born of one Saiyan and one human parent shown in the anime (not fusion characters).",
-      "members": [
-        "Gohan",
-        "Goten",
-        "Trunks",
-        "Future Trunks",
-        "Pan"
-      ],
-      "source": "https://dragonball.fandom.com/wiki/Saiyan"
+      "def": "Characters who are exactly half Saiyan and half Earthling per their wiki race field: Gohan, Goten, Kid Trunks, Future Trunks, Bulla, and Gotenks (the fusion of two half-Saiyans, listed as 1/2 Earthling - 1/2 Saiyan). Pan is a quarter Saiyan; Vegito, Gogeta and Kefla are fusions of full-blooded Saiyans.",
+      "members": ["Gohan", "Goten", "Kid Trunks", "Future Trunks", "Gotenks", "Bulla"],
+      "source": "https://dragonball.fandom.com/wiki/Gotenks"
     },
     {
       "title": "Crane School",
       "level": 2,
-      "def": "Fighters trained under Master Shen's rival Crane School style shown in the anime.",
-      "members": [
-        "Tien",
-        "Chiaotzu",
-        "Mercenary Tao",
-        "Master Shen"
-      ],
+      "def": "Master Shen (the Crane Hermit) and the fighters of his Crane School shown in the anime: his brother Mercenary Tao (the school's senior pupil, who helped train Tien) and his students Tien and Chiaotzu, including after they left the school at the 22nd tournament. Yurin isn't in the file; Turtle School fighters (Goku, Krillin, Yamcha, Roshi) are the rival school.",
+      "members": ["Tien", "Chiaotzu", "Mercenary Tao", "Master Shen"],
       "source": "https://dragonball.fandom.com/wiki/Crane_School"
     },
     {
       "title": "Universe 6",
       "level": 2,
-      "def": "Characters native to Universe 6 shown in the anime.",
-      "members": [
-        "Champa",
-        "Hit",
-        "Vados",
-        "Caulifla",
-        "Kale",
-        "Cabba",
-        "Frost"
-      ],
+      "def": "Characters from Universe 6 shown in the anime: its God of Destruction Champa and Angel Vados, the fighters Hit, Cabba, Frost, Caulifla and Kale, and Kefla, the Potara fusion of Caulifla and Kale who fought for Team Universe 6. Everyone else in the file is from another universe (Sidra is Universe 9's god, Toppo and the Pride Troopers are Universe 11's).",
+      "members": ["Champa", "Hit", "Vados", "Caulifla", "Kale", "Cabba", "Frost", "Kefla"],
       "source": "https://dragonball.fandom.com/wiki/Universe_6"
-    },
-    {
-      "title": "Frieza Force",
-      "level": 2,
-      "def": "Frieza's soldiers and family shown fighting for him during the Saiyan-to-Namek era of the anime (not Vegeta, who later defects to Earth).",
-      "members": [
-        "Raditz",
-        "Nappa",
-        "Zarbon",
-        "Dodoria",
-        "Bardock",
-        "Captain Ginyu",
-        "Recoome",
-        "Jeice",
-        "Burter",
-        "Guldo",
-        "Frieza",
-        "King Cold"
-      ],
-      "source": "https://dragonball.fandom.com/wiki/Frieza%27s_Army"
     },
     {
       "title": "Red Ribbon Army",
       "level": 2,
-      "def": "Members, creations, and androids of the Red Ribbon Army (the original and its Capsule Corp-revived successor) shown in the anime.",
-      "members": [
-        "Dr. Gero",
-        "Android 16",
-        "Android 19",
-        "Cell",
-        "Gamma 1",
-        "Gamma 2",
-        "Mercenary Tao"
-      ],
+      "def": "Members, hired assassins, scientists and creations of the Red Ribbon Army shown in the anime, including the androids who later defected (16, 17, 18), Cell, and the Gammas of Magenta's revived army in Super Hero. Piccolo's undercover stint as 'soldier 94' in Super Hero doesn't count.",
+      "members": ["Dr. Gero", "Android 16", "Android 17", "Android 18", "Android 19", "Cell", "Gamma 1", "Gamma 2", "Mercenary Tao"],
       "source": "https://dragonball.fandom.com/wiki/Red_Ribbon_Army"
     },
     {
-      "title": "The Kais",
+      "title": "Universe 7's Kais",
       "level": 2,
-      "def": "Deities of the Kai race, the guardians who serve below the Gods of Destruction, shown in the anime.",
-      "members": [
-        "King Kai",
-        "Supreme Kai",
-        "Old Kai",
-        "Kibito"
-      ],
-      "source": "https://dragonball.fandom.com/wiki/Kai"
+      "def": "Universe 7's Kais and Supreme Kais shown in the anime: King Kai (North Kai), Grand Kai, Supreme Kai (Shin), the former Supreme Kai Old Kai, and Kibito, the Attendant Supreme Kai. Not Zamasu, who belongs to Universe 10. Kami and Dende are Earth's Guardians and Mr. Popo their attendant, not Kais, and Beerus and Whis are Universe 7's God of Destruction and Angel.",
+      "members": ["King Kai", "Grand Kai", "Supreme Kai", "Old Kai", "Kibito"],
+      "source": "https://dragonball.fandom.com/wiki/Supreme_Kai_(position)"
     },
     {
-      "title": "Broly (2018) cast",
-      "level": 2,
-      "def": "Principal characters introduced by the Dragon Ball Super: Broly (2018) film.",
-      "members": [
-        "Broly",
-        "Paragus",
-        "Cheelai",
-        "Lemo",
-        "King Vegeta"
-      ],
-      "source": "https://dragonball.fandom.com/wiki/Dragon_Ball_Super:_Broly"
+      "title": "Lived on Planet Vampa",
+      "level": 3,
+      "def": "Characters the Broly (2018) film shows living on the planetoid Vampa: Broly and Paragus during their exile, and Cheelai and Lemo, who settle there with Broly at the end. Goku only visits.",
+      "members": ["Broly", "Paragus", "Cheelai", "Lemo"],
+      "source": "https://dragonball.fandom.com/wiki/Vampa"
     },
     {
       "title": "Pride Troopers",
       "level": 3,
-      "def": "Universe 11's Pride Troopers who fought named, one-on-one battles on screen during the Tournament of Power.",
-      "members": [
-        "Toppo",
-        "Jiren",
-        "Dyspo",
-        "Kahseral",
-        "Cocotte",
-        "K'nsi"
-      ],
-      "source": "https://dragonball.fandom.com/wiki/Pride_Troopers"
+      "def": "Members of Universe 11's Pride Troopers in the anime: their leader Toppo, and Jiren, Dyspo, Kahseral, Cocotte and K'nsi (the rest of the roster, such as Tupper, Zoire, Vewon and Kettle, isn't in the file). Belmod is their God of Destruction; his past as a Pride Trooper comes only from the Super manga and a Toyotarou sketch, but the wiki lists him as a former member with Pride Troopers as his allegiance, so this group is never on a board with either group that can deal him ('Gods of Destruction' via its avoid, 'Named after alcoholic drinks' via this one).",
+      "members": ["Toppo", "Jiren", "Dyspo", "Kahseral", "Cocotte", "K'nsi"],
+      "source": "https://dragonball.fandom.com/wiki/Pride_Troopers",
+      "avoid": ["Named after alcoholic drinks"]
     },
     {
       "title": "Gods of Destruction",
       "level": 3,
-      "def": "The twelve Gods of Destruction, one per universe, shown in the anime.",
-      "members": [
-        "Iwan",
-        "Heles",
-        "Mosco",
-        "Quitela",
-        "Arak",
-        "Champa",
-        "Beerus",
-        "Liquiir",
-        "Sidra",
-        "Rumsshi",
-        "Belmod",
-        "Giin"
-      ],
-      "source": "https://dragonball.fandom.com/wiki/God_of_Destruction"
+      "def": "The twelve official Gods of Destruction, one per universe, shown in the anime (Iwan U1, Heles U2, Mosco U3, Quitela U4, Arak U5, Champa U6, Beerus U7, Liquiir U8, Sidra U9, Rumsshi U10, Belmod U11, Giin U12). Whis and Vados are angels. Toppo is only a candidate, but the anime has him 'ascend to a God of Destruction' in the Tournament of Power, and Belmod was a Pride Trooper in the manga, so this group avoids 'Pride Troopers': a Toppo/Belmod swap would give a second valid solution.",
+      "members": ["Iwan", "Heles", "Mosco", "Quitela", "Arak", "Champa", "Beerus", "Liquiir", "Sidra", "Rumsshi", "Belmod", "Giin"],
+      "source": "https://dragonball.fandom.com/wiki/God_of_Destruction",
+      "avoid": ["Pride Troopers"]
     },
     {
-      "title": "Fusion characters",
+      "title": "Fusions (Dance or Potara)",
       "level": 3,
-      "def": "Characters formed on-screen when two others fuse, by dance, Potara earrings, or otherwise.",
-      "members": [
-        "Gotenks",
-        "Vegito",
-        "Gogeta",
-        "Kefla"
-      ],
-      "source": "https://dragonball.fandom.com/wiki/Fusion"
+      "def": "Characters who are themselves the product of a Fusion Dance or Potara fusion: Gotenks and Gogeta (Dance), Vegito and Kefla (Potara), and Old Kai (the permanent Potara fusion of the young Elder Kai and the Old Witch, told in Z ep. 267 'Ready to Fuse?'). The fusees are not fusions: Goku, Vegeta, Goten, Kid Trunks, Caulifla, Kale, Supreme Kai (Shin), Kibito and Zamasu. The title names the two methods to shut out Namekian fusion (Piccolo merging with Nail and Kami stays Piccolo, and Kami is the one absorbed) and absorption (Cell). Kibito Kai and Fused Zamasu (both permanent Potara fusions in the anime) aren't tiles, but the 'Supreme Kai', 'Kibito' and 'Zamasu' tiles could be read as them, so this group avoids the only groups that can deal those tiles beside it: 'Universe 7's Kais' and 'Time travelers (machine or ring)'.",
+      "members": ["Gotenks", "Vegito", "Gogeta", "Kefla", "Old Kai"],
+      "source": "https://dragonball.fandom.com/wiki/Fusion",
+      "family": "fusion",
+      "avoid": ["Universe 7's Kais", "Time travelers (machine or ring)"]
     },
     {
-      "title": "Time travelers",
+      "title": "Time travelers (machine or ring)",
       "level": 3,
-      "def": "Characters shown physically traveling between different timelines in the anime.",
-      "members": [
-        "Future Trunks",
-        "Cell",
-        "Zamasu",
-        "Goku Black"
-      ],
+      "def": "Characters the anime or films show traveling through time by Time Machine or Time Ring: Future Trunks and Cell (Z); Goku, Vegeta and Bulma, who ride the Time Machine to and from the future timeline in Super; Zamasu (Time Ring trip 1,000 years ahead with Gowasu, Super ep. 54); and Supreme Kai (Shin), who rides Gowasu's Time Ring to the future timeline and back in the Super anime (not only in the manga). Whis's three-minute time rewind is his own power (and his ep. 67 plan to warn Future Beerus is neither shown nor by machine or ring); Beerus declines to go; Kid Trunks never time-travels, which is why that tile is not called just 'Trunks'. Goku Black (Time Ring) would fit but is kept out of the file: as Zamasu in Goku's Saiyan body he is arguable for 'Goku's family', 'Saiyans who survived Planet Vegeta' and 'Named after vegetables'.",
+      "members": ["Future Trunks", "Cell", "Zamasu", "Goku", "Vegeta", "Bulma", "Supreme Kai"],
       "source": "https://dragonball.fandom.com/wiki/Time_Machine"
     },
     {
       "title": "Named after vegetables",
       "level": 4,
-      "def": "Full-blooded Saiyans whose names are puns on vegetables, per the wiki's own naming-convention note (King Vegeta included, since his name is literally Vegeta).",
-      "members": [
-        "Goku",
-        "Vegeta",
-        "King Vegeta",
-        "Raditz",
-        "Nappa",
-        "Bardock",
-        "Broly",
-        "Paragus",
-        "Caulifla",
-        "Cabba",
-        "Kale"
-      ],
+      "def": "Saiyans whose names pun on vegetables, per the wiki's Saiyan naming convention (Kakarot = carrot, Vegeta = vegetable, Raditz = radish, Nappa = napa cabbage, Bardock = burdock, Broly = broccoli, Paragus = asparagus, Caulifla, Cabba, Kale), plus the fusions whose names are built from those names (Vegito = Vegeta + Kakarot, Gogeta = Goku + Vegeta, Kefla = Kale + Caulifla). Gotenks (Goten + Trunks) doesn't count, and Goku Black is kept out of the file (named after Goku, in Goku's Saiyan body, he would be arguable here), nor does Bulla (Vegeta's rejected name for her was Eschalot, but she's named after a bra).",
+      "members": ["Goku", "Vegeta", "King Vegeta", "Raditz", "Nappa", "Bardock", "Broly", "Paragus", "Caulifla", "Cabba", "Kale", "Vegito", "Gogeta", "Kefla"],
       "source": "https://dragonball.fandom.com/wiki/Saiyan"
     },
     {
       "title": "Named after alcoholic drinks",
       "level": 4,
-      "def": "Gods of Destruction and Angels whose names pun on an alcoholic drink. Every God of Destruction's name does (beer, champagne, rum, gin, tequila, cider, liqueur, vermouth, wine, Hennessy, arak, moscato), plus the angels Whis (whisky) and Vados (calvados).",
-      "members": [
-        "Beerus",
-        "Whis",
-        "Champa",
-        "Vados",
-        "Rumsshi",
-        "Giin",
-        "Quitela",
-        "Sidra",
-        "Liquiir",
-        "Belmod",
-        "Iwan",
-        "Heles",
-        "Arak",
-        "Mosco"
-      ],
+      "def": "Gods of Destruction and Angels whose names pun on an alcoholic drink, per each wiki page's trivia. Every God of Destruction's name does: Beerus (beer), Champa (champagne), Rumsshi (rum), Giin (gin), Quitela (tequila anagram), Sidra (Spanish for cider), Liquiir (liqueur), Belmod (vermouth), Iwan (wine anagram), Heles (Helles lager; Jerez/sherry in Japanese), Arak (arak) and Mosco (the Moscow Mule cocktail). The angels Whis (whisky) and Vados (calvados) do too. Teas (Oolong, Puar, Yamcha) aren't alcoholic.",
+      "members": ["Beerus", "Whis", "Champa", "Vados", "Rumsshi", "Giin", "Quitela", "Sidra", "Liquiir", "Belmod", "Iwan", "Heles", "Arak", "Mosco"],
       "source": "https://dragonball.fandom.com/wiki/God_of_Destruction"
+    },
+    {
+      "title": "Universe 7's Tournament of Power fighters",
+      "level": 1,
+      "def": "The ten fighters of Team Universe 7 in the Tournament of Power: Goku, Vegeta, Gohan, Piccolo, Krillin, Master Roshi, Tien, Android 17, Android 18 and Frieza. Majin Buu dropped out before it began. Beerus, Whis and Supreme Kai (Shin), whom the wiki lists as the team's leaders, only watched; the title says 'fighters' to shut them out.",
+      "members": ["Goku", "Vegeta", "Gohan", "Piccolo", "Krillin", "Master Roshi", "Tien", "Android 17", "Android 18", "Frieza"],
+      "source": "https://dragonball.fandom.com/wiki/Team_Universe_7"
+    },
+    {
+      "title": "Moms",
+      "level": 1,
+      "def": "Characters in this file who are mothers in the anime: Chi-Chi (Gohan, Goten), Bulma (Trunks, Bulla), Videl (Pan) and Android 18 (Marron). No other name in the file is a mother (Goku's mother Gine isn't in the file).",
+      "members": ["Chi-Chi", "Bulma", "Videl", "Android 18"],
+      "source": "https://dragonball.fandom.com/wiki/Son_family"
+    },
+    {
+      "title": "Twins",
+      "level": 2,
+      "def": "Twin siblings: Beerus and Champa (Vados calls Champa Beerus' twin brother in Super ep. 28) and Androids 17 and 18. Gamma 1 and Gamma 2 are out: Super Hero only calls them 'the two Gammas' of Dr. Hedo's Gamma Series; the wiki's 'twin' label on them is uncited. Whis and Vados are siblings but not twins (Vados is the elder sister); the Gods of Destruction of other 'twin universes' are not called twins; Kami and King Piccolo are the split halves of one Namekian, but Kami's page loosely calls King Piccolo his 'evil twin brother', so this group avoids 'Namekians', the only group that deals the two of them together (a lone Kami tile can't pass for a twin pair). Avoids 'Red Ribbon Army', so the Gammas never share a board with this group.",
+      "members": ["Beerus", "Champa", "Android 17", "Android 18"],
+      "source": "https://dragonball.fandom.com/wiki/Champa",
+      "avoid": ["Red Ribbon Army", "Namekians"]
+    },
+    {
+      "title": "Goku's teachers",
+      "level": 2,
+      "def": "Characters in this file who trained Goku, per the 'Mentors' field of his wiki page: Master Roshi, Kami and Mr. Popo (on the Lookout), King Kai, and Whis. Korin and Grandpa Gohan aren't in the file (the 'Gohan' tile is Goku's son). Piccolo and Vegeta only trained alongside him. Beerus' only listed student is Vegeta. Grand Kai offered a lesson as the Other World Tournament prize but dodged giving it. Old Kai unlocked Gohan, not Goku.",
+      "members": ["Master Roshi", "Kami", "Mr. Popo", "King Kai", "Whis"],
+      "source": "https://dragonball.fandom.com/wiki/Goku"
+    },
+    {
+      "title": "Died in the Saiyan Saga",
+      "level": 2,
+      "def": "Characters who die during the Saiyan Saga (the Raditz and Vegeta sagas): Goku and Raditz (Special Beam Cannon), Yamcha (Saibaman), Chiaotzu (self-destruct), Tien, Piccolo, Kami (whose life is linked to Piccolo's) and Nappa (killed by Vegeta). Krillin doesn't die in it (his deaths are in the King Piccolo saga, on Namek and in the Buu saga), Master Roshi's death is in the King Piccolo saga, Vegeta and Gohan survive, and Bardock and King Vegeta died years earlier with Planet Vegeta.",
+      "members": ["Goku", "Raditz", "Yamcha", "Chiaotzu", "Tien", "Piccolo", "Kami", "Nappa"],
+      "source": "https://dragonball.fandom.com/wiki/Vegeta_Saga"
+    },
+    {
+      "title": "Fused via Potara or the Dance",
+      "level": 3,
+      "def": "Characters who actually fused by Fusion Dance or Potara earrings: Goten + Kid Trunks (Gotenks), Goku + Vegeta (Gogeta, Vegito), Caulifla + Kale (Kefla), Zamasu (Future Zamasu, with Goku Black, who is kept out of the file, into Fused Zamasu), Supreme Kai + Kibito (Kibito Kai), and Old Kai, who as the young Elder Kai fused with the Old Witch via Potara (Z ep. 267). The products Gotenks, Vegito, Gogeta and Kefla are the fusions, not fusees (see 'Fusions (Dance or Potara)', same family), but a fan could say they too were 'fused via Potara or the Dance', so this group avoids every group that can deal one of them beside it: 'Named after vegetables' (Vegito, Gogeta, Kefla), 'Universe 6' (Kefla), 'Half-Saiyans' and 'Named after underwear' (Gotenks). Piccolo and Krillin only demonstrated the dance 'without actually fusing'; Piccolo's merges with Nail and Kami are Namekian fusion.",
+      "members": ["Goku", "Vegeta", "Goten", "Kid Trunks", "Caulifla", "Kale", "Zamasu", "Supreme Kai", "Kibito", "Old Kai"],
+      "source": "https://dragonball.fandom.com/wiki/Potara",
+      "family": "fusion",
+      "avoid": ["Named after vegetables", "Universe 6", "Half-Saiyans", "Named after underwear"]
+    },
+    {
+      "title": "Killed by Vegeta",
+      "level": 3,
+      "def": "Characters Vegeta kills in the anime (Vegeta/Misc 'List of Characters Killed by Vegeta'): Nappa, Dodoria, Zarbon, the whole Ginyu Force (Guldo, Burter, Recoome and Jeice on Namek; Captain Ginyu in Tagoma's body in Super) and Android 19. Cell, Frieza and Kid Buu were finished off by others.",
+      "members": ["Nappa", "Zarbon", "Dodoria", "Guldo", "Recoome", "Burter", "Jeice", "Captain Ginyu", "Android 19"],
+      "source": "https://dragonball.fandom.com/wiki/Vegeta/Misc"
+    },
+    {
+      "title": "Saiyans who survived Planet Vegeta",
+      "level": 3,
+      "def": "Universe 7 Saiyans who were alive when Frieza destroyed Planet Vegeta and survived it: Goku (sent to Earth), Vegeta, Nappa and Raditz (off-world), and Broly and Paragus (on Vampa). Bardock and King Vegeta died; Universe 6's Saiyans were never there; half-Saiyans and fusions came later. Goku Black is kept out of the file: the wiki lists him among full-blooded Saiyans as the Goku whose body Zamasu stole, so a fan could argue that body survived.",
+      "members": ["Goku", "Vegeta", "Raditz", "Nappa", "Broly", "Paragus"],
+      "source": "https://dragonball.fandom.com/wiki/Genocide_of_the_Saiyans"
+    },
+    {
+      "title": "Fought in the U6 vs U7 tournament",
+      "level": 3,
+      "def": "Characters who fought a match in Beerus and Champa's Universe 6 vs Universe 7 tournament (the Tournament of Destroyers): Goku, Piccolo and Vegeta for Universe 7; Frost, Cabba and Hit for Universe 6 (Botamo, Magetta and Monaka aren't in the file). Majin Buu was disqualified before fighting; the gods and angels only watched.",
+      "members": ["Goku", "Vegeta", "Piccolo", "Frost", "Cabba", "Hit"],
+      "source": "https://dragonball.fandom.com/wiki/Tournament_of_Destroyers"
+    },
+    {
+      "title": "Named after fruits",
+      "level": 4,
+      "def": "Characters whose names are documented puns on fruits: Zarbon (zabon, the pomelo), Dodoria (durian), Cheelai (raichi, lychee) and Lemo (lemon). Saiyan names pun on vegetables, not fruits. Drinks made from fruit (Sidra/cider, Iwan/wine, Vados/calvados) are drinks. Krillin's kuri is a chestnut. Mercenary Tao is out: his kanji 桃白白 literally read 'peach white white', but the wiki calls it a cutesy Chinese-sounding name, not a fruit pun.",
+      "members": ["Zarbon", "Dodoria", "Cheelai", "Lemo"],
+      "source": "https://dragonball.fandom.com/wiki/Cheelai"
+    },
+    {
+      "title": "Named after underwear",
+      "level": 4,
+      "def": "The Brief family's undergarment puns: Bulma (bloomers), Kid Trunks and Future Trunks (trunks), Bulla (Bra in Japanese) and Dr. Brief (briefs), plus Gotenks, whose name is built from Trunks (Goten + Trunks). This is the same rule that puts Vegito, Gogeta and Kefla in 'Named after vegetables'. Vegeta married into the family but is named after vegetables. Pan is bread and Chi-Chi is milk. Oolong only wished for panties; he is named after tea.",
+      "members": ["Bulma", "Kid Trunks", "Future Trunks", "Bulla", "Dr. Brief", "Gotenks"],
+      "source": "https://dragonball.fandom.com/wiki/Brief_family"
+    },
+    {
+      "title": "Named after Chinese food & tea",
+      "level": 4,
+      "def": "Characters whose original names pun on Chinese dishes or teas: Yamcha (yum cha), Tien (tenshindon, a Japanese-Chinese dish), Chiaotzu (jiaozi dumplings), Oolong (oolong tea) and Puar (pu-erh tea). Gohan (Japanese gohan, cooked rice) and Pan (bread) aren't Chinese dishes, and Krillin is chestnut + Shaolin. Mercenary Tao is out: Tao Pai Pai is a cutesy Chinese-sounding name, and the wiki's chicken-dish pun belongs to the dub name 'General Tao', not this tile. Cheelai's lychee is a fruit.",
+      "members": ["Yamcha", "Tien", "Chiaotzu", "Oolong", "Puar"],
+      "source": "https://dragonball.fandom.com/wiki/Oolong"
     }
   ]
 }

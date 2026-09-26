@@ -2,9 +2,9 @@
   "show": "powerrangers",
   "groups": [
     {
-      "title": "MMPR Season 1 Rangers",
+      "title": "The original five",
       "level": 1,
-      "def": "The five original teenagers with attitude who first morphed into Mighty Morphin Power Rangers in Season 1.",
+      "def": "The five original teenagers with attitude who first morphed as Mighty Morphin Power Rangers in the pilot. Tommy only joined later in Season 1 as the sixth Ranger.",
       "members": ["Jason", "Zack", "Billy", "Trini", "Kimberly"],
       "source": "https://powerrangers.fandom.com/wiki/Mighty_Morphin_Power_Rangers"
     },
@@ -39,7 +39,7 @@
     {
       "title": "Mystic Force Rangers",
       "level": 1,
-      "def": "Everyone who morphed into a Mystic Force Ranger.",
+      "def": "Everyone who morphed into a Mystic Force Ranger, including Daggeron's Solaris Knight.",
       "members": ["Nick", "Udonna", "Xander", "Chip", "Vida", "Madison", "Daggeron"],
       "source": "https://powerrangers.fandom.com/wiki/Power_Rangers_Mystic_Force"
     },
@@ -53,7 +53,7 @@
     {
       "title": "Jungle Fury Rangers",
       "level": 2,
-      "def": "Everyone who morphed into a Jungle Fury Ranger.",
+      "def": "Everyone who morphed into a Jungle Fury Ranger (Red, Yellow, Blue, Wolf, Rhino). The Spirit Rangers aren't tiles; Jarrod's Black Lion Warrior and Camille's Green Chameleon Warrior were villain forms all season (the wiki calls their Ranger status 'debatable'), so they're out and 'The Dai Shi Clan' avoids this group.",
       "members": ["Casey", "RJ", "Theo", "Lily", "Dominic"],
       "source": "https://powerrangers.fandom.com/wiki/Power_Rangers_Jungle_Fury"
     },
@@ -65,102 +65,108 @@
       "source": "https://powerrangers.fandom.com/wiki/Power_Rangers_RPM"
     },
     {
-      "title": "Red Rangers",
+      "title": "Red & crimson Rangers",
       "level": 2,
-      "def": "Every ranger covered here who has morphed as a Red Ranger, even briefly or as a mid-season promotion.",
-      "members": ["Jason", "Tommy", "Rocky", "Shane", "Conner", "Jack", "Sky", "Bridge", "Nick", "Mack", "Casey", "Scott"],
+      "def": "Every tile who held a Red Ranger designation at any point in the covered seasons, crossovers included: Jason and Rocky (MMPR), Tommy (Zeo), Shane, Conner, Jack, Sky (S.P.D. Red in 'Reflection' and after Jack left), Bridge (S.P.D. Red in Overdrive's 'Once a Ranger'), Nick, Mack, Casey and Scott, plus Hunter, the Crimson Thunder Ranger, whom the wiki lists as Red. Temporary Reds who aren't tiles: Sensei Kanoi, Aurico, Leanbow.",
+      "members": ["Jason", "Tommy", "Rocky", "Shane", "Conner", "Jack", "Sky", "Bridge", "Nick", "Mack", "Casey", "Scott", "Hunter"],
       "source": "https://powerrangers.fandom.com/wiki/Category:Red_Ranger"
     },
     {
-      "title": "Blue Rangers",
+      "title": "Blue & navy Rangers",
       "level": 2,
-      "def": "Every ranger covered here who has morphed as a Blue Ranger, even briefly.",
-      "members": ["Billy", "Rocky", "Tori", "Ethan", "Sky", "Bridge", "Madison", "Dax", "Theo", "Flynn"],
-      "source": "https://powerrangers.fandom.com/wiki/Category:Blue_Ranger"
+      "def": "Every tile who held a Blue Ranger designation at any point in the covered seasons, crossovers included: Billy (MMPR), Rocky (Zeo), Tori, Ethan, Sky, Bridge (S.P.D. Blue after Sky moved to Red), Madison, Dax, Theo and Flynn, plus Blake, the Navy Thunder Ranger, whom the wiki lists as Blue. Kimberly morphing in Billy's body ('Switching Places'; the wiki calls her a temporary Blue) doesn't count, and this group avoids both Kimberly groups so she never shares its board. Cestro isn't a tile; Cruger's Shadow Ranger is Black.",
+      "members": ["Billy", "Rocky", "Tori", "Ethan", "Sky", "Bridge", "Madison", "Dax", "Theo", "Flynn", "Blake"],
+      "source": "https://powerrangers.fandom.com/wiki/Category:Blue_Ranger",
+      "avoid": ["The original five", "Pink Rangers"]
     },
     {
       "title": "Yellow Rangers",
       "level": 2,
-      "def": "Every ranger covered here who has morphed as a Yellow Ranger.",
+      "def": "Every tile who held a Yellow Ranger designation at any point in the covered seasons, crossovers included: Trini and Aisha (MMPR), Tanya (Zeo), Dustin, Kira, Z, Chip, Ronny, Lily and Summer. Temporary Yellows who aren't tiles: Sensei Kanoi, Tideus.",
       "members": ["Trini", "Aisha", "Tanya", "Dustin", "Kira", "Z", "Chip", "Ronny", "Lily", "Summer"],
       "source": "https://powerrangers.fandom.com/wiki/Category:Yellow_Ranger"
     },
     {
       "title": "Pink Rangers",
       "level": 2,
-      "def": "Every ranger covered here who has morphed as a Pink Ranger.",
+      "def": "Every tile who held a Pink Ranger designation at any point in the covered seasons, crossovers included: Kimberly (MMPR), Katherine (MMPR and Zeo), Syd, Vida and Rose. Billy morphing in Kimberly's body ('Switching Places'; the wiki calls him a temporary Pink) doesn't count, and he never shares this group's board ('The original five' is avoided here, 'Blue & navy Rangers' avoids this group); Marah's daydream (wiki: 'False Ranger') and Morgana's purple battlesuit aren't Ranger designations.",
       "members": ["Kimberly", "Katherine", "Syd", "Vida", "Rose"],
-      "source": "https://powerrangers.fandom.com/wiki/Category:Pink_Ranger"
+      "source": "https://powerrangers.fandom.com/wiki/Category:Pink_Ranger",
+      "avoid": ["The original five"]
     },
     {
       "title": "Black Rangers",
       "level": 2,
-      "def": "Every ranger covered here who has morphed as a Black Ranger.",
+      "def": "Every tile who held a Black Ranger designation at any point in the covered seasons, crossovers included: Zack and Adam (MMPR; Adam again in 'Once a Ranger'), Tommy (Dino Thunder), Cruger (S.P.D. Shadow Ranger, wiki colour Black), Will and Dillon. Jarrod's Black Lion Warrior (wiki: 'debatable' Ranger status) doesn't count and 'The Dai Shi Clan' avoids this group; the Gold Zeo Ranger's black-and-gold suit is designated Gold (the wiki's Black list has neither Trey nor Jason); Corcus and the Bat Spirit Ranger aren't tiles.",
       "members": ["Zack", "Tommy", "Adam", "Cruger", "Will", "Dillon"],
       "source": "https://powerrangers.fandom.com/wiki/Category:Black_Ranger"
     },
     {
-      "title": "Rita and Zedd's palace",
+      "title": "Mighty Morphin alien villains",
       "level": 2,
-      "def": "The villains based in Rita and/or Zedd's palace on the Moon across Mighty Morphin, including the Alien Rangers arc.",
+      "def": "Every non-human villain tile from Mighty Morphin (Seasons 1-3 and Alien Rangers): Rita, Lord Zedd, Master Vile, Rito and their Moon Palace crew Goldar, Scorpina, Finster, Squatt and Baboo. Out: Tommy (Evil Green Ranger) and Katherine (Rita's spy) are human, although the wiki files both under Rita's faction and lists Tommy among the Moon Palace's generals (why this group is no longer titled after the palace); the Machine Empire debuts in Zeo and Thrax in Operation Overdrive.",
       "members": ["Rita", "Lord Zedd", "Goldar", "Rito", "Scorpina", "Finster", "Squatt", "Baboo", "Master Vile"],
-      "source": "https://powerrangers.fandom.com/wiki/Rita_Repulsa"
+      "source": "https://powerrangers.fandom.com/wiki/Moon_Palace"
     },
     {
-      "title": "The Machine Empire",
+      "title": "Machine Empire robots",
       "level": 2,
-      "def": "King Mondo's robotic family and commanders, the main villains of Power Rangers Zeo.",
+      "def": "The robot royal family and servants of Zeo's Machine Empire: King Mondo, Queen Machina, Prince Gasket, Princess Archerina, Prince Sprocket, Klank and Orbus (all in the wiki's Machine Empire category). Tommy, whom Gasket brainwashed into believing he was its king in 'King for a Day', is human and not in the category. The Wild Force 'General Venjix' was a Machine Empire general with the same name as the RPM Venjix tile, so this group avoids 'Venjix's network'.",
       "members": ["King Mondo", "Machina", "Gasket", "Archerina", "Sprocket", "Klank", "Orbus"],
-      "source": "https://powerrangers.fandom.com/wiki/Category:Machine_Empire"
+      "source": "https://powerrangers.fandom.com/wiki/Category:Machine_Empire",
+      "avoid": ["Venjix's network"]
     },
     {
-      "title": "Lothor's forces",
-      "level": 2,
-      "def": "Lothor and the named generals of his army in Ninja Storm.",
-      "members": ["Lothor", "Zurgane", "Vexacus", "Marah", "Kapri", "Choobo", "Motodrone"],
-      "source": "https://powerrangers.fandom.com/wiki/Category:Lothor%27s_Army"
+      "title": "Lothor's generals",
+      "level": 3,
+      "def": "The named generals of Lothor's army in Ninja Storm. Lothor himself leads it, and his nieces Kapri and Marah are henchwomen, not generals; the Rangers he tricked or brainwashed never were.",
+      "members": ["Zurgane", "Vexacus", "Choobo", "Motodrone"],
+      "source": "https://powerrangers.fandom.com/wiki/Category:Lothor%27s_Army",
+      "family": "lothor",
+      "avoid": ["Villains with a villain sibling"]
     },
     {
       "title": "Green Rangers",
       "level": 3,
-      "def": "Every ranger covered here who has morphed as a Green Ranger, even briefly.",
+      "def": "Every tile who held a Green Ranger designation at any point in the covered seasons, crossovers included: Tommy (MMPR), Adam (Zeo), Cam, Bridge (S.P.D. Green before his promotions), Xander and Ziggy. Camille's Green Chameleon Warrior (wiki: 'debatable' Ranger status) doesn't count and 'The Dai Shi Clan' avoids this group; Jason only carried Tommy's Dragon Coin as the Red Ranger ('The Green Candle'); Tommy's clone and the Elephant Spirit Ranger aren't tiles.",
       "members": ["Tommy", "Adam", "Cam", "Bridge", "Xander", "Ziggy"],
       "source": "https://powerrangers.fandom.com/wiki/Category:Green_Ranger"
     },
     {
       "title": "White Rangers",
       "level": 3,
-      "def": "Every ranger covered here who has morphed as a White Ranger.",
+      "def": "Every tile who held a White Ranger designation at any point in the covered seasons, crossovers included: Tommy (MMPR), Trent, Sam (S.P.D. Omega Ranger), Udonna and Dominic (Rhino Ranger). Delphine and the White Dino Ranger clone aren't tiles.",
       "members": ["Tommy", "Trent", "Sam", "Udonna", "Dominic"],
       "source": "https://powerrangers.fandom.com/wiki/Category:White_Ranger"
     },
     {
       "title": "Gold Rangers",
       "level": 3,
-      "def": "Every ranger covered here who has morphed as a Gold Ranger.",
+      "def": "Every tile who held a Gold Ranger designation at any point in the covered seasons, crossovers included: Trey and Jason (Gold Zeo Ranger), Daggeron (Solaris Knight) and Gem. Billy's failed attempt to absorb the Gold powers (his body rejected them) doesn't count; the Sentinel Knight isn't a tile.",
       "members": ["Jason", "Trey", "Daggeron", "Gem"],
       "source": "https://powerrangers.fandom.com/wiki/Category:Gold_Ranger"
     },
     {
       "title": "Mentors who never morphed",
       "level": 3,
-      "def": "Allies who train or guide a team from behind the scenes across these seasons but are never seen morphing into a Ranger themselves.",
+      "def": "The team mentors of the covered seasons who never morph: Zordon (MMPR/Zeo), Alpha 5 (Zordon's aide, wiki type 'Mentor', sole mentor while Zordon was lost), Andrew Hartford (Operation Overdrive; he planned to be Red but let Mack), Master Mao (Jungle Fury) and Dr. K (RPM). They are the only non-Ranger hero/ally tiles, so nobody else can fit; villains aren't mentors.",
       "members": ["Zordon", "Alpha 5", "Dr. K", "Andrew Hartford", "Master Mao"],
       "source": "https://powerrangers.fandom.com/wiki/Category:PR_Mentors"
     },
     {
       "title": "Troobian Empire",
       "level": 3,
-      "def": "The named commanders of the Troobian Empire, the main villains of Power Rangers S.P.D.",
+      "def": "The tiles in the wiki's Troobian Empire category (S.P.D.'s villains): Emperor Gruumm, Omni (its secret true leader) and Gruumm's two aides, Mora/Morgana and the arms dealer Broodwing. Sam was only Mora's pawn and never joined; the A-Squad aren't tiles.",
       "members": ["Gruumm", "Broodwing", "Morgana", "Omni"],
       "source": "https://powerrangers.fandom.com/wiki/Category:Troobian_Empire"
     },
     {
       "title": "Mystic Force villains",
       "level": 3,
-      "def": "The named villains from the Underworld that the Mystic Force Rangers fight, including ones later redeemed.",
-      "members": ["Necrolai", "Imperious", "Koragg", "Octomus", "Morticon", "Sculpin"],
-      "source": "https://powerrangers.fandom.com/wiki/Category:Morlocks"
+      "def": "The Mystic Force villain tiles, all in the wiki's Morlocks category: Octomus the Master, his generals Morticon and Imperious, the vampire queen Necrolai (turned human only in the finale) and the Ten Terrors' leader Sculpin. Nick (possessed into a new Koragg in 'Mystic Fate') and Vida (a vampire serving Necrolai in 'Stranger Within') are wiki 'Good turned Evil' Rangers, so this group avoids every group either of them is in.",
+      "members": ["Necrolai", "Imperious", "Octomus", "Morticon", "Sculpin"],
+      "source": "https://powerrangers.fandom.com/wiki/Category:Morlocks",
+      "avoid": ["Mystic Force Rangers", "Red & crimson Rangers", "Pink Rangers", "Ranger siblings on one team", "Rangers with a villain in the family"]
     },
     {
       "title": "Operation Overdrive villains",
@@ -182,6 +188,58 @@
       "def": "The named villains of the Venjix computer network in RPM, including one who later defects to help the Rangers.",
       "members": ["Venjix", "Tenaya", "Kilobyte", "General Shifter"],
       "source": "https://powerrangers.fandom.com/wiki/Category:Venjix_Computer_Network"
+    },
+    {
+      "title": "Lothor's family",
+      "level": 4,
+      "def": "Lothor (Kiya Watanabe, twin of Sensei Kanoi) and his relatives: his nieces Kapri and Marah, and his nephew Cam, the Sensei's son.",
+      "members": ["Lothor", "Kapri", "Marah", "Cam"],
+      "source": "https://powerrangers.fandom.com/wiki/Lothor",
+      "family": "lothor"
+    },
+    {
+      "title": "Ranger siblings on one team",
+      "level": 2,
+      "def": "Rangers whose brother or sister is a Ranger on the same team: Vida and Madison (Mystic Force), twins Gem and Gemma (RPM), adoptive brothers Hunter and Blake (Ninja Storm). Dillon's sister Tenaya is a villain.",
+      "members": ["Vida", "Madison", "Gem", "Gemma", "Hunter", "Blake"],
+      "source": "https://powerrangers.fandom.com/wiki/Vida_Rocca",
+      "family": "siblings"
+    },
+    {
+      "title": "Villains with a villain sibling",
+      "level": 3,
+      "def": "Villains whose brother or sister is also a villain: Rita and her brother Rito, Mondo's sons Gasket and Sprocket, the brothers Flurious and Moltor, and the sisters Kapri and Marah. Lothor's twin and Tenaya's brother are heroes.",
+      "members": ["Rita", "Rito", "Gasket", "Sprocket", "Flurious", "Moltor", "Kapri", "Marah"],
+      "source": "https://powerrangers.fandom.com/wiki/Rito_Revolto",
+      "family": "siblings"
+    },
+    {
+      "title": "Rangers with a villain in the family",
+      "level": 4,
+      "def": "Rangers with a villain as a close relative: Nick and Udonna (his father, her husband Leanbow, was Koragg), Trent (adoptive father Anton Mercer is Mesogog), Cam (uncle Lothor) and Dillon (sister Tenaya).",
+      "members": ["Nick", "Udonna", "Trent", "Cam", "Dillon"],
+      "source": "https://powerrangers.fandom.com/wiki/Leanbow"
+    },
+    {
+      "title": "Inherited a Power Coin",
+      "level": 2,
+      "def": "Took over an original Mighty Morphin Ranger's Power Coin: Rocky, Adam and Aisha from Jason, Zack and Trini ('The Power Transfer'), and Katherine from Kimberly ('A Different Shade of Pink'). Tanya's Zeo sub-crystal isn't a coin.",
+      "members": ["Rocky", "Adam", "Aisha", "Katherine"],
+      "source": "https://powerrangers.fandom.com/wiki/The_Power_Transfer"
+    },
+    {
+      "title": "The 'Once a Ranger' veterans",
+      "level": 3,
+      "def": "The five former Rangers the Sentinel Knight calls in when the Overdrive team loses its powers in Operation Overdrive's 'Once a Ranger': Adam, Tori, Kira, Bridge and Xander.",
+      "members": ["Adam", "Tori", "Kira", "Bridge", "Xander"],
+      "source": "https://powerrangers.fandom.com/wiki/Once_a_Ranger"
+    },
+    {
+      "title": "Heroes from other planets",
+      "level": 2,
+      "def": "Heroes or allies born on another planet: Zordon (Eltar), Alpha 5 (Edenoi), Trey (Triforia), Cruger (Sirius) and Tyzonn (Mercuria). Every other hero is from Earth, including the Mystic Force wizards and the future S.P.D. cadets.",
+      "members": ["Zordon", "Alpha 5", "Trey", "Cruger", "Tyzonn"],
+      "source": "https://powerrangers.fandom.com/wiki/Zordon"
     }
   ]
 }

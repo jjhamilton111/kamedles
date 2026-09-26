@@ -4,369 +4,215 @@
     {
       "title": "Straw Hat Pirates",
       "level": 1,
-      "def": "Every official member of the Straw Hat crew as of the anime (through Elbaph).",
-      "members": [
-        "Luffy",
-        "Zoro",
-        "Nami",
-        "Usopp",
-        "Sanji",
-        "Chopper",
-        "Robin",
-        "Franky",
-        "Brook",
-        "Jinbe"
-      ],
-      "source": "https://onepiece.fandom.com/wiki/Straw_Hat_Pirates"
+      "def": "The ten current members of the Straw Hat crew as of the anime (through Elbaph). Vivi, who sailed with them to Alabasta and whom the wiki lists as a former member, is not counted, so this group avoids the two groups she is in (Baroque Works, Will of the D.); Carrot, a temporary ally, was never a member.",
+      "members": ["Luffy", "Zoro", "Nami", "Usopp", "Sanji", "Chopper", "Robin", "Franky", "Brook", "Jinbe"],
+      "source": "https://onepiece.fandom.com/wiki/Straw_Hat_Pirates",
+      "avoid": ["Baroque Works", "Will of the D."]
     },
     {
       "title": "Warlords of the Sea",
       "level": 1,
       "def": "Every pirate who held a Seven Warlords of the Sea position before the system's abolition, shown in the anime.",
-      "members": [
-        "Jinbe",
-        "Mihawk",
-        "Crocodile",
-        "Doflamingo",
-        "Kuma",
-        "Hancock",
-        "Moria",
-        "Buggy",
-        "Blackbeard",
-        "Law"
-      ],
+      "members": ["Jinbe", "Mihawk", "Crocodile", "Doflamingo", "Kuma", "Hancock", "Moria", "Buggy", "Blackbeard", "Law"],
       "source": "https://onepiece.fandom.com/wiki/Seven_Warlords_of_the_Sea"
     },
     {
       "title": "Four Emperors",
       "level": 1,
       "def": "Every pirate who has held the title of Yonko (Emperor) in the anime, old or current lineup.",
-      "members": [
-        "Whitebeard",
-        "Kaido",
-        "Big Mom",
-        "Shanks",
-        "Blackbeard",
-        "Buggy",
-        "Luffy"
-      ],
+      "members": ["Whitebeard", "Kaido", "Big Mom", "Shanks", "Blackbeard", "Buggy", "Luffy"],
       "source": "https://onepiece.fandom.com/wiki/Four_Emperors"
     },
     {
-      "title": "Marines",
+      "title": "Marine officers",
       "level": 1,
-      "def": "Characters who are or were commissioned officers of the Marines shown in the anime.",
-      "members": [
-        "Garp",
-        "Akainu",
-        "Aokiji",
-        "Kizaru",
-        "Fujitora",
-        "Ryokugyu",
-        "Smoker",
-        "Coby",
-        "Tashigi",
-        "Sengoku"
-      ],
-      "source": "https://onepiece.fandom.com/wiki/Marines"
+      "def": "Characters who are or were commissioned officers of the Marines shown in the anime, including Aokiji (resigned) and Drake (a former rear admiral, secretly still a Marine as SWORD's captain). Dragon, who deserted as a cadet, Caesar Clown, a government scientist without a rank, and Shiryu, a World Government jailer at Impel Down, were never Marine officers.",
+      "members": ["Garp", "Akainu", "Aokiji", "Kizaru", "Fujitora", "Ryokugyu", "Smoker", "Coby", "Tashigi", "Sengoku", "Drake"],
+      "source": "https://onepiece.fandom.com/wiki/Marines",
+      "avoid": ["Marine Admirals"]
     },
     {
       "title": "Fish-Man Island natives",
       "level": 1,
-      "def": "Fish-Men or Merfolk from Fish-Man Island appearing in the anime.",
-      "members": [
-        "Jinbe",
-        "Arlong",
-        "Hody",
-        "Shirahoshi"
-      ],
-      "source": "https://onepiece.fandom.com/wiki/Fish-Man_Island"
+      "def": "Fish-Men or Merfolk born on Fish-Man Island (Ryugu Kingdom) shown in the anime. Jack is also a fish-man (said on screen, ep 1082) but his birthplace is never given, so this group avoids every group he is in; Sasaki is a fish-man only in a Vivre Card correction, not the anime.",
+      "members": ["Jinbe", "Arlong", "Hody", "Shirahoshi"],
+      "source": "https://onepiece.fandom.com/wiki/Fish-Man_Island",
+      "avoid": ["Beasts Pirates", "Non-Mythical Zoan users", "Playing card ranks"]
     },
     {
       "title": "Giants",
       "level": 1,
-      "def": "Members of the Giant race who appear in the anime.",
-      "members": [
-        "Dorry",
-        "Brogy",
-        "Oimo",
-        "Kashii",
-        "Hajrudin",
-        "Loki"
-      ],
-      "source": "https://onepiece.fandom.com/wiki/Giant"
+      "def": "Members of the Giant race who appear in the anime, including Loki (part Ancient Giant, ep 1160). Big Mom (a human raised on Elbaph) and Kuma (a Buccaneer) aren't Giants. Loki's fruit is a Mythical Zoan only in the manga (ch. 1170), so this group avoids Mythical Zoan users.",
+      "members": ["Dorry", "Brogy", "Oimo", "Kashii", "Hajrudin", "Loki"],
+      "source": "https://onepiece.fandom.com/wiki/Giant",
+      "avoid": ["Mythical Zoan users"]
     },
     {
       "title": "Beasts Pirates",
       "level": 2,
-      "def": "The captain, All-Stars, and Tobiroppo officers of Kaido's Beasts Pirates crew shown in the anime, including the defected Drake.",
-      "members": [
-        "Kaido",
-        "King",
-        "Queen",
-        "Yamato",
-        "Jack",
-        "Page One",
-        "Ulti",
-        "Who's-Who",
-        "Black Maria",
-        "Sasaki",
-        "Drake"
-      ],
-      "source": "https://onepiece.fandom.com/wiki/Beasts_Pirates"
+      "def": "Everyone shown as a member of Kaido's Beasts Pirates at some point in the anime: Kaido, the All-Stars, the Tobiroppo, Kaido's child Yamato, and the Worst Generation captains who served under him in Wano (Drake, Hawkins, Apoo), including those who later defected or left. Allies don't count: Big Mom, and Killer, who worked for Orochi as Kamazo.",
+      "members": ["Kaido", "King", "Queen", "Yamato", "Jack", "Page One", "Ulti", "Who's-Who", "Black Maria", "Sasaki", "Drake", "Hawkins", "Apoo"],
+      "source": "https://onepiece.fandom.com/wiki/Beasts_Pirates",
+      "avoid": ["Tobiroppo"]
     },
     {
       "title": "Marine Admirals",
       "level": 2,
-      "def": "Every character shown holding the Marine rank of Admiral or Fleet Admiral in the anime.",
-      "members": [
-        "Sengoku",
-        "Akainu",
-        "Aokiji",
-        "Kizaru",
-        "Fujitora",
-        "Ryokugyu"
-      ],
+      "def": "Every character shown holding the Marine rank of Admiral or Fleet Admiral in the anime, including the resigned Aokiji. Lower ranks named \"admiral\" don't count (Vice Admirals Garp and Smoker, former Rear Admiral Drake), nor does Blackbeard's pirate-fleet title \"Admiral\".",
+      "members": ["Sengoku", "Akainu", "Aokiji", "Kizaru", "Fujitora", "Ryokugyu"],
       "source": "https://onepiece.fandom.com/wiki/Admiral"
     },
     {
       "title": "Vinsmoke Family",
       "level": 2,
       "def": "Members of the royal Vinsmoke family of Germa 66 shown in the anime, including Sanji.",
-      "members": [
-        "Judge",
-        "Sora",
-        "Reiju",
-        "Ichiji",
-        "Niji",
-        "Sanji",
-        "Yonji"
-      ],
+      "members": ["Judge", "Sora", "Reiju", "Ichiji", "Niji", "Sanji", "Yonji"],
       "source": "https://onepiece.fandom.com/wiki/Vinsmoke_Family"
     },
     {
       "title": "Kozuki Family",
       "level": 2,
       "def": "Members of Wano's ruling Kozuki clan shown in the anime, by blood or marriage.",
-      "members": [
-        "Sukiyaki",
-        "Oden",
-        "Toki",
-        "Momonosuke",
-        "Hiyori"
-      ],
+      "members": ["Sukiyaki", "Oden", "Toki", "Momonosuke", "Hiyori"],
       "source": "https://onepiece.fandom.com/wiki/Kouzuki_Family"
     },
     {
       "title": "Revolutionary Army",
       "level": 2,
-      "def": "Leaders of the Revolutionary Army shown in the anime.",
-      "members": [
-        "Dragon",
-        "Sabo",
-        "Ivankov",
-        "Kuma"
-      ],
-      "source": "https://onepiece.fandom.com/wiki/Revolutionary_Army"
+      "def": "Members of the Revolutionary Army shown in the anime: Supreme Commander Dragon, Chief of Staff Sabo and army commanders Ivankov and Kuma. Robin spent the timeskip with them (the wiki lists her as a temporary Revolutionary), so this group avoids every group she is in; Luffy (Dragon's son) and Bonney (Kuma's daughter) were never members.",
+      "members": ["Dragon", "Sabo", "Ivankov", "Kuma"],
+      "source": "https://onepiece.fandom.com/wiki/Revolutionary_Army",
+      "avoid": ["Straw Hat Pirates", "Baroque Works"]
     },
     {
       "title": "CP9",
       "level": 2,
-      "def": "The Rokushiki-trained secret assassins of Cipher Pol No. 9 who fought the Straw Hats at Water 7 and Enies Lobby, not counting their chief Spandam.",
-      "members": [
-        "Lucci",
-        "Kaku",
-        "Jabra",
-        "Kumadori",
-        "Kalifa",
-        "Blueno",
-        "Fukurou",
-        "Nero"
-      ],
+      "def": "Every agent of Cipher Pol No. 9 shown in the anime: the Rokushiki assassins who fought the Straw Hats at Water 7 and Enies Lobby (including the anime-only Nero) and the Beasts Pirates' Who's-Who, a former CP9 agent (ep 1039). Their chief Spandam isn't counted.",
+      "members": ["Lucci", "Kaku", "Jabra", "Kumadori", "Kalifa", "Blueno", "Fukurou", "Nero", "Who's-Who"],
       "source": "https://onepiece.fandom.com/wiki/CP9"
     },
     {
       "title": "Baroque Works",
       "level": 2,
-      "def": "Alabasta-arc characters unmasked as Baroque Works agents in the anime (Vivi infiltrated it undercover as its princess).",
-      "members": [
-        "Crocodile",
-        "Robin",
-        "Vivi",
-        "Bon Clay",
-        "Mr. 1"
-      ],
+      "def": "Every Baroque Works member shown in the anime: boss Crocodile (Mr. 0), vice president Robin (Miss All Sunday), officer agents Mr. 1 and Bon Clay (Mr. 2), and Vivi, Alabasta's princess, who infiltrated it as the agent Miss Wednesday.",
+      "members": ["Crocodile", "Robin", "Vivi", "Bon Clay", "Mr. 1"],
       "source": "https://onepiece.fandom.com/wiki/Baroque_Works"
     },
     {
       "title": "Logia users",
       "level": 2,
-      "def": "Characters shown using a Logia-type Devil Fruit in the anime.",
-      "members": [
-        "Crocodile",
-        "Blackbeard",
-        "Akainu",
-        "Aokiji",
-        "Kizaru",
-        "Smoker",
-        "Sabo",
-        "Enel",
-        "Caesar Clown"
-      ],
+      "def": "Characters shown using a Logia-type Devil Fruit in the anime (Ryokugyu calls his Mori Mori no Mi a Logia on screen, ep 1081).",
+      "members": ["Crocodile", "Blackbeard", "Akainu", "Aokiji", "Kizaru", "Smoker", "Sabo", "Enel", "Caesar Clown", "Ace", "Ryokugyu"],
       "source": "https://onepiece.fandom.com/wiki/Logia"
     },
     {
       "title": "Worst Generation",
       "level": 3,
       "def": "The twelve pirates - the eleven rookies whose bounties topped 100 million berries at Sabaody, plus the then-Warlord Blackbeard - collectively named the Worst Generation.",
-      "members": [
-        "Luffy",
-        "Zoro",
-        "Law",
-        "Kid",
-        "Killer",
-        "Hawkins",
-        "Apoo",
-        "Bonney",
-        "Bege",
-        "Urouge",
-        "Drake",
-        "Blackbeard"
-      ],
+      "members": ["Luffy", "Zoro", "Law", "Kid", "Killer", "Hawkins", "Apoo", "Bonney", "Bege", "Urouge", "Drake", "Blackbeard"],
       "source": "https://onepiece.fandom.com/wiki/Worst_Generation"
     },
     {
       "title": "Roger Pirates",
       "level": 3,
-      "def": "Confirmed crew of Gol D. Roger's ship shown in the anime, including Kozuki Oden's several-year stint aboard.",
-      "members": [
-        "Roger",
-        "Rayleigh",
-        "Buggy",
-        "Shanks",
-        "Gaban",
-        "Oden"
-      ],
-      "source": "https://onepiece.fandom.com/wiki/Roger_Pirates"
+      "def": "Members of Gol D. Roger's crew shown in the anime, including apprentices Shanks and Buggy and Kozuki Oden and his wife Toki, who joined for the final voyage (eps 966-967). Their infant children Momonosuke and Hiyori were aboard only as companions, so this group avoids the groups they are in (Kozuki Family, Mythical Zoan users).",
+      "members": ["Roger", "Rayleigh", "Buggy", "Shanks", "Gaban", "Oden", "Toki"],
+      "source": "https://onepiece.fandom.com/wiki/Roger_Pirates",
+      "avoid": ["Kozuki Family", "Mythical Zoan users"]
     },
     {
       "title": "The Gorosei",
       "level": 3,
-      "def": "The five current Elders who lead the World Government, named in the anime.",
-      "members": [
-        "Saturn",
-        "Nusjuro",
-        "Mars",
-        "Peter",
-        "Warcury"
-      ],
+      "def": "The five Elders who led the World Government during the Egghead Incident, named in the anime. Saturn counts even though Imu later executes him (ep 1155); his replacement Figarland Garling isn't in this bank.",
+      "members": ["Saturn", "Nusjuro", "Mars", "Peter", "Warcury"],
       "source": "https://onepiece.fandom.com/wiki/Five_Elders"
     },
     {
       "title": "Mythical Zoan users",
       "level": 3,
-      "def": "Characters shown using a Mythical Zoan-type Devil Fruit in the anime.",
-      "members": [
-        "Luffy",
-        "Kaido",
-        "Marco",
-        "Yamato",
-        "Momonosuke",
-        "Sengoku"
-      ],
-      "source": "https://onepiece.fandom.com/wiki/Zoan"
+      "def": "Characters shown in the anime using a Zoan fruit that turns them into a being of myth or legend: Luffy (Nika, ep 1071), Marco (Phoenix, ep 463), Kaido and Momonosuke's artificial copy (Azure Dragon), Yamato (Okuchi no Makami, ep 1042) and Sengoku (golden Buddha, ep 480). The wiki also lists the Five Elders' yokai forms as Mythical Zoans though the anime never names a fruit, so this group avoids The Gorosei and Died in the anime (Saturn); Loki's dragon fruit is manga-only (ch. 1170) and Giants avoids this group.",
+      "members": ["Luffy", "Kaido", "Marco", "Yamato", "Momonosuke", "Sengoku"],
+      "source": "https://onepiece.fandom.com/wiki/Zoan",
+      "avoid": ["The Gorosei", "Died in the anime"]
     },
     {
-      "title": "Zoan users",
+      "title": "Non-Mythical Zoan users",
       "level": 3,
-      "def": "Characters shown using a standard or Ancient Zoan-type Devil Fruit (not Mythical Zoan) in the anime.",
-      "members": [
-        "Chopper",
-        "King",
-        "Queen",
-        "Jack",
-        "Lucci",
-        "Kaku",
-        "Jabra",
-        "Page One",
-        "Ulti",
-        "Who's-Who",
-        "Black Maria",
-        "Sasaki",
-        "Drake"
-      ],
-      "source": "https://onepiece.fandom.com/wiki/Zoan"
+      "def": "Characters shown in the anime using a standard or Ancient Zoan fruit (a real or prehistoric animal): Chopper, CP9's Lucci, Kaku and Jabra, and the Beasts Pirates' All-Stars and Tobiroppo, Drake and Who's-Who included. Mythical Zoan users are out (hence the title; the two groups avoid each other), and Killer's defective SMILE gave him no Zoan power.",
+      "members": ["Chopper", "King", "Queen", "Jack", "Lucci", "Kaku", "Jabra", "Page One", "Ulti", "Who's-Who", "Black Maria", "Sasaki", "Drake"],
+      "source": "https://onepiece.fandom.com/wiki/Zoan",
+      "avoid": ["Mythical Zoan users"]
     },
     {
       "title": "Tobiroppo",
       "level": 3,
       "def": "The six strongest Shinuchi officers of the Beasts Pirates, collectively called the Tobiroppo, including the defected Drake.",
-      "members": [
-        "Page One",
-        "Ulti",
-        "Who's-Who",
-        "Black Maria",
-        "Sasaki",
-        "Drake"
-      ],
+      "members": ["Page One", "Ulti", "Who's-Who", "Black Maria", "Sasaki", "Drake"],
       "source": "https://onepiece.fandom.com/wiki/Tobiroppo"
     },
     {
       "title": "Died in the anime",
       "level": 3,
-      "def": "Characters whose deaths are shown or confirmed on-screen in the anime.",
-      "members": [
-        "Ace",
-        "Whitebeard",
-        "Sora",
-        "Oden",
-        "Toki",
-        "Sukiyaki",
-        "Roger"
-      ],
+      "def": "Characters whose deaths are shown or confirmed on screen in the anime, including Brook, who died fifty years ago and came back as a skeleton, and Saturn, executed by Imu (ep 1155). Faked or reported deaths don't count (Sukiyaki alive as Hitetsu, Hiyori's staged death as Komurasaki, Moria vanishing from Doflamingo's assassination attempt, ep 513), nor do fates left unknown (Kaido, Big Mom, Kid, Killer, Hawkins, Nero) or Luffy's near-death against Kaido.",
+      "members": ["Ace", "Whitebeard", "Sora", "Oden", "Toki", "Roger", "Saturn", "Brook"],
       "source": "https://onepiece.fandom.com/wiki/Portgas_D._Ace"
     },
     {
       "title": "Will of the D.",
       "level": 4,
-      "def": "Characters confirmed in the anime to carry the middle initial D., the mysterious \"Will of D.\"",
-      "members": [
-        "Luffy",
-        "Ace",
-        "Blackbeard",
-        "Law",
-        "Garp",
-        "Dragon",
-        "Roger"
-      ],
+      "def": "Characters confirmed in the anime to carry the initial D.: Luffy, Ace, Garp, Dragon, Roger, Blackbeard (Marshall D. Teach), Law (Trafalgar D. Water Law) and Vivi, whose whole Nefertari family bears the D. (Cobra's last words, ep 1119). No other name in this bank carries it.",
+      "members": ["Luffy", "Ace", "Blackbeard", "Law", "Garp", "Dragon", "Roger", "Vivi"],
       "source": "https://onepiece.fandom.com/wiki/Will_of_D."
     },
     {
-      "title": "Names that are English words",
+      "title": "Whitebeard Pirates",
+      "level": 2,
+      "def": "Everyone shown as a member of Whitebeard's crew at any time in the anime: Whitebeard, his commanders Ace and Marco, the traitor Blackbeard, and Kozuki Oden and Toki, who sailed with him before moving to Roger's ship. Allies (Jinbe, and Luffy, Ivankov, Buggy and Crocodile at Marineford) were never crew; Oden's infant children Momonosuke and Hiyori were aboard only as companions, so this group avoids the groups they are in (Kozuki Family, Mythical Zoan users).",
+      "members": ["Whitebeard", "Ace", "Marco", "Blackbeard", "Oden", "Toki"],
+      "source": "https://onepiece.fandom.com/wiki/Whitebeard_Pirates",
+      "avoid": ["Kozuki Family", "Mythical Zoan users"]
+    },
+    {
+      "title": "Escaped Impel Down with Luffy",
+      "level": 3,
+      "def": "The Impel Down prisoners who broke out alongside Luffy in the Impel Down arc (eps 422-452) and sailed with him to Marineford: Buggy, Crocodile, Mr. 1 (Daz Bonez), Jinbe and Ivankov. Bon Clay stayed behind to open the Gates of Justice, Ace had already been moved to Marineford, and Blackbeard left separately with his own recruits, including the jailer Shiryu; Arlong was pardoned years earlier (ep 544) and Doflamingo was jailed only after Dressrosa.",
+      "members": ["Buggy", "Crocodile", "Mr. 1", "Jinbe", "Ivankov"],
+      "source": "https://onepiece.fandom.com/wiki/Impel_Down_Great_Escape_Incident"
+    },
+    {
+      "title": "Body-swapped by Law",
+      "level": 3,
+      "def": "Characters whose minds Law swapped into other bodies with the Ope Ope no Mi's personality transplant, all on Punk Hazard: Nami, Sanji, Franky and Chopper (swapped among themselves) and Smoker and Tashigi (swapped with each other). People Law only cut apart or took the heart of, like Caesar, don't count.",
+      "members": ["Nami", "Sanji", "Franky", "Chopper", "Smoker", "Tashigi"],
+      "source": "https://onepiece.fandom.com/wiki/Ope_Ope_no_Mi"
+    },
+    {
+      "title": "Cross Guild",
+      "level": 2,
+      "def": "Members of the Cross Guild shown in the anime (founded after the Warlord system's abolition, eps 1083-1086): its three ex-Warlord heads Buggy, Crocodile and Mihawk, plus Mr. 1 (Daz Bonez). No other name in this bank belongs to it: Hajrudin quit Buggy's earlier Delivery business in ep 752, before the guild existed.",
+      "members": ["Buggy", "Crocodile", "Mihawk", "Mr. 1"],
+      "source": "https://onepiece.fandom.com/wiki/Cross_Guild"
+    },
+    {
+      "title": "Playing card ranks",
       "level": 4,
-      "def": "The short display name is, on its own, an ordinary English dictionary word (Robin, Law, Brook, Shanks, Roger, Dragon…). Proper nouns (Mars, Saturn, Loki) and phrases (Big Mom, Page One, Who's-Who) don't count.",
-      "members": [
-        "King",
-        "Queen",
-        "Judge",
-        "Kid",
-        "Killer",
-        "Smoker",
-        "Robin",
-        "Crocodile",
-        "Drake",
-        "Chopper",
-        "Jack",
-        "Ace",
-        "Carrot",
-        "Law",
-        "Buggy",
-        "Brook",
-        "Shanks",
-        "Roger",
-        "Dragon"
-      ],
+      "def": "Display names that are ranks of a standard playing card: King, Queen, Jack and Ace. No other name in this bank is a card rank (Doflamingo's alias \"Joker\" isn't his tile name).",
+      "members": ["King", "Queen", "Jack", "Ace"],
       "source": "https://onepiece.fandom.com/wiki/List_of_Canon_Characters"
+    },
+    {
+      "title": "Red Hair Pirates",
+      "level": 2,
+      "def": "Members of Shanks's crew in this bank: Shanks, his first mate Benn Beckman, Lucky Roux and the sniper Yasopp (Usopp's father), all shown since episode 4. Shanks's old Roger Pirates crewmates (Buggy etc.) and Luffy, who got his hat, were never in it.",
+      "members": ["Shanks", "Beckman", "Lucky Roux", "Yasopp"],
+      "source": "https://onepiece.fandom.com/wiki/Red_Hair_Pirates"
+    },
+    {
+      "title": "Blackbeard Pirates",
+      "level": 2,
+      "def": "Members of Blackbeard's crew shown in the anime: Blackbeard, Van Augur and Doc Q (with him since Jaya), Shiryu (the Impel Down head jailer who joined him in the breakout) and ex-admiral Aokiji (tied to the crew from ep 736, shown as a member from ep 1093). His old Whitebeard Pirates comrades don't count.",
+      "members": ["Blackbeard", "Aokiji", "Shiryu", "Van Augur", "Doc Q"],
+      "source": "https://onepiece.fandom.com/wiki/Blackbeard_Pirates"
     }
   ]
 }

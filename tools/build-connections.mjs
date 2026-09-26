@@ -20,7 +20,7 @@ const { norm } = gen;
 const dir = path.join(root, "tools/connections");
 const files = fs.existsSync(dir) ? fs.readdirSync(dir).filter(f => f.endsWith(".json")).sort() : [];
 const series = {};
-for (const f of fs.readdirSync(path.join(root, "data")).filter(f => f.endsWith(".js") && !/^(index|images|episodes|songs|song-sources|connections|openings)\.js$/.test(f))) {
+for (const f of fs.readdirSync(path.join(root, "data")).filter(f => f.endsWith(".js") && !/^(index|images|episodes|songs|song-sources|connections|openings|bodies)\.js$/.test(f))) {
   Object.assign(series, load(`data/${f}`).DLE.series);
 }
 const sets = {};
@@ -63,7 +63,20 @@ for (const f of files) {
   }
   const levels = [1, 2, 3, 4].map(l => groups.filter(g => g.level === l).length);
   if (levels[2] + levels[3] < 3) warn(slug, `only ${levels[2] + levels[3]} level 3-4 groups (want 3+)`);
-  sets[slug] = { label: (series[slug] && series[slug].short) || slug, groups: groups.map(({ title, level, members }) => ({ title, level, members })) };
+  // Groups that must never share a board: same `family`, or named in either one's `avoid`
+  const no = groups.map(() => new Set());
+  const byTitle = new Map(groups.map((g, i) => [norm(g.title), i]));
+  for (const [i, g] of groups.entries()) {
+    if (g.family != null && (typeof g.family !== "string" || !g.family.trim())) err(`${slug} "${g.title}"`, "family must be a non-empty string");
+    for (const [j, o] of groups.entries()) if (i !== j && g.family && g.family === o.family) no[i].add(j);
+    for (const t of g.avoid || []) {
+      const j = byTitle.get(norm(t));
+      if (j == null || j === i) err(`${slug} "${g.title}"`, `avoid names "${t}", which isn't another group in this file`);
+      else { no[i].add(j); no[j].add(i); }
+    }
+  }
+  sets[slug] = { label: (series[slug] && series[slug].short) || slug,
+    groups: groups.map(({ title, level, members }, i) => ({ title, level, members, ...(no[i].size ? { no: [...no[i]].sort((a, b) => a - b) } : {}) })) };
   console.log(`  ${groups.length} groups (levels ${levels.join("/")}), ${names.length} names`);
 }
 
@@ -96,10 +109,12 @@ for (const f of files) {
 /* ---------- can the generator fill a daily puzzle for months? ---------- */
 for (const [slug, set] of Object.entries(sets)) {
   let fails = 0; const seen = new Set();
+  const apart = new Set(set.groups.flatMap((g, i) => (g.no || []).map(j => `${g.title}|${set.groups[j].title}`)));
   for (let day = 0; day < 300; day++) {
     const p = gen.makePuzzle(set, gen.seedFor(slug, day));
     if (!p) { fails++; continue; }
     seen.add(p.groups.map(g => g.title).sort().join("|"));
+    for (const a of p.groups) for (const b of p.groups) if (apart.has(`${a.title}|${b.title}`)) err(slug, `day ${day} put "${a.title}" and "${b.title}" together`);
   }
   const line = `${slug}: ${300 - fails}/300 days filled, ${seen.size} different group combinations`;
   if (fails) err(slug, line); else if (seen.size < 60) warn(slug, `${line} (want 60+)`); else console.log(line);

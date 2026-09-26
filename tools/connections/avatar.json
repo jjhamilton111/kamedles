@@ -5,279 +5,191 @@
       "title": "Team Avatar",
       "level": 1,
       "def": "Aang's core group of traveling companions for most or all of the series: the four friends who never leave, Zuko and Suki who join partway through, and the two animal companions. Does not include short-term allies who only helped for a single arc like the invasion (Haru, Teo, The Duke, Pipsqueak).",
-      "members": [
-        "Aang",
-        "Katara",
-        "Sokka",
-        "Toph Beifong",
-        "Zuko",
-        "Suki",
-        "Appa",
-        "Momo"
-      ],
+      "members": ["Aang", "Katara", "Sokka", "Toph Beifong", "Zuko", "Suki", "Appa", "Momo"],
       "source": "https://avatar.fandom.com/wiki/Team_Avatar"
     },
     {
       "title": "Firebenders",
       "level": 1,
-      "def": "Every non-Avatar character confirmed on screen to firebend.",
-      "members": [
-        "Zuko",
-        "Iroh",
-        "Zhao",
-        "Ozai",
-        "Jeong Jeong",
-        "Azula",
-        "Azulon",
-        "Combustion Man",
-        "Lo and Li",
-        "Sozin"
-      ],
+      "def": "Every non-Avatar character confirmed on screen to firebend. Chit Sang firebends at the Boiling Rock; Lo and Li are nonbenders who only coach Azula, so they're out.",
+      "members": ["Zuko", "Iroh", "Zhao", "Ozai", "Jeong Jeong", "Azula", "Azulon", "Combustion Man", "Sozin", "Chit Sang"],
       "source": "https://avatar.fandom.com/wiki/Firebending"
     },
     {
       "title": "Fire Nation Royal Family",
       "level": 1,
       "def": "Every member of the Fire Nation's ruling family by birth or marriage who is shown or named on screen, through Zuko's generation.",
-      "members": [
-        "Sozin",
-        "Azulon",
-        "Iroh",
-        "Ozai",
-        "Ursa",
-        "Zuko",
-        "Azula",
-        "Lu Ten"
-      ],
+      "members": ["Sozin", "Azulon", "Iroh", "Ozai", "Ursa", "Zuko", "Azula", "Lu Ten"],
       "source": "https://avatar.fandom.com/wiki/Fire_Nation_Royal_Family"
     },
     {
       "title": "Named animals",
       "level": 1,
       "def": "Named, ordinary (non-spirit) animals who appear in the show.",
-      "members": [
-        "Appa",
-        "Momo",
-        "Nyla",
-        "Bosco",
-        "The Unagi"
-      ],
+      "members": ["Appa", "Momo", "Nyla", "Bosco", "The Unagi"],
       "source": "https://avatar.fandom.com/wiki/Appa"
     },
     {
       "title": "Waterbenders",
       "level": 1,
       "def": "Every non-Avatar character confirmed on screen to waterbend.",
-      "members": [
-        "Katara",
-        "Pakku",
-        "Hama",
-        "Huu",
-        "Tho",
-        "Due"
-      ],
+      "members": ["Katara", "Pakku", "Hama", "Huu", "Tho", "Due"],
       "source": "https://avatar.fandom.com/wiki/Waterbending"
     },
     {
       "title": "Order of the White Lotus",
       "level": 2,
       "def": "Named members of the secret Order of the White Lotus who liberate Ba Sing Se in the finale.",
-      "members": [
-        "Iroh",
-        "Pakku",
-        "Bumi",
-        "Jeong Jeong",
-        "Piandao"
-      ],
+      "members": ["Iroh", "Pakku", "Bumi", "Jeong Jeong", "Piandao"],
       "source": "https://avatar.fandom.com/wiki/Order_of_the_White_Lotus"
     },
     {
       "title": "Freedom Fighters",
       "level": 2,
       "def": "Official members of Jet's band of Earth Kingdom resistance fighters.",
-      "members": [
-        "Jet",
-        "Smellerbee",
-        "Longshot",
-        "Pipsqueak",
-        "The Duke"
-      ],
+      "members": ["Jet", "Smellerbee", "Longshot", "Pipsqueak", "The Duke"],
       "source": "https://avatar.fandom.com/wiki/Freedom_Fighters"
     },
     {
       "title": "Earthbenders",
       "level": 2,
       "def": "Every non-Avatar character confirmed on screen to earthbend, including the Earth Rumble VI tournament fighters.",
-      "members": [
-        "Toph Beifong",
-        "Bumi",
-        "Haru",
-        "Long Feng",
-        "Xin Fu",
-        "The Boulder",
-        "Fire Nation Man",
-        "Headhunter",
-        "Big Bad Hippo",
-        "The Gecko",
-        "The Gopher"
-      ],
+      "members": ["Toph Beifong", "Bumi", "Haru", "Long Feng", "Xin Fu", "The Boulder", "Fire Nation Man", "Headhunter", "Big Bad Hippo", "The Gecko", "The Gopher"],
       "source": "https://avatar.fandom.com/wiki/Earthbending"
     },
     {
       "title": "Fire Lords",
       "level": 2,
       "def": "Characters who officially hold the title of Fire Lord at some point in the show. Azula is crowned but never completes the ceremony, so she doesn't count.",
-      "members": [
-        "Sozin",
-        "Azulon",
-        "Ozai",
-        "Zuko"
-      ],
+      "members": ["Sozin", "Azulon", "Ozai", "Zuko"],
       "source": "https://avatar.fandom.com/wiki/Fire_Lord"
     },
     {
       "title": "Katara and Sokka's Family",
       "level": 2,
       "def": "Katara and Sokka's blood relatives shown in the series.",
-      "members": [
-        "Katara",
-        "Sokka",
-        "Kanna",
-        "Hakoda",
-        "Kya"
-      ],
+      "members": ["Katara", "Sokka", "Kanna", "Hakoda", "Kya"],
       "source": "https://avatar.fandom.com/wiki/Katara"
     },
     {
       "title": "Sword Fighters",
       "level": 2,
-      "def": "Characters whose signature weapon is a sword or other melee blade (not counting bending or thrown weapons like Mai's knives).",
-      "members": [
-        "Sokka",
-        "Suki",
-        "Piandao",
-        "Zuko",
-        "Jet"
-      ],
+      "def": "Characters shown fighting with a sword on screen: Sokka (the sword Piandao trains him with), Zuko's dual dao, Jet's hook swords, Piandao, and Suki's katana against Azula. Knives and daggers (Mai, Smellerbee, Azula's knife), war fans (Kyoshi) and spears or clubs (The Duke, Pipsqueak) don't count.",
+      "members": ["Sokka", "Suki", "Piandao", "Zuko", "Jet"],
       "source": "https://avatar.fandom.com/wiki/Piandao"
     },
     {
       "title": "Water Tribe",
       "level": 2,
       "def": "Every character affiliated with the Water Tribe, Northern or Southern, including the Foggy Swamp offshoot tribe.",
-      "members": [
-        "Katara",
-        "Sokka",
-        "Kanna",
-        "Hakoda",
-        "Kya",
-        "Pakku",
-        "Yue",
-        "Hama",
-        "Huu",
-        "Tho",
-        "Due"
-      ],
+      "members": ["Katara", "Sokka", "Kanna", "Hakoda", "Kya", "Pakku", "Yue", "Hama", "Huu", "Tho", "Due"],
       "source": "https://avatar.fandom.com/wiki/Water_Tribe"
     },
     {
       "title": "Past Avatars",
       "level": 3,
       "def": "Incarnations of the Avatar spirit who appear in the series: Aang and the four lives immediately before him.",
-      "members": [
-        "Aang",
-        "Roku",
-        "Kyoshi",
-        "Kuruk",
-        "Yangchen"
-      ],
+      "members": ["Aang", "Roku", "Kyoshi", "Kuruk", "Yangchen"],
       "source": "https://avatar.fandom.com/wiki/Avatar"
     },
     {
       "title": "Spirits",
       "level": 3,
       "def": "Spirit-world beings, plus Yue, who dies and becomes the new Moon Spirit. Does not include past Avatars, who are a separate concept in the show.",
-      "members": [
-        "Koh",
-        "Wan Shi Tong",
-        "Yue",
-        "Hei Bai"
-      ],
+      "members": ["Koh", "Wan Shi Tong", "Yue", "Hei Bai"],
       "source": "https://avatar.fandom.com/wiki/Spirit_World"
     },
     {
       "title": "Boiling Rock",
       "level": 3,
-      "def": "Staff or prisoners at the Boiling Rock prison (not counting Sokka and Zuko, who only pass through undercover).",
-      "members": [
-        "The Warden",
-        "Chit Sang",
-        "Suki",
-        "Mai",
-        "Ty Lee"
-      ],
+      "def": "Everyone seen at the Boiling Rock prison in the two-part \"The Boiling Rock\": the warden, the inmates Suki, Hakoda and Chit Sang, Sokka and Zuko (undercover), and Azula, Mai and Ty Lee, who arrive in Part 2. The rest of Team Avatar stays at the Western Air Temple.",
+      "members": ["The Warden", "Chit Sang", "Suki", "Hakoda", "Sokka", "Zuko", "Mai", "Ty Lee", "Azula"],
       "source": "https://avatar.fandom.com/wiki/Boiling_Rock"
     },
     {
       "title": "Team Avatar's Teachers",
       "level": 3,
       "def": "Outside masters who willingly and personally train a Team Avatar member in bending or combat, not counting an adversary who forces a lesson (like Hama).",
-      "members": [
-        "Jeong Jeong",
-        "Pakku",
-        "Iroh",
-        "Piandao",
-        "Guru Pathik"
-      ],
+      "members": ["Jeong Jeong", "Pakku", "Iroh", "Piandao", "Guru Pathik"],
       "source": "https://avatar.fandom.com/wiki/Jeong_Jeong"
     },
     {
       "title": "Agni Kai Fighters",
       "level": 3,
       "def": "Characters confirmed to have fought an on-screen Agni Kai duel. Only three are depicted, and Zuko fights in all of them.",
-      "members": [
-        "Zuko",
-        "Ozai",
-        "Zhao",
-        "Azula"
-      ],
+      "members": ["Zuko", "Ozai", "Zhao", "Azula"],
       "source": "https://avatar.fandom.com/wiki/Agni_Kai"
     },
     {
       "title": "Earth Rumble Contestants",
       "level": 4,
       "def": "Everyone who fought in the Earth Rumble VI underground earthbending tournament in Gaoling.",
-      "members": [
-        "Aang",
-        "Toph Beifong",
-        "Xin Fu",
-        "The Boulder",
-        "Fire Nation Man",
-        "Headhunter",
-        "Big Bad Hippo",
-        "The Gecko",
-        "The Gopher"
-      ],
+      "members": ["Aang", "Toph Beifong", "Xin Fu", "The Boulder", "Fire Nation Man", "Headhunter", "Big Bad Hippo", "The Gecko", "The Gopher"],
       "source": "https://avatar.fandom.com/wiki/Earth_Rumble"
     },
     {
       "title": "No Real Name Given",
       "level": 4,
       "def": "Characters known only by a title, occupation, or nickname — no birth name is ever given on screen.",
-      "members": [
-        "Cabbage Merchant",
-        "Combustion Man",
-        "The Mechanist",
-        "The Warden",
-        "The Boulder",
-        "The Duke",
-        "Fire Nation Man",
-        "Headhunter",
-        "Big Bad Hippo",
-        "The Gecko",
-        "The Gopher"
-      ],
+      "members": ["Cabbage Merchant", "Combustion Man", "The Mechanist", "The Warden", "The Boulder", "The Duke", "Fire Nation Man", "Headhunter", "Big Bad Hippo", "The Gecko", "The Gopher"],
       "source": "https://avatar.fandom.com/wiki/Combustion_Man"
+    },
+    {
+      "title": "Team Avatar's invasion allies",
+      "level": 3,
+      "def": "Named characters outside Team Avatar who take part in the Day of Black Sun invasion force: Hakoda, Haru, The Duke, Pipsqueak, The Boulder, The Hippo, the Mechanist and the swamp waterbenders Huu, Due and Tho. Team Avatar's own members aren't counted; Bumi freeing Omashu and Iroh breaking out of prison during the eclipse don't count; Suki is in the Boiling Rock at the time.",
+      "members": ["Hakoda", "Haru", "The Duke", "Pipsqueak", "The Boulder", "Big Bad Hippo", "The Mechanist", "Huu", "Due", "Tho"],
+      "source": "https://avatar.fandom.com/wiki/The_Day_of_Black_Sun,_Part_1:_The_Invasion"
+    },
+    {
+      "title": "Lightning benders",
+      "level": 3,
+      "def": "Characters shown generating or redirecting lightning on screen: Iroh, Ozai and Azula generate it; Iroh, Zuko and Aang (against Ozai in the finale) redirect it. Combustion Man's blasts and Sozin redirecting lava heat don't count.",
+      "members": ["Iroh", "Ozai", "Azula", "Zuko", "Aang"],
+      "source": "https://avatar.fandom.com/wiki/Lightning_redirection"
+    },
+    {
+      "title": "Starred in a Tale of Ba Sing Se",
+      "level": 3,
+      "def": "Characters who get their own segment in \"The Tales of Ba Sing Se\" (Toph and Katara share one). Appa's story is the following episode, \"Appa's Lost Days\", so he doesn't count.",
+      "members": ["Toph Beifong", "Katara", "Iroh", "Aang", "Sokka", "Zuko", "Momo"],
+      "source": "https://avatar.fandom.com/wiki/The_Tales_of_Ba_Sing_Se"
+    },
+    {
+      "title": "Wore Kyoshi Warrior makeup",
+      "level": 4,
+      "def": "Characters seen in the Kyoshi Warriors' face paint and green armor: Suki, Sokka (training with them in \"The Warriors of Kyoshi\"), Azula, Mai and Ty Lee (disguised as the warriors in Ba Sing Se; Ty Lee later joins for real), and Avatar Kyoshi, whose own look the uniform copies.",
+      "members": ["Suki", "Sokka", "Ty Lee", "Azula", "Mai", "Kyoshi"],
+      "source": "https://avatar.fandom.com/wiki/Kyoshi_Warriors"
+    },
+    {
+      "title": "Team Avatar's parents",
+      "level": 2,
+      "def": "Parents of a Team Avatar member who appear or are named on screen: Hakoda and Kya (Katara and Sokka), Lao and Poppy Beifong (Toph), Ozai and Ursa (Zuko). Aang's and Suki's parents never appear; uncle Iroh and grandmother Kanna aren't parents.",
+      "members": ["Hakoda", "Kya", "Lao Beifong", "Poppy Beifong", "Ozai", "Ursa"],
+      "source": "https://avatar.fandom.com/wiki/Lao_Beifong"
+    },
+    {
+      "title": "Siblings",
+      "level": 2,
+      "def": "Characters shown or stated on screen to have a brother or sister: Katara and Sokka, Zuko and Azula, Iroh and Ozai, Mai (baby brother Tom-Tom), Ty Lee (six identical sisters) and the twin sisters Lo and Li. Siblings that exist only in comics or novels (Sozin's, Roku's, Zhao's) don't count, and the warden is only ever called Mai's uncle.",
+      "members": ["Katara", "Sokka", "Zuko", "Azula", "Iroh", "Ozai", "Mai", "Ty Lee", "Lo and Li"],
+      "source": "https://avatar.fandom.com/wiki/Ty_Lee"
+    },
+    {
+      "title": "Aang's bending teachers",
+      "level": 2,
+      "def": "Characters who give Aang bending lessons on screen: Katara and Pakku (water), Toph (earth), Jeong Jeong and Zuko (fire). Guru Pathik teaches chakras, not bending; Bumi never becomes his teacher; the past Avatars only give advice.",
+      "members": ["Katara", "Toph Beifong", "Zuko", "Pakku", "Jeong Jeong"],
+      "source": "https://avatar.fandom.com/wiki/Jeong_Jeong",
+      "avoid": ["Team Avatar's Teachers"]
+    },
+    {
+      "title": "Dead before the show begins",
+      "level": 3,
+      "def": "Characters already dead when the series opens, seen only in flashbacks or as spirits: Kya, Lu Ten, Sozin, Azulon and Aang's four past lives. Ursa is alive (banished); Jet, Yue and Zhao are lost during the series.",
+      "members": ["Kya", "Lu Ten", "Sozin", "Azulon", "Roku", "Kyoshi", "Kuruk", "Yangchen"],
+      "source": "https://avatar.fandom.com/wiki/Lu_Ten"
     }
   ]
 }

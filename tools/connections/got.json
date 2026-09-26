@@ -4,256 +4,217 @@
     {
       "title": "House Stark",
       "level": 1,
-      "def": "Born a Stark, or married the head of House Stark, during the show. Wards, servants, and allies like Theon, Meera, and Hodor don't count.",
-      "members": [
-        "Ned",
-        "Catelyn",
-        "Robb",
-        "Sansa",
-        "Arya",
-        "Bran",
-        "Rickon",
-        "Jon",
-        "Benjen"
-      ],
-      "source": "https://gameofthrones.fandom.com/wiki/House_Stark"
+      "def": "Born a Stark (Ned, his brother Benjen and his children Robb, Sansa, Arya, Bran and Rickon), Jon (raised as Ned's bastard son, by blood Lyanna Stark's), or the wife of the house's head (Catelyn, Ned's; Talisa, Robb's); wards and allies like Theon don't count, Sansa stays a Stark through her marriages, and the tile Lyanna Mormont is a Mormont.",
+      "members": ["Ned", "Catelyn", "Robb", "Sansa", "Arya", "Bran", "Rickon", "Jon", "Benjen", "Talisa"],
+      "source": "https://gameofthrones.fandom.com/wiki/Talisa_Stark"
     },
     {
       "title": "House Lannister",
       "level": 2,
-      "def": "Born a Lannister, including Cersei and Jaime's three children, who are secretly Lannisters by blood despite being publicly styled Baratheon.",
-      "members": [
-        "Tywin",
-        "Cersei",
-        "Jaime",
-        "Tyrion",
-        "Joffrey",
-        "Tommen",
-        "Myrcella"
-      ],
+      "def": "Born a Lannister: Tywin, his children Cersei, Jaime and Tyrion, and Cersei's three children by Jaime (Joffrey, Tommen, Myrcella), Lannisters by blood though styled Baratheon; like the other house groups, a wife only counts if she married the house's head or king, so Sansa (Tyrion's wife, and the wiki's 'Lannister by marriage') stays a Stark.",
+      "members": ["Tywin", "Cersei", "Jaime", "Tyrion", "Joffrey", "Tommen", "Myrcella"],
       "source": "https://gameofthrones.fandom.com/wiki/House_Lannister"
     },
     {
       "title": "House Baratheon",
       "level": 2,
-      "def": "Born a Baratheon, styled a Baratheon as one of Robert's children, or married the reigning Baratheon king.",
-      "members": [
-        "Robert",
-        "Stannis",
-        "Renly",
-        "Cersei",
-        "Joffrey",
-        "Tommen",
-        "Myrcella",
-        "Shireen",
-        "Gendry"
-      ],
-      "source": "https://gameofthrones.fandom.com/wiki/House_Baratheon"
+      "def": "Born a Baratheon (Robert, Stannis, Renly, Shireen, and Gendry, Robert's bastard legitimised in S8), styled one as Robert's supposed children (Joffrey, Tommen, Myrcella), or the wife of a Baratheon king (Cersei, Robert's; Margaery, Renly's, Joffrey's and Tommen's); sworn men like Davos, Brienne, Loras and Beric don't count.",
+      "members": ["Robert", "Stannis", "Renly", "Cersei", "Joffrey", "Tommen", "Myrcella", "Shireen", "Gendry", "Margaery"],
+      "source": "https://gameofthrones.fandom.com/wiki/Margaery_Tyrell"
     },
     {
       "title": "House Targaryen",
       "level": 2,
       "def": "Born a Targaryen, including Jon Snow, who is secretly Rhaegar and Lyanna Stark's trueborn son.",
-      "members": [
-        "Daenerys",
-        "Viserys",
-        "Aemon",
-        "Jon"
-      ],
+      "members": ["Daenerys", "Viserys", "Aemon", "Jon"],
       "source": "https://gameofthrones.fandom.com/wiki/House_Targaryen"
     },
     {
       "title": "House Greyjoy",
       "level": 2,
       "def": "Born a Greyjoy.",
-      "members": [
-        "Theon",
-        "Yara",
-        "Euron",
-        "Balon"
-      ],
+      "members": ["Theon", "Yara", "Euron", "Balon"],
       "source": "https://gameofthrones.fandom.com/wiki/House_Greyjoy"
     },
     {
       "title": "House Tyrell",
       "level": 2,
-      "def": "Born a Tyrell.",
-      "members": [
-        "Olenna",
-        "Margaery",
-        "Loras",
-        "Mace"
-      ],
-      "source": "https://gameofthrones.fandom.com/wiki/House_Tyrell"
+      "def": "Born a Tyrell (Mace and his children Loras and Margaery, who stays a Tyrell though she married three Baratheon kings) or the wife of the house's head (Olenna, born a Redwyne, widow of Lord Luthor Tyrell).",
+      "members": ["Olenna", "Margaery", "Loras", "Mace"],
+      "source": "https://gameofthrones.fandom.com/wiki/Olenna_Tyrell"
     },
     {
       "title": "Dornish",
       "level": 3,
-      "def": "Born in Dorne: House Martell plus Oberyn's paramour Ellaria Sand (Myrcella only lived there).",
-      "members": [
-        "Oberyn",
-        "Doran",
-        "Trystane",
-        "Ellaria"
-      ],
+      "def": "Dornish by birth and upbringing (wiki culture 'Dornishmen'): the Martells Oberyn, Doran and Trystane, and Oberyn's paramour Ellaria Sand; Jon was born at the Tower of Joy but raised in the North (culture Northmen), and Myrcella was born in King's Landing and only fostered in Dorne, so neither counts.",
+      "members": ["Oberyn", "Doran", "Trystane", "Ellaria"],
       "source": "https://gameofthrones.fandom.com/wiki/House_Martell"
     },
     {
       "title": "House Tully",
       "level": 3,
       "def": "Born a Tully.",
-      "members": [
-        "Catelyn",
-        "Lysa",
-        "Edmure",
-        "Blackfish"
-      ],
+      "members": ["Catelyn", "Lysa", "Edmure", "Blackfish"],
       "source": "https://gameofthrones.fandom.com/wiki/House_Tully"
     },
     {
       "title": "House Mormont",
       "level": 3,
-      "def": "Born a Mormont.",
-      "members": [
-        "Jorah",
-        "Jeor",
-        "Lyanna",
-        "Maege"
-      ],
+      "def": "Born a Mormont: Lord Commander Jeor, his son Jorah, his sister Maege (seen with Robb's bannermen in S1) and her daughter Lyanna; no Mormont wife is in the bank.",
+      "members": ["Jorah", "Jeor", "Lyanna Mormont", "Maege"],
       "source": "https://gameofthrones.fandom.com/wiki/House_Mormont"
     },
     {
-      "title": "The Small Council",
+      "title": "King Robert's councillors",
       "level": 2,
-      "def": "Sat on the Small Council, the king or queen's ruling cabinet, at some point in the show.",
-      "members": [
-        "Ned",
-        "Tywin",
-        "Tyrion",
-        "Renly",
-        "Littlefinger",
-        "Varys",
-        "Davos",
-        "Qyburn",
-        "Pycelle"
-      ],
-      "source": "https://gameofthrones.fandom.com/wiki/Small_Council"
+      "def": "Held a Small Council office under King Robert: Hand Ned, Master of Coin Littlefinger, Master of Whisperers Varys, Grand Maester Pycelle, Master of Laws Renly (all seen at the table in S1) and Master of Ships Stannis (away on Dragonstone); not Robert himself, Cersei, Jaime, or Lord Commander Barristan, whom Robert barred from the council (GOT305, GOT603), so the group avoids Kingsguard, and avoids Bran's councillors as the same office list in another reign.",
+      "members": ["Ned", "Littlefinger", "Varys", "Pycelle", "Renly", "Stannis"],
+      "source": "https://gameofthrones.fandom.com/wiki/Small_Council",
+      "avoid": ["Kingsguard", "Bran's councillors"]
     },
     {
       "title": "Kingsguard",
       "level": 3,
-      "def": "Served in the Kingsguard (or Queensguard) at some point, even briefly or for a different monarch. The Hound is sworn in but deserts, and Podrick is only named at the very end.",
-      "members": [
-        "Jaime",
-        "Barristan",
-        "The Hound",
-        "The Mountain",
-        "Brienne",
-        "Podrick"
-      ],
-      "source": "https://gameofthrones.fandom.com/wiki/Kingsguard"
+      "def": "Sworn on screen into a king's or queen's Kingsguard/Queensguard at some point, even briefly or for a rival claimant: the Iron Throne's (Barristan, Jaime, Meryn Trant, the Hound until he deserts, the Mountain; Brienne and Podrick under Bran), Renly's (Loras, Brienne) or Daenerys's (Barristan, GOT301); Jorah is never named to her Queensguard on screen, so he's out and the group avoids his other groups.",
+      "members": ["Jaime", "Barristan", "The Hound", "The Mountain", "Brienne", "Podrick", "Loras", "Meryn Trant"],
+      "source": "https://gameofthrones.fandom.com/wiki/Kingsguard",
+      "avoid": ["House Mormont", "Wight-hunt party"]
     },
     {
       "title": "Night's Watch",
       "level": 1,
-      "def": "Took the black and served at the Wall as a member of the Night's Watch.",
-      "members": [
-        "Jon",
-        "Benjen",
-        "Aemon",
-        "Sam",
-        "Jeor"
-      ],
-      "source": "https://gameofthrones.fandom.com/wiki/Night%27s_Watch"
+      "def": "Took the black and served at the Wall as a sworn brother of the Night's Watch, including Mance Rayder, who deserted before the show began.",
+      "members": ["Jon", "Benjen", "Aemon", "Sam", "Jeor", "Mance"],
+      "source": "https://gameofthrones.fandom.com/wiki/Mance_Rayder"
     },
     {
       "title": "Free Folk",
       "level": 1,
-      "def": "A wildling living beyond the Wall (Free Folk) who becomes a named character.",
-      "members": [
-        "Gilly",
-        "Tormund",
-        "Ygritte",
-        "Mance"
-      ],
-      "source": "https://gameofthrones.fandom.com/wiki/Free_Folk"
+      "def": "Born a wildling among the Free Folk beyond the Wall: Gilly (Craster's daughter), Tormund, Ygritte and Mance (born a wildling, raised by the Night's Watch, later King-Beyond-the-Wall); the Night King isn't one, and Jon only lives among them (the wiki adds 'Free Folk' to his culture after the finale), so the group avoids all of Jon's groups.",
+      "members": ["Gilly", "Tormund", "Ygritte", "Mance"],
+      "source": "https://gameofthrones.fandom.com/wiki/Free_Folk",
+      "avoid": ["House Stark", "House Targaryen", "Night's Watch", "Direwolves' owners", "Wight-hunt party"]
     },
     {
       "title": "Direwolves' owners",
       "level": 1,
       "def": "The six Stark children who each found and raised one of the direwolf pups in Season 1.",
-      "members": [
-        "Robb",
-        "Sansa",
-        "Arya",
-        "Bran",
-        "Rickon",
-        "Jon"
-      ],
+      "members": ["Robb", "Sansa", "Arya", "Bran", "Rickon", "Jon"],
       "source": "https://gameofthrones.fandom.com/wiki/Direwolf"
     },
     {
-      "title": "In House Lannister's service",
-      "level": 3,
-      "def": "Worked for House Lannister by choice at some point without being born or married into the family (not an unwilling hostage like Sansa).",
-      "members": [
-        "Bronn",
-        "The Mountain",
-        "Podrick",
-        "Shae",
-        "Qyburn",
-        "Pycelle",
-        "Euron"
-      ],
-      "source": "https://gameofthrones.fandom.com/wiki/House_Lannister"
-    },
-    {
-      "title": "Sat on the Iron Throne",
+      "title": "Monarchs on the Iron Throne",
       "level": 2,
-      "def": "Ruled as king or queen from the Iron Throne itself. Cersei was the last monarch ever to sit on it.",
-      "members": [
-        "Robert",
-        "Joffrey",
-        "Tommen",
-        "Cersei"
-      ],
-      "source": "https://gameofthrones.fandom.com/wiki/Iron_Throne"
+      "def": "Reigned as king or queen in their own right and sat the Iron Throne itself: Robert, Joffrey, Tommen and Cersei, the last to sit it; Ned and Tywin only sat it as Hand, queen consorts like Margaery never reigned, claimants (Stannis, Renly, Viserys) and Daenerys never sat it, and Bran is crowned after it's melted, so as 'the Iron Throne' also names the crown, the group avoids Bran's groups.",
+      "members": ["Robert", "Joffrey", "Tommen", "Cersei"],
+      "source": "https://gameofthrones.fandom.com/wiki/Iron_Throne",
+      "avoid": ["House Stark", "Direwolves' owners"]
     },
     {
       "title": "Killed at a wedding feast",
       "level": 3,
-      "def": "Killed during their own or someone else's wedding feast: the Red Wedding or the Purple Wedding.",
-      "members": [
-        "Robb",
-        "Catelyn",
-        "Talisa",
-        "Joffrey"
-      ],
+      "def": "Killed during a wedding feast on screen: the Red Wedding (Robb, Talisa, Catelyn) or the Purple Wedding (Joffrey); Edmure survives his own wedding as a prisoner, Walder Frey is killed later at an ordinary meal, and Maege's off-screen death 'fighting for Robb' is never placed at the Twins.",
+      "members": ["Robb", "Catelyn", "Talisa", "Joffrey"],
       "source": "https://gameofthrones.fandom.com/wiki/Red_Wedding"
-    },
-    {
-      "title": "Burned alive",
-      "level": 4,
-      "def": "Burned to death on screen: Shireen on Stannis's pyre, the other three by Drogon's dragonfire.",
-      "members": [
-        "Shireen",
-        "Varys",
-        "Randyll",
-        "Dickon"
-      ],
-      "source": "https://gameofthrones.fandom.com/wiki/Shireen_Baratheon"
     },
     {
       "title": "Hand of the King or Queen",
       "level": 4,
-      "def": "Formally held the title Hand of the King or Hand of the Queen at some point in the show.",
-      "members": [
-        "Ned",
-        "Tywin",
-        "Tyrion",
-        "Qyburn"
-      ],
+      "def": "Formally held the title Hand of the King or Hand of the Queen at some point in the show, including Davos, Hand to the claimant King Stannis. (Mace as Renly's Hand is books-only.)",
+      "members": ["Ned", "Tywin", "Tyrion", "Qyburn", "Davos"],
       "source": "https://gameofthrones.fandom.com/wiki/Hand_of_the_King"
+    },
+    {
+      "title": "The Five Kings",
+      "level": 2,
+      "def": "The five crowned rivals the War of the Five Kings is named after: Joffrey, Robb, Stannis, Renly and Balon. Later monarchs (Tommen, Cersei, Euron, Jon) and other 'kings' (Mance, the Night King) aren't among the five.",
+      "members": ["Joffrey", "Robb", "Stannis", "Renly", "Balon"],
+      "source": "https://gameofthrones.fandom.com/wiki/War_of_the_Five_Kings"
+    },
+    {
+      "title": "Masters of Coin",
+      "level": 3,
+      "def": "Held the Small Council office of Master of Coin: Littlefinger (Robert, Joffrey), Tyrion (under Tywin), Mace (under Cersei) and Bronn (under Bran).",
+      "members": ["Littlefinger", "Tyrion", "Mace", "Bronn"],
+      "source": "https://gameofthrones.fandom.com/wiki/Master_of_Coin"
+    },
+    {
+      "title": "Bran's councillors",
+      "level": 3,
+      "def": "Sits on King Bran's Small Council in the finale: Hand Tyrion, Master of Coin Bronn, Master of Ships Davos, Grand Maester Sam and Lord Commander of the Kingsguard Brienne. Podrick only guards the king.",
+      "members": ["Tyrion", "Bronn", "Davos", "Sam", "Brienne"],
+      "source": "https://gameofthrones.fandom.com/wiki/The_Iron_Throne"
+    },
+    {
+      "title": "Maesters",
+      "level": 3,
+      "def": "Trained as a maester of the Citadel at some point: Aemon, Pycelle, Qyburn (stripped of his chain) and Sam (Grand Maester by the finale).",
+      "members": ["Aemon", "Pycelle", "Qyburn", "Sam"],
+      "source": "https://gameofthrones.fandom.com/wiki/Category:Maesters"
+    },
+    {
+      "title": "Killed by their own blood",
+      "level": 4,
+      "def": "Killed by a blood relative, directly or on their orders: Tywin (Tyrion), Renly (Stannis's shadow), Shireen (burned on Stannis's orders), Trystane (his cousin Obara), Balon (Euron), Daenerys (her nephew Jon), and the Clegane brothers, who take each other down. In-laws don't count (Joffrey, Lysa, Viserys, Rickon).",
+      "members": ["Tywin", "Renly", "Shireen", "Trystane", "Balon", "Daenerys", "The Mountain", "The Hound"],
+      "source": "https://gameofthrones.fandom.com/wiki/Kinslaying"
+    },
+    {
+      "title": "Fought in a trial by combat",
+      "level": 3,
+      "def": "Fought as the accused or a champion in a trial by combat on screen: Bronn (for Tyrion, vs Vardis Egen), the Hound vs Beric, and Oberyn (for Tyrion) vs the Mountain. Tyrion and Cersei demanded trials but never fought.",
+      "members": ["Bronn", "Oberyn", "The Mountain", "The Hound", "Beric"],
+      "source": "https://gameofthrones.fandom.com/wiki/Trial_by_combat"
+    },
+    {
+      "title": "On Arya's list",
+      "level": 2,
+      "def": "Named in the kill list Arya recites every night, even briefly: Joffrey, Cersei, Tywin, the Mountain, the Hound, Walder Frey, Meryn Trant and Beric (added after the Brotherhood sold Gendry, later dropped). Littlefinger was never on it.",
+      "members": ["Joffrey", "Cersei", "Tywin", "The Mountain", "The Hound", "Walder Frey", "Meryn Trant", "Beric"],
+      "source": "https://gameofthrones.fandom.com/wiki/Arya_Stark"
+    },
+    {
+      "title": "Killed by Arya",
+      "level": 1,
+      "def": "Killed by Arya Stark on screen: Meryn Trant (Braavos), Walder Frey (the Twins), Littlefinger (Winterfell) and the Night King.",
+      "members": ["Littlefinger", "Walder Frey", "Meryn Trant", "Night King"],
+      "source": "https://gameofthrones.fandom.com/wiki/Arya_Stark"
+    },
+    {
+      "title": "Wight-hunt party",
+      "level": 3,
+      "def": "The men who went north of the Wall from Eastwatch in Season 7 to capture a wight: Jon, Jorah, Gendry, Tormund, the Hound and Beric (plus Thoros). Daenerys and Benjen only arrive to rescue them; Davos and Tyrion stay at Eastwatch.",
+      "members": ["Jon", "Jorah", "Gendry", "Tormund", "The Hound", "Beric"],
+      "source": "https://gameofthrones.fandom.com/wiki/Wight_hunt"
+    },
+    {
+      "title": "Died in the Battle of Winterfell (S8)",
+      "level": 2,
+      "def": "Died in the Season 8 battle against the dead at Winterfell ('The Long Night'): Jorah, Lyanna Mormont, Theon, Beric and the Night King himself; earlier fights at Winterfell don't count (Rickon dies in the S6 Battle of the Bastards, Stannis after the S5 battle in the ice), and the group avoids Kingsguard because Jorah is left out of it.",
+      "members": ["Jorah", "Lyanna Mormont", "Theon", "Beric", "Night King"],
+      "source": "https://gameofthrones.fandom.com/wiki/Battle_of_Winterfell",
+      "avoid": ["Kingsguard"]
+    },
+    {
+      "title": "Recast between seasons",
+      "level": 4,
+      "def": "Played by a different actor partway through the show's run: Tommen, Myrcella, the Mountain (three actors), Dickon, Beric and the Night King. Unaired-pilot recasts (Catelyn, Daenerys) and younger flashback actors (Ned, Cersei, Benjen) don't count.",
+      "members": ["Tommen", "Myrcella", "The Mountain", "Dickon", "Beric", "Night King"],
+      "source": "https://gameofthrones.fandom.com/wiki/Gregor_Clegane"
+    },
+    {
+      "title": "Died in the Great Sept blast",
+      "level": 2,
+      "def": "Killed when Cersei's wildfire destroyed the Great Sept of Baelor in the Season 6 finale: Margaery, Loras, Mace and the High Sparrow. Tommen's suicide and Pycelle's stabbing happen elsewhere.",
+      "members": ["Margaery", "Loras", "Mace", "High Sparrow"],
+      "source": "https://gameofthrones.fandom.com/wiki/Destruction_of_the_Great_Sept_of_Baelor"
+    },
+    {
+      "title": "Titles & epithets, not names",
+      "level": 4,
+      "def": "The tile is a byname or title, not the character's name: The Hound (Sandor), The Mountain (Gregor), Littlefinger (Petyr), Blackfish (Brynden), and the High Sparrow and Night King, who are never named. Short forms like Ned and Sam are still names.",
+      "members": ["The Hound", "The Mountain", "Littlefinger", "Blackfish", "High Sparrow", "Night King"],
+      "source": "https://gameofthrones.fandom.com/wiki/Brynden_Tully"
     }
   ]
 }

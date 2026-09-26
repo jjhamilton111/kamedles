@@ -18,15 +18,15 @@
     {
       "title": "Waterbenders",
       "level": 1,
-      "def": "Every non-Avatar character confirmed on screen to waterbend.",
-      "members": ["Katara", "Amon", "Tarrlok", "Tahno", "Tonraq", "Unalaq", "Desna", "Eska", "Ming-Hua", "Kya"],
+      "def": "Every non-Avatar character shown waterbending in the show. Hasook plays pro-bending as the Fire Ferrets' waterbender; Viper waterbends in \"The Sting\". Senna is called a waterbender only in press material and never bends; Shady Shin's waterbending appears only in the Republic City Hustle web shorts.",
+      "members": ["Katara", "Amon", "Tarrlok", "Tahno", "Tonraq", "Unalaq", "Desna", "Eska", "Ming-Hua", "Kya", "Hasook", "Viper"],
       "source": "https://avatar.fandom.com/wiki/Waterbending"
     },
     {
       "title": "Firebenders",
       "level": 1,
-      "def": "Every non-Avatar character confirmed on screen to firebend.",
-      "members": ["Mako", "General Iroh", "Zuko", "P'Li"],
+      "def": "Every non-Avatar firebender: characters shown firebending in this show (Zolt at Amon's rally, Zuko's dragon Druk breathing fire at the North Pole), plus Iroh, the original series' firebender, seen here only as a spirit.",
+      "members": ["Mako", "General Iroh", "Zuko", "P'Li", "Zolt", "Iroh", "Druk"],
       "source": "https://avatar.fandom.com/wiki/Firebending"
     },
     {
@@ -60,35 +60,36 @@
     {
       "title": "Republic City Police",
       "level": 2,
-      "def": "Officers or chiefs of the Republic City Police Force shown in the series.",
-      "members": ["Lin Beifong", "Saikhan", "Mako", "Bolin", "Toph Beifong"],
+      "def": "Officers or chiefs of the Republic City Police shown or named in the show: chiefs Toph, Lin and Saikhan, and Mako, a detective in Book Two. Bolin only joins the force in the post-series Turf Wars comics.",
+      "members": ["Lin Beifong", "Saikhan", "Mako", "Toph Beifong"],
       "source": "https://avatar.fandom.com/wiki/Republic_City_Police"
     },
     {
       "title": "Married Couples",
       "level": 2,
-      "def": "Characters shown or clearly established on screen as half of a married pair.",
-      "members": ["Varrick", "Zhu Li", "Tenzin", "Pema", "Tonraq", "Senna"],
-      "source": "https://avatar.fandom.com/wiki/Zhu_Li_Moon"
+      "def": "Characters shown or stated on screen to be married, widowed included: Tenzin and Pema, Tonraq and Senna, Varrick and Zhu Li (who wed in the finale), Suyin (husband Baatar), Raiko (wife Buttercup, on screen in Book Two), Katara (Aang's widow) and Hiroshi (his wife was killed). Unalaq's and Zuko's spouses are never mentioned in the show.",
+      "members": ["Varrick", "Zhu Li", "Tenzin", "Pema", "Tonraq", "Senna", "Suyin Beifong", "Raiko", "Katara", "Hiroshi Sato"],
+      "source": "https://avatar.fandom.com/wiki/Zhu_Li_Moon",
+      "avoid": ["Got engaged on screen"]
     },
     {
       "title": "Metalbenders",
       "level": 2,
-      "def": "Every character confirmed on screen to metalbend.",
-      "members": ["Lin Beifong", "Toph Beifong", "Saikhan", "Suyin Beifong", "Kuvira", "Huan", "Wei", "Wing"],
+      "def": "Every non-Avatar character confirmed on screen to metalbend. Aiwei raises metal walls in \"The Terror Within\"; Korra metalbends too but is the Avatar.",
+      "members": ["Lin Beifong", "Toph Beifong", "Saikhan", "Suyin Beifong", "Kuvira", "Huan", "Wei", "Wing", "Aiwei"],
       "source": "https://avatar.fandom.com/wiki/Metalbending"
     },
     {
       "title": "Heads of State",
       "level": 2,
-      "def": "Characters who hold an explicit on-screen title as the ruling head of a nation, tribe, or self-governing city at some point in the show.",
-      "members": ["Hou-Ting", "Wu", "Raiko", "Unalaq", "Tonraq", "Suyin Beifong", "Kuvira"],
+      "def": "Characters who hold a ruler's title for a nation, tribe or self-governing city in the show: Earth Queen Hou-Ting, King Wu, President Raiko, chiefs Unalaq, Tonraq, Desna and Eska (co-chiefs of the North after Unalaq), Suyin (Zaofu), Kuvira (Earth Empire), and Zuko, \"Fire Lord Zuko\" in the Book One opening narration.",
+      "members": ["Hou-Ting", "Wu", "Raiko", "Unalaq", "Tonraq", "Suyin Beifong", "Kuvira", "Desna", "Eska", "Zuko"],
       "source": "https://avatar.fandom.com/wiki/Hou-Ting"
     },
     {
       "title": "Children of Team Avatar",
       "level": 2,
-      "def": "Children of an original Team Avatar member from Avatar: The Last Airbender (Aang, Katara, or Toph).",
+      "def": "Children of the original series' Team Avatar: Aang and Katara's three (Tenzin, Bumi, Kya) and Toph's two daughters (Lin, Suyin). Zuko's daughter Izumi isn't in this file; Sokka has no children.",
       "members": ["Tenzin", "Bumi", "Kya", "Lin Beifong", "Suyin Beifong"],
       "source": "https://avatar.fandom.com/wiki/Tenzin"
     },
@@ -102,7 +103,7 @@
     {
       "title": "Spirits",
       "level": 3,
-      "def": "Non-human spirit-world residents (not humans who merely have a spiritual gift, like Jinora).",
+      "def": "Spirit World residents: the spirits Raava, Vaatu and Bum-Ju, plus Iroh, who lives there as a spirit after his death. Humans who only visit or have a spiritual gift (Korra, Jinora) don't count.",
       "members": ["Raava", "Vaatu", "Bum-Ju", "Iroh"],
       "source": "https://avatar.fandom.com/wiki/Raava"
     },
@@ -135,16 +136,16 @@
       "source": "https://avatar.fandom.com/wiki/Iroh"
     },
     {
-      "title": "Book Villains",
+      "title": "Main villain of a Book",
       "level": 4,
-      "def": "The main antagonist of each of the show's four books, in order: Amon (One), Unalaq (Two), Zaheer (Three), Kuvira (Four).",
-      "members": ["Amon", "Unalaq", "Zaheer", "Kuvira"],
+      "def": "The main antagonists of the four books: Amon (One), Unalaq and Vaatu, who merge into the Dark Avatar (Two), Zaheer (Three), Kuvira (Four). Secondary villains (Tarrlok, Hiroshi, Varrick, P'Li, Ming-Hua, Ghazan, Baatar Jr.) don't count.",
+      "members": ["Amon", "Unalaq", "Vaatu", "Zaheer", "Kuvira"],
       "source": "https://avatar.fandom.com/wiki/Kuvira"
     },
     {
       "title": "Industrialists",
       "level": 1,
-      "def": "Characters who own or co-own a major company shown in the series.",
+      "def": "The heads of the show's two big companies: Future Industries (Hiroshi Sato, then Asami) and Varrick Global Industries (Varrick, with Zhu Li his right hand and, by the finale, his equal partner).",
       "members": ["Varrick", "Hiroshi Sato", "Asami Sato", "Zhu Li"],
       "source": "https://avatar.fandom.com/wiki/Varrick"
     },
@@ -154,6 +155,56 @@
       "def": "Named, ordinary (non-spirit) animals who appear in the show.",
       "members": ["Naga", "Pabu", "Oogi", "Druk"],
       "source": "https://avatar.fandom.com/wiki/Naga"
+    },
+    {
+      "title": "Korra's relatives",
+      "level": 2,
+      "def": "Korra's family: her parents Tonraq and Senna, her uncle Unalaq and her twin cousins Desna and Eska.",
+      "members": ["Tonraq", "Senna", "Unalaq", "Desna", "Eska"],
+      "source": "https://avatar.fandom.com/wiki/Tonraq"
+    },
+    {
+      "title": "Debended by Amon",
+      "level": 2,
+      "def": "Characters whose bending Amon takes away in Book One: Zolt and Shady Shin at the Revelation rally, Tahno, Lin, Tarrlok, and Korra (all but her airbending). Bolin, Mako and Tenzin's family are saved just in time.",
+      "members": ["Zolt", "Shady Shin", "Tahno", "Lin Beifong", "Tarrlok", "Korra"],
+      "source": "https://avatar.fandom.com/wiki/Amon"
+    },
+    {
+      "title": "Died during the show",
+      "level": 3,
+      "def": "Characters who die during the series' story: Amon and Tarrlok (boat explosion), Unalaq, P'Li, Ming-Hua, Ghazan, Hou-Ting and Hiroshi (Book Four finale). Iroh died before the show; Aiwei is trapped in the Fog of Lost Souls, not killed; Viper's death is comics-only. Destroyed spirits aren't counted, so this group never shares a board with Spirits.",
+      "members": ["Amon", "Tarrlok", "Unalaq", "P'Li", "Ming-Hua", "Ghazan", "Hou-Ting", "Hiroshi Sato"],
+      "source": "https://avatar.fandom.com/wiki/Hou-Ting",
+      "avoid": ["Spirits"]
+    },
+    {
+      "title": "Got engaged on screen",
+      "level": 3,
+      "def": "Characters who become engaged on screen: Kuvira and Baatar Jr. (Book Four), Bolin and Eska (she ties a betrothal necklace on him in Book Two), Varrick and Zhu Li (he proposes in the finale).",
+      "members": ["Kuvira", "Baatar Jr.", "Bolin", "Eska", "Varrick", "Zhu Li"],
+      "source": "https://avatar.fandom.com/wiki/Eska"
+    },
+    {
+      "title": "Airbenders since Harmonic Convergence",
+      "level": 3,
+      "def": "Former nonbenders who gain airbending after Harmonic Convergence: Bumi, Kai, Opal and Zaheer. Tenzin, Jinora, Ikki and Meelo were born airbenders; Korra is the Avatar.",
+      "members": ["Bumi", "Kai", "Opal", "Zaheer"],
+      "source": "https://avatar.fandom.com/wiki/Air_Nation"
+    },
+    {
+      "title": "Voiced by Dee Bradley Baker",
+      "level": 4,
+      "def": "Characters voiced by Dee Bradley Baker in the show (wiki voice credits): the animals Naga, Pabu and Oogi, the spirit Bum-Ju, Tarrlok, and Bumi in his Book One cameo (\"Endgame\"; Richard Riehle voices him afterwards). Druk has no credited voice.",
+      "members": ["Naga", "Pabu", "Oogi", "Bum-Ju", "Tarrlok", "Bumi"],
+      "source": "https://avatar.fandom.com/wiki/Dee_Bradley_Baker"
+    },
+    {
+      "title": "Same name as an ATLA character",
+      "level": 4,
+      "def": "Characters whose name is the full name of a different character from Avatar: The Last Airbender: Bumi (King Bumi), Kya (Katara's mother), General Iroh (Zuko's uncle Iroh) and Wu (Aunt Wu the fortuneteller). Characters who are the ATLA characters themselves (Katara, Zuko, Toph, Iroh) don't count.",
+      "members": ["Bumi", "Kya", "General Iroh", "Wu"],
+      "source": "https://avatar.fandom.com/wiki/Wu_(fortuneteller)"
     }
   ]
 }

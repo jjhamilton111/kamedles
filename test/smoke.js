@@ -6,7 +6,7 @@ const path = require("path");
   const page = await browser.newPage({ viewport: { width: 1200, height: 900 } });
   const errors = []; await page.addInitScript(() => { window.$ = s => document.querySelector(s); });
   const PH = require("fs").readFileSync(path.resolve(__dirname, "placeholder.png"));
-  const fakeImages = async ctx => ctx.route(/(anilist\.co|wikia\.nocookie\.net|googleapis|gstatic)/, route => /\.(png|jpe?g)|revision/i.test(route.request().url()) ? route.fulfill({ status: 200, contentType: "image/png", body: PH }) : route.abort());
+  const fakeImages = async ctx => ctx.route(/(anilist\.co|wikia\.nocookie\.net|googleapis|gstatic)/, route => /\.(png|jpe?g)|revision/i.test(route.request().url()) ? route.fulfill({ status: 200, contentType: "image/png", headers: { "Access-Control-Allow-Origin": "*" }, body: PH }) : route.abort());
   await fakeImages(page.context());
   page.on("console", m => { if (m.type() === "error") errors.push(m.text()); });
   page.on("pageerror", e => errors.push("PAGEERROR " + e.message));
@@ -22,6 +22,7 @@ const path = require("path");
   for (const id of ids) {
     for (const mode of ["classic", "quote", "emoji", "portrait"]) {
       if (process.env.QUICK && mode !== "classic" && id !== ids[0]) continue;
+      if (mode === "portrait" && !Object.keys(await page.evaluate(i => (window.DLE.bodies || {})[i] || {}, id)).length) { console.log(`${id}: no full-body pictures, Portrait tab hidden`); continue; }
       await page.goto(url + "#" + id);
       await page.waitForSelector(".series-title");
       // pick mode tab
@@ -30,7 +31,7 @@ const path = require("path");
       // find the answer by reproducing the seeding in-page
       const info = await page.evaluate(({ id, mode }) => {
         const s = window.DLE.series[id];
-        const pool = mode === "quote" ? s.characters.filter(c => c.quotes.length) : mode === "portrait" ? s.characters.filter(c => (window.DLE.img[id] || {})[c.id] || c.img) : s.characters;
+        const pool = mode === "quote" ? s.characters.filter(c => c.quotes.length) : mode === "portrait" ? s.characters.filter(c => (window.DLE.bodies[id] || {})[c.id]) : s.characters;
         return { n: pool.length, names: pool.map(c => c.name) };
       }, { id, mode });
       // make 3 wrong-ish guesses (first three pool names), then brute force until solved

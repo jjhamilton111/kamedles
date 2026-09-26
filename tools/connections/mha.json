@@ -4,236 +4,168 @@
     {
       "title": "U.A. Class 1-A — Boys",
       "level": 1,
-      "def": "Every male student of U.A.'s Class 1-A for the vast majority of the series (the original 20-person roster from the Entrance Exam through the Final War). Excludes Hitoshi Shinso, who only joins the class after Yuga Aoyama transfers out at the very end of the series.",
-      "members": [
-        "Deku",
-        "Bakugo",
-        "Shoto",
-        "Iida",
-        "Kirishima",
-        "Kaminari",
-        "Tokoyami",
-        "Shoji",
-        "Sero",
-        "Ojiro",
-        "Sato",
-        "Koda",
-        "Aoyama",
-        "Mineta"
-      ],
-      "source": "https://myheroacademia.fandom.com/wiki/Class_1-A"
+      "def": "Every male student on Class 1-A's original 20-seat roster (the class from the Entrance Exam through the Final War), Aoyama included although he left U.A. to atone after the war; Hitoshi Shinso, who only took Aoyama's seat once the class became 2-A, isn't in this file.",
+      "members": ["Deku", "Bakugo", "Shoto", "Iida", "Kirishima", "Kaminari", "Tokoyami", "Shoji", "Sero", "Ojiro", "Sato", "Koda", "Aoyama", "Mineta"],
+      "source": "https://myheroacademia.fandom.com/wiki/Class_1-A",
+      "family": "ua-classes"
     },
     {
       "title": "U.A. Class 1-A — Girls",
       "level": 1,
-      "def": "Every female student of U.A.'s Class 1-A for the vast majority of the series (the original 20-person roster from the Entrance Exam through the Final War).",
-      "members": [
-        "Uraraka",
-        "Tsuyu",
-        "Yaoyorozu",
-        "Jiro",
-        "Ashido",
-        "Hagakure"
-      ],
-      "source": "https://myheroacademia.fandom.com/wiki/Class_1-A"
+      "def": "Every female student on Class 1-A's original 20-seat roster (the class from the Entrance Exam through the Final War); no girl joined or left the class.",
+      "members": ["Uraraka", "Tsuyu", "Yaoyorozu", "Jiro", "Ashido", "Hagakure"],
+      "source": "https://myheroacademia.fandom.com/wiki/Class_1-A",
+      "family": "ua-classes"
     },
     {
       "title": "Class 1-A: Emitter-Type Quirks",
       "level": 2,
-      "def": "Members of the original 20-student Class 1-A roster whose Quirk is classified as Emitter-type.",
-      "members": [
-        "Deku",
-        "Bakugo",
-        "Shoto",
-        "Uraraka",
-        "Yaoyorozu",
-        "Kaminari",
-        "Tokoyami",
-        "Ashido",
-        "Sato",
-        "Aoyama"
-      ],
-      "source": "https://myheroacademia.fandom.com/wiki/Quirk"
+      "def": "Members of the original 20-student Class 1-A roster whose Quirk is Emitter-type on both its own wiki Quirk page and the wiki's Named Quirks table: Deku (One For All), Bakugo (Explosion), Shoto (Half-Cold Half-Hot), Uraraka (Zero Gravity), Yaoyorozu (Creation), Kaminari (Electrification), Tokoyami (Dark Shadow), Ashido (Acid), Sato (Sugar Rush) and Aoyama (Navel Laser, his only Quirk). Kirishima is Transformation. Koda is in neither type group: his Anivoice is Emitter in the Named Quirks table but Mutant on its Quirk page (changed in 2024), and his only group (Boys) never shares a board with this one.",
+      "members": ["Deku", "Bakugo", "Shoto", "Uraraka", "Yaoyorozu", "Kaminari", "Tokoyami", "Ashido", "Sato", "Aoyama"],
+      "source": "https://myheroacademia.fandom.com/wiki/Template:Named_Quirks",
+      "family": "ua-classes"
     },
     {
       "title": "Class 1-A: Mutant-Type Quirks",
       "level": 2,
-      "def": "Members of the original 20-student Class 1-A roster whose Quirk is classified as Mutant-type.",
-      "members": [
-        "Iida",
-        "Tsuyu",
-        "Jiro",
-        "Shoji",
-        "Sero",
-        "Ojiro",
-        "Koda",
-        "Hagakure",
-        "Mineta"
-      ],
-      "source": "https://myheroacademia.fandom.com/wiki/Quirk"
+      "def": "Members of the original 20-student Class 1-A roster whose Quirk is Mutant-type on both its own wiki Quirk page and the wiki's Named Quirks table: Iida (Engine), Tsuyu (Frog), Jiro (Earphone Jack), Shoji (Dupli-Arms), Sero (Tape), Ojiro (Tail), Hagakure (Invisibility) and Mineta (Pop Off). Koda is left out: the two sources disagree on his Anivoice (Quirk page Mutant since a 2024 edit, Named Quirks table Emitter), and his only group (Boys) never shares a board with this one.",
+      "members": ["Iida", "Tsuyu", "Jiro", "Shoji", "Sero", "Ojiro", "Hagakure", "Mineta"],
+      "source": "https://myheroacademia.fandom.com/wiki/Template:Named_Quirks",
+      "family": "ua-classes"
     },
     {
       "title": "League of Villains",
-      "level": 2,
-      "def": "The League's core members who lived together at the bar hideout, from its founding at the U.S.J. through the Paranormal Liberation War: leaders Shigaraki and Kurogiri, plus the five-member Vanguard Action Squad. Excludes All For One, the League's off-site original founder/backer, and hired outside muscle like Muscular.",
-      "members": [
-        "Shigaraki",
-        "Kurogiri",
-        "Dabi",
-        "Toga",
-        "Twice",
-        "Spinner",
-        "Compress"
-      ],
-      "source": "https://myheroacademia.fandom.com/wiki/League_of_Villains"
+      "level": 1,
+      "def": "Members of the League of Villains shown in the anime: leader Shigaraki, second-in-command Kurogiri, and the Vanguard Action Squad recruits who stayed on (Dabi, Toga, Twice, Spinner, Compress) or were jailed after the Forest Training Camp (Muscular). All For One, Gigantomachia, Magne, Mustard and Moonfish are not in this file. People who never joined are not members: All For One's mole Aoyama, double agent Hawks, Stain, Overhaul, Gentle, Lady Nagant, and the Meta Liberation Army (it merged with the League into the Paranormal Liberation Front, but its members never joined the League itself).",
+      "members": ["Shigaraki", "Kurogiri", "Dabi", "Toga", "Twice", "Spinner", "Compress", "Muscular"],
+      "source": "https://myheroacademia.fandom.com/wiki/Template:League_of_Villains_Gallery"
     },
     {
-      "title": "U.A. Teaching & Admin Staff",
+      "title": "U.A. Staff",
       "level": 2,
-      "def": "U.A. High School faculty who appear as recurring, named characters across the anime (the principal, homeroom teachers, and other regularly-appearing staff) — not single-scene background teachers like Snipe, Ectoplasm, Hound Dog or Lunch Rush.",
-      "members": [
-        "All Might",
-        "Aizawa",
-        "Present Mic",
-        "Midnight",
-        "Thirteen",
-        "Nezu",
-        "Cementoss",
-        "Power Loader",
-        "Recovery Girl",
-        "Vlad King"
-      ],
+      "def": "Everyone in this file who is on U.A. High School's staff at any point in the anime: principal Nezu, teachers All Might, Aizawa, Present Mic, Midnight, Thirteen, Cementoss, Power Loader and Vlad King, nurse Recovery Girl, and Deku, who teaches history at U.A. in the eight-years-later epilogue (ep 170). Other U.A. staff (Snipe, Ectoplasm, Hound Dog, Lunch Rush, former teacher Gran Torino) aren't in this file. Heroes who train students outside the school (Fat Gum, Endeavor, the Pussycats at the training camp) and Fuyumi (an elementary-school teacher) don't count.",
+      "members": ["All Might", "Aizawa", "Present Mic", "Midnight", "Thirteen", "Nezu", "Cementoss", "Power Loader", "Recovery Girl", "Vlad King", "Deku"],
       "source": "https://myheroacademia.fandom.com/wiki/U.A._High_School"
     },
     {
       "title": "The Todoroki Family",
-      "level": 2,
-      "def": "Endeavor's wife and all four of their children, including estranged eldest son Dabi.",
-      "members": [
-        "Shoto",
-        "Endeavor",
-        "Rei",
-        "Dabi",
-        "Natsuo",
-        "Fuyumi"
-      ],
+      "level": 1,
+      "def": "Endeavor (Enji Todoroki), his wife Rei and all four of their children: Dabi (eldest son Toya), Fuyumi, Natsuo and Shoto. Geten, a distant relative from Rei's Himura side, is not a Todoroki.",
+      "members": ["Shoto", "Endeavor", "Rei", "Dabi", "Natsuo", "Fuyumi"],
       "source": "https://myheroacademia.fandom.com/wiki/Todoroki_Family"
     },
     {
       "title": "Wild, Wild Pussycats",
       "level": 2,
       "def": "All four members of the pro hero team that ran the Forest Training Camp.",
-      "members": [
-        "Mandalay",
-        "Pixie-Bob",
-        "Ragdoll",
-        "Tiger"
-      ],
+      "members": ["Mandalay", "Pixie-Bob", "Ragdoll", "Tiger"],
       "source": "https://myheroacademia.fandom.com/wiki/Wild,_Wild_Pussycats"
     },
     {
       "title": "Sports Festival Final Four",
       "level": 2,
-      "def": "The four students who reached the final four of the U.A. Sports Festival's first-year 1-on-1 tournament in Season 1: the champion, the runner-up, and the two students who tied for third place.",
-      "members": [
-        "Bakugo",
-        "Shoto",
-        "Tokoyami",
-        "Iida"
-      ],
+      "def": "The four students who reached the final four of the U.A. Sports Festival's first-year 1-on-1 tournament in Season 2: champion Bakugo, runner-up Shoto, and Tokoyami and Iida, who shared third place.",
+      "members": ["Bakugo", "Shoto", "Tokoyami", "Iida"],
       "source": "https://myheroacademia.fandom.com/wiki/U.A._Sports_Festival_Arc"
     },
     {
-      "title": "The Kamino Rescue Squad",
+      "title": "Snuck Out to Save Bakugo",
       "level": 2,
-      "def": "The five Class 1-A students who snuck out against orders to rescue Bakugo from the League of Villains after the Kamino Incident, straining the rest of the class's trust in them.",
-      "members": [
-        "Deku",
-        "Kirishima",
-        "Shoto",
-        "Iida",
-        "Yaoyorozu"
-      ],
-      "source": "https://myheroacademia.fandom.com/wiki/Provisional_Hero_License_Exam_Arc"
+      "def": "The five Class 1-A students who went to Kamino against orders to rescue the kidnapped Bakugo from the League of Villains (Season 3, eps 46-49): Deku, Kirishima, Shoto, Iida and Yaoyorozu. The pros of the official Hideout Raid Team (All Might, Endeavor, Tiger, Mt. Lady and others) were sent there, and Bakugo is the one rescued.",
+      "members": ["Deku", "Kirishima", "Shoto", "Iida", "Yaoyorozu"],
+      "source": "https://myheroacademia.fandom.com/wiki/Kamino_Incident"
     },
     {
-      "title": "Transformation-Type Quirk Users",
+      "title": "Transformation-Type Quirks",
       "level": 3,
-      "def": "Named characters whose Quirk this site classifies as Transformation-type (temporarily changes the user's body when activated).",
-      "members": [
-        "Kirishima",
-        "Mt. Lady",
-        "Mirio",
-        "Tamaki",
-        "Kendo",
-        "Toga",
-        "Muscular",
-        "Lady Nagant",
-        "Fat Gum",
-        "Re-Destro",
-        "Tetsutetsu"
-      ],
-      "source": "https://myheroacademia.fandom.com/wiki/Quirk"
+      "def": "Characters whose own (original) Quirk is Transformation-type on both its wiki Quirk page and the wiki's Named Quirks table: Kirishima (Hardening), Mt. Lady (Gigantification), Mirio (Permeation), Tamaki (Manifest), Kendo (Big Fist), Toga (Transform), Muscular (Muscle Augmentation), Lady Nagant (Rifle), Fat Gum (Fat Absorption), Re-Destro (Stress), Tetsutetsu (Steel), Tiger (Pliabody), Tokage (Lizard Tail Splitter). Quirks received from All For One or copied don't count, so Spinner (born with Mutant-type Gecko; later given Body Bulk and Scalemail), Shigaraki (born with Emitter-type Accelerator Rings; later given Decay, All For One and its stock) and Monoma (Emitter-type Copy) are out. Slidin' Go's sliding Quirk is unclassified. Because a player could still count Spinner's and Shigaraki's given Transformation-type Quirks (Body Bulk, Scalemail; Spearlike Bones, Springlike Limbs, Super Regeneration), this group never shares a board with their groups: it avoids the League and the villain-word group, and the All For One group avoids it.",
+      "members": ["Kirishima", "Mt. Lady", "Mirio", "Tamaki", "Kendo", "Toga", "Muscular", "Lady Nagant", "Fat Gum", "Re-Destro", "Tetsutetsu", "Tiger", "Tokage"],
+      "source": "https://myheroacademia.fandom.com/wiki/Template:Named_Quirks",
+      "avoid": ["League of Villains", "Villain tiles that are one English word"]
     },
     {
-      "title": "Meta Liberation Army Leadership",
+      "title": "Meta Liberation Army",
       "level": 3,
-      "def": "The named commanders of the Meta Liberation Army introduced in Deika City during the Meta Liberation Army Arc.",
-      "members": [
-        "Re-Destro",
-        "Curious",
-        "Trumpet",
-        "Skeptic",
-        "Geten",
-        "Slidin' Go"
-      ],
+      "def": "Members of the Meta Liberation Army met in Deika City (Season 5), before it merged with the League into the Paranormal Liberation Front: Grand Commander Re-Destro, its heads Curious, Trumpet and Skeptic, Re-Destro's lieutenant Geten, and undercover pro hero Slidin' Go. League members and Hawks only ever belonged to the merged Paranormal Liberation Front.",
+      "members": ["Re-Destro", "Curious", "Trumpet", "Skeptic", "Geten", "Slidin' Go"],
       "source": "https://myheroacademia.fandom.com/wiki/Meta_Liberation_Army"
     },
     {
-      "title": "One For All's Confirmed Users",
+      "title": "One For All Users",
       "level": 3,
-      "def": "Users of the One For All Quirk clearly shown on screen passing it on or using it: its first user, a later inheritor who mentored All Might, All Might himself, and his chosen successor.",
-      "members": [
-        "Yoichi",
-        "Nana Shimura",
-        "All Might",
-        "Deku"
-      ],
-      "source": "https://myheroacademia.fandom.com/wiki/One_For_All"
+      "def": "The One For All users in this file, each shown inheriting and using the Quirk in the TV anime: first user Yoichi, seventh user Nana Shimura (All Might's mentor), eighth All Might and ninth Deku. The wiki's user list adds two edge cases, both kept off this group's boards: Bakugo, whose use is movie-only (Heroes Rising), and Shigaraki, into whom Deku forced the Quirk as it was destroyed (ep 167) without his ever using it; this group avoids the League, the Final Four and the Remedial Course, and all their other groups contain Deku or Yoichi.",
+      "members": ["Yoichi", "Nana Shimura", "All Might", "Deku"],
+      "source": "https://myheroacademia.fandom.com/wiki/One_For_All",
+      "avoid": ["League of Villains", "Sports Festival Final Four", "Provisional License Remedial Course"]
     },
     {
-      "title": "Hero names that are English words",
+      "title": "Hero tiles that are one English word",
       "level": 4,
-      "def": "Heroes (pros and students) whose name as shown on the tile is an ordinary English dictionary word: Hawks, Endeavor, Thirteen, Midnight, Tiger, Ragdoll, and Kendo (a surname that is also the martial art).",
-      "members": [
-        "Hawks",
-        "Endeavor",
-        "Thirteen",
-        "Midnight",
-        "Tiger",
-        "Ragdoll",
-        "Kendo"
-      ],
-      "source": "https://myheroacademia.fandom.com/wiki/Heroes"
+      "def": "Heroes (pros and hero students) whose tile, as written, is a headword in the Cambridge English Dictionary or a plain plural of one (every tile in the file was looked up): Hawks, Endeavor, Thirteen, Midnight, Tiger, Ragdoll, Pony (Tsunotori's given name), Kendo and Shoji (Japanese loanwords with their own entries). Every other hero tile fails the lookup: the proper noun Mandalay, the hyphenated Pixie-Bob, multi-word names (All Might, Present Mic, Mt. Lady, Fat Gum and so on) and Japanese names such as Deku, Tsuyu, Sato and Koda. The tile counts, not the hero alias, so Sero ('Cellophane'), Shiozaki ('Vine') and Awase ('Welder') are out.",
+      "members": ["Hawks", "Endeavor", "Thirteen", "Midnight", "Tiger", "Ragdoll", "Kendo", "Shoji", "Pony"],
+      "source": "https://dictionary.cambridge.org/dictionary/english/shoji"
     },
     {
-      "title": "Villain names that are English words",
+      "title": "Villain tiles that are one English word",
       "level": 4,
-      "def": "Villains whose name as shown on the tile is an ordinary English dictionary word, code name or not: Gentle, Twice, Stain, Compress, Overhaul, Muscular, Spinner, Curious, Trumpet, Skeptic, and Toga (her surname, also the Roman garment).",
-      "members": [
-        "Gentle",
-        "Twice",
-        "Stain",
-        "Compress",
-        "Overhaul",
-        "Muscular",
-        "Spinner",
-        "Curious",
-        "Trumpet",
-        "Skeptic",
-        "Toga"
-      ],
-      "source": "https://myheroacademia.fandom.com/wiki/Villains"
+      "def": "Villains whose tile, as written, is a headword in the Cambridge English Dictionary, code name or not (every tile in the file was looked up): Gentle, Twice, Stain, Compress, Overhaul, Muscular, Spinner, Curious, Trumpet, Skeptic, Mimic and Toga (her surname, also the Roman garment). Not in Cambridge, so out: Chronostasis (a psychology term found only in Wiktionary-type sources; he can't share a board with this group anyway, since his only group, Shie Hassaikai, loses Overhaul and Mimic to it), Shigaraki, Kurogiri, Dabi, Re-Destro, Geten (his alias Iceman isn't his tile), Slidin' Go, Lady Nagant, Tengai and Nemoto.",
+      "members": ["Gentle", "Twice", "Stain", "Compress", "Overhaul", "Muscular", "Spinner", "Curious", "Trumpet", "Skeptic", "Toga", "Mimic"],
+      "source": "https://dictionary.cambridge.org/dictionary/english/toga",
+      "avoid": ["Hero tiles that are one English word"]
+    },
+    {
+      "title": "U.A. Class 1-B Students",
+      "level": 2,
+      "def": "Students of U.A. Class 1-B, the other first-year hero class (per the wiki's 20-seat roster). In this file: Kendo, Tetsutetsu, Monoma, Shiozaki, Pony, Honenuki, Awase, Komori and Tokage. Homeroom teacher Vlad King is staff, not a student. Class 1-A, the Big Three (Mirio, Tamaki) and other schools' students (Inasa, Camie) are not.",
+      "members": ["Kendo", "Tetsutetsu", "Monoma", "Shiozaki", "Pony", "Honenuki", "Awase", "Komori", "Tokage"],
+      "source": "https://myheroacademia.fandom.com/wiki/Template:Class_1-B_Gallery",
+      "family": "ua-classes"
+    },
+    {
+      "title": "Shie Hassaikai",
+      "level": 2,
+      "def": "Members of the Shie Hassaikai yakuza group in this file (its wiki infobox and galleries): leader Overhaul, his aide Chronostasis, general manager Mimic, and Eight Bullets Tengai and Nemoto. Toga and Twice, lent to Overhaul by the League, stayed League members (their infoboxes list no Shie Hassaikai affiliation), but they worked as temporary yakuza and Toga even called herself 'Yakuza Toga' (ep 73), so this group never shares a board with them: it avoids the League and Transformation groups, and the villain-word group leaves it only three members.",
+      "members": ["Overhaul", "Chronostasis", "Mimic", "Tengai", "Nemoto"],
+      "source": "https://myheroacademia.fandom.com/wiki/Shie_Hassaikai",
+      "avoid": ["League of Villains", "Transformation-Type Quirks"]
+    },
+    {
+      "title": "Provisional License Remedial Course",
+      "level": 3,
+      "def": "The named students who took the Provisional Hero License Course, the make-up course for examinees who didn't pass the exam's final phase (Seasons 4-5, eps 78-80 and 100): U.A.'s Bakugo and Shoto and Shiketsu's Inasa and Camie (whom Toga had impersonated during the exam). Everyone else from Class 1-A passed and all of Class 1-B passed. Shiketsu's Shishikura only observed and isn't in this file. All Might, Present Mic and Endeavor were only there as spectators.",
+      "members": ["Bakugo", "Shoto", "Inasa", "Camie"],
+      "source": "https://myheroacademia.fandom.com/wiki/Provisional_Hero_License_Course"
+    },
+    {
+      "title": "Received a Quirk from All For One",
+      "level": 4,
+      "def": "Characters shown receiving a Quirk from the villain All For One: Yoichi (Power Stock, which fused into One For All), Shigaraki (Decay, secretly implanted in childhood, ep 166, then the All For One Quirk itself with its stolen stock), Lady Nagant (Air Walk and a hidden self-destruct Quirk), Aoyama (Navel Laser, since he was born Quirkless) and Spinner (Body Bulk, Scalemail). Deku and All Might got One For All from their predecessors. Hawks, Ragdoll and Stain had Quirks taken, not given. Kurogiri is a Nomu whose artificial Warp Gate was built by Dr. Garaki from several Quirks; he can never share a board with this group, since his only group (League) takes Shigaraki and Spinner and leaves it three members.",
+      "members": ["Yoichi", "Shigaraki", "Lady Nagant", "Aoyama", "Spinner"],
+      "source": "https://myheroacademia.fandom.com/wiki/All_For_One_(Quirk)",
+      "avoid": ["Transformation-Type Quirks"]
+    },
+    {
+      "title": "Raided Overhaul's Hideout",
+      "level": 3,
+      "def": "Heroes and hero students in this file who were on the hero team in the Shie Hassaikai Raid (eps 70-77): Deku, Mirio, Tamaki, Kirishima, Fat Gum, Aizawa, Uraraka and Tsuyu. Excludes the villains fighting back (Overhaul's men, plus Toga and Twice, who were lent to him) and heroes elsewhere that day.",
+      "members": ["Deku", "Mirio", "Tamaki", "Kirishima", "Fat Gum", "Aizawa", "Uraraka", "Tsuyu"],
+      "source": "https://myheroacademia.fandom.com/wiki/Shie_Hassaikai_Raid",
+      "avoid": ["Shie Hassaikai"]
+    },
+    {
+      "title": "Took U.A.'s Recommendation Exam",
+      "level": 4,
+      "def": "The five students who took U.A.'s recommendation entrance exam in Class 1-A's year (the wiki's Recommended Students category): Class 1-A's two recommended students Shoto and Yaoyorozu (ep 8), Class 1-B's two, Honenuki (ep 95) and Tokage (ep 96), and Inasa, who had the top score but turned U.A. down for Shiketsu (eps 53, 59). Every other 1-A and 1-B student in this file entered through the general exam.",
+      "members": ["Shoto", "Yaoyorozu", "Inasa", "Honenuki", "Tokage"],
+      "source": "https://myheroacademia.fandom.com/wiki/U.A._Recommendation_Entrance_Exam"
+    },
+    {
+      "title": "Sports Festival Tournament Fighters",
+      "level": 3,
+      "def": "Students in this file who fought in the first-year one-on-one tournament at the Season 2 Sports Festival: Deku, Shoto, Sero, Shiozaki, Kaminari, Iida, Aoyama, Ashido, Tokoyami, Yaoyorozu, Tetsutetsu, Kirishima, Bakugo and Uraraka (Shinso and Hatsume, the other two, aren't in this file). Ojiro qualified but withdrew before fighting.",
+      "members": ["Deku", "Shoto", "Sero", "Shiozaki", "Kaminari", "Iida", "Aoyama", "Ashido", "Tokoyami", "Yaoyorozu", "Tetsutetsu", "Kirishima", "Bakugo", "Uraraka"],
+      "source": "https://myheroacademia.fandom.com/wiki/U.A._Sports_Festival_Arc",
+      "avoid": ["Sports Festival Final Four"]
     }
   ]
 }

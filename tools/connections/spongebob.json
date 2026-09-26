@@ -2,194 +2,119 @@
   "show": "spongebob",
   "groups": [
     {
-      "title": "SquarePants Family",
+      "title": "Mermaid Man & Barnacle Boy",
       "level": 1,
-      "def": "SpongeBob's immediate household: his parents, his grandmother, and his pet snail (not the wider extended SquarePants family tree of aunts, uncles, and cousins).",
-      "members": [
-        "SpongeBob SquarePants",
-        "Gary the Snail",
-        "Grandma SquarePants",
-        "Harold SquarePants",
-        "Margaret SquarePants"
-      ],
-      "source": "https://spongebob.fandom.com/wiki/SquarePants_family"
-    },
-    {
-      "title": "Superheroes & Villains",
-      "level": 1,
-      "def": "Members of the in-universe Mermaid Man franchise, hero or villain.",
-      "members": [
-        "Mermaid Man",
-        "Barnacle Boy",
-        "Man Ray",
-        "Dirty Bubble"
-      ],
+      "def": "The Mermaid Man and Barnacle Boy franchise's own characters: the two heroes and their arch-villains Man Ray and the Dirty Bubble. Townspeople who suit up for an episode (SpongeBob as the Quickster, Plankton joining E.V.I.L.) don't count.",
+      "members": ["Mermaid Man", "Barnacle Boy", "Man Ray", "Dirty Bubble"],
       "source": "https://spongebob.fandom.com/wiki/Mermaid_Man"
     },
     {
       "title": "Fish",
       "level": 1,
-      "def": "Characters whose species is an ordinary fish (not a sponge, crab, or other specific species).",
-      "members": [
-        "Mrs. Puff",
-        "Bubble Bass",
-        "Fred",
-        "Old Man Jenkins",
-        "Perch Perkins",
-        "Mystery the Seahorse",
-        "Flats the Flounder",
-        "Dennis"
-      ],
-      "source": "https://spongebob.fandom.com/wiki/Mrs._Puff"
+      "def": "Characters whose wiki species is a fish: Mrs. Puff (porcupine pufferfish), Bubble Bass (bass), Fred (grouper), Old Man Jenkins and Perch Perkins (\"Fish\"), Flats (flounder) and Mystery (seahorse; the wiki: \"Seahorses are a genus of fish\"). Not Pearl (sperm whale), Patrick (sea star), merpeople, crustaceans, molluscs or humans named after sea animals (Man Ray).",
+      "members": ["Mrs. Puff", "Bubble Bass", "Fred", "Old Man Jenkins", "Perch Perkins", "Mystery the Seahorse", "Flats the Flounder"],
+      "source": "https://spongebob.fandom.com/wiki/List_of_species"
     },
     {
-      "title": "Humanoid",
-      "level": 1,
-      "def": "Characters whose species is a human-shaped sea being, like a merman or mermaid (not a fish, sponge, or other invertebrate).",
-      "members": [
-        "Mermaid Man",
-        "Barnacle Boy",
-        "Man Ray",
-        "King Neptune",
-        "Patchy the Pirate",
-        "French Narrator",
-        "Princess Mindy",
-        "Burger-Beard",
-        "King Poseidon",
-        "Triton",
-        "Lord Royal Highness"
-      ],
-      "source": "https://spongebob.fandom.com/wiki/King_Neptune"
-    },
-    {
-      "title": "Pirates",
+      "title": "Humans & merpeople",
       "level": 2,
-      "def": "Pirates, living or ghostly, who appear in the show.",
-      "members": [
-        "The Flying Dutchman",
-        "Patchy the Pirate",
-        "Potty the Parrot",
-        "Painty the Pirate",
-        "Burger-Beard"
-      ],
-      "source": "https://spongebob.fandom.com/wiki/Flying_Dutchman"
+      "def": "Characters whose wiki species is human or merfolk: the humans Mermaid Man, Barnacle Boy, Man Ray, Patchy, the French Narrator and Burger-Beard (Category:Humans); the Flying Dutchman, a cursed human sailor (species \"Ghost of a human\"; human again for a day in Search for SquarePants); and the merfolk King Neptune, Princess Mindy, King Poseidon and Triton (Category:Mermaids; Neptune and Triton are also gods). Not Lord Royal Highness (an alien Atlantean), Painty (a painting), Potty (a parrot) or any sea animal.",
+      "members": ["Mermaid Man", "Barnacle Boy", "Man Ray", "King Neptune", "Patchy the Pirate", "French Narrator", "Princess Mindy", "Burger-Beard", "King Poseidon", "Triton", "Flying Dutchman"],
+      "source": "https://spongebob.fandom.com/wiki/Category:Humans"
     },
     {
       "title": "Royalty",
       "level": 2,
-      "def": "Kings, princes, and princesses of the sea shown in the show.",
-      "members": [
-        "King Neptune",
-        "Princess Mindy",
-        "King Poseidon",
-        "Triton",
-        "Lord Royal Highness"
-      ],
-      "source": "https://spongebob.fandom.com/wiki/King_Neptune"
+      "def": "Characters who are or were royalty in the show or movies: King Neptune, his children Princess Mindy and Triton, King Poseidon (king of Atlantic City), Lord Royal Highness (emperor of Atlantis), Patrick (crowned King of Bikini Bottom) and Gary (the true heir who takes the crown) in \"Rule of Dumb\", and Plankton, who overthrows the Sea Chimp King and takes his crown in \"King Plankton\". Storybook and medieval counterparts (Queen Karen, King Krabs, Princess Pearl Krabs) are separate characters. SpongeBob only proclaims himself \"Emperor of the Sea\" in \"Trident Trouble\"; since that is arguable, this group avoids every group SpongeBob is in.",
+      "members": ["King Neptune", "Princess Mindy", "King Poseidon", "Triton", "Lord Royal Highness", "Patrick Star", "Gary the Snail", "Plankton"],
+      "source": "https://spongebob.fandom.com/wiki/Category:Royalty",
+      "avoid": ["Sea sponges", "Worked at the Chum Bucket", "Boating School", "Alliterative names", "Live-action characters"]
     },
     {
-      "title": "Sea Sponge",
-      "level": 2,
-      "def": "Every sea sponge character in the show.",
-      "members": [
-        "SpongeBob SquarePants",
-        "Grandma SquarePants",
-        "Harold SquarePants",
-        "Margaret SquarePants"
-      ],
-      "source": "https://spongebob.fandom.com/wiki/SpongeBob_SquarePants_(character)"
+      "title": "Sea sponges",
+      "level": 1,
+      "def": "Every character in the bank whose wiki species is a sea sponge: SpongeBob, his grandmother, his father Harold and his mother Margaret. DoodleBob is a pencil doodle (species \"Doodle\"), not a sponge.",
+      "members": ["SpongeBob SquarePants", "Grandma SquarePants", "Harold SquarePants", "Margaret SquarePants"],
+      "source": "https://spongebob.fandom.com/wiki/SquarePants_family"
     },
     {
-      "title": "Surface World",
+      "title": "Live-action characters",
       "level": 2,
-      "def": "Characters established as live-action or otherwise from the human world above the sea.",
-      "members": [
-        "Patchy the Pirate",
-        "Potty the Parrot",
-        "Painty the Pirate",
-        "French Narrator",
-        "Burger-Beard"
-      ],
-      "source": "https://spongebob.fandom.com/wiki/Patchy_the_Pirate"
-    },
-    {
-      "title": "Married Couples",
-      "level": 2,
-      "def": "Characters shown or clearly established on screen as half of a married pair.",
-      "members": [
-        "Harold SquarePants",
-        "Margaret SquarePants",
-        "Plankton",
-        "Karen"
-      ],
-      "source": "https://spongebob.fandom.com/wiki/Karen_Plankton"
+      "def": "Characters the show presents in live action (the wiki's Category:Live-action characters): Patchy, his marionette parrot Potty, Painty, the French Narrator (on screen in live action from \"Feral Friends\" on) and Burger-Beard. Animated characters drawn into live-action scenes don't count; King Neptune's one live-action cameo at Patchy's party (\"Party Pooper Pants\") is arguable, so Royalty avoids this group.",
+      "members": ["Patchy the Pirate", "Potty the Parrot", "Painty the Pirate", "French Narrator", "Burger-Beard"],
+      "source": "https://spongebob.fandom.com/wiki/Category:Live-action_characters"
     },
     {
       "title": "Worked at the Chum Bucket",
       "level": 3,
-      "def": "Characters shown holding a job at the Chum Bucket at some point.",
-      "members": [
-        "Plankton",
-        "Karen",
-        "SpongeBob SquarePants",
-        "Patrick Star"
-      ],
+      "def": "Characters shown holding a job at the Chum Bucket: owners Plankton and Karen, SpongeBob (\"Welcome to the Chum Bucket\"), Patrick (Fry Cook Games, \"Chum Bucket Supreme\"), Pearl (intern, \"Plankton's Intern\"), Squidward (\"Chum Fricassee\") and Bubble Bass (hired by Karen in \"Painfully Employed\", S17). Mind-controlled minions (Mermaid Man and Barnacle Boy hypnotised into endorsing it in \"Mermaid Man vs. SpongeBob\", the bucket-helmeted townsfolk of the 2004 movie) and robot/clone copies don't count.",
+      "members": ["Plankton", "Karen", "SpongeBob SquarePants", "Patrick Star", "Pearl Krabs", "Squidward", "Bubble Bass"],
       "source": "https://spongebob.fandom.com/wiki/Chum_Bucket"
     },
     {
       "title": "Boating School",
       "level": 3,
-      "def": "Characters shown enrolled as a student at Mrs. Puff's Boating School (not counting Mrs. Puff herself, who is only ever the teacher within this file's cutoff).",
-      "members": [
-        "SpongeBob SquarePants",
-        "Patrick Star",
-        "Squidward Tentacles",
-        "Flats the Flounder",
-        "Mr. Krabs"
-      ],
+      "def": "Mrs. Puff and everyone the show enrolls as a student at her boating school: SpongeBob, Patrick (\"New Student Starfish\", \"Driven to Tears\"), Squidward (\"Boating Buddies\"), Flats (\"The Bully\"), Mr. Krabs (\"Tutor Sauce\", \"Teacher's Pests\") and Plankton (\"Teacher's Pests\"). The Flying Dutchman is a student only in a comic (out of scope).",
+      "members": ["Mrs. Puff", "SpongeBob SquarePants", "Patrick Star", "Squidward", "Flats the Flounder", "Mr. Krabs", "Plankton"],
       "source": "https://spongebob.fandom.com/wiki/Mrs._Puff%27s_Boating_School"
     },
     {
-      "title": "Movie-Exclusive Characters",
-      "level": 3,
-      "def": "Characters who appear only in one of the three theatrical movies, never in a regular TV episode (unlike Perch Perkins, who debuted in the 2004 movie but went on to recur in the show).",
-      "members": [
-        "Dennis",
-        "Princess Mindy",
-        "Burger-Beard",
-        "King Poseidon"
-      ],
-      "source": "https://spongebob.fandom.com/wiki/Dennis"
-    },
-    {
-      "title": "Worked at the Krusty Krab",
+      "title": "Named \"___ the [Species]\"",
       "level": 4,
-      "def": "Characters shown holding a job at the Krusty Krab at some point, even briefly.",
-      "members": [
-        "SpongeBob SquarePants",
-        "Squidward Tentacles",
-        "Mr. Krabs",
-        "Patrick Star",
-        "Pearl Krabs",
-        "Sandy Cheeks",
-        "Mrs. Puff",
-        "King Neptune",
-        "Karen"
-      ],
-      "source": "https://spongebob.fandom.com/wiki/Krusty_Krew"
-    },
-    {
-      "title": "Name Says Their Species",
-      "level": 4,
-      "def": "Characters whose full name is literally \"[Name] the [Species]\".",
-      "members": [
-        "Larry the Lobster",
-        "Flats the Flounder",
-        "Mystery the Seahorse",
-        "Gary the Snail",
-        "Potty the Parrot"
-      ],
+      "def": "Characters whose full name is literally \"[Name] the [Species]\" and the species is right. Patchy and Painty \"the Pirate\" don't count (a pirate isn't a species); names that merely contain an animal (Bubble Bass, SpongeBob) don't have the \"the\" pattern.",
+      "members": ["Larry the Lobster", "Flats the Flounder", "Mystery the Seahorse", "Gary the Snail", "Potty the Parrot"],
       "source": "https://spongebob.fandom.com/wiki/Larry_the_Lobster"
+    },
+    {
+      "title": "Krabs family",
+      "level": 2,
+      "def": "Mr. Krabs and his relatives seen on screen: his daughter Pearl, his mother Mama Krabs, his father Krabs Senior (\"Senior Discount\") and his pirate grandfather Redbeard Krabs (\"Grandpappy the Pirate\").",
+      "members": ["Mr. Krabs", "Pearl Krabs", "Mama Krabs", "Krabs Senior", "Redbeard Krabs"],
+      "source": "https://spongebob.fandom.com/wiki/Krabs_Senior"
+    },
+    {
+      "title": "Crustaceans",
+      "level": 4,
+      "def": "Characters whose species is a crustacean: the crabs Mr. Krabs, Mama Krabs, Krabs Senior and Redbeard Krabs, Larry the lobster, and Plankton, a planktonic copepod. Pearl is a sperm whale; Barnacle Boy is human despite his name.",
+      "members": ["Mr. Krabs", "Mama Krabs", "Krabs Senior", "Redbeard Krabs", "Larry the Lobster", "Plankton"],
+      "source": "https://spongebob.fandom.com/wiki/Sheldon_J._Plankton",
+      "avoid": ["Krabs family"]
+    },
+    {
+      "title": "Joined E.V.I.L.",
+      "level": 3,
+      "def": "Members of the supervillain team E.V.I.L. (Every Villain Is Lemons): Man Ray and the Dirty Bubble, Barnacle Boy as \"Barnacle Man\" (\"Mermaid Man and Barnacle Boy V\"), and Plankton as \"Captain Pipsqueak\" (\"Captain Pipsqueak\"). Squidward (as Dr. Negative) and DoodleBob audition in that episode but are rejected.",
+      "members": ["Man Ray", "Dirty Bubble", "Barnacle Boy", "Plankton"],
+      "source": "https://spongebob.fandom.com/wiki/Every_Villain_Is_Lemons",
+      "avoid": ["Mermaid Man & Barnacle Boy"]
+    },
+    {
+      "title": "Not a living creature",
+      "level": 3,
+      "def": "Characters whose species isn't a living creature: Karen (a computer), Painty (a painting), the Dirty Bubble (a bubble), DoodleBob (a pencil doodle) and the Flying Dutchman (a ghost). Gods and merpeople like King Neptune and Triton count as living.",
+      "members": ["Karen", "Painty the Pirate", "Dirty Bubble", "DoodleBob", "Flying Dutchman"],
+      "source": "https://spongebob.fandom.com/wiki/DoodleBob"
+    },
+    {
+      "title": "Alliterative names",
+      "level": 4,
+      "def": "Display names whose first and last words start with the same letter: SpongeBob SquarePants, Perch Perkins, Bubble Bass, Mermaid Man, Barnacle Boy, Burger-Beard, Patchy the Pirate, Painty the Pirate, Potty the Parrot, Flats the Flounder, Larry the Lobster.",
+      "members": ["SpongeBob SquarePants", "Perch Perkins", "Bubble Bass", "Mermaid Man", "Barnacle Boy", "Burger-Beard", "Patchy the Pirate", "Painty the Pirate", "Potty the Parrot", "Flats the Flounder", "Larry the Lobster"],
+      "source": "https://spongebob.fandom.com/wiki/Perch_Perkins"
+    },
+    {
+      "title": "Hidden \"man\"",
+      "level": 4,
+      "def": "Display names containing the letters \"man\": Mermaid Man, Man Ray, Old Man Jenkins and the Flying Dutchman.",
+      "members": ["Mermaid Man", "Man Ray", "Old Man Jenkins", "Flying Dutchman"],
+      "source": "https://spongebob.fandom.com/wiki/Flying_Dutchman"
+    },
+    {
+      "title": "Name says the wrong species",
+      "level": 4,
+      "def": "Characters whose name contains a sea-animal word that isn't their species: Squidward (an octopus, not a squid), Pearl Krabs (a sperm whale, not a crab), and the humans Barnacle Boy, Man Ray and Mermaid Man. Names that match (Larry the Lobster, Bubble Bass, Mrs. Puff, Patrick Star, Plankton, Perch Perkins the fish, the crab Krabses) don't count.",
+      "members": ["Squidward", "Pearl Krabs", "Barnacle Boy", "Man Ray", "Mermaid Man"],
+      "source": "https://spongebob.fandom.com/wiki/Squidward_Tentacles"
     }
   ]
 }

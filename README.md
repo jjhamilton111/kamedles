@@ -2,9 +2,9 @@
 
 Daily guessing games for the group, in five tabs:
 
-- **Characters** — mangadle-style character guessing (Classic, Quote, Emoji, Portrait) across 10 anime plus Avatar, Korra, SpongeBob, Power Rangers, Game of Thrones and a combined TeenNick pool (iCarly, Victorious, Drake & Josh, Zoey 101, Big Time Rush), with hand-picked casts.
+- **Characters** — mangadle-style character guessing (Classic, Quote, Emoji, Portrait) across 10 anime plus Avatar, Korra, SpongeBob, Power Rangers, Game of Thrones and a combined TeenNick pool (iCarly, Victorious, Drake & Josh, Zoey 101, Big Time Rush), with hand-picked casts. Portrait zooms way in on a random spot of a full-body picture and pulls back on every miss.
 - **Episodes** — name the episode from a zoomed-in still that zooms out on every miss (Avatar, Korra, AoT, JJK, HxH). You pick the season, book or arc, then the episode.
-- **Openings** — name the show from its opening theme, Heardle-style. Two pools: your shows (their anime openings plus the western shows' theme songs) and the most popular anime on AniList.
+- **Openings** — name the show from its opening theme, Heardle-style: the most popular anime on AniList plus everything one of you rated there, and the western shows' theme songs. Only real numbered openings (checked against Anime News Network) and only the original recordings.
 - **Songs** — Heardle-style: name the song from a 1-second clip that grows to 16 seconds. The pool is every song that shows up in at least two people's exported playlists.
 - **Connections** — NYT-style: sort 16 names into four hidden groups. One daily puzzle per show, plus one built from your playlists.
 
@@ -23,7 +23,8 @@ Open `index.html` in a browser. No build step or server needed. Portraits, episo
   - `js/songs.js` — Songs tab (clip player, party scoreboard).
   - `js/connections.js` — Connections tab and its puzzle generator.
   - `data/<series>.js` — one file per show for the Characters tab.
-  - `data/images.js` — character portrait URLs.
+  - `data/images.js` — character portrait URLs (avatars in the guess list and results).
+  - `data/bodies.js` — generated full-body pictures for Portrait mode.
   - `data/episodes.js` — generated episode lists + stills.
   - `data/songs.js`, `data/song-sources.js` — generated song pool + preview sources.
   - `data/openings.js` — generated opening themes (AniList + AnisongDB + Deezer/Apple).
@@ -57,8 +58,9 @@ Adding or reordering characters/songs changes which one lands on which day, sinc
 - `node tools/build.js` — single-file build in `dist/`.
 - `node tools/build-songs.mjs` — rebuilds the song pool from `sources/playlists/`.
 - `node tools/check-song-sources.mjs [--fix]` — makes sure every song clip is the original recording (see above). `--only=<title>` checks a single song.
-- `node tools/build-openings.mjs` — rebuilds `data/openings.js` (popular anime from AniList, openings from AnisongDB, clips matched on Deezer/Apple; lookups cached in `sources/`).
-- `node tools/build-connections.mjs` — checks every group bank and rebuilds `data/connections.js` (plus the Music set from `data/songs.js`).
+- `node tools/build-openings.mjs` — rebuilds `data/openings.js`: popular + rated anime from AniList, openings from AnisongDB that Anime News Network also lists (insert songs and one-episode specials dropped), clips matched to the credited artist's original recording on Deezer/Apple. Lookups are cached in `sources/`; `sources/openings-review.txt` lists every match for a manual look, and `CLIP_FIXES` in the script pins or drops a song.
+- `node tools/build-connections.mjs` — checks every group bank (rules: `docs/CONNECTIONS_SPEC.md`) and rebuilds `data/connections.js` (plus the Music set from `data/songs.js`). Banks in `tools/connections/paused/` are left out.
+- `node tools/find-fullbody.mjs [show...]` — collects full-body picture candidates from each show's Fandom wiki into `sources/fullbody/<show>.json`; picks go in `sources/fullbody/picks/<show>.json` (`tools/review-fullbody.html?show=<slug>` shows them), then `node tools/build-bodies.mjs` writes `data/bodies.js`.
 - `node tools/build-episodes.mjs` — rebuilds `data/episodes.js` from `sources/tvmaze-episodes.txt` + `tools/hxh-titles.json`.
 - `node tools/download-images.mjs` — optional: copies every character portrait into `img/` so the site stops hotlinking.
 

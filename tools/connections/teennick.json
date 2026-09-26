@@ -6,133 +6,127 @@
       "level": 1,
       "def": "The five main cast characters of iCarly.",
       "members": ["Carly", "Sam", "Freddie", "Spencer", "Gibby"],
-      "source": "https://icarly.fandom.com/wiki/Carly_Shay"
+      "source": "https://icarly.fandom.com/wiki/Carly_Shay",
+      "family": "icarly"
     },
     {
       "title": "iCarly's recurring adults",
       "level": 2,
       "def": "Recurring adult characters on iCarly (not main cast, not one of the recurring kids).",
       "members": ["Marissa", "Lewbert", "T-Bo", "Ms. Briggs", "Mr. Howard", "Franklin"],
-      "source": "https://icarly.fandom.com/wiki/Marissa_Benson"
+      "source": "https://icarly.fandom.com/wiki/Marissa_Benson",
+      "family": "icarly"
     },
     {
       "title": "Victorious cast",
       "level": 1,
       "def": "The main cast characters of Victorious, including Robbie's puppet Rex.",
       "members": ["Tori", "Trina", "André", "Robbie", "Rex", "Jade", "Cat", "Beck"],
-      "source": "https://victorious.fandom.com/wiki/Tori_Vega"
+      "source": "https://victorious.fandom.com/wiki/Tori_Vega",
+      "family": "victorious"
     },
     {
       "title": "Victorious's recurring adults",
       "level": 2,
       "def": "Recurring adult characters on Victorious.",
       "members": ["Sikowitz", "Lane", "David Vega", "Festus", "Helen"],
-      "source": "https://victorious.fandom.com/wiki/Sikowitz"
+      "source": "https://victorious.fandom.com/wiki/Sikowitz",
+      "family": "victorious"
     },
     {
       "title": "Hollywood Arts students",
       "level": 2,
       "def": "Characters actually enrolled as students at Hollywood Arts High School. Rex is Robbie's puppet, not independently enrolled.",
       "members": ["Tori", "Trina", "André", "Robbie", "Jade", "Cat", "Beck", "Sinjin"],
-      "source": "https://victorious.fandom.com/wiki/Sinjin_Van_Cleef"
+      "source": "https://victorious.fandom.com/wiki/Sinjin_Van_Cleef",
+      "family": "victorious"
     },
     {
       "title": "Drake & Josh cast",
       "level": 1,
       "def": "The five main cast characters of Drake & Josh.",
       "members": ["Drake", "Josh", "Megan", "Audrey", "Walter"],
-      "source": "https://drakeandjosh.fandom.com/wiki/Drake_Parker"
+      "source": "https://drakeandjosh.fandom.com/wiki/Drake_Parker",
+      "family": "drake-josh"
     },
     {
       "title": "Drake & Josh's recurring adults",
       "level": 2,
       "def": "Recurring adult characters on Drake & Josh.",
       "members": ["Crazy Steve", "Mrs. Hayfer", "Gavin", "Helen"],
-      "source": "https://drakeandjosh.fandom.com/wiki/Crazy_Steve"
-    },
-    {
-      "title": "Zoey 101 cast",
-      "level": 1,
-      "def": "The main cast characters of Zoey 101 across its run.",
-      "members": ["Zoey", "Dustin", "Chase", "Michael", "Logan (Zoey 101)", "Quinn", "Lola", "Nicole", "Dana", "James (Zoey 101)"],
-      "source": "https://zoey101.fandom.com/wiki/Zoey_Brooks"
-    },
-    {
-      "title": "Zoey 101's recurring characters",
-      "level": 2,
-      "def": "Recurring (not main cast) characters on Zoey 101.",
-      "members": ["Stacey", "Mark", "Coco", "Dean Rivers"],
-      "source": "https://zoey101.fandom.com/wiki/Coco_Wexler"
+      "source": "https://drakeandjosh.fandom.com/wiki/Crazy_Steve",
+      "family": "drake-josh"
     },
     {
       "title": "Big Time Rush cast",
       "level": 1,
       "def": "The main cast characters of Big Time Rush.",
       "members": ["Kendall", "James (BTR)", "Carlos", "Logan (BTR)", "Katie", "Gustavo", "Kelly"],
-      "source": "https://bigtimerush.fandom.com/wiki/Kendall_Knight"
+      "source": "https://bigtimerush.fandom.com/wiki/Kendall_Knight",
+      "family": "btr"
     },
     {
       "title": "BTR's recurring characters",
       "level": 2,
       "def": "Recurring (not main cast) characters on Big Time Rush.",
       "members": ["Mrs. Knight", "Mr. Bitters", "Griffin", "Jo", "Camille", "Lucy", "Buddha Bob"],
-      "source": "https://bigtimerush.fandom.com/wiki/Jo_Taylor"
+      "source": "https://bigtimerush.fandom.com/wiki/Jo_Taylor",
+      "family": "btr"
     },
     {
       "title": "Big Time Rush (the band)",
       "level": 1,
       "def": "The four teenagers who make up the boy band Big Time Rush, as opposed to their family, friends, or the adults at the label.",
       "members": ["Kendall", "James (BTR)", "Carlos", "Logan (BTR)"],
-      "source": "https://bigtimerush.fandom.com/wiki/Big_Time_Rush_(band)"
+      "source": "https://bigtimerush.fandom.com/wiki/Big_Time_Rush_(band)",
+      "family": "btr"
     },
     {
       "title": "Teachers",
       "level": 2,
-      "def": "Characters who teach a class at a school somewhere in this pool.",
+      "def": "Characters who teach a class at a school somewhere in this pool. Principals (Franklin, Helen) and the guidance counselor (Lane) don't teach.",
       "members": ["Ms. Briggs", "Mr. Howard", "Sikowitz", "Mrs. Hayfer"],
       "source": "https://victorious.fandom.com/wiki/Sikowitz"
     },
     {
-      "title": "School staff (non-teaching)",
-      "level": 3,
-      "def": "Adults who work at a school in this pool in a non-teaching role: principal, counselor, dean, or dorm advisor.",
-      "members": ["Franklin", "Lane", "Coco", "Dean Rivers", "Helen"],
-      "source": "https://victorious.fandom.com/wiki/Lane_Alexander"
+      "title": "Little sister of a main character",
+      "level": 2,
+      "def": "The younger sister of another main-cast character on her show: Carly (Spencer), Tori (Trina), Megan (Drake and Josh), Katie (Kendall). Siblings who aren't main cast don't count (Sam's twin Melanie, Cat's brother, Guppy, Chuck's brother Chip).",
+      "members": ["Carly", "Tori", "Megan", "Katie"],
+      "source": "https://drakeandjosh.fandom.com/wiki/Megan_Parker",
+      "family": "siblings"
     },
     {
-      "title": "Siblings",
-      "level": 3,
-      "def": "Has a brother or sister (including step-siblings) who is also a character in this pool.",
-      "members": ["Carly", "Spencer", "Gibby", "Guppy", "Zoey", "Dustin", "Tori", "Trina", "Kendall", "Katie", "Drake", "Megan", "Josh"],
-      "source": "https://drakeandjosh.fandom.com/wiki/Megan_Parker"
-    },
-    {
-      "title": "Played by the same actor twice",
+      "title": "Played by Miranda Cosgrove or Jerry Trainor",
       "level": 4,
-      "def": "Portrayed by an actor who plays a different character elsewhere in this file: Miranda Cosgrove (Megan Parker & Carly Shay), Victoria Justice (Lola Martinez & Tori Vega), Jerry Trainor (Crazy Steve & Spencer Shay).",
-      "members": ["Megan", "Carly", "Lola", "Tori", "Crazy Steve", "Spencer"],
+      "def": "Characters played by Miranda Cosgrove (Megan Parker, Carly Shay) or Jerry Trainor (Crazy Steve, Spencer Shay). Their cameos as themselves or unnamed extras aren't tiles.",
+      "members": ["Megan", "Carly", "Crazy Steve", "Spencer"],
       "source": "https://drakeandjosh.fandom.com/wiki/Megan_Parker"
     },
     {
       "title": "Younger than the teen leads",
       "level": 2,
       "def": "A kid character, younger than the shows' teenage leads, regardless of which show.",
-      "members": ["Nevel", "Chuck", "Guppy", "Megan", "Dustin", "Katie"],
+      "members": ["Nevel", "Chuck", "Guppy", "Megan", "Katie"],
       "source": "https://icarly.fandom.com/wiki/Nevel_Papperman"
     },
     {
       "title": "Recurring teens",
       "level": 3,
       "def": "A teenage character tagged recurring rather than main cast, regardless of which show.",
-      "members": ["Sinjin", "Mindy", "Craig", "Eric", "Stacey", "Mark", "Jo", "Camille", "Lucy"],
-      "source": "https://victorious.fandom.com/wiki/Sinjin_Van_Cleef"
+      "members": ["Sinjin", "Mindy", "Craig", "Eric", "Jo", "Camille", "Lucy"],
+      "source": "https://victorious.fandom.com/wiki/Sinjin_Van_Cleef",
+      "family": "cast-tier",
+      "avoid": ["iCarly cast", "Victorious cast", "Drake & Josh cast", "Big Time Rush cast"]
     },
     {
       "title": "Main cast, but not teens",
       "level": 3,
       "def": "Tagged as main cast on their own show despite not being one of the teenage leads (an adult or a kid).",
-      "members": ["Spencer", "Megan", "Audrey", "Walter", "Dustin", "Katie", "Gustavo", "Kelly"],
-      "source": "https://bigtimerush.fandom.com/wiki/Gustavo_Rocque"
+      "members": ["Spencer", "Megan", "Audrey", "Walter", "Katie", "Gustavo", "Kelly"],
+      "source": "https://bigtimerush.fandom.com/wiki/Gustavo_Rocque",
+      "family": "cast-tier",
+      "avoid": ["iCarly's recurring adults", "Victorious's recurring adults", "Drake & Josh's recurring adults", "BTR's recurring characters"]
     },
     {
       "title": "Parent of a teen lead",
@@ -140,6 +134,35 @@
       "def": "A character in this pool who is the parent or step-parent of one of the shows' teenage leads.",
       "members": ["Marissa", "David Vega", "Audrey", "Walter", "Mrs. Knight"],
       "source": "https://icarly.fandom.com/wiki/Marissa_Benson"
+    },
+    {
+      "title": "Big brother or sister of a main character",
+      "level": 2,
+      "def": "The older brother or sister of another main-cast character on their show: Spencer (Carly), Trina (Tori), Drake and Josh (Megan), Kendall (Katie). Gibby's little brother Guppy isn't main cast.",
+      "members": ["Spencer", "Trina", "Drake", "Josh", "Kendall"],
+      "source": "https://victorious.fandom.com/wiki/Trina_Vega",
+      "family": "siblings"
+    },
+    {
+      "title": "Shares a first name with their actor",
+      "level": 4,
+      "def": "The character's first name is the actor's (stage) first name: the Big Time Rush boys (Kendall Schmidt, James Maslow, Carlos Pena, Logan Henderson), Drake Bell, Josh Peck, Lane Napper, and Victoria Justice as Victoria 'Tori' Vega.",
+      "members": ["Kendall", "James (BTR)", "Carlos", "Logan (BTR)", "Drake", "Josh", "Lane", "Tori"],
+      "source": "https://bigtimerush.fandom.com/wiki/Big_Time_Rush_(TV_show)"
+    },
+    {
+      "title": "Belleview High students",
+      "level": 3,
+      "def": "Students at Belleview High School on Drake & Josh: Drake, Josh, Mindy, Craig and Eric. Megan goes to a lower school.",
+      "members": ["Drake", "Josh", "Mindy", "Craig", "Eric"],
+      "source": "https://drakeandjosh.fandom.com/wiki/Belleview_High_School"
+    },
+    {
+      "title": "Worked at the Premiere",
+      "level": 3,
+      "def": "Worked at the Premiere, the movie theater on Drake & Josh: manager Helen, Josh, Drake (hired in 'Movie Job'), Mindy (assistant manager in 'Really Big Shrimp'), Gavin and Crazy Steve. Megan only sold her Cup-O-Stuff there.",
+      "members": ["Helen", "Josh", "Drake", "Mindy", "Gavin", "Crazy Steve"],
+      "source": "https://drakeandjosh.fandom.com/wiki/The_Premiere"
     }
   ]
 }

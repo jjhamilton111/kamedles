@@ -328,9 +328,14 @@ a { color: var(--accent); }
 .ep-img { width: 100%; height: 100%; object-fit: cover; display: block; will-change: transform; user-select: none; -webkit-user-drag: none; }
 .zoom-note { position: absolute; left: 10px; bottom: 10px; padding: 4px 9px; border-radius: 8px; background: rgba(8, 10, 20, .72); color: var(--text); font-size: 12px; font-weight: 700; letter-spacing: .04em; backdrop-filter: blur(4px); }
 .ep-frame.broken .ep-img { opacity: .15; }
-.portrait-frame { position: relative; overflow: hidden; width: min(100%, 300px); aspect-ratio: 1; margin: 6px auto 18px; border-radius: 14px; background: var(--ink-2); border: 1px solid var(--line); }
-.portrait-img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 20%; display: block; will-change: transform; user-select: none; -webkit-user-drag: none; }
+.portrait-frame { position: relative; overflow: hidden; width: min(100%, 320px); aspect-ratio: 4 / 5; margin: 6px auto 18px; border-radius: 14px; background: var(--ink-2); border: 1px solid var(--line); }
+/* sized and placed by showPortrait(): the picture's natural size, moved and scaled around the focus */
+.portrait-img { position: absolute; left: 0; top: 0; max-width: none; transform-origin: 0 0; will-change: transform; user-select: none; -webkit-user-drag: none; }
+.portrait-frame.loading .portrait-img { visibility: hidden; }
+.portrait-frame.loading::after { content: ""; position: absolute; inset: 0; background: linear-gradient(100deg, transparent 30%, rgba(255, 255, 255, .06) 50%, transparent 70%) 0 0 / 200% 100%; animation: shimmer 1.2s linear infinite; }
+@keyframes shimmer { to { background-position: -200% 0; } }
 .portrait-frame.broken .portrait-img { opacity: .15; }
+.zoom-note:empty { display: none; }
 .ep-broken { position: absolute; inset: 0; display: grid; place-items: center; padding: 20px; text-align: center; color: var(--text-2); font-size: 14px; }
 .ep-code { flex: 0 0 auto; font-family: var(--font-display); font-weight: 800; font-size: 15px; letter-spacing: .03em; color: var(--accent); min-width: 64px; }
 .ep-code.big { font-size: 26px; min-width: 0; padding: 6px 10px; border-radius: 10px; background: rgba(0, 0, 0, .28); }

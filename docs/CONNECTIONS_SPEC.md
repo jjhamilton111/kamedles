@@ -11,6 +11,7 @@ cleverness.
 
 One file per show: `tools/connections/<slug>.json` (slug = the show's id in `data/`, e.g. `onepiece`).
 `node tools/build-connections.mjs` validates every file and compiles them into `data/connections.js`.
+Banks moved into `tools/connections/paused/` are kept but left out of the build.
 
 ```json
 {
@@ -52,6 +53,12 @@ One file per show: `tools/connections/<slug>.json` (slug = the show's id in `dat
 9. **Enough groups.** At least 10 groups per show (15–25 for big casts) so daily puzzles stay fresh
    for months. At least 3 groups must be level 3 or 4.
 10. Every group needs a `source` URL you actually checked (wiki page, episode list, etc.).
+11. **Never two slices of one list on a board.** Groups that split one list along a line players can't
+    see from the names ("Big Time Rush cast" vs "BTR's recurring characters", Class 1-A boys vs girls,
+    current vs former squad members, "introduced in arc X" vs "arc Y") share a `"family": "<name>"`;
+    groups with the same family never appear together. For a one-off pair, list the other group's title
+    in `"avoid": ["<title>"]` (either side is enough). Parallel categories that are easy to tell apart
+    (two different teams, two nations, two Nen types) don't need this.
 
 Run `node tools/build-connections.mjs` when done: it checks the format, flags names that look like
 the same person spelled two ways, and simulates a few hundred daily puzzles to prove the bank can

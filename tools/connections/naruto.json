@@ -11,37 +11,39 @@
     {
       "title": "Team 8",
       "level": 1,
-      "def": "Kurenai's genin team and their sensei.",
+      "def": "Kurenai's genin team and their sensei. Kakashi, who led the team temporarily in Shippuden, doesn't count.",
       "members": ["Kurenai", "Kiba", "Shino", "Hinata"],
       "source": "https://naruto.fandom.com/wiki/Team_8"
     },
     {
       "title": "Team 10",
       "level": 1,
-      "def": "Asuma's genin team, the Ino-Shika-Cho trio, and their sensei.",
+      "def": "Asuma's genin team (Team Asuma): the Ino-Shika-Cho trio Shikamaru, Choji and Ino, and their sensei Asuma. Temporary members don't count: Kakashi, who led them after Asuma's death, and Sakura, who filled in for an anime-only Chunin Exam.",
       "members": ["Asuma", "Shikamaru", "Choji", "Ino"],
       "source": "https://naruto.fandom.com/wiki/Team_10_(Asuma)"
     },
     {
       "title": "Team Guy",
       "level": 1,
-      "def": "Might Guy's genin team and their sensei.",
+      "def": "Might Guy's genin team (Team 3): Neji, Rock Lee and Tenten, and their sensei Might Guy. Naruto, who stood in for the injured Lee on one anime-only mission, doesn't count.",
       "members": ["Might Guy", "Neji", "Rock Lee", "Tenten"],
       "source": "https://naruto.fandom.com/wiki/Team_Guy"
     },
     {
       "title": "Konoha 11",
       "level": 1,
-      "def": "The eleven Leaf genin of Naruto's generation (Teams 7, 8, 10 and Guy's students) minus Sasuke, who'd already defected. They band together to go after Sasuke and later fight side by side in the war. Their jonin senseis aren't counted, and neither is Sai, who only fills in for the deceased Neji in one battle.",
+      "def": "The eleven genin students of Teams 7, 8, 10 and Guy that the anime calls the Konoha 11: Sasuke is explicitly not included (he had defected) and the jonin senseis aren't counted. Sai, whom the anime slots in for the late Neji in one war attack (the wiki lists him as an anime-only member), is left out, and the group never shares a board with Sai's groups (Team 7, Root, Three letters or fewer).",
       "members": ["Naruto", "Sakura", "Shikamaru", "Choji", "Ino", "Kiba", "Shino", "Hinata", "Neji", "Rock Lee", "Tenten"],
-      "source": "https://naruto.fandom.com/wiki/Konoha_11"
+      "source": "https://naruto.fandom.com/wiki/Konoha_11",
+      "avoid": ["Team 7", "Root", "Three letters or fewer"]
     },
     {
-      "title": "Hokages",
+      "title": "First six Hokage",
       "level": 1,
-      "def": "Everyone officially installed as Hokage during the anime, First through Sixth. Danzo, who only ever held Sixth Hokage candidate status before dying, and Naruto, who isn't named Seventh Hokage until after the anime's story ends, don't count.",
+      "def": "The First through Sixth Hokage, all shown in office in the anime: Hashirama, Tobirama, Hiruzen, Minato, Tsunade and Kakashi (takes office after the war). Danzo was only ever the Sixth Hokage candidate, but Shippuden ep. 197 is titled 'The Sixth Hokage Danzo', so the group never shares a board with his groups (Sharingan Users, Root); Naruto only becomes the Seventh in Boruto, which the title rules out.",
       "members": ["Hashirama", "Tobirama", "Hiruzen", "Minato", "Tsunade", "Kakashi"],
-      "source": "https://naruto.fandom.com/wiki/Hokage"
+      "source": "https://naruto.fandom.com/wiki/Hokage",
+      "avoid": ["Sharingan Users", "Root"]
     },
     {
       "title": "Hidden Sand Shinobi",
@@ -53,14 +55,15 @@
     {
       "title": "Akatsuki",
       "level": 2,
-      "def": "Every character shown as an official member of Akatsuki across its history (Yahiko's, Nagato's and Obito's eras) in the anime. Madara secretly pulls the strings but is never tabled as a member himself, and Taka, whom Obito employs as hired help, are explicitly said to never be full members, so neither counts.",
-      "members": ["Yahiko", "Pain", "Konan", "Itachi", "Kisame", "Deidara", "Sasori", "Hidan", "Kakuzu", "Orochimaru", "Obito", "Zetsu"],
-      "source": "https://naruto.fandom.com/wiki/Akatsuki"
+      "def": "Everyone in the wiki's member tables for any era of Akatsuki (Yahiko's, Nagato's, Obito's), including the anime-only Juzo, Itachi's first partner (Shippuden ep. 455); Nagato is the man behind 'Pain'. The wiki's associates are not members: Taka (Sasuke, Suigetsu, Karin, Jugo, who wore the cloaks while working for Obito), Kabuto (Sasori's spy, Obito's war ally) and Madara (Obito's collaborator, whose name Obito used). The anime itself calls Sasuke an Akatsuki member (ep. 197), so the group never shares a board with any group holding one of those six.",
+      "members": ["Yahiko", "Nagato", "Konan", "Itachi", "Juzo", "Kisame", "Deidara", "Sasori", "Hidan", "Kakuzu", "Orochimaru", "Obito", "Zetsu"],
+      "source": "https://naruto.fandom.com/wiki/Akatsuki",
+      "avoid": ["Team 7", "Taka", "Sharingan Users", "Hidden Sound Ninja", "Rinnegan Users", "Chunin Exam finalists (Part I)", "Hidden Mist Ninja", "Uzumaki blood", "Medical-nin", "Root"]
     },
     {
-      "title": "Five Kage",
+      "title": "Kage in office in the Fourth War",
       "level": 2,
-      "def": "The five village leaders who convene at the Kage Summit and lead the Allied Shinobi Forces in the Fourth Shinobi World War: the Fifth Hokage, Fifth Kazekage, Fifth Mizukage, Fourth Raikage and Third Tsuchikage.",
+      "def": "The five Kage in office during the Fourth Shinobi World War, who lead the Allied Shinobi Forces and fight the reanimated Madara together: Fifth Hokage Tsunade, Fifth Kazekage Gaara, Fifth Mizukage Mei, Fourth Raikage A and Third Tsuchikage Onoki. Not in office in the war: Danzo (Hokage candidate at the Kage Summit, dead before the war), the reanimated past Kage (Hashirama, Tobirama, Hiruzen, Minato), Yagura (long dead) and Kakashi (Hokage only after the war).",
       "members": ["Tsunade", "Gaara", "Mei", "A", "Onoki"],
       "source": "https://naruto.fandom.com/wiki/Kage"
     },
@@ -81,37 +84,40 @@
     {
       "title": "Hidden Sound Ninja",
       "level": 2,
-      "def": "Every character whose affiliation is Orochimaru's Otogakure.",
-      "members": ["Sasuke", "Orochimaru", "Kabuto", "Karin", "Jugo", "Kimimaro"],
+      "def": "Every character whose affiliation is Orochimaru's Otogakure (the wiki's affiliation list): Orochimaru, Kabuto, his hideout wardens and subjects Karin, Jugo and Suigetsu, Kimimaro, and Sasuke during his time with Orochimaru. Anko, Orochimaru's student back in Konoha, never joined Otogakure.",
+      "members": ["Sasuke", "Orochimaru", "Kabuto", "Karin", "Jugo", "Kimimaro", "Suigetsu"],
       "source": "https://naruto.fandom.com/wiki/Otogakure"
     },
     {
       "title": "Hidden Mist Ninja",
-      "level": 2,
-      "def": "Every character whose home village is Kirigakure, regardless of later defection.",
-      "members": ["Mei", "Kisame", "Suigetsu", "Zabuza"],
+      "level": 3,
+      "def": "Every character whose home village is Kirigakure, regardless of later defection: the Mizukage Mei and Yagura, the Six-Tails jinchuriki Utakata, Suigetsu, and every Seven Ninja Swordsman in this bank (including the anime-only Raiga). Obito, who controlled Kiri from the shadows, was never a Kiri ninja and doesn't count.",
+      "members": ["Mei", "Kisame", "Suigetsu", "Zabuza", "Yagura", "Utakata", "Mangetsu", "Chojuro", "Fuguki", "Jinin", "Kushimaru", "Raiga", "Juzo"],
       "source": "https://naruto.fandom.com/wiki/Kirigakure"
     },
     {
-      "title": "Medical Ninjutsu Users",
+      "title": "Medical-nin",
       "level": 2,
-      "def": "Every character shown formally practising medical ninjutsu, healing via fine chakra control, in the anime.",
-      "members": ["Sakura", "Tsunade", "Shizune", "Ino", "Kabuto", "Karin", "Chiyo"],
-      "source": "https://naruto.fandom.com/wiki/Medical_Ninjutsu"
+      "def": "Characters the wiki classifies as medical-nin (trained medical ninja): Tsunade, Shizune, Sakura, Ino, Kabuto, Chiyo and Rin. Other healers are not medical-nin: Karin (Heal Bite, an Uzumaki trait, plus one anime Mystical Palm), Hinata and Hagoromo (anime-only Mystical Palm uses) and Hashirama (self-regeneration). Karin is the one fans could still call a medic, so the group never shares a board with her groups (Taka, Hidden Sound Ninja, Uzumaki blood).",
+      "members": ["Sakura", "Tsunade", "Shizune", "Ino", "Kabuto", "Chiyo", "Rin"],
+      "source": "https://naruto.fandom.com/wiki/Medical-nin",
+      "avoid": ["Taka", "Hidden Sound Ninja", "Uzumaki blood"]
     },
     {
       "title": "Root",
       "level": 3,
-      "def": "Every character shown as a member of Danzo's secret Root division of Anbu in the anime.",
-      "members": ["Danzo", "Sai", "Yamato", "Kabuto"],
-      "source": "https://naruto.fandom.com/wiki/Root"
+      "def": "Members of Danzo's Root shown in the anime: Danzo, Sai, Yamato, Kabuto (a Root spy as a youth) and Kakashi, who joined as a youth in the anime-only Kakashi Anbu arc before informing on Danzo. Itachi served in the regular Anbu and doesn't count. Orochimaru is on the wiki's Root list but the anime only shows him working under Danzo, so he's left out and the group never shares a board with his groups (Akatsuki, Hidden Sound Ninja); the Root agent Fu Yamanaka shares a name with the jinchuriki tile 'Fu', so it never shares a board with Fu's groups either (Nine Jinchuriki, Three letters or fewer).",
+      "members": ["Danzo", "Sai", "Yamato", "Kabuto", "Kakashi"],
+      "source": "https://naruto.fandom.com/wiki/Root",
+      "avoid": ["Hidden Sound Ninja", "Nine Jinchuriki", "Three letters or fewer"]
     },
     {
       "title": "Nine Jinchuriki",
       "level": 3,
-      "def": "The nine jinchuriki, one per tailed beast, as of Part II (Shippuden) - the 'current' generation. Earlier hosts like Kushina or Mito, and beings who only carried partial or Ten-Tails chakra like Obito, Madara or Hagoromo, don't count.",
+      "def": "The host each of the nine tailed beasts had when Akatsuki began hunting them (for the Three-Tails, already hostless, its last host Yagura): Gaara, Yugito, Yagura, Roshi, Han, Utakata, Fu, Killer B and Naruto. Every other jinchuriki on the wiki's list is out: earlier hosts Mito, Kushina and Rin, Kurama's Yin-half hosts Minato and Black Zetsu (the 'Zetsu' tile), and the Ten-Tails' hosts Obito, Madara and Hagoromo. Fans could still call them jinchuriki, so the group never shares a board with any group holding one of them.",
       "members": ["Gaara", "Yugito", "Yagura", "Roshi", "Han", "Utakata", "Fu", "Killer B", "Naruto"],
-      "source": "https://naruto.fandom.com/wiki/Jinch%C5%ABriki"
+      "source": "https://naruto.fandom.com/wiki/Jinch%C5%ABriki",
+      "avoid": ["Akatsuki", "Sharingan Users", "Rinnegan Users", "Team Minato", "Medical-nin", "Three letters or fewer", "Uzumaki blood", "First six Hokage", "Jiraiya's Students"]
     },
     {
       "title": "Hyuga Clan",
@@ -121,31 +127,25 @@
       "source": "https://naruto.fandom.com/wiki/Hy%C5%ABga_Clan"
     },
     {
-      "title": "Orochimaru's Students",
-      "level": 3,
-      "def": "Characters Orochimaru personally took in and trained in ninjutsu, as opposed to allies or experiment subjects he simply kept around (Karin, Jugo).",
-      "members": ["Sasuke", "Kabuto", "Kimimaro", "Anko"],
-      "source": "https://naruto.fandom.com/wiki/Orochimaru"
-    },
-    {
       "title": "Jiraiya's Students",
       "level": 3,
       "def": "Everyone Jiraiya personally trained in the anime: his own genin team, the three Ame orphans, and his final student.",
-      "members": ["Minato", "Pain", "Konan", "Yahiko", "Naruto"],
+      "members": ["Minato", "Nagato", "Konan", "Yahiko", "Naruto"],
       "source": "https://naruto.fandom.com/wiki/Jiraiya"
     },
     {
-      "title": "Uzumaki Clan",
+      "title": "Uzumaki blood",
       "level": 3,
-      "def": "Characters confirmed in the anime to carry Uzumaki blood, including distant descent (Tsunade, via her grandmother Mito).",
-      "members": ["Naruto", "Kushina", "Karin", "Pain", "Mito", "Tsunade"],
-      "source": "https://naruto.fandom.com/wiki/Uzumaki_Clan"
+      "def": "Characters descended from the Uzumaki clan: Naruto, Kushina, Karin, Nagato, Mito, and Tsunade through her grandmother Mito. Marrying in doesn't count (Minato; Hashirama, Mito's husband; Hinata, who marries Naruto in the finale). The Senju share only a 'distant blood relation' with the Uzumaki through a common ancestor, which fans could still cite for Hashirama and Tobirama, so the group never shares a board with First six Hokage.",
+      "members": ["Naruto", "Kushina", "Karin", "Nagato", "Mito", "Tsunade"],
+      "source": "https://naruto.fandom.com/wiki/Uzumaki_Clan",
+      "avoid": ["First six Hokage"]
     },
     {
       "title": "Rinnegan Users",
       "level": 4,
       "def": "Every character shown with active Rinnegan eyes in the anime.",
-      "members": ["Pain", "Madara", "Obito", "Sasuke", "Hagoromo"],
+      "members": ["Nagato", "Madara", "Obito", "Sasuke", "Hagoromo"],
       "source": "https://naruto.fandom.com/wiki/Rinnegan"
     },
     {
@@ -154,6 +154,62 @@
       "def": "Every character named on-screen as a member of the Seven Ninja Swordsmen of the Mist, any generation, in the anime (excluding two unnamed wielders in a flashback).",
       "members": ["Zabuza", "Kisame", "Mangetsu", "Chojuro", "Fuguki", "Jinin", "Kushimaru", "Raiga", "Juzo"],
       "source": "https://naruto.fandom.com/wiki/Seven_Ninja_Swordsmen_of_the_Mist"
+    },
+    {
+      "title": "Chunin Exam finalists (Part I)",
+      "level": 3,
+      "def": "The genin who qualified for the final round of the Chunin Exams Konoha hosts at the start of Part I (the tournament cut short by the Konoha Crush): Naruto, Neji, Gaara, Sasuke, Kankuro, Shino, Temari and Shikamaru (Dosu also qualified but isn't in this bank). Everyone knocked out in the preliminaries (Sakura, Ino, Hinata, Kiba, Rock Lee, Tenten, Choji) and Kabuto, who withdrew, don't count; neither do the older exam from Kakashi and Guy's youth or the anime-only Konoha-Suna exam, which never reached a final round.",
+      "members": ["Naruto", "Sasuke", "Neji", "Gaara", "Shikamaru", "Temari", "Kankuro", "Shino"],
+      "source": "https://naruto.fandom.com/wiki/Ch%C5%ABnin_Exams"
+    },
+    {
+      "title": "Sasuke Recovery Mission",
+      "level": 2,
+      "def": "Everyone who fought Orochimaru's Sound Five escorts on the Part I mission to stop Sasuke's defection: Shikamaru's five-genin team (Shikamaru, Naruto, Neji, Choji, Kiba) and the reinforcements Rock Lee, Gaara, Temari and Kankuro. Kakashi, who only arrived after the fighting to carry Naruto home, Sakura, who stayed behind, and Shino, away on another mission, don't count.",
+      "members": ["Shikamaru", "Naruto", "Neji", "Choji", "Kiba", "Rock Lee", "Gaara", "Temari", "Kankuro"],
+      "source": "https://naruto.fandom.com/wiki/Sasuke_Recovery_Mission"
+    },
+    {
+      "title": "Konoha 11 team leaders",
+      "level": 2,
+      "def": "Jonin who led one of the Konoha 11's four genin teams (Teams 7, 8, 10 and Guy): Kakashi, Kurenai, Asuma and Might Guy, plus Yamato, who captained Kakashi's team in Part II. Kakashi also stood in as leader of Teams 8 and 10, which adds no one. People who trained a Konoha 11 member one-on-one (Tsunade for Sakura, Orochimaru for Sasuke) never led one of the teams.",
+      "members": ["Kakashi", "Kurenai", "Asuma", "Might Guy", "Yamato"],
+      "source": "https://naruto.fandom.com/wiki/Team_Kakashi"
+    },
+    {
+      "title": "Children of a Kage",
+      "level": 4,
+      "def": "Characters whose parent was a Kage: Naruto (son of the Fourth Hokage), Asuma (son of the Third Hokage), Gaara, Temari and Kankuro (children of the Fourth Kazekage), A (son of the Third Raikage) and Killer B (the Third Raikage's adopted son, chosen as A's brother). Grandchildren don't count (Tsunade is the First Hokage's granddaughter), nor do Kage's students.",
+      "members": ["Naruto", "Asuma", "Gaara", "Temari", "Kankuro", "A", "Killer B"],
+      "source": "https://naruto.fandom.com/wiki/Kage"
+    },
+    {
+      "title": "Team Minato",
+      "level": 2,
+      "def": "Minato's genin team: Minato and his students Kakashi, Obito and Rin. Kakashi's own later Team 7 is a different team.",
+      "members": ["Minato", "Kakashi", "Obito", "Rin"],
+      "source": "https://naruto.fandom.com/wiki/Team_Minato"
+    },
+    {
+      "title": "Hidden Stone Ninja",
+      "level": 3,
+      "def": "Every character whose home village is Iwagakure, regardless of later defection: the Third Tsuchikage Onoki, his granddaughter Kurotsuchi, the rogue Deidara, and the Four- and Five-Tails jinchuriki Roshi and Han.",
+      "members": ["Onoki", "Kurotsuchi", "Deidara", "Roshi", "Han"],
+      "source": "https://naruto.fandom.com/wiki/Iwagakure"
+    },
+    {
+      "title": "Hidden Cloud Ninja",
+      "level": 2,
+      "def": "Every character whose home village is Kumogakure: the Fourth Raikage A, Killer B, the Two-Tails jinchuriki Yugito, and A's shinobi Darui, Samui and Omoi.",
+      "members": ["A", "Killer B", "Yugito", "Darui", "Samui", "Omoi"],
+      "source": "https://naruto.fandom.com/wiki/Kumogakure"
+    },
+    {
+      "title": "Three letters or fewer",
+      "level": 4,
+      "def": "Display names (tile text) of three letters or fewer: A, Fu, Han, Sai, Mei, Ino, Rin. Every other tile in this bank is four letters or longer (Pain, Kiba, Neji, Anko, Jugo, Juzo, Mito, Omoi...).",
+      "members": ["A", "Fu", "Han", "Sai", "Mei", "Ino", "Rin"],
+      "source": "https://naruto.fandom.com/wiki/List_of_characters"
     }
   ]
 }

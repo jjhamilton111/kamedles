@@ -4,7 +4,7 @@ window.DLE.series["frieren"] = {
   "id": "frieren",
   "title": "Frieren: Beyond Journey's End",
   "short": "Frieren",
-  "cutoff": "Anime Seasons 1-2 (S2 ended Mar 2026). Nothing from the Golden Land arc onward.",
+  "cutoff": "Anime Season 1 only (episodes 1-28, Sep 2023 - Mar 2024, through the First-Class Mage Exam). Nothing from Season 2 onward.",
   "affiliationLabel": "Group",
   "powerLabel": "Class",
   "affiliations": [
@@ -14,9 +14,10 @@ window.DLE.series["frieren"] = {
     "Frieren's Party",
     "Hero's Party",
     "Legends of the Past",
-    "Northern Magic Corps",
+    "Academy of Magic",
+    "Nobility / Empire",
     "Warrior Village",
-    "Nobility / Empire"
+    "Northern Magic Corps"
   ],
   "powers": [
     "Mage",
@@ -30,9 +31,7 @@ window.DLE.series["frieren"] = {
     "Journey's End",
     "Aura the Guillotine",
     "Journey with Sein",
-    "First-Class Mage Exam",
-    "Northern Plateau",
-    "Divine Revolte"
+    "First-Class Mage Exam"
   ],
   "characters": [
     {
@@ -85,8 +84,7 @@ window.DLE.series["frieren"] = {
       "debut": "Journey's End",
       "quotes": [
         "Ms. Frieren, it's morning. Please wake up.",
-        "Don't make me angry, Ms. Frieren.",
-        "Ms. Frieren, you've been carrying debt?"
+        "Don't make me angry, Ms. Frieren."
       ],
       "emojis": [
         "🍰",
@@ -116,8 +114,7 @@ window.DLE.series["frieren"] = {
       "debut": "Journey's End",
       "quotes": [
         "But I was so scared, I couldn't move a muscle!",
-        "It slices through houses like they're vegetables!",
-        "What are you plotting?! I'm scared!"
+        "It slices through houses like they're vegetables!"
       ],
       "emojis": [
         "😨",
@@ -196,15 +193,14 @@ window.DLE.series["frieren"] = {
       "affiliation": [
         "Hero's Party"
       ],
-      "age": 100,
+      "age": null,
       "power": [
         "Warrior"
       ],
       "debut": "Journey's End",
       "quotes": [
         "No matter how many times it takes, get back up and keep fighting.",
-        "We thought about leaving you behind when that mimic tried to eat you.",
-        "I wouldn't trade my memories of those ridiculous adventures with my friends for anything."
+        "We thought about leaving you behind when that mimic tried to eat you."
       ],
       "emojis": [
         "🧔",
@@ -539,7 +535,7 @@ window.DLE.series["frieren"] = {
         "🧔",
         "🪓"
       ],
-      "hint": "An old dwarf warrior who has guarded a small village for four hundred years."
+      "hint": "A dwarf warrior nearly four hundred years old who still guards a small village out of a promise to his wife."
     },
     {
       "id": "stoltz",
@@ -641,7 +637,7 @@ window.DLE.series["frieren"] = {
         "Nobility / Empire",
         "Continental Magic Association"
       ],
-      "age": 77,
+      "age": null,
       "power": [
         "Mage"
       ],
@@ -693,7 +689,7 @@ window.DLE.series["frieren"] = {
       "name": "Richter",
       "aliases": [],
       "gender": "Male",
-      "hair": "Black",
+      "hair": "Brown",
       "affiliation": [
         "First-Class Mage Exam"
       ],
@@ -733,9 +729,7 @@ window.DLE.series["frieren"] = {
       ],
       "debut": "First-Class Mage Exam",
       "quotes": [
-        "That's right. I use this time to prepare myself to kill.",
-        "Just so you know, I'm not that old yet.",
-        "I'll do anything to protect the far north."
+        "That's right. I use this time to prepare myself to kill."
       ],
       "emojis": [
         "❄️",
@@ -753,8 +747,8 @@ window.DLE.series["frieren"] = {
       "gender": "Female",
       "hair": "Brown",
       "affiliation": [
-        "Northern Magic Corps",
-        "First-Class Mage Exam"
+        "First-Class Mage Exam",
+        "Academy of Magic"
       ],
       "age": null,
       "power": [
@@ -767,13 +761,13 @@ window.DLE.series["frieren"] = {
         "His magic is utterly devoid of character, designed to win at all costs."
       ],
       "emojis": [
-        "❄️",
-        "🪖",
         "👩",
-        "🔮",
-        "🪄"
+        "🪄",
+        "🎓",
+        "🥇",
+        "💥"
       ],
-      "hint": "A no-nonsense mage of the Northern Magic Corps who keeps her flirtatious captain in line."
+      "hint": "A composed examinee who graduated top of her class at the magic academy and has a first-class mage for a grandfather."
     },
     {
       "id": "scharf",
@@ -782,7 +776,6 @@ window.DLE.series["frieren"] = {
       "gender": "Male",
       "hair": "Black",
       "affiliation": [
-        "Northern Magic Corps",
         "First-Class Mage Exam"
       ],
       "age": null,
@@ -794,13 +787,13 @@ window.DLE.series["frieren"] = {
         "Wirbel, please carry me. My whole body feels numb."
       ],
       "emojis": [
-        "❄️",
-        "🪖",
         "🖤",
-        "🗡️",
-        "🪄"
+        "🪄",
+        "😢",
+        "🌸",
+        "🗡️"
       ],
-      "hint": "The quiet black-haired third member of the Northern Magic Corps team in the exam."
+      "hint": "A tall, quiet, self-taught examinee whose spell turns flower petals into steel blades."
     },
     {
       "id": "kanne",
@@ -809,7 +802,8 @@ window.DLE.series["frieren"] = {
       "gender": "Female",
       "hair": "Orange",
       "affiliation": [
-        "First-Class Mage Exam"
+        "First-Class Mage Exam",
+        "Academy of Magic"
       ],
       "age": null,
       "power": [
@@ -837,7 +831,8 @@ window.DLE.series["frieren"] = {
       "gender": "Female",
       "hair": "Grey",
       "affiliation": [
-        "First-Class Mage Exam"
+        "First-Class Mage Exam",
+        "Academy of Magic"
       ],
       "age": null,
       "power": [
@@ -873,8 +868,6 @@ window.DLE.series["frieren"] = {
       ],
       "debut": "First-Class Mage Exam",
       "quotes": [
-        "Do you declare your name before exterminating a pest?",
-        "Despite how I may seem, I'm skilled in close-quarters combat.",
         "Do you really think there's a mage in this world greater than Serie?"
       ],
       "emojis": [
@@ -948,6 +941,7 @@ window.DLE.series["frieren"] = {
       "gender": "Female",
       "hair": "Blonde",
       "affiliation": [
+        "First-Class Mage Exam",
         "Continental Magic Association"
       ],
       "age": null,
@@ -955,19 +949,15 @@ window.DLE.series["frieren"] = {
         "Mage"
       ],
       "debut": "First-Class Mage Exam",
-      "quotes": [
-        "In that case, Ms. Frieren, may I pet you?",
-        "I love giving headpats to small girls...",
-        "She's so small and cute, you know?"
-      ],
+      "quotes": [],
       "emojis": [
         "💛",
-        "😊",
-        "🫳",
-        "🏛️",
-        "🪄"
+        "🪄",
+        "📖",
+        "🪢",
+        "🥰"
       ],
-      "hint": "A first-class mage who supervises the dungeon test and cannot resist petting a tiny elf."
+      "hint": "A calm, versatile examinee who uses restraint magic, heals with a holy scripture and coordinates the plan against the dungeon clones."
     },
     {
       "id": "edel",
@@ -991,91 +981,10 @@ window.DLE.series["frieren"] = {
         "🍓",
         "👁️",
         "👀",
-        "🔒",
+        "🌀",
         "🪄"
       ],
-      "hint": "An examinee with hair over one eye whose spell paralyzes anyone who meets her gaze."
-    },
-    {
-      "id": "hero-of-the-south",
-      "name": "Hero of the South",
-      "aliases": [
-        "Southern Hero"
-      ],
-      "gender": "Male",
-      "hair": "Brown",
-      "affiliation": [
-        "Legends of the Past"
-      ],
-      "age": null,
-      "power": [
-        "Hero",
-        "Warrior"
-      ],
-      "debut": "Northern Plateau",
-      "quotes": [],
-      "emojis": [
-        "🗿",
-        "🔮",
-        "🌅",
-        "⚔️",
-        "🛡️"
-      ],
-      "hint": "A legendary human hero who could see the future and single-handedly fought the Demon King's sages."
-    },
-    {
-      "id": "schlacht",
-      "name": "Schlacht",
-      "aliases": [
-        "Schlacht the Omniscient"
-      ],
-      "gender": "Male",
-      "hair": "White",
-      "affiliation": [
-        "Demons"
-      ],
-      "age": null,
-      "power": [
-        "Demon"
-      ],
-      "debut": "Northern Plateau",
-      "quotes": [],
-      "emojis": [
-        "♟️",
-        "🔮",
-        "🤍",
-        "😈",
-        "👁️"
-      ],
-      "hint": "A demon strategist called the Omniscient who foresees the future from the Demon King's side."
-    },
-    {
-      "id": "revolte",
-      "name": "Revolte",
-      "aliases": [
-        "Divine Revolte",
-        "Revolte the Divine"
-      ],
-      "gender": "Male",
-      "hair": "Blonde",
-      "affiliation": [
-        "Demons"
-      ],
-      "age": null,
-      "power": [
-        "Demon",
-        "Warrior"
-      ],
-      "debut": "Divine Revolte",
-      "quotes": [],
-      "emojis": [
-        "🎭",
-        "🐍",
-        "😈",
-        "🗡️",
-        "⚔️"
-      ],
-      "hint": "A masked, serpent-bodied demon general who wields four magic swords of shifting weight."
+      "hint": "A petite examinee from a family of hypnosis specialists whose spells command whoever she can see."
     }
   ]
 };

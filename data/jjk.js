@@ -1570,7 +1570,7 @@ window.DLE.series["jjk"] = {
       "age": 150,
       "power": [
         "Cursed Spirit",
-        "Inherited Technique"
+        "Cursed Technique"
       ],
       "debut": "Death Painting",
       "quotes": [
@@ -1599,7 +1599,7 @@ window.DLE.series["jjk"] = {
       "age": 150,
       "power": [
         "Cursed Spirit",
-        "Inherited Technique"
+        "Cursed Technique"
       ],
       "debut": "Death Painting",
       "quotes": [

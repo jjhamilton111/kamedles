@@ -14,9 +14,9 @@ const MODES = [
   { id: "classic", label: "Classic", blurb: "Guess by attributes" },
   { id: "quote", label: "Quote", blurb: "Who said it?" },
   { id: "emoji", label: "Emoji", blurb: "Five emojis, one character" },
-  { id: "portrait", label: "Portrait", blurb: "A zoomed-in portrait" },
+  { id: "portrait", label: "Portrait", blurb: "Zoomed in on one spot" },
 ];
-const PORTRAIT_ZOOM = [4, 3, 2.3, 1.8, 1.45, 1.2, 1]; // one step out per miss
+const PORTRAIT_STEPS = 6; // misses until the whole picture shows
 const modeById = id => MODES.find(m => m.id === id) || MODES[0];
 const HINTS = {
   quote: [
@@ -104,14 +104,14 @@ let game = null;
 const view = { seriesId: null, mode: MODES.some(m => m.id === S.prefs.mode) ? S.prefs.mode : "classic", unlimited: false };
 
 const quotesOf = c => (c && c.quotes) || [];
-const portraitOf = (series, c) => (IMG[series.id] && IMG[series.id][c.id]) || c.img || null;
+// Portrait mode uses full-body pictures (Fandom wiki paths in data/bodies.js), at a size that stays sharp zoomed in
+const BODIES = (window.DLE && window.DLE.bodies) || {};
+const portraitOf = (series, c) => { const p = BODIES[series.id] && BODIES[series.id][c.id]; return p ? `https://static.wikia.nocookie.net/${p}/revision/latest/scale-to-height-down/1600` : null; };
 function poolFor(series, mode) {
   if (mode === "quote") return series.characters.filter(c => quotesOf(c).length);
   if (mode === "portrait") return series.characters.filter(c => portraitOf(series, c));
   return series.characters;
 }
-// Where the zoomed portrait is centred: somewhere around the face, never the empty edges.
-function portraitFocus(seed) { const rng = mulberry32(seed); return [0.28 + rng() * 0.44, 0.18 + rng() * 0.42]; }
 function dailyAnswer(series, mode, day) {
   const p = poolFor(series, mode), n = p.length;
   const cycle = Math.floor(day / n), idx = ((day % n) + n) % n;
@@ -147,9 +147,10 @@ function startGame(seriesId, mode, unlimited, avoidId) {
     else answer = dailyAnswer(series, mode, day);
   }
   if (mode === "quote" && !quote) quote = pickQuote(series, answer, day, unlimited);
-  const focus = mode === "portrait" ? portraitFocus(unlimited ? (Math.random() * 4294967296) >>> 0 : cyrb53(`${seriesId}|portrait|${day}`) >>> 0) : null;
+  // picks the spot the portrait zoom starts on (see portraitCamera)
+  const focusSeed = mode === "portrait" ? (unlimited ? (Math.random() * 4294967296) >>> 0 : cyrb53(`${seriesId}|portrait|${day}`) >>> 0) : null;
   const ids = new Set(series.characters.map(c => c.id));
-  game = { seriesId, series, mode, unlimited, day, answer, key, quote, focus,
+  game = { seriesId, series, mode, unlimited, day, answer, key, quote, focusSeed,
     guesses: saved ? saved.guesses.filter(id => ids.has(id)) : [],
     revealed: saved && Array.isArray(saved.hints) ? saved.hints.slice() : [],
     solved: !!(saved && saved.solved), gaveUp: !!(saved && saved.gaveUp), rounds: game && game.unlimited && unlimited ? game.rounds : 0 };
@@ -247,7 +248,7 @@ function renderHome() {
     topBar({ tab: "characters" }),
     h("section", { class: "hero" },
       h("h1", { class: "hero-title" }, "Guess the ", h("em", null, "character"), "."),
-      h("p", { class: "hero-sub" }, `${ORDER.length} shows, three modes, curated casts only. New puzzles at midnight.`),
+      h("p", { class: "hero-sub" }, `${ORDER.length} shows, ${MODES.length} modes, curated casts only. New puzzles at midnight.`),
       h("p", { class: "hero-day" }, `Daily #${day + 1} · ${fmtDay(day)}`)),
     ...GROUPS.map(g => h("section", { class: "group", "aria-label": g.label },
       h("h2", { class: "group-label" }, g.label, h("span", null, `${g.ids.length}`)),
@@ -261,7 +262,7 @@ function seriesCard(id, day) {
       h("div", { class: "scard-big" }, s.short),
       (s.tagline || s.short !== s.title) && h("div", { class: "scard-title" }, s.tagline || s.title),
       h("div", { class: "scard-meta" }, `${s.characters.length} characters`)),
-    h("div", { class: "pills" }, MODES.map(m => {
+    h("div", { class: "pills" }, modesFor(s).map(m => {
       const r = dailyRecord(id, m.id, day);
       const cls = r ? (r.solved ? "done" : r.gaveUp ? "lost" : r.guesses.length ? "live" : "") : "";
       return h("span", { class: `pill ${cls}` }, m.label);
@@ -269,11 +270,14 @@ function seriesCard(id, day) {
 }
 
 /* ---------- play ---------- */
+// A mode needs someone to play: Portrait sits out a series with no full-body pictures yet.
+const modesFor = s => MODES.filter(m => poolFor(s, m.id).length);
 function openSeries(id, opts = {}) {
   if (!D.series[id]) return renderHome();
   // Coming into a series always starts on Classic; switching modes or daily/unlimited inside one keeps it.
   if (opts.mode) view.mode = opts.mode;
   else if (id !== view.seriesId) view.mode = "classic";
+  if (!modesFor(D.series[id]).some(m => m.id === view.mode)) view.mode = "classic";
   view.seriesId = id;
   if (opts.unlimited != null) view.unlimited = opts.unlimited;
   S.prefs.mode = view.mode; S.prefs.lastSeries = id; saveState();
@@ -294,7 +298,7 @@ function renderPlay() {
       h("p", { class: "cutoff" }, s.cutoff)),
     h("div", { class: "daybadge" }, game.unlimited ? "Unlimited · practice" : `Daily #${day + 1} · ${fmtDay(day)}`));
 
-  const tabs = h("div", { class: "seg", role: "tablist", "aria-label": "Mode" }, MODES.map(m =>
+  const tabs = h("div", { class: "seg", role: "tablist", "aria-label": "Mode" }, modesFor(s).map(m =>
     h("button", { role: "tab", "aria-selected": String(m.id === game.mode), onclick: () => openSeries(game.seriesId, { mode: m.id }) }, m.label)));
   const dailyToggle = h("div", { class: "seg small", role: "tablist", "aria-label": "Daily or unlimited" },
     h("button", { role: "tab", "aria-selected": String(!game.unlimited), onclick: () => openSeries(game.seriesId, { unlimited: false }) }, "Daily"),
@@ -334,6 +338,75 @@ function renderPlay() {
   startTicker();
 }
 
+/* ---------- Portrait camera ---------- */
+// Finds the character in the picture (transparent and plain backgrounds are easy; a busy photo falls back
+// to "someone standing in the middle"), then picks, from the day's seed, a spot where a close-up is mostly
+// character. The first view shows about a fifth of the figure; each miss zooms out a step.
+const FRAME_W = 320, FRAME_H = 400; // the frame's shape (CSS keeps it 4:5), so zoom levels don't depend on screen size
+function figureMap(img) {
+  const cw = 48, ch = Math.max(8, Math.min(200, Math.round(cw * img.naturalHeight / img.naturalWidth)));
+  const n = cw * ch, fig = new Uint8Array(n);
+  const middle = () => { for (let y = 0; y < ch; y++) for (let x = 0; x < cw; x++) fig[y * cw + x] = x >= cw * 0.2 && x < cw * 0.8 && y >= ch * 0.05 ? 1 : 0; };
+  let px;
+  try {
+    const cv = document.createElement("canvas"); cv.width = cw; cv.height = ch;
+    const ctx = cv.getContext("2d", { willReadFrequently: true });
+    ctx.drawImage(img, 0, 0, cw, ch); px = ctx.getImageData(0, 0, cw, ch).data;
+  } catch (e) { middle(); return { cw, ch, fig }; } // no pixel access: assume a centred subject
+  let clear = 0;
+  for (let i = 0; i < n; i++) if (px[i * 4 + 3] < 32) clear++;
+  if (clear > n * 0.04) { for (let i = 0; i < n; i++) fig[i] = px[i * 4 + 3] >= 128 ? 1 : 0; return { cw, ch, fig }; }
+  const edge = [];
+  for (let x = 0; x < cw; x++) edge.push(x, (ch - 1) * cw + x);
+  for (let y = 1; y < ch - 1; y++) edge.push(y * cw, y * cw + cw - 1);
+  const mid = k => { const v = edge.map(i => px[i * 4 + k]).sort((a, b) => a - b); return v[v.length >> 1]; };
+  const bg = [mid(0), mid(1), mid(2)];
+  const far = i => Math.abs(px[i * 4] - bg[0]) + Math.abs(px[i * 4 + 1] - bg[1]) + Math.abs(px[i * 4 + 2] - bg[2]) > 60;
+  if (edge.filter(i => !far(i)).length > edge.length * 0.6) for (let i = 0; i < n; i++) fig[i] = far(i) ? 1 : 0;
+  else middle();
+  return { cw, ch, fig };
+}
+function portraitCamera(img, seed) {
+  const w = img.naturalWidth, h = img.naturalHeight, { cw, ch, fig } = figureMap(img), sx = w / cw, sy = h / ch;
+  let x0 = cw, y0 = ch, x1 = -1, y1 = -1;
+  for (let y = 0; y < ch; y++) for (let x = 0; x < cw; x++) if (fig[y * cw + x]) { x0 = Math.min(x0, x); x1 = Math.max(x1, x); y0 = Math.min(y0, y); y1 = Math.max(y1, y); }
+  if (x1 < 0) { x0 = y0 = 0; x1 = cw - 1; y1 = ch - 1; fig.fill(1); }
+  // zoom where the frame shows ~20% of the figure's height (or width, for a wide figure), but never blow a
+  // small picture up past ~4 screen pixels per picture pixel, where it turns to mush
+  const base = Math.min(FRAME_W / w, FRAME_H / h);
+  const extent = Math.max((y1 - y0 + 1) * sy, (x1 - x0 + 1) * sx * FRAME_H / FRAME_W);
+  const z0 = Math.max(2, Math.min(8, FRAME_H / (0.2 * extent * base), 4 / base));
+  const ww = FRAME_W / (base * z0) / sx, wh = FRAME_H / (base * z0) / sy; // the first view, in map cells
+  const sum = new Uint32Array((cw + 1) * (ch + 1)); // summed-area table of the figure map
+  for (let y = 0; y < ch; y++) for (let x = 0; x < cw; x++) sum[(y + 1) * (cw + 1) + x + 1] = fig[y * cw + x] + sum[y * (cw + 1) + x + 1] + sum[(y + 1) * (cw + 1) + x] - sum[y * (cw + 1) + x];
+  const span = (c, size, max) => { if (size >= max) return [0, max]; const a = Math.min(Math.max(c - size / 2, 0), max - size); return [Math.floor(a), Math.min(max, Math.ceil(a + size))]; };
+  const spots = [];
+  for (let y = 0; y < ch; y++) for (let x = 0; x < cw; x++) {
+    if (!fig[y * cw + x]) continue;
+    const [ax, bx] = span(x + 0.5, ww, cw), [ay, by] = span(y + 0.5, wh, ch);
+    const inside = sum[by * (cw + 1) + bx] - sum[ay * (cw + 1) + bx] - sum[by * (cw + 1) + ax] + sum[ay * (cw + 1) + ax];
+    spots.push({ x, y, cover: inside / ((bx - ax) * (by - ay)) });
+  }
+  let good = spots.filter(p => p.cover >= 0.55);
+  if (!good.length) good = spots.sort((a, b) => b.cover - a.cover).slice(0, Math.max(1, spots.length >> 3));
+  const pick = good[Math.floor(mulberry32(seed)() * good.length)];
+  return { w, h, z0, fx: (pick.x + 0.5) * sx, fy: (pick.y + 0.5) * sy };
+}
+function showPortrait(animate) {
+  const cam = ui.portraitCam, img = ui.portraitImg, frame = ui.portraitFrame;
+  if (!cam || !frame || !frame.isConnected) return;
+  const W = frame.clientWidth, H = frame.clientHeight, over = isOver();
+  const z = ui.portraitStep >= PORTRAIT_STEPS ? 1 : Math.pow(cam.z0, (PORTRAIT_STEPS - ui.portraitStep) / PORTRAIT_STEPS);
+  const s = Math.min(W / cam.w, H / cam.h) * z;
+  // keep the focus in the middle, but never pull the picture's edge inside the frame
+  const place = (size, view, f) => size * s <= view ? (view - size * s) / 2 : Math.min(0, Math.max(view - size * s, view / 2 - f * s));
+  img.style.transition = animate ? "transform .6s cubic-bezier(.2,.7,.2,1)" : "none";
+  img.style.width = `${cam.w}px`; img.style.height = `${cam.h}px`;
+  img.style.transform = `translate(${place(cam.w, W, cam.fx)}px, ${place(cam.h, H, cam.fy)}px) scale(${s})`;
+  ui.portraitNote.textContent = over ? `— ${game.answer.name}` : z > 1.01 ? `${z.toFixed(1)}× zoom · a miss zooms out` : "Whole picture — last look";
+}
+addEventListener("resize", () => { if (ui.portraitCam) showPortrait(false); });
+
 function renderPrompt() {
   const s = game.series, a = game.answer, over = isOver();
   if (game.mode === "classic") {
@@ -344,18 +417,20 @@ function renderPrompt() {
       h("div", { class: "who" }, over ? `— ${a.name}` : "— who said it?")));
   } else if (game.mode === "portrait") {
     // Built once, then only the zoom changes, so each miss animates the camera pulling back.
-    const z = over ? 1 : PORTRAIT_ZOOM[Math.min(wrongCount(), PORTRAIT_ZOOM.length - 1)];
+    const step = over ? PORTRAIT_STEPS : Math.min(wrongCount(), PORTRAIT_STEPS);
     if (!ui.portraitImg) {
-      ui.portraitImg = h("img", { class: "portrait-img", alt: "Mystery character portrait", src: portraitOf(s, a), referrerpolicy: "no-referrer", decoding: "async", draggable: "false",
-        onerror: () => { ui.portraitFrame.classList.add("broken"); ui.portraitFrame.append(h("div", { class: "ep-broken" }, "Couldn't load this portrait. Try Unlimited for another one.")); } });
+      // crossorigin (set before src) lets the camera read the pixels to find the character; a picture that
+      // finishes loading after the player has moved on to another game is ignored
+      const img = ui.portraitImg = h("img", { class: "portrait-img", alt: "Mystery character", crossorigin: "anonymous", referrerpolicy: "no-referrer", decoding: "async", draggable: "false",
+        onload: () => { if (ui.portraitImg !== img) return; ui.portraitCam = portraitCamera(img, game.focusSeed); ui.portraitFrame.classList.remove("loading"); showPortrait(false); },
+        onerror: () => { if (ui.portraitImg !== img) return; ui.portraitFrame.classList.add("broken"); ui.portraitFrame.append(h("div", { class: "ep-broken" }, "Couldn't load this picture. Try Unlimited for another one.")); },
+        src: portraitOf(s, a) });
       ui.portraitNote = h("div", { class: "zoom-note" });
-      ui.portraitFrame = h("div", { class: "portrait-frame" }, ui.portraitImg, ui.portraitNote);
-      ui.portraitImg.style.transformOrigin = `${game.focus[0] * 100}% ${game.focus[1] * 100}%`;
-      ui.portraitImg.style.transition = "none";
+      ui.portraitFrame = h("div", { class: "portrait-frame loading" }, ui.portraitImg, ui.portraitNote);
       ui.prompt.replaceChildren(ui.portraitFrame);
-    } else ui.portraitImg.style.transition = "transform .6s cubic-bezier(.2,.7,.2,1)";
-    ui.portraitImg.style.transform = `scale(${z})`;
-    ui.portraitNote.textContent = over ? `— ${a.name}` : z > 1 ? `${z.toFixed(1)}× zoom · a miss zooms out` : "Full portrait — last look";
+    }
+    ui.portraitStep = step;
+    showPortrait(true);
   } else {
     const shown = over ? 5 : Math.min(5, APP.emojiStart + wrongCount());
     const prev = ui.prompt.dataset.shown ? Number(ui.prompt.dataset.shown) : -1;
@@ -431,7 +506,8 @@ function submitGuess(c) {
   if (game.mode === "classic") ui.rows.prepend(classicRow(c, true));
   else { ui.list.prepend(listItem(c, true)); renderPrompt(); renderHints(); }
   updateRevealRow();
-  if (win) { ui.input.blur(); setTimeout(() => showResult(true), game.mode === "classic" ? 6 * 110 + 450 : 350); }
+  // The result waits for the row animation; skip it if the player has already moved to another game.
+  if (win) { ui.input.blur(); const g = game; setTimeout(() => { if (game === g) showResult(true); }, game.mode === "classic" ? 6 * 110 + 450 : 350); }
   else ui.input.focus({ preventScroll: true });
 }
 function classicRow(c, animate) {
@@ -594,7 +670,7 @@ function openHelp() {
     h("h3", null, "Emoji"),
     h("p", null, "Five emojis describe the character. You start with two and each miss reveals another. Hint cards unlock after 4, 6 and 8 misses; tap one to flip it."),
     h("h3", null, "Portrait"),
-    h("p", null, "The character's portrait, zoomed way in on one spot. Every miss pulls the camera back a step; after six misses you see the whole picture. Hint cards unlock after 3, 5 and 7 misses."),
+    h("p", null, "A full-body picture of the character, zoomed way in on a random spot — a hand, a boot, a bit of their outfit. Every miss pulls the camera back a step; after six misses you see the whole picture. Hint cards unlock after 3, 5 and 7 misses."),
     h("h3", null, "The casts"),
     h("p", null, "Only characters a viewer would actually know: main cast, supporting cast, major villains. Everything comes from the show itself (no manga-only material), up to where each show has aired. No horses."));
 }

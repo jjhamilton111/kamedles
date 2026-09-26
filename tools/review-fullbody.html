@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Full-body picks</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Dev tool for Portrait mode: shows the candidates tools/find-fullbody.mjs found, so the best one per
+     character can be written into sources/fullbody/picks.json. Serve the repo root and open
+     /tools/review-fullbody.html?show=naruto            the pick for every character (sources/fullbody/picks/<show>.json)
+     /tools/review-fullbody.html?show=naruto&all=1      every candidate, one row per character
+     &ids=a,b,c limits it to some characters. -->
+<style>
+  :root { color-scheme: dark; --bg: #11131a; --card: #1b1e29; --line: #2c3142; --text: #e8eaf2; --dim: #9aa1b5; --warn: #f3a13b; }
+  body { margin: 0; padding: 12px; background: var(--bg); color: var(--text); font: 12px/1.3 system-ui, sans-serif; }
+  h1 { font-size: 15px; margin: 0 0 10px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(var(--tw, 118px), 1fr)); gap: 6px; }
+  .tile { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 4px; text-align: center; }
+  .tile .pic { height: var(--ph, 170px); display: grid; place-items: center; background: repeating-conic-gradient(#232735 0 25%, #1b1e29 0 50%) 0 0 / 16px 16px; border-radius: 5px; overflow: hidden; }
+  .tile img { max-width: 100%; max-height: var(--ph, 170px); }
+  .tile b { display: block; margin-top: 3px; font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .tile small { color: var(--dim); display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .tile.none .pic { color: var(--warn); font-weight: 700; }
+  .row { display: flex; gap: 6px; align-items: stretch; margin-bottom: 8px; }
+  .row > .who { width: 110px; flex: none; font-weight: 700; padding-top: 4px; }
+  .row .tile { width: 118px; flex: none; }
+  .picked { outline: 2px solid #5fd38d; }
+</style>
+</head>
+<body>
+<h1 id="title">loading…</h1>
+<div id="out"></div>
+<script>
+(async () => {
+  const q = new URLSearchParams(location.search), show = q.get("show") || "naruto", all = q.get("all"), only = q.get("ids") ? q.get("ids").split(",") : null;
+  if (q.get("small")) { document.documentElement.style.setProperty("--tw", "72px"); document.documentElement.style.setProperty("--ph", "104px"); document.body.style.fontSize = "9px"; }
+  const get = async p => { try { const r = await fetch(p, { cache: "no-store" }); return r.ok ? r.json() : null; } catch (e) { return null; } };
+  const cands = await get(`../sources/fullbody/${show}.json`) || {};
+  const picks = await get(`../sources/fullbody/picks/${show}.json`) || {};
+  const thumb = u => `${u}/scale-to-height-down/${q.get("small") ? 200 : 340}`;
+  const name = id => id.replace(/-/g, " ");
+  const tile = (id, c, i, picked) => {
+    const t = document.createElement("div"); t.className = "tile" + (c ? "" : " none") + (picked ? " picked" : "");
+    t.innerHTML = c ? `<div class="pic"><img loading="lazy" referrerpolicy="no-referrer" src="${thumb(c.url)}"></div><b>${name(id)}</b><small>#${i} · ${c.w}×${c.h} · ${c.score}</small><small title="${c.file}">${c.file}</small>`
+      : `<div class="pic">none</div><b>${name(id)}</b><small>no picture</small>`;
+    return t;
+  };
+  const ids = Object.keys(cands).filter(id => !only || only.includes(id));
+  document.getElementById("title").textContent = `${show}: ${ids.length} characters${all ? " — all candidates" : " — current pick"}`;
+  const out = document.getElementById("out");
+  if (!all) {
+    const g = document.createElement("div"); g.className = "grid";
+    for (const id of ids) {
+      const p = picks[id], list = cands[id].cands || [];
+      if (p === null) g.append(tile(id, null, "-", false));
+      else if (p && p.url) g.append(tile(id, { url: p.url, w: "", h: "", score: "picked", file: decodeURIComponent(p.url.replace(/\/revision\/.*$/, "").split("/").pop()) }, "✓", false));
+      else g.append(tile(id, list[0], "0?", false)); // not reviewed yet: the finder's top candidate
+    }
+    out.append(g);
+  } else {
+    for (const id of ids) {
+      const r = document.createElement("div"); r.className = "row";
+      r.innerHTML = `<div class="who">${name(id)}<br><small>${cands[id].page || "no page"}</small></div>`;
+      (cands[id].cands || []).forEach((c, i) => r.append(tile(id, c, i, !!(picks[id] && picks[id].url === c.url))));
+      out.append(r);
+    }
+  }
+})();
+</script>
+</body>
+</html>
