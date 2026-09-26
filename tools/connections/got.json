@@ -11,9 +11,10 @@
     {
       "title": "House Lannister",
       "level": 2,
-      "def": "Born a Lannister: Tywin, his children Cersei, Jaime and Tyrion, and Cersei's three children by Jaime (Joffrey, Tommen, Myrcella), Lannisters by blood though styled Baratheon; like the other house groups, a wife only counts if she married the house's head or king, so Sansa (Tyrion's wife, and the wiki's 'Lannister by marriage') stays a Stark.",
+      "def": "Born a Lannister: Tywin, his children Cersei, Jaime and Tyrion, and Cersei's three children by Jaime (Joffrey, Tommen, Myrcella), Lannisters by blood though styled Baratheon; like the other house groups, a wife only counts if she married the house's head or king, so Sansa (Tyrion's wife, and the wiki's 'Lannister by marriage') stays a Stark; the group avoids Sansa's groups.",
       "members": ["Tywin", "Cersei", "Jaime", "Tyrion", "Joffrey", "Tommen", "Myrcella"],
-      "source": "https://gameofthrones.fandom.com/wiki/House_Lannister"
+      "source": "https://gameofthrones.fandom.com/wiki/House_Lannister",
+      "avoid": ["House Stark", "Direwolves' owners"]
     },
     {
       "title": "House Baratheon",
@@ -46,9 +47,10 @@
     {
       "title": "Dornish",
       "level": 3,
-      "def": "Dornish by birth and upbringing (wiki culture 'Dornishmen'): the Martells Oberyn, Doran and Trystane, and Oberyn's paramour Ellaria Sand; Jon was born at the Tower of Joy but raised in the North (culture Northmen), and Myrcella was born in King's Landing and only fostered in Dorne, so neither counts.",
+      "def": "Dornish by birth and upbringing (wiki culture 'Dornishmen'): the Martells Oberyn, Doran and Trystane, and Oberyn's paramour Ellaria Sand; Jon was born at the Tower of Joy but raised in the North (culture Northmen), and Myrcella was born in King's Landing and only fostered in Dorne, so neither counts; the site's own classic data gives Jon's origin as Dorne, so the group avoids Jon's groups.",
       "members": ["Oberyn", "Doran", "Trystane", "Ellaria"],
-      "source": "https://gameofthrones.fandom.com/wiki/House_Martell"
+      "source": "https://gameofthrones.fandom.com/wiki/House_Martell",
+      "avoid": ["House Stark", "House Targaryen", "Night's Watch", "Direwolves' owners", "Wight-hunt party"]
     },
     {
       "title": "House Tully",
@@ -75,10 +77,10 @@
     {
       "title": "Kingsguard",
       "level": 3,
-      "def": "Sworn on screen into a king's or queen's Kingsguard/Queensguard at some point, even briefly or for a rival claimant: the Iron Throne's (Barristan, Jaime, Meryn Trant, the Hound until he deserts, the Mountain; Brienne and Podrick under Bran), Renly's (Loras, Brienne) or Daenerys's (Barristan, GOT301); Jorah is never named to her Queensguard on screen, so he's out and the group avoids his other groups.",
+      "def": "Sworn on screen into a king's or queen's Kingsguard/Queensguard at some point, even briefly or for a rival claimant: the Iron Throne's (Barristan, Jaime, Meryn Trant, the Hound until he deserts, the Mountain; Brienne and Podrick under Bran), Renly's (Loras, Brienne) or Daenerys's (Barristan, GOT301); Jorah is never named to her Queensguard on screen, so he's out and the group avoids his other groups; Podrick attends Bran's first council only as his guard, so the group avoids Bran's councillors.",
       "members": ["Jaime", "Barristan", "The Hound", "The Mountain", "Brienne", "Podrick", "Loras", "Meryn Trant"],
       "source": "https://gameofthrones.fandom.com/wiki/Kingsguard",
-      "avoid": ["House Mormont", "Wight-hunt party"]
+      "avoid": ["House Mormont", "Wight-hunt party", "Bran's councillors"]
     },
     {
       "title": "Night's Watch",
@@ -119,10 +121,11 @@
     },
     {
       "title": "Hand of the King or Queen",
-      "level": 4,
-      "def": "Formally held the title Hand of the King or Hand of the Queen at some point in the show, including Davos, Hand to the claimant King Stannis. (Mace as Renly's Hand is books-only.)",
+      "level": 3,
+      "def": "Formally held the title Hand of the King or Hand of the Queen on screen, acting Hands and a claimant's Hand included: Ned (Robert), Tywin (Joffrey, Tommen), Tyrion (acting for Joffrey; Daenerys; Bran), Qyburn (Cersei) and Davos (Stannis); Mace is out, since on screen Cersei turns down his bid (GOT502) and his Hand-ship under Renly is book-only, and the group avoids his groups because the wiki's Hand page still lists him.",
       "members": ["Ned", "Tywin", "Tyrion", "Qyburn", "Davos"],
-      "source": "https://gameofthrones.fandom.com/wiki/Hand_of_the_King"
+      "source": "https://gameofthrones.fandom.com/wiki/Hand_of_the_King",
+      "avoid": ["House Tyrell", "Died in the Great Sept blast"]
     },
     {
       "title": "The Five Kings",
@@ -148,23 +151,26 @@
     {
       "title": "Maesters",
       "level": 3,
-      "def": "Trained as a maester of the Citadel at some point: Aemon, Pycelle, Qyburn (stripped of his chain) and Sam (Grand Maester by the finale).",
+      "def": "Became a maester of the Citadel at some point: Aemon, Grand Maester Pycelle, Qyburn (chain later revoked) and Sam (Grand Maester in the finale); Oberyn only studied there as an acolyte (GOT403) and never became one, so the group avoids his groups.",
       "members": ["Aemon", "Pycelle", "Qyburn", "Sam"],
-      "source": "https://gameofthrones.fandom.com/wiki/Category:Maesters"
+      "source": "https://gameofthrones.fandom.com/wiki/Category:Maesters",
+      "avoid": ["Dornish", "Fought in a trial by combat"]
     },
     {
       "title": "Killed by their own blood",
       "level": 4,
-      "def": "Killed by a blood relative, directly or on their orders: Tywin (Tyrion), Renly (Stannis's shadow), Shireen (burned on Stannis's orders), Trystane (his cousin Obara), Balon (Euron), Daenerys (her nephew Jon), and the Clegane brothers, who take each other down. In-laws don't count (Joffrey, Lysa, Viserys, Rickon).",
-      "members": ["Tywin", "Renly", "Shireen", "Trystane", "Balon", "Daenerys", "The Mountain", "The Hound"],
-      "source": "https://gameofthrones.fandom.com/wiki/Kinslaying"
+      "def": "Killed by a blood relative, directly or on their orders: Tywin (his son Tyrion), Renly (Stannis's shadow), Shireen (burned on her father Stannis's orders), Trystane (his cousin Obara), Balon (his brother Euron), Daenerys (her nephew Jon) and the Mountain (his brother the Hound); the Hound dies by his own leap in that fight, so he's out and the group avoids his groups; in-law killings (Joffrey, Lysa, Viserys, Rickon), Tommen's suicide and Doran (stabbed by Ellaria) don't count.",
+      "members": ["Tywin", "Renly", "Shireen", "Trystane", "Balon", "Daenerys", "The Mountain"],
+      "source": "https://gameofthrones.fandom.com/wiki/Kinslaying",
+      "avoid": ["Kingsguard", "Fought in a trial by combat", "On Arya's list", "Wight-hunt party", "Titles & epithets, not names", "Dornish"]
     },
     {
       "title": "Fought in a trial by combat",
       "level": 3,
-      "def": "Fought as the accused or a champion in a trial by combat on screen: Bronn (for Tyrion, vs Vardis Egen), the Hound vs Beric, and Oberyn (for Tyrion) vs the Mountain. Tyrion and Cersei demanded trials but never fought.",
+      "def": "Fought as the accused or a champion in a formal trial by combat on screen: Bronn (for Tyrion, vs Vardis Egen), the Hound vs Beric, and Oberyn (for Tyrion) vs the Mountain; Tyrion and Cersei demanded trials but never fought, Jaime's offer to Robb was refused, and Jon's fight with Ramsay was a battle, but since the wiki calls it a 'de facto' trial the group avoids Jon's groups.",
       "members": ["Bronn", "Oberyn", "The Mountain", "The Hound", "Beric"],
-      "source": "https://gameofthrones.fandom.com/wiki/Trial_by_combat"
+      "source": "https://gameofthrones.fandom.com/wiki/Trial_by_combat",
+      "avoid": ["House Stark", "House Targaryen", "Night's Watch", "Direwolves' owners", "Wight-hunt party"]
     },
     {
       "title": "On Arya's list",
@@ -183,9 +189,10 @@
     {
       "title": "Wight-hunt party",
       "level": 3,
-      "def": "The men who went north of the Wall from Eastwatch in Season 7 to capture a wight: Jon, Jorah, Gendry, Tormund, the Hound and Beric (plus Thoros). Daenerys and Benjen only arrive to rescue them; Davos and Tyrion stay at Eastwatch.",
+      "def": "The hunting party that marched north of the Wall from Eastwatch in Season 7 to capture a wight: Jon, Jorah, Gendry, Tormund, the Hound and Beric (plus Thoros); Davos and Tyrion stay at Eastwatch, and Daenerys and Benjen only arrive to rescue them, but as the wiki lists them in the event, the group avoids their groups.",
       "members": ["Jon", "Jorah", "Gendry", "Tormund", "The Hound", "Beric"],
-      "source": "https://gameofthrones.fandom.com/wiki/Wight_hunt"
+      "source": "https://gameofthrones.fandom.com/wiki/Wight_hunt",
+      "avoid": ["House Targaryen", "House Stark", "Night's Watch"]
     },
     {
       "title": "Died in the Battle of Winterfell (S8)",

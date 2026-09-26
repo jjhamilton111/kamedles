@@ -77,9 +77,10 @@
     {
       "title": "Sharingan Users",
       "level": 2,
-      "def": "Every character shown activating or wielding a Sharingan, whether their own or transplanted, in the anime.",
+      "def": "Characters with a Sharingan of their own or transplanted into them: Sasuke, Itachi, Kakashi, Obito, Madara, Shisui, Danzo and Hagoromo (anime only). The reanimated jinchuriki Obito used as his Six Paths (Yagura, Yugito, Roshi, Han, Utakata, Fu) only showed Sharingan and Rinnegan eyes as his Paths and don't count; fans could still cite them, so the group never shares a board with their groups.",
       "members": ["Sasuke", "Itachi", "Kakashi", "Obito", "Madara", "Shisui", "Danzo", "Hagoromo"],
-      "source": "https://naruto.fandom.com/wiki/Sharingan"
+      "source": "https://naruto.fandom.com/wiki/Sharingan",
+      "avoid": ["Hidden Mist Ninja", "Hidden Cloud Ninja", "Hidden Stone Ninja", "Three letters or fewer"]
     },
     {
       "title": "Hidden Sound Ninja",
@@ -143,17 +144,19 @@
     },
     {
       "title": "Rinnegan Users",
-      "level": 4,
-      "def": "Every character shown with active Rinnegan eyes in the anime.",
+      "level": 3,
+      "def": "Characters with a Rinnegan of their own or transplanted into them: Nagato, Madara, Obito, Sasuke and Hagoromo. Bodies that only carried copies of it as Six Paths of Pain (Yahiko's corpse as Nagato's Deva Path; the reanimated Yagura, Yugito, Roshi, Han, Utakata and Fu as Obito's Paths), the Rinnegan reflections in Infinite Tsukuyomi victims' eyes and Black Zetsu steering Obito's body don't count; fans could still cite the Paths, so the group never shares a board with their groups.",
       "members": ["Nagato", "Madara", "Obito", "Sasuke", "Hagoromo"],
-      "source": "https://naruto.fandom.com/wiki/Rinnegan"
+      "source": "https://naruto.fandom.com/wiki/Rinnegan",
+      "avoid": ["Jiraiya's Students", "Hidden Mist Ninja", "Hidden Cloud Ninja", "Hidden Stone Ninja", "Three letters or fewer"]
     },
     {
       "title": "Seven Ninja Swordsmen of the Mist",
       "level": 4,
-      "def": "Every character named on-screen as a member of the Seven Ninja Swordsmen of the Mist, any generation, in the anime (excluding two unnamed wielders in a flashback).",
+      "def": "Every named member of the Seven Ninja Swordsmen of the Mist, any generation, in the anime (including the anime-only Raiga). Suigetsu, who wields Zabuza's sword and dreams of reforming the group, was only an aspiring member; fans could still cite him, so the group never shares a board with his groups (Taka, Hidden Sound Ninja; Hidden Mist Ninja contains every Swordsman anyway).",
       "members": ["Zabuza", "Kisame", "Mangetsu", "Chojuro", "Fuguki", "Jinin", "Kushimaru", "Raiga", "Juzo"],
-      "source": "https://naruto.fandom.com/wiki/Seven_Ninja_Swordsmen_of_the_Mist"
+      "source": "https://naruto.fandom.com/wiki/Seven_Ninja_Swordsmen_of_the_Mist",
+      "avoid": ["Taka", "Hidden Sound Ninja"]
     },
     {
       "title": "Chunin Exam finalists (Part I)",
@@ -165,9 +168,10 @@
     {
       "title": "Sasuke Recovery Mission",
       "level": 2,
-      "def": "Everyone who fought Orochimaru's Sound Five escorts on the Part I mission to stop Sasuke's defection: Shikamaru's five-genin team (Shikamaru, Naruto, Neji, Choji, Kiba) and the reinforcements Rock Lee, Gaara, Temari and Kankuro. Kakashi, who only arrived after the fighting to carry Naruto home, Sakura, who stayed behind, and Shino, away on another mission, don't count.",
+      "def": "Everyone who fought on the Leaf's side in the Part I mission to stop Sasuke's defection: the five genin of the Sasuke Recovery Team (Shikamaru, Naruto, Neji, Choji, Kiba) and the four who joined the fighting as backup (Rock Lee, Gaara, Temari, Kankuro). Not counted: Sasuke (the target), Kimimaro (the enemy), Sakura (stayed behind), Shino (away) and Kakashi, who only tracked them down after the fights to carry Naruto home; fans could still count Kakashi or Kimimaro as part of the mission, so the group never shares a board with their groups.",
       "members": ["Shikamaru", "Naruto", "Neji", "Choji", "Kiba", "Rock Lee", "Gaara", "Temari", "Kankuro"],
-      "source": "https://naruto.fandom.com/wiki/Sasuke_Recovery_Mission"
+      "source": "https://naruto.fandom.com/wiki/Sasuke_Recovery_Mission",
+      "avoid": ["Team 7", "First six Hokage", "Sharingan Users", "Root", "Konoha 11 team leaders", "Team Minato", "Hidden Sound Ninja"]
     },
     {
       "title": "Konoha 11 team leaders",

@@ -194,9 +194,10 @@
     {
       "title": "Named after fruits",
       "level": 4,
-      "def": "Characters whose names are documented puns on fruits: Zarbon (zabon, the pomelo), Dodoria (durian), Cheelai (raichi, lychee) and Lemo (lemon). Saiyan names pun on vegetables, not fruits. Drinks made from fruit (Sidra/cider, Iwan/wine, Vados/calvados) are drinks. Krillin's kuri is a chestnut. Mercenary Tao is out: his kanji 桃白白 literally read 'peach white white', but the wiki calls it a cutesy Chinese-sounding name, not a fruit pun.",
+      "def": "Characters whose names are documented puns on fruits: Zarbon (zabon, the pomelo), Dodoria (durian), Cheelai (raichi, lychee) and Lemo (lemon). Saiyan names pun on vegetables, not fruits. Drinks made from fruit (Sidra/cider, Iwan/wine, Vados/calvados) are drinks. Krillin's kuri is a chestnut. Mercenary Tao is out: his kanji 桃白白 literally read 'peach white white', but the wiki records no fruit pun; since a fan could still argue the peach, this group avoids the only groups that can deal him beside it, 'Crane School' and 'Red Ribbon Army'.",
       "members": ["Zarbon", "Dodoria", "Cheelai", "Lemo"],
-      "source": "https://dragonball.fandom.com/wiki/Cheelai"
+      "source": "https://dragonball.fandom.com/wiki/Cheelai",
+      "avoid": ["Crane School", "Red Ribbon Army"]
     },
     {
       "title": "Named after underwear",
@@ -208,9 +209,10 @@
     {
       "title": "Named after Chinese food & tea",
       "level": 4,
-      "def": "Characters whose original names pun on Chinese dishes or teas: Yamcha (yum cha), Tien (tenshindon, a Japanese-Chinese dish), Chiaotzu (jiaozi dumplings), Oolong (oolong tea) and Puar (pu-erh tea). Gohan (Japanese gohan, cooked rice) and Pan (bread) aren't Chinese dishes, and Krillin is chestnut + Shaolin. Mercenary Tao is out: Tao Pai Pai is a cutesy Chinese-sounding name, and the wiki's chicken-dish pun belongs to the dub name 'General Tao', not this tile. Cheelai's lychee is a fruit.",
+      "def": "Characters whose original names pun on Chinese dishes or teas: Yamcha (yum cha), Tien (tenshindon, a Japanese-Chinese dish), Chiaotzu (jiaozi dumplings), Oolong (oolong tea) and Puar (pu-erh tea). Gohan (Japanese gohan, cooked rice) and Pan (bread) aren't Chinese dishes, and Krillin is chestnut + Shaolin. Mercenary Tao is out: Tao Pai Pai is a cutesy Chinese-sounding name, and the wiki's chicken-dish pun belongs to the dub name 'General Tao', not this tile; still, this group avoids 'Red Ribbon Army', the only group that can deal him beside it ('Crane School' shares Tien and Chiaotzu, so it never can). Cheelai's lychee is a fruit, but as a Chinese fruit it is kept off this board by avoiding 'Named after fruits' (via 'Lived on Planet Vampa' her pun isn't in play).",
       "members": ["Yamcha", "Tien", "Chiaotzu", "Oolong", "Puar"],
-      "source": "https://dragonball.fandom.com/wiki/Oolong"
+      "source": "https://dragonball.fandom.com/wiki/Oolong",
+      "avoid": ["Red Ribbon Army", "Named after fruits"]
     }
   ]
 }

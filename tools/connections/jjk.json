@@ -4,16 +4,17 @@
     {
       "title": "Tokyo Jujutsu High — Current Students",
       "level": 1,
-      "def": "Present-day (2018) students enrolled at Tokyo Jujutsu High as of the anime through ep 59: first-years Yuji, Megumi and Nobara; second-years Maki, Toge, Panda and Yuta; third-years Hakari and Kirara. Excludes staff and alumni (Gojo, Ieiri, Ijichi, Kusakabe, Yaga), Grade 2 sorcerer Ino (who works out of the school but isn't a student), and people seen as students only in the 2006–07 flashback (Geto, Nanami, Haibara).",
+      "def": "Present-day (2018) students enrolled at Tokyo Jujutsu High as of the anime through ep 59: first-years Yuji, Megumi and Nobara (still a student though her fate after Shibuya is unresolved); second-years Maki, Toge, Panda and Yuta; third-years Hakari (suspended) and Kirara (away with him). Excludes staff and alumni (Gojo, Ieiri, Ijichi, Kusakabe, Yaga, Nanami, Mei Mei), Grade 2 sorcerer Ino (who works out of the school but isn't a student), Kyoto students, and people seen as students only in the 2006–07 flashback (Geto, Haibara).",
       "members": ["Yuji", "Megumi", "Nobara", "Maki", "Toge", "Panda", "Yuta", "Hakari", "Kirara"],
-      "source": "https://jujutsu-kaisen.fandom.com/wiki/Template:Tokyo_Jujutsu_High_Gallery_(2018)"
+      "source": "https://jujutsu-kaisen.fandom.com/wiki/Template:Tokyo_Jujutsu_High_Gallery_(2018)",
+      "avoid": ["Tokyo Jujutsu High Students in 2006"]
     },
     {
-      "title": "Cursed Spirits",
+      "title": "Curses",
       "level": 1,
-      "def": "Exactly the characters the site files under the 'Cursed Spirit' affiliation: the cursed spirits Mahito, Jogo, Hanami, Dagon and Rika; Sukuna, the King of Curses; and the half-human, half-curse Death Painting brothers Choso, Eso and Kechizu. Excludes every human, including curse users and incarnated sorcerers (Kenjaku, Uraume, the Culling Game incarnations), the cursed corpse Panda, and shikigami.",
+      "def": "Non-human curse beings as the anime presents them: the cursed spirits Mahito, Jogo, Hanami, Dagon and Rika; Sukuna, the King of Curses (a Heian-era sorcerer who survives as a curse through his fingers and vessel); and the half-human, half-curse Death Painting brothers Choso, Eso and Kechizu. Excludes every human — sorcerers, curse users (Kenjaku, Uraume, Geto), Toji, incarnated Culling Game players — plus Junpei (a human transfigured by Mahito), the cursed corpse Panda and shikigami. Same nine as the site's 'Cursed Spirit' affiliation tag.",
       "members": ["Sukuna", "Mahito", "Jogo", "Hanami", "Dagon", "Choso", "Rika", "Eso", "Kechizu"],
-      "source": "https://jujutsu-kaisen.fandom.com/wiki/Cursed_Spirit"
+      "source": "https://jujutsu-kaisen.fandom.com/wiki/Cursed_Womb:_Death_Painting"
     },
     {
       "title": "Jujutsu High Staff (Tokyo & Kyoto)",
@@ -23,16 +24,16 @@
       "source": "https://jujutsu-kaisen.fandom.com/wiki/Tokyo_Metropolitan_Curse_Technical_College"
     },
     {
-      "title": "Gojo's Student-Era Cohort",
+      "title": "Tokyo Jujutsu High Students in 2006",
       "level": 2,
-      "def": "The Tokyo Jujutsu High students shown as students in the anime's Hidden Inventory / Premature Death flashback (2006–07): Gojo and his classmates Geto and Ieiri, plus the year below, Nanami and Haibara. Excludes Utahime and Mei Mei (already working sorcerers, senior to Gojo, in that arc), their teacher Yaga, Riko and Toji; Ijichi never appears as a student in the anime.",
+      "def": "Tokyo Jujutsu High students the anime shows as students in the Hidden Inventory / Premature Death flashback (2006–07): second-years Gojo, Geto and Ieiri and first-years Nanami and Haibara. Excludes Utahime and Mei Mei (shown only as working sorcerers on a mission, ep 25), their teacher Yaga, Riko (a pupil at an ordinary junior high), Toji and Yuki; Ijichi never appears as a student in the anime.",
       "members": ["Gojo", "Geto", "Ieiri", "Nanami", "Haibara"],
       "source": "https://jujutsu-kaisen.fandom.com/wiki/Template:Tokyo_Jujutsu_High_Gallery_(2006)"
     },
     {
       "title": "Kyoto Jujutsu High Students",
       "level": 2,
-      "def": "Students of Kyoto Jujutsu High shown in the anime: the six Goodwill Event competitors (Todo, Mai, Nishimiya, Kamo, Miwa, Mechamaru) plus Arata Nitta, the Kyoto student Mechamaru sent to help in Shibuya (ep 44). Excludes teacher Utahime and principal Gakuganji. (Tile is 'Arata Nitta' so he isn't confused with his sister Akari Nitta, a Tokyo assistant manager.)",
+      "def": "Students of Kyoto Jujutsu High shown in the anime, alive or dead: the six Goodwill Event competitors (Todo, Mai, Nishimiya, Kamo, Miwa, Mechamaru) plus first-year Arata Nitta, who comes to Shibuya with his upperclassman Todo and treats Nobara and Yuji (ep 44). Excludes teacher Utahime and principal Gakuganji. (Tile is 'Arata Nitta' so he isn't confused with his sister Akari Nitta, a Tokyo assistant manager.)",
       "members": ["Todo", "Mai", "Nishimiya", "Kamo", "Miwa", "Mechamaru", "Arata Nitta"],
       "source": "https://jujutsu-kaisen.fandom.com/wiki/Kyoto_Metropolitan_Curse_Technical_College"
     },
@@ -51,30 +52,23 @@
       "source": "https://jujutsu-kaisen.fandom.com/wiki/Chapter_160"
     },
     {
-      "title": "Cursed Tool Users",
-      "level": 2,
-      "def": "Exactly the characters the site's own character data tags with the 'Cursed Tool User' technique type (shown in Classic mode): fighters built around a weapon — Nobara's hammer and nails, Maki's arsenal, Yuta's katana, Nanami's blade, Kusakabe's and Miwa's swords, Mai's revolver and Toji's cursed tools. Characters who only borrowed a cursed tool (Yuji's Slaughter Demon; Megumi, Todo and Geto with Playful Cloud) or whose weapon isn't their tagged style (Mei Mei's axe, Kamo's bow, Higuruma's gavel) are not tagged.",
-      "members": ["Nobara", "Maki", "Yuta", "Nanami", "Kusakabe", "Mai", "Miwa", "Toji"],
-      "source": "https://jujutsu-kaisen.fandom.com/wiki/Cursed_Tool"
-    },
-    {
       "title": "Civilians Drawn Into the Jujutsu World",
       "level": 2,
-      "def": "Characters introduced as ordinary non-sorcerer civilians who never trained at a jujutsu school: Junpei (a high-schooler Mahito recruited), Riko (the Star Plasma Vessel), and Higuruma and Takaba (a lawyer and a comedian awakened by Kenjaku for the Culling Game). Excludes Yuji and Yuta, who enrolled at Jujutsu High after being drawn in, and Angel, an incarnated Heian-era sorcerer.",
-      "members": ["Junpei", "Riko", "Higuruma", "Takaba"],
+      "def": "Characters the anime shows living as civilians — not sorcerers, jujutsu students, curses or members of a sorcerer clan — before the jujutsu world pulls them in: Yuji (a high-schooler who swallows Sukuna's finger, ep 1), Yuta (a schoolboy haunted by Rika before he enrols, JJK0), Junpei (a high-schooler Mahito recruits), Riko (the Star Plasma Vessel, a junior-high pupil), and Higuruma and Takaba (a lawyer and a comedian awakened for the Culling Game). Excludes everyone first shown as a sorcerer, student, curse or clan member (Megumi, Nobara, Toji, Geto, Todo, Nanami) and the incarnated sorcerer Angel.",
+      "members": ["Yuji", "Yuta", "Junpei", "Riko", "Higuruma", "Takaba"],
       "source": "https://jujutsu-kaisen.fandom.com/wiki/Junpei_Yoshino"
     },
     {
-      "title": "Reincarnated Sorcerers (Culling Game)",
+      "title": "Reincarnated Culling Game Players",
       "level": 3,
-      "def": "Culling Game players who are sorcerers from past centuries incarnated into modern bodies: Uro and Angel (Heian era; Tengen introduces Angel as a 1,000-year-old sorcerer in ep 50), Kashimo and Ishigori (400 years ago) and Reggie. Excludes modern-day players, and incarnations who aren't players, like Sukuna and Uraume.",
+      "def": "Culling Game players who are sorcerers from past centuries incarnated into modern bodies: Uro and Angel (Heian era; Tengen introduces Angel as a 1,000-year-old sorcerer in ep 50), Kashimo and Ishigori (400 years ago) and Reggie. Excludes modern-day players (Yuji, Megumi, Yuta, Hakari, Panda, Higuruma, Takaba) and incarnations who aren't players themselves: Sukuna (inside the player Yuji), Uraume and the Death Painting brothers.",
       "members": ["Uro", "Kashimo", "Ishigori", "Reggie", "Angel"],
       "source": "https://jujutsu-kaisen.fandom.com/wiki/Culling_Game"
     },
     {
-      "title": "Special Grade Sorcerers",
+      "title": "The Four Special Grade Sorcerers",
       "level": 3,
-      "def": "Humans jujutsu society ranks Special Grade — the four registered in 2018: Gojo, Yuta, Yuki Tsukumo and Geto (Special Grade before he defected). Excludes Special Grade curses and cursed objects (Sukuna, Rika, the disaster curses, the Death Painting brothers), the Zenin clan's lesser 'Special Grade 1' rank (Naobito, Naoya), and Yuji, whose Special Grade rank comes only from the sequel manga Modulo.",
+      "def": "The four sorcerers the anime ranks Special Grade: Gojo, Geto and Yuki Tsukumo ('the three special grades' of 2007, ep 29) plus Yuta (JJK0; rank reclaimed by 2018, ep 58). Excludes Special Grade curses and cursed objects (Sukuna, Rika, the disaster curses, the Death Painting wombs), the Zenin clan's 'Special Grade 1' rank (Naobito, Naoya), and Yuji, whose Special Grade rank comes only from the sequel manga Modulo.",
       "members": ["Gojo", "Geto", "Yuki Tsukumo", "Yuta"],
       "source": "https://jujutsu-kaisen.fandom.com/wiki/Grade",
       "family": "sorcerer-grade"
@@ -82,17 +76,10 @@
     {
       "title": "Grade 1 Sorcerers",
       "level": 4,
-      "def": "Sorcerers ranked Grade 1, counting the Zenin clan's 'Special Grade 1' elites Naobito and Naoya (a Grade 1-equivalent rank for sorcerers outside the schools): Nanami, Mei Mei, Todo, Kusakabe, Yaga, Naobito, Naoya. Semi-Grade 1 (Toge, Kamo, Mechamaru, Utahime) and lower ranks don't count.",
+      "def": "Sorcerers the anime ranks Grade 1, counting the Zenin clan's 'Special Grade 1' elites (a Grade 1-equivalent rank; ep 38 calls Nanami and Naobito 'the two grade 1 sorcerers'): Nanami, Mei Mei, Todo, Kusakabe, Yaga, Naobito, Naoya. Excludes Semi-Grade 1 and lower ranks (Toge, Kamo, Mechamaru, Utahime, Megumi, Panda, Nobara, Mai, Maki), people only called 'comparable to' Grade 1 (Higuruma, ep 56; Choso, ep 21), students merely recommended for Grade 1 (Yuji, Megumi, Nobara, Maki, Panda, ep 24), and Special Grades.",
       "members": ["Nanami", "Mei Mei", "Todo", "Kusakabe", "Yaga", "Naobito", "Naoya"],
-      "source": "https://jujutsu-kaisen.fandom.com/wiki/Grade",
+      "source": "https://jujutsu-kaisen.fandom.com/wiki/Template:Sorcerer_Grades",
       "family": "sorcerer-grade"
-    },
-    {
-      "title": "Curse Users",
-      "level": 3,
-      "def": "Humans the wiki lists as curse users (sorcerers using jujutsu for evil) or as the 'non-curse user' Toji (a sorcerer-killer for hire): Geto, Kenjaku, Uraume, Toji, and Junpei, who sided with Mahito and attacked his school. Excludes Sukuna (in the present day the King of Curses, filed under Cursed Spirits), curses and half-curses like Mahito and Choso, Mechamaru (a Kyoto student who spied for Mahito), and Culling Game players fighting under the game's rules.",
-      "members": ["Geto", "Kenjaku", "Toji", "Uraume", "Junpei"],
-      "source": "https://jujutsu-kaisen.fandom.com/wiki/Curse_User"
     },
     {
       "title": "Inherited Techniques",
@@ -104,9 +91,10 @@
     {
       "title": "Used a Domain Expansion",
       "level": 2,
-      "def": "Characters shown casting Domain Expansion in the anime through ep 59, even if it was cut short: Gojo, Sukuna, Jogo, Mahito, Dagon, Megumi, Higuruma, and Yuta, Uro and Ishigori in their triple clash (ep 59). Hanami's attempt was interrupted before it formed (ep 20); Hakari, Kenjaku, Yuki and Naoya only use theirs after the cutoff; Simple Domain (Miwa, Kusakabe) and Utahime's Solo Forbidden Area don't count.",
+      "def": "Characters shown casting Domain Expansion in the anime through ep 59, even if it was cut short: Gojo, Sukuna, Jogo, Mahito, Dagon, Megumi, Higuruma, and Yuta, Uro and Ishigori in their triple clash (ep 59). Hanami's attempt was interrupted before it formed (ep 20), so this group never shares a board with Curses; Hakari, Kenjaku, Yuki and Naoya only use theirs after the cutoff; Simple Domain (Miwa, Kusakabe) and Utahime's Solo Forbidden Area don't count.",
       "members": ["Gojo", "Sukuna", "Jogo", "Mahito", "Dagon", "Megumi", "Higuruma", "Yuta", "Uro", "Ishigori"],
-      "source": "https://jujutsu-kaisen.fandom.com/wiki/Template:Domain_Expansions"
+      "source": "https://jujutsu-kaisen.fandom.com/wiki/Template:Domain_Expansions",
+      "avoid": ["Curses"]
     },
     {
       "title": "Reverse Cursed Technique Users",
@@ -116,9 +104,9 @@
       "source": "https://jujutsu-kaisen.fandom.com/wiki/Reverse_Cursed_Technique"
     },
     {
-      "title": "Tokyo No. 1 Colony",
+      "title": "Tokyo No. 1 Colony Players",
       "level": 3,
-      "def": "Culling Game players the anime shows inside the Tokyo No. 1 Colony (eps 54–58): Yuji, Megumi, Higuruma, Takaba, Reggie and Angel. Hakari, Panda and Kashimo are in Tokyo No. 2; Yuta, Uro and Ishigori are in Sendai.",
+      "def": "Culling Game players the anime shows inside the Tokyo No. 1 Colony (eps 54–58): Yuji, Megumi, Higuruma, Takaba, Reggie and Angel. Sukuna, inside Yuji, isn't a player; Hakari, Panda and Kashimo are in Tokyo No. 2; Yuta, Uro and Ishigori are in Sendai.",
       "members": ["Yuji", "Megumi", "Higuruma", "Takaba", "Reggie", "Angel"],
       "source": "https://jujutsu-kaisen.fandom.com/wiki/Culling_Game/Colonies",
       "avoid": ["Culling Game Players"]
@@ -126,9 +114,10 @@
     {
       "title": "Fought Mahito",
       "level": 2,
-      "def": "Characters shown fighting Mahito (or one of his split bodies) in the anime: Yuji, Nanami (Vs. Mahito arc and Shibuya), Mechamaru (eps 30–31), Nobara and Todo (Shibuya), and Gojo, who faced Mahito, Jogo, Hanami and Choso together on the Shibuya platform (ep 33). Kenjaku absorbing a beaten Mahito isn't a fight, Sukuna only rebuffed him inside Yuji's soul, and Junpei never fought him.",
+      "def": "Characters shown in a battle against Mahito (or one of his split bodies) in the anime: Yuji, Nanami (Vs. Mahito arc and Shibuya), Mechamaru (eps 30–31), Nobara and Todo (Shibuya), and Gojo, who strikes Mahito on the Shibuya platform (ep 33). Junpei never fought him. Sukuna slashing Mahito inside Yuji's soul (eps 12–13) and Kenjaku absorbing a beaten Mahito are arguable, so this group never shares a board with any group containing Sukuna or Kenjaku.",
       "members": ["Yuji", "Nanami", "Todo", "Mechamaru", "Nobara", "Gojo"],
-      "source": "https://jujutsu-kaisen.fandom.com/wiki/Mahito"
+      "source": "https://jujutsu-kaisen.fandom.com/wiki/Mahito",
+      "avoid": ["Curses", "Used a Domain Expansion", "Reverse Cursed Technique Users", "Lived 1,000 Years Ago"]
     },
     {
       "title": "Lived 1,000 Years Ago",

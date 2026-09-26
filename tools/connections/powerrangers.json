@@ -171,21 +171,23 @@
     {
       "title": "Operation Overdrive villains",
       "level": 3,
-      "def": "The named villains hunting the same jewels as the Operation Overdrive Rangers.",
+      "def": "The Operation Overdrive villain tiles (wiki season page villain list): the jewel-hunting brothers Flurious and Moltor, Kamdor and Miratrix, and Thrax, Rita and Zedd's son, who united the factions into the Evil Alliance in 'Once a Ranger'. Tyzonn was forced to serve Moltor as a monster before becoming the Mercury Ranger (wiki 'Good turned Evil'), so this group avoids both of his groups.",
       "members": ["Flurious", "Moltor", "Miratrix", "Kamdor", "Thrax"],
-      "source": "https://powerrangers.fandom.com/wiki/Flurious"
+      "source": "https://powerrangers.fandom.com/wiki/Power_Rangers_Operation_Overdrive",
+      "avoid": ["Operation Overdrive Rangers", "Heroes from other planets"]
     },
     {
       "title": "The Dai Shi Clan",
-      "level": 4,
-      "def": "Named members of the Dai Shi Clan/Order of the Claw in Jungle Fury, including two later redeemed and restored to human form.",
+      "level": 3,
+      "def": "The Jungle Fury tiles in the wiki's Dai Shi Clan category: the spirit Dai Shi, Jarrod (his host, redeemed at the end), Camille (redeemed at the end) and the Overlords Carnisoar and Grizzaka. The wiki gives Jarrod's Black Lion Warrior and Camille's Green Chameleon Warrior 'debatable' Ranger status, so this group avoids the Black, Green and Jungle Fury Ranger groups.",
       "members": ["Dai Shi", "Carnisoar", "Jarrod", "Camille", "Grizzaka"],
-      "source": "https://powerrangers.fandom.com/wiki/Category:Dai_Shi_Clan"
+      "source": "https://powerrangers.fandom.com/wiki/Category:Dai_Shi_Clan",
+      "avoid": ["Black Rangers", "Green Rangers", "Jungle Fury Rangers"]
     },
     {
       "title": "Venjix's network",
-      "level": 4,
-      "def": "The named villains of the Venjix computer network in RPM, including one who later defects to help the Rangers.",
+      "level": 3,
+      "def": "The RPM tiles in the wiki's Venjix Computer Network category: Venjix, its generals Kilobyte and General Shifter, and Tenaya (Dillon's sister, who defects near the end). Dillon only carries Venjix hardware as a former test subject and Dr. K created Venjix; neither is in the category. 'Machine Empire robots' avoids this group because Wild Force's Machine Empire had a 'General Venjix'.",
       "members": ["Venjix", "Tenaya", "Kilobyte", "General Shifter"],
       "source": "https://powerrangers.fandom.com/wiki/Category:Venjix_Computer_Network"
     },
@@ -207,29 +209,32 @@
     },
     {
       "title": "Villains with a villain sibling",
-      "level": 3,
-      "def": "Villains whose brother or sister is also a villain: Rita and her brother Rito, Mondo's sons Gasket and Sprocket, the brothers Flurious and Moltor, and the sisters Kapri and Marah. Lothor's twin and Tenaya's brother are heroes.",
+      "level": 4,
+      "def": "Villains whose brother or sister is also a villain: Rita and her brother Rito, Mondo's sons Gasket and Sprocket, the brothers Flurious and Moltor, and the sisters Kapri and Marah. Lothor's twin and Tenaya's brother are heroes; Hunter and Blake, adoptive brothers who both fought for Lothor early in Ninja Storm (wiki 'Good turned Evil'), are kept off this group's boards by the 'siblings' family and avoids on their other groups.",
       "members": ["Rita", "Rito", "Gasket", "Sprocket", "Flurious", "Moltor", "Kapri", "Marah"],
       "source": "https://powerrangers.fandom.com/wiki/Rito_Revolto",
-      "family": "siblings"
+      "family": "siblings",
+      "avoid": ["Ninja Storm Rangers", "Red & crimson Rangers", "Blue & navy Rangers"]
     },
     {
       "title": "Rangers with a villain in the family",
       "level": 4,
-      "def": "Rangers with a villain as a close relative: Nick and Udonna (his father, her husband Leanbow, was Koragg), Trent (adoptive father Anton Mercer is Mesogog), Cam (uncle Lothor) and Dillon (sister Tenaya).",
+      "def": "Rangers with a season villain as a close relative: Nick and Udonna (his father, her husband Leanbow, was Koragg), Trent (adoptive father Anton Mercer is Mesogog), Cam (uncle Lothor) and Dillon (sister Tenaya). Hunter and Blake (each other's brother, both fought for Lothor) and Madison (sister Vida was briefly a vampire) could be argued in via the wiki's 'Good turned Evil' Rangers, so this group avoids every group they're in.",
       "members": ["Nick", "Udonna", "Trent", "Cam", "Dillon"],
-      "source": "https://powerrangers.fandom.com/wiki/Leanbow"
+      "source": "https://powerrangers.fandom.com/wiki/Leanbow",
+      "avoid": ["Ninja Storm Rangers", "Mystic Force Rangers", "Red & crimson Rangers", "Blue & navy Rangers", "Ranger siblings on one team"]
     },
     {
       "title": "Inherited a Power Coin",
       "level": 2,
-      "def": "Took over an original Mighty Morphin Ranger's Power Coin: Rocky, Adam and Aisha from Jason, Zack and Trini ('The Power Transfer'), and Katherine from Kimberly ('A Different Shade of Pink'). Tanya's Zeo sub-crystal isn't a coin.",
+      "def": "Took over one of the original five's Power Coins: Rocky, Adam and Aisha from Jason, Zack and Trini ('The Power Transfer'), and Katherine from Kimberly ('A Different Shade of Pink'). Tanya's Zeo sub-crystal isn't a coin and Tommy's coins were new. Jason held Tommy's Dragon Coin after 'The Green Candle', so this group avoids the two Jason groups that could share its board ('Zeo Rangers' and 'Red & crimson Rangers' overlap it too much to be dealt with it).",
       "members": ["Rocky", "Adam", "Aisha", "Katherine"],
-      "source": "https://powerrangers.fandom.com/wiki/The_Power_Transfer"
+      "source": "https://powerrangers.fandom.com/wiki/The_Power_Transfer",
+      "avoid": ["The original five", "Gold Rangers"]
     },
     {
       "title": "The 'Once a Ranger' veterans",
-      "level": 3,
+      "level": 4,
       "def": "The five former Rangers the Sentinel Knight calls in when the Overdrive team loses its powers in Operation Overdrive's 'Once a Ranger': Adam, Tori, Kira, Bridge and Xander.",
       "members": ["Adam", "Tori", "Kira", "Bridge", "Xander"],
       "source": "https://powerrangers.fandom.com/wiki/Once_a_Ranger"
@@ -237,9 +242,10 @@
     {
       "title": "Heroes from other planets",
       "level": 2,
-      "def": "Heroes or allies born on another planet: Zordon (Eltar), Alpha 5 (Edenoi), Trey (Triforia), Cruger (Sirius) and Tyzonn (Mercuria). Every other hero is from Earth, including the Mystic Force wizards and the future S.P.D. cadets.",
+      "def": "Heroes or allies whose wiki homeworld is another planet: Zordon (Eltar), Alpha 5 (Edenoi), Trey (Triforia), Cruger (Sirius) and Tyzonn (Mercuria). Every other hero tile's homeworld is Earth, including the Mystic Force wizards (Earth's Magic World) and the future S.P.D. cadets. Rita (M51 Galaxy) is an ally as the Mystic Mother in Mystic Force, so this group avoids both Rita groups.",
       "members": ["Zordon", "Alpha 5", "Trey", "Cruger", "Tyzonn"],
-      "source": "https://powerrangers.fandom.com/wiki/Zordon"
+      "source": "https://powerrangers.fandom.com/wiki/Zordon",
+      "avoid": ["Mighty Morphin alien villains", "Villains with a villain sibling"]
     }
   ]
 }

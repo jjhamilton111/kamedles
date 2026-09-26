@@ -61,23 +61,23 @@
     {
       "title": "Named \"___ the [Species]\"",
       "level": 4,
-      "def": "Characters whose full name is literally \"[Name] the [Species]\" and the species is right. Patchy and Painty \"the Pirate\" don't count (a pirate isn't a species); names that merely contain an animal (Bubble Bass, SpongeBob) don't have the \"the\" pattern.",
+      "def": "Display names (the wiki's page titles) of the form \"[Name] the [X]\" where X is the character's actual wiki species: Larry the Lobster, Flats the Flounder, Mystery the Seahorse, Gary the Snail (a sea snail) and Potty the Parrot. Patchy and Painty \"the Pirate\" don't count (a pirate isn't a species); names that merely contain an animal (Bubble Bass, SpongeBob) lack the pattern.",
       "members": ["Larry the Lobster", "Flats the Flounder", "Mystery the Seahorse", "Gary the Snail", "Potty the Parrot"],
-      "source": "https://spongebob.fandom.com/wiki/Larry_the_Lobster"
+      "source": "https://spongebob.fandom.com/wiki/List_of_species"
     },
     {
       "title": "Krabs family",
-      "level": 2,
-      "def": "Mr. Krabs and his relatives seen on screen: his daughter Pearl, his mother Mama Krabs, his father Krabs Senior (\"Senior Discount\") and his pirate grandfather Redbeard Krabs (\"Grandpappy the Pirate\").",
+      "level": 1,
+      "def": "Mr. Krabs and his relatives seen on screen: daughter Pearl, mother Mama Krabs, father Krabs Senior (physically from \"Senior Discount\") and paternal grandfather Redbeard Krabs (\"Grandpappy the Pirate\"). Plankton only dates Mama Krabs (\"Enemy In-Law\", she turns him down); medieval/storybook counterparts (King Krabs, Princess Pearl Krabs) are separate characters not in the file.",
       "members": ["Mr. Krabs", "Pearl Krabs", "Mama Krabs", "Krabs Senior", "Redbeard Krabs"],
       "source": "https://spongebob.fandom.com/wiki/Krabs_Senior"
     },
     {
       "title": "Crustaceans",
       "level": 4,
-      "def": "Characters whose species is a crustacean: the crabs Mr. Krabs, Mama Krabs, Krabs Senior and Redbeard Krabs, Larry the lobster, and Plankton, a planktonic copepod. Pearl is a sperm whale; Barnacle Boy is human despite his name.",
+      "def": "Characters whose wiki species is a crustacean: the crabs Mr. Krabs (Dungeness crab), Mama Krabs (Florida stone crab), Krabs Senior and Redbeard Krabs, Larry (lobster) and Plankton (planktonic copepod, listed under Crustaceans on the wiki's List of species). Not Pearl (sperm whale), Barnacle Boy (a human despite his name), or the molluscs Squidward and Gary.",
       "members": ["Mr. Krabs", "Mama Krabs", "Krabs Senior", "Redbeard Krabs", "Larry the Lobster", "Plankton"],
-      "source": "https://spongebob.fandom.com/wiki/Sheldon_J._Plankton",
+      "source": "https://spongebob.fandom.com/wiki/List_of_species",
       "avoid": ["Krabs family"]
     },
     {
@@ -89,11 +89,12 @@
       "avoid": ["Mermaid Man & Barnacle Boy"]
     },
     {
-      "title": "Not a living creature",
+      "title": "Not flesh and blood",
       "level": 3,
-      "def": "Characters whose species isn't a living creature: Karen (a computer), Painty (a painting), the Dirty Bubble (a bubble), DoodleBob (a pencil doodle) and the Flying Dutchman (a ghost). Gods and merpeople like King Neptune and Triton count as living.",
+      "def": "Characters whose wiki species is not a flesh-and-blood being: Karen (computer), Painty (painting), the Dirty Bubble (bubble), DoodleBob (pencil doodle) and the Flying Dutchman (ghost). Gods and merpeople count as flesh and blood. Potty is a parrot in-story but visibly a marionette (his puppeteer appears in \"Christmas Who?\"), so this group avoids every group Potty is in.",
       "members": ["Karen", "Painty the Pirate", "Dirty Bubble", "DoodleBob", "Flying Dutchman"],
-      "source": "https://spongebob.fandom.com/wiki/DoodleBob"
+      "source": "https://spongebob.fandom.com/wiki/DoodleBob",
+      "avoid": ["Live-action characters", "Named \"___ the [Species]\"", "Alliterative names"]
     },
     {
       "title": "Alliterative names",
@@ -103,16 +104,16 @@
       "source": "https://spongebob.fandom.com/wiki/Perch_Perkins"
     },
     {
-      "title": "Hidden \"man\"",
+      "title": "Names containing \"man\"",
       "level": 4,
-      "def": "Display names containing the letters \"man\": Mermaid Man, Man Ray, Old Man Jenkins and the Flying Dutchman.",
+      "def": "Display names containing the letters \"man\" anywhere: Mermaid Man, Man Ray, Old Man Jenkins and Flying Dutchman (script-checked over every name in the file; Mama Krabs and Grandma SquarePants don't contain it).",
       "members": ["Mermaid Man", "Man Ray", "Old Man Jenkins", "Flying Dutchman"],
       "source": "https://spongebob.fandom.com/wiki/Flying_Dutchman"
     },
     {
-      "title": "Name says the wrong species",
+      "title": "Name says the wrong sea creature",
       "level": 4,
-      "def": "Characters whose name contains a sea-animal word that isn't their species: Squidward (an octopus, not a squid), Pearl Krabs (a sperm whale, not a crab), and the humans Barnacle Boy, Man Ray and Mermaid Man. Names that match (Larry the Lobster, Bubble Bass, Mrs. Puff, Patrick Star, Plankton, Perch Perkins the fish, the crab Krabses) don't count.",
+      "def": "Display names containing a sea-creature word that isn't the character's species: Squidward (an octopus, not a squid), Pearl Krabs (a sperm whale, not a crab) and the humans Barnacle Boy, Man Ray and Mermaid Man. Names whose creature word matches (SpongeBob, Patrick Star, Mr. Krabs and the other crab Krabses, Mrs. Puff, Bubble Bass, Perch Perkins, Plankton, Larry, Flats, Mystery, Gary) don't count, and \"man\" isn't a sea creature (Old Man Jenkins, Flying Dutchman).",
       "members": ["Squidward", "Pearl Krabs", "Barnacle Boy", "Man Ray", "Mermaid Man"],
       "source": "https://spongebob.fandom.com/wiki/Squidward_Tentacles"
     }
