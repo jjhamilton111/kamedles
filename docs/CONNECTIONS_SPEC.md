@@ -37,7 +37,11 @@ Banks moved into `tools/connections/paused/` are kept but left out of the build.
    check against the whole universe ("strong characters", "fan favourites") are not allowed.
 2. **Precise `def`.** One sentence saying exactly who counts, including edge cases (former members,
    temporary members, people who died). The player never sees `def`; it's how we check the group.
-3. **The show only**, up to the show's `cutoff` in `data/<slug>.js`. No manga-only facts.
+3. **The show only**, up to the show's `cutoff` in `data/<slug>.js`. No manga-only facts, and no filler:
+   characters and facts that only appear in filler or anime-original episodes don't count, because most
+   fans skip filler (e.g. Raiga, or Kakashi's Root membership from the Kakashi Anbu arc). The wikis'
+   anime-only / non-canon character categories and animefillerlist.com help check this. A canon character
+   whom filler links to a group is left out of it, and the group avoids that character's other groups.
 4. **Display names** are the short names fans use ("Luffy", "Kakashi", "Gojo"), at most ~14
    characters. The same person is the *exact same string* in every group of the file. Two different
    people never share a string (disambiguate: "Kid (Eustass)").

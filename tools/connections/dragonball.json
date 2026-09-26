@@ -68,8 +68,8 @@
     {
       "title": "Universe 7's Kais",
       "level": 2,
-      "def": "Universe 7's Kais and Supreme Kais shown in the anime: King Kai (North Kai), Grand Kai, Supreme Kai (Shin), the former Supreme Kai Old Kai, and Kibito, the Attendant Supreme Kai. Not Zamasu, who belongs to Universe 10. Kami and Dende are Earth's Guardians and Mr. Popo their attendant, not Kais, and Beerus and Whis are Universe 7's God of Destruction and Angel.",
-      "members": ["King Kai", "Grand Kai", "Supreme Kai", "Old Kai", "Kibito"],
+      "def": "Universe 7's Kais and Supreme Kais in the canon story: King Kai (North Kai), Supreme Kai (Shin), the former Supreme Kai Old Kai, and Kibito, the Attendant Supreme Kai. Grand Kai only appears in filler (the Other World Tournament) and isn't in this bank. Not Zamasu, who belongs to Universe 10. Kami and Dende are Earth's Guardians and Mr. Popo their attendant, not Kais, and Beerus and Whis are Universe 7's God of Destruction and Angel.",
+      "members": ["King Kai", "Supreme Kai", "Old Kai", "Kibito"],
       "source": "https://dragonball.fandom.com/wiki/Supreme_Kai_(position)"
     },
     {
@@ -150,7 +150,7 @@
     {
       "title": "Goku's teachers",
       "level": 2,
-      "def": "Characters in this file who trained Goku, per the 'Mentors' field of his wiki page: Master Roshi, Kami and Mr. Popo (on the Lookout), King Kai, and Whis. Korin and Grandpa Gohan aren't in the file (the 'Gohan' tile is Goku's son). Piccolo and Vegeta only trained alongside him. Beerus' only listed student is Vegeta. Grand Kai offered a lesson as the Other World Tournament prize but dodged giving it. Old Kai unlocked Gohan, not Goku.",
+      "def": "Characters in this file who trained Goku, per the 'Mentors' field of his wiki page: Master Roshi, Kami and Mr. Popo (on the Lookout), King Kai, and Whis. Korin and Grandpa Gohan aren't in the file (the 'Gohan' tile is Goku's son). Piccolo and Vegeta only trained alongside him. Beerus' only listed student is Vegeta. Old Kai unlocked Gohan, not Goku.",
       "members": ["Master Roshi", "Kami", "Mr. Popo", "King Kai", "Whis"],
       "source": "https://dragonball.fandom.com/wiki/Goku"
     },

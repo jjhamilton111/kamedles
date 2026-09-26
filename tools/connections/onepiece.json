@@ -87,8 +87,8 @@
     {
       "title": "CP9",
       "level": 2,
-      "def": "Every agent of Cipher Pol No. 9 shown in the anime: the Rokushiki assassins who fought the Straw Hats at Water 7 and Enies Lobby (including the anime-only Nero) and the Beasts Pirates' Who's-Who, a former CP9 agent (ep 1039). Their chief Spandam isn't counted.",
-      "members": ["Lucci", "Kaku", "Jabra", "Kumadori", "Kalifa", "Blueno", "Fukurou", "Nero", "Who's-Who"],
+      "def": "Every agent of Cipher Pol No. 9 shown in the anime: the Rokushiki assassins who fought the Straw Hats at Water 7 and Enies Lobby, and the Beasts Pirates' Who's-Who, a former CP9 agent (ep 1039). Nero, who exists only in an anime-only filler arc, isn't in this bank, and their chief Spandam isn't counted.",
+      "members": ["Lucci", "Kaku", "Jabra", "Kumadori", "Kalifa", "Blueno", "Fukurou", "Who's-Who"],
       "source": "https://onepiece.fandom.com/wiki/CP9"
     },
     {
@@ -153,7 +153,7 @@
     {
       "title": "Died in the anime",
       "level": 3,
-      "def": "Characters whose deaths are shown or confirmed on screen in the anime, including Brook, who died fifty years ago and came back as a skeleton, and Saturn, executed by Imu (ep 1155). Faked or reported deaths don't count (Sukiyaki alive as Hitetsu, Hiyori's staged death as Komurasaki, Moria vanishing from Doflamingo's assassination attempt, ep 513), nor do fates left unknown (Kaido, Big Mom, Kid, Killer, Hawkins, Nero) or Luffy's near-death against Kaido.",
+      "def": "Characters whose deaths are shown or confirmed on screen in the anime, including Brook, who died fifty years ago and came back as a skeleton, and Saturn, executed by Imu (ep 1155). Faked or reported deaths don't count (Sukiyaki alive as Hitetsu, Hiyori's staged death as Komurasaki, Moria vanishing from Doflamingo's assassination attempt, ep 513), nor do fates left unknown (Kaido, Big Mom, Kid, Killer, Hawkins) or Luffy's near-death against Kaido.",
       "members": ["Ace", "Whitebeard", "Sora", "Oden", "Toki", "Roger", "Saturn", "Brook"],
       "source": "https://onepiece.fandom.com/wiki/Portgas_D._Ace"
     },

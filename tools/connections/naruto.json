@@ -55,8 +55,8 @@
     {
       "title": "Akatsuki",
       "level": 2,
-      "def": "Everyone in the wiki's member tables for any era of Akatsuki (Yahiko's, Nagato's, Obito's), including the anime-only Juzo, Itachi's first partner (Shippuden ep. 455); Nagato is the man behind 'Pain'. The wiki's associates are not members: Taka (Sasuke, Suigetsu, Karin, Jugo, who wore the cloaks while working for Obito), Kabuto (Sasori's spy, Obito's war ally) and Madara (Obito's collaborator, whose name Obito used). The anime itself calls Sasuke an Akatsuki member (ep. 197), so the group never shares a board with any group holding one of those six.",
-      "members": ["Yahiko", "Nagato", "Konan", "Itachi", "Juzo", "Kisame", "Deidara", "Sasori", "Hidan", "Kakuzu", "Orochimaru", "Obito", "Zetsu"],
+      "def": "Everyone in the wiki's member tables for any era of Akatsuki (Yahiko's, Nagato's, Obito's) shown in the canon story; Juzo, Itachi's partner only in the anime-only Itachi arc, isn't in this bank. Nagato is the man behind 'Pain'. The wiki's associates are not members: Taka (Sasuke, Suigetsu, Karin, Jugo, who wore the cloaks while working for Obito), Kabuto (Sasori's spy, Obito's war ally) and Madara (Obito's collaborator, whose name Obito used). The anime itself calls Sasuke an Akatsuki member (ep. 197), so the group never shares a board with any group holding one of those six.",
+      "members": ["Yahiko", "Nagato", "Konan", "Itachi", "Kisame", "Deidara", "Sasori", "Hidan", "Kakuzu", "Orochimaru", "Obito", "Zetsu"],
       "source": "https://naruto.fandom.com/wiki/Akatsuki",
       "avoid": ["Team 7", "Taka", "Sharingan Users", "Hidden Sound Ninja", "Rinnegan Users", "Chunin Exam finalists (Part I)", "Hidden Mist Ninja", "Uzumaki blood", "Medical-nin", "Root"]
     },
@@ -77,10 +77,10 @@
     {
       "title": "Sharingan Users",
       "level": 2,
-      "def": "Characters with a Sharingan of their own or transplanted into them: Sasuke, Itachi, Kakashi, Obito, Madara, Shisui, Danzo and Hagoromo (anime only). The reanimated jinchuriki Obito used as his Six Paths (Yagura, Yugito, Roshi, Han, Utakata, Fu) only showed Sharingan and Rinnegan eyes as his Paths and don't count; fans could still cite them, so the group never shares a board with their groups.",
-      "members": ["Sasuke", "Itachi", "Kakashi", "Obito", "Madara", "Shisui", "Danzo", "Hagoromo"],
+      "def": "Characters with a Sharingan of their own or transplanted into them: Sasuke, Itachi, Kakashi, Obito, Madara, Shisui and Danzo. Hagoromo's Sharingan only appears in anime-only flashbacks, so he doesn't count and the group never shares a board with Rinnegan Users, his other group. The reanimated jinchuriki Obito used as his Six Paths (Yagura, Yugito, Roshi, Han, Utakata, Fu) only showed Sharingan and Rinnegan eyes as his Paths and don't count; fans could still cite them, so the group never shares a board with their groups.",
+      "members": ["Sasuke", "Itachi", "Kakashi", "Obito", "Madara", "Shisui", "Danzo"],
       "source": "https://naruto.fandom.com/wiki/Sharingan",
-      "avoid": ["Hidden Mist Ninja", "Hidden Cloud Ninja", "Hidden Stone Ninja", "Three letters or fewer"]
+      "avoid": ["Hidden Mist Ninja", "Hidden Cloud Ninja", "Hidden Stone Ninja", "Three letters or fewer", "Rinnegan Users"]
     },
     {
       "title": "Hidden Sound Ninja",
@@ -92,8 +92,8 @@
     {
       "title": "Hidden Mist Ninja",
       "level": 3,
-      "def": "Every character whose home village is Kirigakure, regardless of later defection: the Mizukage Mei and Yagura, the Six-Tails jinchuriki Utakata, Suigetsu, and every Seven Ninja Swordsman in this bank (including the anime-only Raiga). Obito, who controlled Kiri from the shadows, was never a Kiri ninja and doesn't count.",
-      "members": ["Mei", "Kisame", "Suigetsu", "Zabuza", "Yagura", "Utakata", "Mangetsu", "Chojuro", "Fuguki", "Jinin", "Kushimaru", "Raiga", "Juzo"],
+      "def": "Every character whose home village is Kirigakure, regardless of later defection: the Mizukage Mei and Yagura, the Six-Tails jinchuriki Utakata, Suigetsu, and every Seven Ninja Swordsman in this bank. Obito, who controlled Kiri from the shadows, was never a Kiri ninja and doesn't count.",
+      "members": ["Mei", "Kisame", "Suigetsu", "Zabuza", "Yagura", "Utakata", "Mangetsu", "Chojuro", "Fuguki", "Jinin", "Kushimaru"],
       "source": "https://naruto.fandom.com/wiki/Kirigakure"
     },
     {
@@ -107,10 +107,10 @@
     {
       "title": "Root",
       "level": 3,
-      "def": "Members of Danzo's Root shown in the anime: Danzo, Sai, Yamato, Kabuto (a Root spy as a youth) and Kakashi, who joined as a youth in the anime-only Kakashi Anbu arc before informing on Danzo. Itachi served in the regular Anbu and doesn't count. Orochimaru is on the wiki's Root list but the anime only shows him working under Danzo, so he's left out and the group never shares a board with his groups (Akatsuki, Hidden Sound Ninja); the Root agent Fu Yamanaka shares a name with the jinchuriki tile 'Fu', so it never shares a board with Fu's groups either (Nine Jinchuriki, Three letters or fewer).",
-      "members": ["Danzo", "Sai", "Yamato", "Kabuto", "Kakashi"],
+      "def": "Members of Danzo's Root in the canon story: Danzo, Sai, Yamato and Kabuto (a Root spy as a youth). Kakashi joins Root only in the filler Kakashi Anbu arc, so he doesn't count and the group never shares a board with his groups (Team 7, First six Hokage, Sharingan Users, Konoha 11 team leaders, Team Minato). Itachi served in the regular Anbu and doesn't count. Orochimaru is on the wiki's Root list but the anime only shows him working under Danzo, so he's left out and the group never shares a board with his groups (Akatsuki, Hidden Sound Ninja); the Root agent Fu Yamanaka shares a name with the jinchuriki tile 'Fu', so it never shares a board with Fu's groups either (Nine Jinchuriki, Three letters or fewer).",
+      "members": ["Danzo", "Sai", "Yamato", "Kabuto"],
       "source": "https://naruto.fandom.com/wiki/Root",
-      "avoid": ["Hidden Sound Ninja", "Nine Jinchuriki", "Three letters or fewer"]
+      "avoid": ["Hidden Sound Ninja", "Nine Jinchuriki", "Three letters or fewer", "Team 7", "First six Hokage", "Sharingan Users", "Konoha 11 team leaders", "Team Minato"]
     },
     {
       "title": "Nine Jinchuriki",
@@ -153,8 +153,8 @@
     {
       "title": "Seven Ninja Swordsmen of the Mist",
       "level": 4,
-      "def": "Every named member of the Seven Ninja Swordsmen of the Mist, any generation, in the anime (including the anime-only Raiga). Suigetsu, who wields Zabuza's sword and dreams of reforming the group, was only an aspiring member; fans could still cite him, so the group never shares a board with his groups (Taka, Hidden Sound Ninja; Hidden Mist Ninja contains every Swordsman anyway).",
-      "members": ["Zabuza", "Kisame", "Mangetsu", "Chojuro", "Fuguki", "Jinin", "Kushimaru", "Raiga", "Juzo"],
+      "def": "Every named member of the Seven Ninja Swordsmen of the Mist, any generation, shown in the canon story: Zabuza, Kisame, Mangetsu, Chojuro, Fuguki, Jinin and Kushimaru. Raiga (a filler character) and Juzo (known almost only from the anime-only Itachi arc) aren't in this bank. Suigetsu, who wields Zabuza's sword and dreams of reforming the group, was only an aspiring member; fans could still cite him, so the group never shares a board with his groups (Taka, Hidden Sound Ninja; Hidden Mist Ninja contains every Swordsman anyway).",
+      "members": ["Zabuza", "Kisame", "Mangetsu", "Chojuro", "Fuguki", "Jinin", "Kushimaru"],
       "source": "https://naruto.fandom.com/wiki/Seven_Ninja_Swordsmen_of_the_Mist",
       "avoid": ["Taka", "Hidden Sound Ninja"]
     },
@@ -211,7 +211,7 @@
     {
       "title": "Three letters or fewer",
       "level": 4,
-      "def": "Display names (tile text) of three letters or fewer: A, Fu, Han, Sai, Mei, Ino, Rin. Every other tile in this bank is four letters or longer (Pain, Kiba, Neji, Anko, Jugo, Juzo, Mito, Omoi...).",
+      "def": "Display names (tile text) of three letters or fewer: A, Fu, Han, Sai, Mei, Ino, Rin. Every other tile in this bank is four letters or longer (Kiba, Neji, Jugo, Mito, Omoi...).",
       "members": ["A", "Fu", "Han", "Sai", "Mei", "Ino", "Rin"],
       "source": "https://naruto.fandom.com/wiki/List_of_characters"
     }

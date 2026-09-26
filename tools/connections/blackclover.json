@@ -105,8 +105,8 @@
     {
       "title": "Silver Eagle",
       "level": 3,
-      "def": "Every Magic Knight shown in the anime as a current or former member of the Silver Eagle squad, including its late former captain Acier (flashback) and Mohl, an ex-member turned bandit (anime-only ep. 86).",
-      "members": ["Nozel", "Solid", "Nebra", "Acier", "Mohl", "Nils", "Rob", "Curtis"],
+      "def": "Every Magic Knight shown in the canon story as a current or former member of the Silver Eagle squad, including its late former captain Acier (flashback). Mohl, an ex-member who only appears in the anime-only ep. 86, isn't in this bank.",
+      "members": ["Nozel", "Solid", "Nebra", "Acier", "Nils", "Rob", "Curtis"],
       "source": "https://blackclover.fandom.com/wiki/Category:Silver_Eagle_members"
     },
     {
